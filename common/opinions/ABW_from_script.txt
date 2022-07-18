@@ -1,0 +1,7 @@
+﻿#Religion groups
+christian_relgroup = {
+	value = 5
+}
+muslim_relgroup = {
+	value = 5
+}

@@ -1,0 +1,20 @@
+﻿"SIE"={
+    country = "SIE"
+ 515={
+        first_name = Bonifacio
+        family_name = Tolomei
+        birth_date = 1158.1.1
+        culture = "tuscan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 1
+        add_finesse = 10
+        add_zeal = 8
+        add_gold = 3642
+        add_popularity = 73
+        c:SIE={
+            set_as_ruler = char:515
+        }
+    }
+}

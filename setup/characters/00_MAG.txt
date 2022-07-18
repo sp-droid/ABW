@@ -1,0 +1,20 @@
+﻿"MAG"={
+    country = "MAG"
+ 353={
+        first_name = Ludolf
+        family_name = vonKoppenstedt
+        birth_date = 1143.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 3
+        add_finesse = 7
+        add_zeal = 2
+        add_gold = 5821
+        add_popularity = 87
+        c:MAG={
+            set_as_ruler = char:353
+        }
+    }
+}

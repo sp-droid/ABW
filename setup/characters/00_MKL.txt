@@ -1,0 +1,83 @@
+﻿"MKL"={
+    country = "MKL"
+ 357={
+        first_name = HeinrichBorwin
+        family_name = vonMecklenburg
+        birth_date = 1144.1.1
+        culture = "pomeranian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 3
+        add_finesse = 5
+        add_zeal = 8
+        add_gold = 4065
+        add_popularity = 93
+        c:MKL={
+            set_as_ruler = char:357
+        }
+    }
+ 358={
+        first_name = Adelheid
+        family_name = Etichonen
+        female = yes
+        birth_date = 1178.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 1
+        add_zeal = 4
+        add_gold = 1305
+        add_popularity = 85
+        marry_character = char:357
+    }
+ 359={
+        first_name = Nikolaus
+        family_name = vonMecklenburg
+        father = "char:357"
+        birth_date = 1170.1.1
+        culture = "pomeranian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 2
+        add_finesse = 10
+        add_zeal = 7
+        add_gold = 5504
+        add_popularity = 86
+    }
+ 360={
+        first_name = HeinrichBorwin
+        family_name = vonMecklenburg
+        father = "char:357"
+        birth_date = 1180.1.1
+        culture = "pomeranian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 1
+        add_finesse = 1
+        add_zeal = 6
+        add_gold = 4569
+        add_popularity = 62
+    }
+ 361={
+        first_name = Elisabeth
+        family_name = vonMecklenburg
+        father = "char:357"
+        mother = "char:358"
+        female = yes
+        birth_date = 1202.1.1
+        culture = "pomeranian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 7
+        add_finesse = 2
+        add_zeal = 9
+        add_gold = 1162
+        add_popularity = 63
+    }
+}

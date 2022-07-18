@@ -1,0 +1,87 @@
+﻿"CO4"={
+    country = "CO4"
+ 161={
+        first_name = Guglielmo
+        family_name = Massa
+        birth_date = 1160.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 5
+        add_finesse = 1
+        add_zeal = 10
+        add_gold = 1608
+        add_popularity = 76
+        c:CO4={
+            set_as_ruler = char:161
+        }
+    }
+ 162={
+        first_name = Adelaide
+        family_name = Malaspina
+        female = yes
+        birth_date = 1165.1.1
+        culture = "tuscan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 6
+        add_finesse = 3
+        add_zeal = 1
+        add_gold = 1551
+        add_popularity = 63
+        marry_character = char:161
+    }
+ 163={
+        first_name = Benedetta
+        family_name = Massa
+        father = "char:161"
+        mother = "char:162"
+        female = yes
+        birth_date = 1194.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 7
+        add_finesse = 4
+        add_zeal = 2
+        add_gold = 1390
+        add_popularity = 64
+    }
+ 164={
+        first_name = Agnese
+        family_name = Massa
+        father = "char:161"
+        mother = "char:162"
+        female = yes
+        birth_date = 1195.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 5
+        add_zeal = 5
+        add_gold = 1260
+        add_popularity = 79
+    }
+ 165={
+        first_name = Preziosa
+        family_name = Massa
+        father = "char:161"
+        mother = "char:162"
+        female = yes
+        birth_date = 1197.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 9
+        add_finesse = 2
+        add_zeal = 4
+        add_gold = 429
+        add_popularity = 68
+    }
+}

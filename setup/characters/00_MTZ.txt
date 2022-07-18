@@ -1,0 +1,20 @@
+﻿"MTZ"={
+    country = "MTZ"
+ 369={
+        first_name = Bertram
+        family_name = vonOsel
+        birth_date = 1164.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 1
+        add_finesse = 5
+        add_zeal = 4
+        add_gold = 5392
+        add_popularity = 100
+        c:MTZ={
+            set_as_ruler = char:369
+        }
+    }
+}

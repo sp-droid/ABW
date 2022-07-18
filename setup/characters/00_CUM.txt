@@ -1,0 +1,35 @@
+﻿"CUM"={
+    country = "CUM"
+ 167={
+        first_name = Gzak
+        family_name = Bilyukovich
+        birth_date = 1143.1.1
+        culture = "cuman"
+        religion = "tengri_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 6
+        add_finesse = 7
+        add_zeal = 3
+        add_gold = 1442
+        add_popularity = 80
+        c:CUM={
+            set_as_ruler = char:167
+        }
+    }
+ 168={
+        first_name = Roman
+        family_name = Bilyukovich
+        father = "char:167"
+        birth_date = 1165.1.1
+        culture = "cuman"
+        religion = "tengri_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 6
+        add_finesse = 9
+        add_zeal = 5
+        add_gold = 448
+        add_popularity = 65
+    }
+}

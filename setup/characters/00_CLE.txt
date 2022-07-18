@@ -1,0 +1,36 @@
+﻿"CLE"={
+    country = "CLE"
+ 144={
+        first_name = Margarete
+        family_name = vonHolland
+        female = yes
+        birth_date = 1169.1.1
+        culture = "dutch"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 3
+        add_finesse = 6
+        add_zeal = 1
+        add_gold = 1489
+        add_popularity = 88
+    }
+ 145={
+        first_name = Dietrich
+        family_name = vonKleve
+        mother = "char:144"
+        birth_date = 1185.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 5
+        add_finesse = 6
+        add_zeal = 3
+        add_gold = 1162
+        add_popularity = 76
+        c:CLE={
+            set_as_ruler = char:145
+        }
+    }
+}

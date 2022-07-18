@@ -1,0 +1,113 @@
+﻿namespace = popsystem
+
+popsystem.1 = {	# Start up
+	type = province_event
+    hidden = yes
+	
+	immediate = {
+		every_province = {
+			limit = { is_uninhabitable = no }
+			
+			# Total population
+			set_variable = { name = abw_pop value = total_population.pop_to_people_sv }
+			change_variable = { name = abw_pop add = { integer_range = { min = -100 max = 100 } } }
+			set_variable = { name = abw_popk value = var:abw_pop.divk_sv }
+			
+			# Estimated change
+			set_variable = { name = abw_popchangepercent value = 0.001 }
+			set_variable = { name = abw_popchange value = popestchange_sv }
+			
+			# Previous year's change
+			set_variable = { name = abw_popoldchange value = 0 }
+			set_variable = { name = abw_popoldchangepercent value = 0 }
+			
+			# Rates
+			set_variable = { name = abw_popbirthrate value = 0 }
+			set_variable = { name = abw_popdeathrate value = 0 }
+			set_variable = { name = abw_popnormalrate value = 1.001 }
+			set_variable = { name = abw_popcityrate value = 0 }
+			
+			# Pop types
+			set_variable = { name = abw_popupper value = var:abw_pop }
+			change_variable = { name = abw_popupper multiply = 0.05 }
+			set_variable = { name = abw_popurban value = 0 }
+			set_variable = { name = abw_poppeasant value = var:abw_pop }
+			change_variable = { name = abw_poppeasant multiply = 0.95 }
+			set_variable = { name = abw_popsoldier value = 0 }
+			set_variable = { name = abw_popslave value = 0 }
+		}
+		trigger_event = { id = "popsystem.4" }
+	}
+}
+
+popsystem.2 = { #1st January update of population growth
+    type = province_event
+	hidden = yes
+	
+	trigger = {
+		THIS = p:4730
+	}
+
+	immediate = {
+		every_province = {
+			limit = { is_uninhabitable = no exists = owner }
+			if = {
+				limit = { var:abw_pop > 2 }
+				#Rates WIP, CONSTANT FOR NOW
+				
+				# Pop types
+				change_variable = { name = abw_popupper multiply = var:abw_popnormalrate }
+				change_variable = { name = abw_poppeasant multiply = var:abw_popnormalrate }
+			
+				# Previous year's change
+				set_variable = { name = abw_popoldchange value = popchange_sv }
+				#set_variable = { name = abw_popoldchangepercent value = popchangepercent_sv }
+				set_variable = { name = abw_popoldchangepercent value = popchangepercent_sv }
+				
+				# Total population
+				change_variable = { name = abw_pop add = var:abw_popoldchange }
+				set_variable = { name = abw_popk value = var:abw_pop.divk_sv }
+				
+				#Estimated change
+				set_variable = { name = abw_popchange value = popestchange_sv }
+				
+				#Pop unit recalculation
+				trigger_event = { id = "popsystem.3" }
+			}
+		}
+		trigger_event = { id = "popsystem.4" }
+	}
+}
+
+popsystem.3 = { #Population to pops recalculation
+    type = province_event
+	hidden = yes
+
+	immediate = {
+		#Upper class
+		set_variable = { name = math_tempvar value = var:abw_popupper.people_to_pop1_sv }
+		set_variable = { name = math_tempvar value = sqrt_rough_estimate_sv.sqrt_sv.sqrt_sv.sqrt_sv.people_to_pop2_sv }
+		if = { limit = { var:math_tempvar > num_of_nobles } create_pop = nobles }
+		else_if = { limit = { var:math_tempvar < num_of_nobles } random_pops_in_province = { limit = { pop_type = nobles } kill_pop = yes } }
+		#Peasant
+		set_variable = { name = math_tempvar value = var:abw_poppeasant.people_to_pop1_sv }
+		set_variable = { name = math_tempvar value = sqrt_rough_estimate_sv.sqrt_sv.sqrt_sv.sqrt_sv.people_to_pop2_sv }
+		if = { limit = { var:math_tempvar > num_of_freemen } create_pop = freemen }
+		else_if = { limit = { var:math_tempvar < num_of_freemen } random_pops_in_province = { limit = { pop_type = freemen } kill_pop = yes } }
+	}
+}
+
+popsystem.4 = { #Calculations at country level
+    type = province_event
+	hidden = yes
+
+	immediate = {
+		every_country = {
+			set_variable = { name = abw_pop value = 0 }
+			every_owned_province = {
+				limit = { is_uninhabitable = no }
+				PREV = { change_variable = { name = abw_pop add = PREV.var:abw_pop } }
+			}
+		}
+	}
+}

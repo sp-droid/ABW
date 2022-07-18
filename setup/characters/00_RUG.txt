@@ -1,0 +1,35 @@
+﻿"RUG"={
+    country = "RUG"
+ 562={
+        first_name = Jaromar
+        family_name = Wizlaw
+        birth_date = 1158.2.6
+        culture = "rani"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 6
+        add_finesse = 2
+        add_zeal = 6
+        add_gold = 200
+        add_popularity = 60
+        c:RUG={
+            set_as_ruler = char:562
+        }
+    }
+ 563={
+        first_name = Wizlaw
+        family_name = Wizlaw
+        father = "char:562"
+        birth_date = 1180.5.7
+        culture = "rani"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 2
+        add_finesse = 4
+        add_zeal = 2
+        add_gold = 16
+        add_popularity = 50
+    }
+}

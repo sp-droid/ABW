@@ -1,0 +1,20 @@
+﻿"CAR"={
+    country = "CAR"
+ 130={
+        first_name = Bernhard
+        family_name = vonSpanheim
+        birth_date = 1181.1.1
+        culture = "austrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 7
+        add_finesse = 4
+        add_zeal = 5
+        add_gold = 429
+        add_popularity = 83
+        c:CAR={
+            set_as_ruler = char:130
+        }
+    }
+}

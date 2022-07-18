@@ -1,0 +1,17 @@
+﻿### Religion group triggers
+christian_group_trigger = {
+	OR = {
+		religion = catholic_rel
+		religion = orthodox_rel
+		religion = oriental_rel
+		religion = nestorian_rel
+	}
+}
+
+muslim_group_trigger = {
+	OR = {
+		religion = sunni_rel
+		religion = shia_rel
+		religion = ibadi_rel
+	}
+}

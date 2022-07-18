@@ -1,0 +1,106 @@
+﻿#list of commands:
+#add = number/scripted value/scope.something
+#subtract = ...
+#multiply = ...
+#divide = ... # Be careful not to divide by 0
+#modulo = ...
+    
+#value = ... # Sets the value to this number
+    
+#max = ... # Sets the value to this number if it is currently higher. E.G., "max = 10" would cause the number 15 to become 10
+#min = ... # Sets the value to this number if it is currently lower
+    
+#round = yes # Rounds to nearest whole number
+#ceiling = yes # Rounds up (towards positive infinity)
+#floor = yes # Rounds down (towards negative infinity)
+
+#### ENVIRONMENT
+
+### Apply temperature and rainfall global modifiers ###
+environtemp_sv = { value = THIS add = global_var:tempglobal }
+environrain_sv = { value = THIS multiply = global_var:rainglobal }
+
+#### STATISTICS
+
+### set_variable = { name = netchange value = var:statshistory.stats_net_sv }
+stats_net_sv = {
+	value = ROOT.var:statstotalvalue
+	divide = THIS
+	subtract = 1
+}
+
+#### BAR PLOT
+auxstvalue_sv = { value = var:stats0value subtract = var:stats7value divide = 100 }
+1stvalue_sv = { value = var:stats1value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+2stvalue_sv = { value = var:stats2value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+3stvalue_sv = { value = var:stats3value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+4stvalue_sv = { value = var:stats4value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+5stvalue_sv = { value = var:stats5value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+6stvalue_sv = { value = var:stats6value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
+
+#### POPULATION
+
+### Real change ###
+popchange_sv = {
+	value = var:abw_popupper
+	add = var:abw_popurban
+	add = var:abw_poppeasant
+	add = var:abw_popsoldier
+	add = var:abw_popslave
+	subtract = var:abw_pop
+}
+
+### Real change in percentage ###
+popchangepercent_sv = { value = var:abw_popoldchange divide = var:abw_pop }
+
+### Next year estimation ###
+popestchange_sv = { value = var:abw_pop multiply = var:abw_popchangepercent }
+
+### Convert pop unit numbers X into real population ###
+#value = X.pop_to_people_sv
+pop_to_people_sv = {
+	value = THIS
+	multiply = 157.09
+	add = 1184.4
+	multiply = THIS
+	round = yes
+}
+
+### Convert real population X into abstract pop units ###
+#set_variable = { name = math_tempvar value = X.people_to_pop1_sv }
+#value = sqrt_rough_estimate_sv.sqrt_sv.sqrt_sv.sqrt_sv.people_to_pop2_sv
+people_to_pop1_sv = { 
+	value = THIS
+	divide = 157.09
+	add = 14.211
+}
+people_to_pop2_sv = { 
+	value = THIS
+	subtract = 3.77
+	round = yes
+}
+
+#### COMPLEX ARITHMETIC
+
+### Square root of X ### Employs the iterative "Babylonian" method + numbers under 14000
+#set_variable = { name = math_tempvar value = X }
+#set_variable = { name = math_tempvar value = sqrt_rough_estimate_sv.sqrt_sv.sqrt_sv.sqrt_sv }
+sqrt_rough_estimate_sv = {
+	if = { limit = { ROOT.var:math_tempvar < 100 } value = 5 }
+	else_if = { limit = { ROOT.var:math_tempvar < 1000 } value = 22 }
+	else_if = { limit = { ROOT.var:math_tempvar < 6000 } value = 45 }
+	else_if = { limit = { ROOT.var:math_tempvar < 10000 } value = 90 }
+	else = { value = 100 }
+}
+sqrt_sv = { #Square root using babylonian method of iteration
+	value = ROOT.var:math_tempvar
+	divide = THIS
+	add = THIS
+	multiply = 0.5
+}
+
+#### SIMPLE ARITHMETIC (each function here is self-explanatory)
+
+mult12_sv = { value = THIS multiply = 12 }
+divk_sv = { value = THIS divide = 1000 }
+divm_sv = { value = THIS divide = 1000000 }

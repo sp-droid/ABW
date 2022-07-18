@@ -1,0 +1,82 @@
+﻿"KRA"={
+    country = "KRA"
+ 61={
+        first_name = Berthold
+        family_name = vonAndechs
+        birth_date = 1159.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 9
+        add_finesse = 7
+        add_zeal = 9
+        add_gold = 1088
+        add_popularity = 86
+        c:KRA={
+            set_as_ruler = char:61
+        }
+#Duke of Meranien
+    }
+ 64={
+        first_name = Otto
+        family_name = vonAndechs
+        father = "char:61"
+        birth_date = 1179.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 3
+        add_finesse = 8
+        add_zeal = 9
+        add_gold = 1013
+        add_popularity = 70
+    }
+ 65={
+        first_name = Heinrich
+        family_name = vonAndechs
+        father = "char:61"
+        birth_date = 1180.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 5
+        add_finesse = 6
+        add_zeal = 5
+        add_gold = 263
+        add_popularity = 71
+    }
+ 66={
+        first_name = Berthold
+        family_name = vonAndechs
+        father = "char:61"
+        birth_date = 1183.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 10
+        add_finesse = 4
+        add_zeal = 6
+        add_gold = 1909
+        add_popularity = 61
+    }
+ 67={
+        first_name = Mechthildis
+        family_name = vonAndechs
+        father = "char:61"
+        female = yes
+        birth_date = 1187.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 9
+        add_finesse = 9
+        add_zeal = 1
+        add_gold = 849
+        add_popularity = 70
+    }
+}

@@ -1,0 +1,104 @@
+﻿"IR2"={
+    country = "IR2"
+ 272={
+        first_name = CathalCrobderg
+        family_name = uaconchobair
+        birth_date = 1176.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 1
+        add_finesse = 2
+        add_zeal = 3
+        add_gold = 1210
+        add_popularity = 83
+        c:IR2={
+            set_as_ruler = char:272
+        }
+    }
+ 273={
+        first_name = Mathghamhain
+        family_name = uaconchobair
+        birth_date = 1177.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 9
+        add_finesse = 4
+        add_zeal = 9
+        add_gold = 3520
+        add_popularity = 90
+    }
+ 274={
+        first_name = Tadhg
+        family_name = uaconchobair
+        birth_date = 1179.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 7
+        add_finesse = 10
+        add_zeal = 3
+        add_gold = 3419
+        add_popularity = 99
+    }
+ 275={
+        first_name = Muircheartach
+        family_name = uaconchobair
+        birth_date = 1180.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 9
+        add_finesse = 2
+        add_zeal = 6
+        add_gold = 4853
+        add_popularity = 96
+    }
+ 276={
+        first_name = Donnchadh
+        family_name = uaconchobair
+        birth_date = 1182.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 10
+        add_finesse = 3
+        add_zeal = 9
+        add_gold = 2243
+        add_popularity = 60
+    }
+ 277={
+        first_name = Aodh
+        family_name = uaconchobair
+        birth_date = 1185.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 2
+        add_finesse = 10
+        add_zeal = 8
+        add_gold = 5681
+        add_popularity = 82
+    }
+ 278={
+        first_name = Maelsechlain
+        family_name = uaconchobair
+        birth_date = 1188.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 10
+        add_finesse = 9
+        add_zeal = 7
+        add_gold = 3416
+        add_popularity = 96
+    }
+}

@@ -1,0 +1,61 @@
+﻿ABW_buddy = {
+	theme = Honor
+	picture = "gfx/interface/event_window/Event_buddy.dds"
+}
+
+ABW_ti1 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti1.dds"
+}
+ABW_ti2 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti2.dds"
+}
+ABW_ti3 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti3.dds"
+}
+ABW_ti4 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti4.dds"
+}
+ABW_ti5 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti5.dds"
+}
+ABW_ti6 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti6.dds"
+}
+ABW_ti7 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti7.dds"
+}
+ABW_ti8 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti8.dds"
+}
+ABW_ti9 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti9.dds"
+}
+ABW_ti10 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti10.dds"
+}
+ABW_ti11 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti11.dds"
+}
+ABW_ti12 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti12.dds"
+}
+ABW_ti13 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti13.dds"
+}
+ABW_ti14 = {
+	theme = Happy
+	picture = "gfx/interface/event_window/Event_ti14.dds"
+}

@@ -1,0 +1,21 @@
+﻿"BA2"={
+    country = "BA2"
+ 55={
+        first_name = Poppo
+        family_name = Guideschi
+        birth_date = 1148.1.1
+        culture = "tuscan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 1
+        add_finesse = 5
+        add_zeal = 2
+        add_gold = 1180
+        add_popularity = 81
+        c:BA2={
+            set_as_ruler = char:55
+        }
+#Dynastic name unknown
+    }
+}

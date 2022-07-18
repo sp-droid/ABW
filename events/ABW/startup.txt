@@ -1,0 +1,75 @@
+﻿namespace = startup
+
+#### START UP MAIN
+startup.1 = {
+    type = country_event
+    hidden = yes
+	
+	trigger = {
+		tag = PAP
+	}
+
+    immediate = {
+		#### PROVINCE SETUP DATA
+		trigger_event = { id = "provSetup.1" }
+		
+		#### TERRA INCOGNITA SETUP DATA
+		trigger_event = { id = "terrainc.999" }
+		
+		#### FIRST YEARLY SETUP
+		set_global_variable = { name = yearvarglobal value = 1204 }
+		set_global_variable = { name = tempglobal value = 0 }
+		set_global_variable = { name = rainglobal value = 1 }
+		
+		
+		#### RELIGIOUS GROUP OPINION MODIFIER
+		every_country = { trigger_event = { id = "misc.1" } }
+		
+		#### POP SYSTEM
+		p:4730 = { trigger_event = { id = "popsystem.1" } }
+		
+		#### EVERY HUMAN PLAYER
+		every_country = {
+			limit = { is_ai = no }
+			#### STATS
+			trigger_event = { id = "statsrelated.1" days = 1 }
+			#### WELCOME
+			trigger_event = { id = "startup.3" }
+		}
+		
+		
+		#### PROVINCE RANK
+		#every_province = {
+		#	limit = {
+		#		exists = owner
+		#		has_province_rank = settlement
+		#	}
+		#	if = {
+		#		limit = {
+		#			num_of_freemen >= 1
+		#			num_of_freemen < 2
+		#		}
+		#		set_city_status = townvillage
+		#	}
+		#	else_if = {
+		#		limit = {
+		#			num_of_freemen >= 2
+		#			num_of_freemen < 6
+		#		}
+		#		set_city_status = city
+		#	}
+		#}
+	}
+}
+
+#### WELCOME
+startup.3 = {
+    type = country_event
+    title = "startup.3.t"
+    desc = "startup.3.desc"
+    picture = ABW_buddy
+
+    option = {
+        name = "startup.3.a"
+    }
+}

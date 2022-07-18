@@ -1,0 +1,53 @@
+﻿"ALM"={
+    country = "ALM"
+ 14={
+        first_name = MuhammadalNasir
+        family_name = Almohad
+        birth_date = 1182.1.1
+        culture = "berber"
+        religion = "sunni_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 10
+        add_finesse = 4
+        add_zeal = 6
+        add_gold = 527
+        add_popularity = 90
+        c:ALM={
+            set_as_ruler = char:14
+        }
+ #Almohad dynasty
+    }
+ 15={
+        first_name = Qamar
+        family_name = Adilid
+        female = yes
+        birth_date = 1184.1.1
+        culture = "berber"
+        religion = "sunni_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 8
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 1559
+        add_popularity = 66
+        marry_character = char:14
+    }
+ 16={
+        first_name = Yusuf
+        family_name = Almohad
+        father = "char:14"
+        mother = "char:15"
+        birth_date = 1203.1.1
+        culture = "berber"
+        religion = "sunni_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 5
+        add_finesse = 4
+        add_zeal = 3
+        add_gold = 801
+        add_popularity = 86
+    }
+}

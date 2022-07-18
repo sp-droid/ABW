@@ -1,0 +1,242 @@
+﻿#NEEDED LINE
+hindu_rel = { # Hinduism - Sages=Dharmic, prophets=Abrahamic, firetemples=undefined, pantheon!cannot be used
+	color = rgb { 83 212 230 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = sages
+	sacrifice_icon = icon_hindu
+	can_deify_ruler = no
+}
+jain_rel = { # Jainism
+	color = rgb { 26 162 181 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = sages
+	sacrifice_icon = icon_jain
+}
+theravada_rel = { # Theravada Buddhism
+	color = rgb { 217 124 84 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = sages
+	sacrifice_icon = icon_theravada
+}
+mahayana_rel = { # Mahayana Buddhism
+	color = rgb { 212 84 217 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = sages
+	sacrifice_icon = icon_mahayana
+}
+vajrayana_rel = { # Vajrayana Buddhism
+	color = rgb { 217 84 120 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = sages
+	sacrifice_icon = icon_vajrayana
+}
+judaism_rel = { # Judaism
+	color = rgb { 38 113 255 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_judaism
+}
+catholic_rel = { # Roman Catholicism
+	color = rgb { 206 226 106 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_catholic
+}
+orthodox_rel = { # Eastern Orthodoxy
+	color = rgb { 184 131 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_orthodox
+}
+oriental_rel = { # Oriental Orthodoxy
+	color = rgb { 117 9 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_oriental
+}
+nestorian_rel = { # Nestorians
+	color = rgb { 150 141 65 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_nestorian
+}
+sunni_rel = { # Sunni Islam
+	color = rgb { 0 102 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_sunni
+}
+shia_rel = { # Sunni Islam
+	color = rgb { 0 153 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_shia
+}
+ibadi_rel = { # Ibadi Islam
+	color = rgb { 0 130 84 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = prophets
+	sacrifice_icon = icon_ibadi
+}
+tengri_rel = { # Tengriism / Turko-Mongolian
+	color = rgb { 40 55 255 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_tengri
+}
+zoroastrianism_rel = { # Zoroastrianism
+	color = rgb { 255 197 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_zoroastrianism
+}
+kamuy_rel = { # Kamuyism / Ainu
+	color = rgb { 235 190 186 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_kamuy
+}
+alcheringa_rel = { # Alcheringa / Australian
+	color = rgb { 238 157 35 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_alcheringa
+}
+suomenusko_rel = { # Suomenusko
+	color = rgb { 28 0 53 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_suomenusko
+}
+romuva_rel = { # Romuva
+	color = rgb { 51 51 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_romuva
+}
+nordic_rel = { # Germanic
+	color = rgb { 122 122 194 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_nordic
+}
+celtic_rel = { # Celtic
+	color = rgb { 115 213 101 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_celtic
+}
+slavic_rel = { # Old Slavic
+	color = rgb { 70 145 150 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_slavic
+}
+midewin_rel = { # Midewin
+	color = rgb { 234 218 166 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_midewin
+}
+nahuatl_rel = { # Nahuatl
+	color = rgb { 22 137 58 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_nahuatl
+}
+maya_rel = { # Maya
+	color = rgb { 175 0 221 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_maya
+}
+andean_rel = { # Andean
+	color = rgb { 122 123 236 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_andean
+}
+kemetic_rel = { # Ancient Egyptian
+	color = rgb { 188 132 0 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_kemetic
+}
+ancentralism_rel = { # Ancestralism
+	color = rgb { 89 51 18 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_ancentralism
+}
+shamanist_rel = { # Shamanism
+	color = rgb { 151 83 83 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_shamanist
+}
+animist_rel = { # Animism
+	color = rgb { 153 102 51 }
+	modifier = {
+		global_citizen_happyness = 0.1
+	}
+	religion_category = firetemples
+	sacrifice_icon = icon_animist
+}

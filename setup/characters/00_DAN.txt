@@ -1,0 +1,66 @@
+﻿"DAN"={
+    country = "DAN"
+ 178={
+        first_name = Valdemar
+        family_name = Estridsen
+        birth_date = 1170.1.1
+        culture = "danish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 10
+        add_finesse = 3
+        add_zeal = 2
+        add_gold = 382
+        add_popularity = 90
+        c:DAN={
+            set_as_ruler = char:178
+        }
+    }
+ 179={
+        first_name = Sofie
+        family_name = Estridsen
+        female = yes
+        birth_date = 1159.1.1
+        culture = "danish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 4
+        add_finesse = 7
+        add_zeal = 10
+        add_gold = 1562
+        add_popularity = 89
+#Married to  Siegfried III Count of Weimar-Orlamünde(not ingame)
+    }
+ 180={
+        first_name = Maria
+        family_name = Estridsen
+        female = yes
+        birth_date = 1155.1.1
+        culture = "danish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 6
+        add_finesse = 3
+        add_zeal = 6
+        add_gold = 427
+        add_popularity = 65
+    }
+ 181={
+        first_name = Margrete
+        family_name = Estridsen
+        female = yes
+        birth_date = 1167.1.1
+        culture = "danish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 7
+        add_zeal = 5
+        add_gold = 1815
+        add_popularity = 81
+    }
+}

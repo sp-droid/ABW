@@ -1,0 +1,468 @@
+﻿	83={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="sunni_rel"
+		trade_goods="honey"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	92={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	141={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	272={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="hemp"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	276={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	277={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="fur"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	288={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	358={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	361={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="wine"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	462={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	475={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="earthware"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	525={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	560={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	568={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	600={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	616={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	665={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	749={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="shamanist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	779={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="shamanist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	804={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	864={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	888={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	911={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="alcheringa_rel"
+		trade_goods="wild_game"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	922={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="fish"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	961={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	987={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="hindu_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 10 }
+		#
+	}
+
+	1012={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1033={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1054={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	1067={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1073={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="shamanist_rel"
+		trade_goods="amber"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1381={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	1400={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	1430={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="fish"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1434={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="steppe_horses"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	1461={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="shamanist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 10 }
+		#
+	}
+
+	1959={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	2202={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	3372={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="hemp"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+

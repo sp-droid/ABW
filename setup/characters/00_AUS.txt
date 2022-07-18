@@ -1,0 +1,54 @@
+﻿"AUS"={
+    country = "AUS"
+ 42={
+        first_name = Luitpold
+        family_name = Babenberg
+        birth_date = 1176.1.1
+        culture = "austrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 5
+        add_finesse = 3
+        add_zeal = 3
+        add_gold = 1476
+        add_popularity = 73
+        c:AUS={
+            set_as_ruler = char:42
+        }
+    }
+ 43={
+        first_name = Theodora
+        family_name = Angelos
+        female = yes
+        birth_date = 1180.1.1
+        culture = "greekk"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 5
+        add_finesse = 6
+        add_zeal = 5
+        add_gold = 124
+        add_popularity = 69
+        marry_character = char:42
+#Possibly daughter of John Doukas the soun of Andronikos Angelos
+    }
+ 44={
+        first_name = Margarethe
+        family_name = Babenberg
+        father = "char:42"
+        mother = "char:43"
+        female = yes
+        birth_date = 1204.1.1
+        culture = "austrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 3
+        add_finesse = 5
+        add_zeal = 7
+        add_gold = 1015
+        add_popularity = 84
+    }
+}

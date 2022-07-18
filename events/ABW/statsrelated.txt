@@ -1,0 +1,203 @@
+﻿namespace = statsrelated
+
+statsrelated.1 = { #Initial stats for future events
+    type = country_event
+	hidden = yes
+
+	immediate = {
+		### Flag to start the event chain by the statsrelated.2 event
+		set_variable = citystats
+		
+		### First data point for total pops per country
+		set_variable = { name = statstotalvalue value = 0 }
+		every_country = {
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_pop.divm_sv } }
+		}
+		set_variable = { name = statshistorypop value = var:statstotalvalue }
+		
+		### First data point for GDP per country
+		set_variable = { name = statstotalvalue value = 0 }
+		every_country = {
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.has_monthly_income } }
+		}
+		set_variable = { name = statshistoryeco value = var:statstotalvalue.mult12_sv.divk_sv }
+
+		### First data point for pops per city
+		ordered_ownable_province = {
+			limit = { is_uninhabitable = no }
+			order_by = var:abw_pop
+			max = 1
+			set_variable = { name = statshistorycity value = var:abw_pop.divk_sv }
+		}
+	}
+}
+
+statsrelated.2 = { #Most populous countries
+    type = country_event
+    title = "statsrelated.2.t"
+    desc = "statsrelated.2.desc"
+    picture = scribe_tools
+
+	trigger = { 
+		is_ai = no
+		NOT = { has_variable = configflag_nostats }
+		has_variable = citystats 
+	}
+	
+	immediate = {
+		### Open auxiliary barplot
+		set_variable = { name = barplot_flag }
+	
+		### Dummie variable. Reason is we cannot use global vars in GUI
+		set_variable = { name = yearvar value = global_var:yearvarglobal }
+		
+		### Event flags
+		remove_variable = citystats
+		set_variable = popstats
+		
+		### Total counter
+		set_variable = { name = statstotalvalue value = 0 }
+		every_country = {
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_pop.divm_sv } }
+		}
+		
+		### Net change
+		set_variable = { name = statsnetchange value = var:statshistorypop.stats_net_sv }
+		
+		### Data for the next event
+		set_variable = { name = statshistorypop value = var:statstotalvalue }
+		
+		### 8 best
+		ordered_country = {
+			order_by = var:abw_pop
+			max = 8
+			
+			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_pop.divm_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_pop.divm_sv }}}
+		}
+	}
+	option = {
+		name = statsrelated.2.a
+		### Close auxiliary barplot
+		remove_variable = barplot_flag
+	}
+}
+
+statsrelated.3 = { #GDP
+    type = country_event
+    title = "statsrelated.3.t"
+    desc = "statsrelated.3.desc"
+    picture = scribe_tools
+
+	trigger = { 
+		is_ai = no
+		NOT = { has_variable = configflag_nostats }
+		has_variable = popstats 
+	}
+	
+	immediate = {
+		### Open auxiliary barplot
+		set_variable = { name = barplot_flag }
+	
+		### Dummie variable. Reason is we cannot use global vars in GUI
+		set_variable = { name = yearvar value = global_var:yearvarglobal }
+		
+		### Event flags
+		remove_variable = popstats
+		set_variable = econostats
+		
+		### Total counter
+		set_variable = { name = statstotalvalue value = 0 }
+		every_country = {
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.has_monthly_income } }
+		}
+		set_variable = { name = statstotalvalue value = var:statstotalvalue.mult12_sv.divk_sv }
+		
+		### Net change
+		set_variable = { name = statsnetchange value = var:statshistoryeco.stats_net_sv }
+		
+		### Data for the next event
+		set_variable = { name = statshistoryeco value = var:statstotalvalue }
+		
+		### 8 best
+		ordered_country = {
+			order_by = has_monthly_income
+			max = 8
+			
+			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.has_monthly_income.mult12_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.has_monthly_income.mult12_sv }}}
+		}
+	}
+	option = {
+		name = statsrelated.3.a
+		### Close auxiliary barplot
+		remove_variable = barplot_flag
+	}
+}
+
+statsrelated.4 = { #Biggest cities
+    type = country_event
+    title = "statsrelated.4.t"
+    desc = "statsrelated.4.desc"
+    picture = scribe_tools
+
+	trigger = { 
+		is_ai = no
+		NOT = { has_variable = configflag_nostats }
+		has_variable = econostats 
+	}
+	
+	immediate = {
+		### Open auxiliary barplot
+		set_variable = { name = barplot_flag }
+	
+		### Dummie variable. Reason is we cannot use global vars in GUI
+		set_variable = { name = yearvar value = global_var:yearvarglobal }
+		
+		### Event flags
+		remove_variable = econostats
+		set_variable = citystats
+		
+		### 8 best
+		ordered_ownable_province = {
+			limit = { is_uninhabitable = no }
+			order_by = var:abw_pop
+			max = 8
+			
+			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_pop.divk_sv }}}
+			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_pop.divk_sv }}}
+		}
+		
+		### Biggest city's population now
+		set_variable = { name = statstotalvalue value = var:stats0value }
+		
+		### Net change between years ago biggest city and the biggest now
+		set_variable = { name = statsnetchange value = var:statshistorycity.stats_net_sv }
+		
+		### Data for the next event
+		set_variable = { name = statshistorycity value = var:statstotalvalue }
+	}
+	option = {
+		name = statsrelated.4.a
+		### Close auxiliary barplot
+		remove_variable = barplot_flag
+	}
+}

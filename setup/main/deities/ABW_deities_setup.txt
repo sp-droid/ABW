@@ -1,0 +1,21 @@
+deity_manager = {
+	deities_database = { ### KEYS 1-50 ###
+		2 = {
+			key = omen_monotheism
+			deity = deity_monotheism
+		}
+		3 = {
+			key = omen_christianity
+			deity = deity_christianity
+		}
+		4 = {
+			key = omen_catholic
+			deity = deity_catholic
+		}
+		5 = {
+			key = omen_pilgrimage
+			deity = deity_pilgrimage
+		}
+	}
+}
+

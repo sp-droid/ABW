@@ -1,0 +1,20 @@
+﻿"SIC"={
+    country = "SIC"
+ 514={
+        first_name = Friedrich
+        family_name = Hohenstaufen
+        birth_date = 1194.1.1
+        culture = "swabian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 10
+        add_finesse = 7
+        add_zeal = 9
+        add_gold = 1191
+        add_popularity = 84
+        c:SIC={
+            set_as_ruler = char:514
+        }
+    }
+}

@@ -1,0 +1,20 @@
+﻿"VIR"={
+    country = "VIR"
+ 552={
+        first_name = Kyriavan
+        family_name = Haavakivi
+        birth_date = 1152.1.1
+        culture = "estonia"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 6
+        add_finesse = 7
+        add_zeal = 9
+        add_gold = 1181
+        add_popularity = 86
+        c:VIR={
+            set_as_ruler = char:552
+        }
+    }
+}

@@ -1,0 +1,20 @@
+﻿"ALS"={
+    country = "ALS"
+ 19={
+        first_name = Heinrich
+        family_name = Veringen
+        birth_date = 1165.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 8
+        add_finesse = 6
+        add_zeal = 7
+        add_gold = 1144
+        add_popularity = 72
+        c:ALS={
+            set_as_ruler = char:19
+        }
+    }
+}

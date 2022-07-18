@@ -1,0 +1,20 @@
+﻿"TRN"={
+    country = "TRN"
+ 554={
+        first_name = Konrad
+        family_name = Biseno
+        birth_date = 1159.1.1
+        culture = "sotirol"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 10
+        add_finesse = 9
+        add_zeal = 7
+        add_gold = 4098
+        add_popularity = 78
+        c:TRN={
+            set_as_ruler = char:554
+        }
+    }
+}

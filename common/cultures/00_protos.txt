@@ -1,0 +1,27 @@
+﻿protos = {
+	color = rgb { 206 123 64 }
+
+	male_names = {
+		Alfonso Sancho Aitor Asier Bittor Gaizka Imanol Iban Mitxel Xabier Zuzen Zigor Xanti Petri Oroitz
+	}
+	female_names = {
+		Ainara Ainhoa Naia Leyre Enara Bihotz Haizea Maria Usoa Zorione Oihana Nagore Ihintza Frantziska Ane Alaia Abene
+	}
+	family = {
+		Borgona.Borgona.Borgona.Borgona
+		Jimena.Jimena.Jimena.Jimena
+		Arag.Arag.Arag.Arag
+		Arana.Arana.Arana.Arana
+	}
+	culture = {
+		basque = {}
+	}
+	
+	barbarian_names = { AUSETANI BASTETANI LAIETANI CASTELLANI CERRETANI HELISYCES SORDONES PITYUSSAI }
+	
+	graphical_culture = iberian_gfx
+	ethnicities = {
+		10 = iberian
+	}
+}
+

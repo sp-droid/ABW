@@ -1,0 +1,82 @@
+﻿"SAX"={
+    country = "SAX"
+ 471={
+        first_name = Bernhard
+        family_name = Ascania
+        birth_date = 1134.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 1
+        add_finesse = 7
+        add_zeal = 7
+        add_gold = 2606
+        add_popularity = 77
+        c:SAX={
+            set_as_ruler = char:471
+        }
+    }
+ 473={
+        first_name = Sophia
+        family_name = Ascania
+        father = "char:471"
+        female = yes
+        birth_date = 1173.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 4
+        add_finesse = 3
+        add_zeal = 9
+        add_gold = 278
+        add_popularity = 84
+    }
+ 474={
+        first_name = Albrecht
+        family_name = Ascania
+        father = "char:471"
+        birth_date = 1175.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 8
+        add_finesse = 9
+        add_zeal = 6
+        add_gold = 4782
+        add_popularity = 76
+    }
+ 475={
+        first_name = Hedwig
+        family_name = Ascania
+        father = "char:471"
+        female = yes
+        birth_date = 1177.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 4
+        add_finesse = 10
+        add_zeal = 7
+        add_gold = 4802
+        add_popularity = 83
+    }
+ 476={
+        first_name = Johannes
+        family_name = Ascania
+        father = "char:471"
+        birth_date = 1186.1.1
+        culture = "saxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 9
+        add_finesse = 3
+        add_zeal = 2
+        add_gold = 1780
+        add_popularity = 70
+    }
+}

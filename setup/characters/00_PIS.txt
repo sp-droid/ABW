@@ -1,0 +1,34 @@
+﻿"PIS"={
+    country = "PIS"
+ 413={
+        first_name = Aldobrando
+        family_name = Orlandi
+        birth_date = 1182.1.1
+        culture = "tuscan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 1
+        add_finesse = 1
+        add_zeal = 9
+        add_gold = 213
+        add_popularity = 72
+        c:PIS={
+            set_as_ruler = char:413
+        }
+    }
+ 414={
+        first_name = SigeriodOrlando
+        family_name = Orlandi
+        birth_date = 1188.1.1
+        culture = "tuscan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 7
+        add_finesse = 1
+        add_zeal = 7
+        add_gold = 4383
+        add_popularity = 99
+    }
+}

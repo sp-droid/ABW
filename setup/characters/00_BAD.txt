@@ -1,0 +1,78 @@
+﻿"BAD"={
+    country = "BAD"
+ 56={
+        first_name = Hermann
+        family_name = Zahringen
+        birth_date = 1180.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 10
+        add_finesse = 4
+        add_zeal = 10
+        add_gold = 973
+        add_popularity = 66
+        c:BAD={
+            set_as_ruler = char:56
+        }
+    }
+ 57={
+        first_name = Heinrich
+        family_name = Zahringen
+        birth_date = 1181.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 2
+        add_finesse = 3
+        add_zeal = 3
+        add_gold = 1889
+        add_popularity = 63
+    }
+ 58={
+        first_name = Friedrich
+        family_name = Zahringen
+        birth_date = 1183.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 8
+        add_finesse = 9
+        add_zeal = 6
+        add_gold = 516
+        add_popularity = 67
+    }
+ 59={
+        first_name = Jutta
+        family_name = Zahringen
+        female = yes
+        birth_date = 1186.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 3
+        add_finesse = 7
+        add_zeal = 4
+        add_gold = 378
+        add_popularity = 87
+    }
+ 60={
+        first_name = Bertha
+        family_name = Zahringen
+        female = yes
+        birth_date = 1187.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 4
+        add_finesse = 1
+        add_zeal = 5
+        add_gold = 180
+        add_popularity = 81
+    }
+}

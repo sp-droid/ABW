@@ -1,0 +1,20 @@
+﻿"PAP"={
+    country = "PAP"
+	407={
+        first_name = Innocentius
+        family_name = Segni
+        birth_date = 1160.1.1
+        culture = "umbrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 5
+        add_finesse = 4
+        add_zeal = 5
+        add_gold = 1426
+        add_popularity = 76
+        c:PAP={
+            set_as_ruler = char:407
+        }
+    }
+}

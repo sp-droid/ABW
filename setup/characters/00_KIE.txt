@@ -1,0 +1,69 @@
+﻿"KIE"={
+    country = "KIE"
+ 317={
+        first_name = Rurik
+        family_name = rurikov
+        birth_date = 1142.1.1
+        culture = "ucranian"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 10
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 459
+        add_popularity = 73
+        c:KIE={
+            set_as_ruler = char:317
+        }
+#Cousin of GAV ruler
+    }
+ 318={
+        first_name = Anna
+        family_name = Turov
+        female = yes
+        birth_date = 1148.1.1
+        culture = "ucranian"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 2
+        add_finesse = 3
+        add_zeal = 8
+        add_gold = 1460
+        add_popularity = 78
+        marry_character = char:317
+    }
+ 323={
+        first_name = Rostislav
+        family_name = rurikov
+        father = "char:317"
+        mother = "char:318"
+        birth_date = 1173.1.1
+        culture = "ucranian"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 10
+        add_finesse = 3
+        add_zeal = 5
+        add_gold = 3474
+        add_popularity = 100
+    }
+ 324={
+        first_name = Vladimir
+        family_name = rurikov
+        father = "char:317"
+        mother = "char:318"
+        birth_date = 1187.1.1
+        culture = "ucranian"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 6
+        add_finesse = 10
+        add_zeal = 1
+        add_gold = 381
+        add_popularity = 79
+    }
+}

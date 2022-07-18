@@ -1,0 +1,20 @@
+﻿"LIO"={
+    country = "LIO"
+ 336={
+        first_name = Wenno
+        family_name = vonRohrbach
+        birth_date = 1168.1.1
+        culture = "westphalian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 7
+        add_finesse = 4
+        add_zeal = 2
+        add_gold = 436
+        add_popularity = 85
+        c:LIO={
+            set_as_ruler = char:336
+        }
+    }
+}

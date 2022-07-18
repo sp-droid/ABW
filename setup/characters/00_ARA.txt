@@ -1,0 +1,84 @@
+﻿"ARA"={
+    country = "ARA"
+ 30={
+        first_name = Sancha
+        family_name = Ivrea
+        female = yes
+        birth_date = 1154.1.1
+        culture = "castleon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 5
+        add_finesse = 2
+        add_zeal = 4
+        add_gold = 819
+        add_popularity = 89
+#Daughter Constance Queen of Hungary Son Alfonso Conut of Provence Daughter Eleanor Countess of Toulouse
+    }
+ 31={
+        first_name = Petri
+        family_name = Barcelona
+        mother = "char:30"
+        birth_date = 1178.1.1
+        culture = "aragonese"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 7
+        add_finesse = 5
+        add_zeal = 4
+        add_gold = 1130
+        add_popularity = 90
+        c:ARA={
+            set_as_ruler = char:31
+        }
+    }
+ 32={
+        first_name = Sancha
+        family_name = Barcelona
+        mother = "char:30"
+        female = yes
+        birth_date = 1186.1.1
+        culture = "aragonese"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 7
+        add_finesse = 6
+        add_zeal = 2
+        add_gold = 1656
+        add_popularity = 75
+    }
+ 33={
+        first_name = Fernando
+        family_name = Barcelona
+        mother = "char:30"
+        birth_date = 1190.1.1
+        culture = "aragonese"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 10
+        add_finesse = 10
+        add_zeal = 8
+        add_gold = 598
+        add_popularity = 69
+    }
+ 34={
+        first_name = Dulcia
+        family_name = Barcelona
+        mother = "char:30"
+        female = yes
+        birth_date = 1192.1.1
+        culture = "aragonese"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 8
+        add_finesse = 2
+        add_zeal = 8
+        add_gold = 999
+        add_popularity = 76
+    }
+}

@@ -1,0 +1,32 @@
+﻿namespace = environ
+
+#### YEARLY COUNTER
+environ.1 = { #+1 to the year counter, each year
+    type = province_event
+	hidden = yes
+	
+	trigger = {
+		THIS = p:4730
+	}
+
+	immediate = {
+		#### YEAR
+		change_global_variable = { name = yearvarglobal add = 1 }
+		
+		#### GLOBAL TEMPERATURE
+		change_global_variable = { name = tempglobal add = { -0.005 0.005 } }
+		if = { limit = { global_var:yearvarglobal < 1650 } change_global_variable = { name = tempglobal subtract = 0.0009} }
+		else = { change_global_variable = { name = tempglobal add = 0.0012} }
+		
+		#### GLOBAL RAINFALL
+		set_global_variable = { name = rainglobal value = { 0.7 1.3 } }
+		
+		#### APPLY TEMP & RAIN TO EVERY PROVINCE
+		every_province = {
+			limit = { is_uninhabitable = no }
+			
+			set_variable = { name = templocal value = var:dat_temp.environtemp_sv }
+			set_variable = { name = rainlocal value = var:dat_rain.environrain_sv }
+		}
+	}
+}

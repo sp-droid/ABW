@@ -1,0 +1,86 @@
+﻿"PFA"={
+    country = "PFA"
+ 408={
+        first_name = Heinrich
+        family_name = Welf
+        birth_date = 1173.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 3
+        add_finesse = 8
+        add_zeal = 6
+        add_gold = 3222
+        add_popularity = 69
+        c:PFA={
+            set_as_ruler = char:408
+        }
+    }
+ 409={
+        first_name = Agnes
+        family_name = Hohenstaufen
+        female = yes
+        birth_date = 1177.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 2
+        add_finesse = 3
+        add_zeal = 1
+        add_gold = 582
+        add_popularity = 95
+        marry_character = char:408
+    }
+ 410={
+        first_name = Heinrich
+        family_name = Welf
+        father = "char:408"
+        mother = "char:409"
+        birth_date = 1197.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 1
+        add_finesse = 3
+        add_zeal = 9
+        add_gold = 1531
+        add_popularity = 78
+    }
+ 411={
+        first_name = Irmengard
+        family_name = Welf
+        father = "char:408"
+        mother = "char:409"
+        female = yes
+        birth_date = 1200.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 7
+        add_finesse = 5
+        add_zeal = 3
+        add_gold = 3100
+        add_popularity = 64
+    }
+ 412={
+        first_name = Agnes
+        family_name = Welf
+        father = "char:408"
+        mother = "char:409"
+        female = yes
+        birth_date = 1201.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 6
+        add_finesse = 8
+        add_zeal = 4
+        add_gold = 4730
+        add_popularity = 87
+    }
+}

@@ -1,0 +1,21 @@
+﻿"IR3"={
+    country = "IR3"
+ 279={
+        first_name = ONeill
+        family_name = uineill
+        birth_date = 1174.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 2
+        add_finesse = 6
+        add_zeal = 9
+        add_gold = 1929
+        add_popularity = 61
+        c:IR3={
+            set_as_ruler = char:279
+        }
+ # leave this for now
+    }
+}

@@ -1,0 +1,101 @@
+﻿"FOL"={
+    country = "FOL"
+ 206={
+        first_name = Bertrand
+        family_name = Urgell
+        birth_date = 1145.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 9
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 1886
+        add_popularity = 65
+        c:FOL={
+            set_as_ruler = char:206
+        }
+    }
+ 207={
+        first_name = Cecile
+        family_name = deBeziers
+        female = yes
+        birth_date = 1152.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 7
+        add_finesse = 4
+        add_zeal = 7
+        add_gold = 688
+        add_popularity = 79
+        marry_character = char:206
+    }
+ 208={
+        first_name = Beatrix
+        family_name = Urgell
+        father = "char:206"
+        mother = "char:207"
+        female = yes
+        birth_date = 1178.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 2
+        add_finesse = 3
+        add_zeal = 5
+        add_gold = 433
+        add_popularity = 72
+    }
+ 209={
+        first_name = Cecile
+        family_name = Urgell
+        father = "char:206"
+        mother = "char:207"
+        female = yes
+        birth_date = 1180.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 6
+        add_finesse = 10
+        add_zeal = 7
+        add_gold = 1484
+        add_popularity = 73
+    }
+ 210={
+        first_name = Guillaume
+        family_name = Urgell
+        birth_date = 1148.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 2
+        add_finesse = 7
+        add_zeal = 2
+        add_gold = 1429
+        add_popularity = 74
+    }
+ 211={
+        first_name = Beatrix
+        family_name = Urgell
+        father = "char:210"
+        female = yes
+        birth_date = 1184.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 9
+        add_finesse = 10
+        add_zeal = 10
+        add_gold = 897
+        add_popularity = 83
+#Has daughter married to count of provence
+    }
+}

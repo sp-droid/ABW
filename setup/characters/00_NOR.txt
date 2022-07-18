@@ -1,0 +1,81 @@
+﻿"NOR"={
+    country = "NOR"
+ 379={
+        first_name = Guttormr
+        family_name = Sverreaetten
+        birth_date = 1199.1.1
+        culture = "norwegian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 6
+        add_finesse = 6
+        add_zeal = 6
+        add_gold = 454
+        add_popularity = 71
+        c:NOR={
+            set_as_ruler = char:379
+        }
+    }
+ 380={
+        first_name = Margrete
+        family_name = Erikska
+        female = yes
+        birth_date = 1155.1.1
+        culture = "swedish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 4
+        add_finesse = 10
+        add_zeal = 4
+        add_gold = 1453
+        add_popularity = 89
+    }
+ 381={
+        first_name = Kristin
+        family_name = Sverreaetten
+        mother = "char:380"
+        female = yes
+        birth_date = 1192.1.1
+        culture = "norwegian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 9
+        add_finesse = 3
+        add_zeal = 9
+        add_gold = 513
+        add_popularity = 71
+    }
+ 382={
+        first_name = Inga
+        family_name = Varteig
+        female = yes
+        birth_date = 1183.1.1
+        culture = "norwegian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 1
+        add_finesse = 5
+        add_zeal = 2
+        add_gold = 486
+        add_popularity = 76
+    }
+ 383={
+        first_name = Hakon
+        family_name = Sverreaetten
+        mother = "char:382"
+        birth_date = 1204.1.1
+        culture = "norwegian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 9
+        add_finesse = 7
+        add_zeal = 4
+        add_gold = 291
+        add_popularity = 72
+    }
+}

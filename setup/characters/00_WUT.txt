@@ -1,0 +1,52 @@
+﻿"WUT"={
+    country = "WUT"
+ 549={
+        first_name = Hartmann
+        family_name = wurttemberg
+        birth_date = 1160.1.1
+        culture = "franconian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 8
+        add_finesse = 9
+        add_zeal = 2
+        add_gold = 3642
+        add_popularity = 90
+        c:WUT={
+            set_as_ruler = char:549
+        }
+    }
+ 550={
+        first_name = Helma
+        family_name = Veringen
+        female = yes
+        birth_date = 1172.1.1
+        culture = "alemannic"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 10
+        add_finesse = 5
+        add_zeal = 9
+        add_gold = 2908
+        add_popularity = 70
+        marry_character = char:549
+    }
+ 551={
+        first_name = Hermann
+        family_name = wurttemberg
+        father = "char:549"
+        mother = "char:550"
+        birth_date = 1188.1.1
+        culture = "franconian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 8
+        add_finesse = 1
+        add_zeal = 2
+        add_gold = 1039
+        add_popularity = 88
+    }
+}

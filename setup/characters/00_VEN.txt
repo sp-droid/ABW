@@ -1,0 +1,38 @@
+﻿"VEN"={
+    country = "VEN"
+ 543={
+        first_name = Enrico
+        family_name = Dandolo
+        birth_date = 1107.1.1
+        culture = "venetian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 9
+        add_finesse = 3
+        add_zeal = 1
+        no_traits = yes
+        add_trait = "crafty"
+        add_trait = "intelligent"
+        add_gold = 3189
+        add_popularity = 89
+        c:VEN={
+            set_as_ruler = char:543
+        }
+    }
+ 544={
+        first_name = Raniero
+        family_name = Dandolo
+        father = "char:543"
+        birth_date = 1159.1.1
+        culture = "venetian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 8
+        add_finesse = 3
+        add_zeal = 1
+        add_gold = 1569
+        add_popularity = 74
+    }
+}

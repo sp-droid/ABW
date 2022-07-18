@@ -1,0 +1,20 @@
+﻿"IR6"={
+    country = "IR6"
+ 286={
+        first_name = GiollaPadraig
+        family_name = OhAnluain
+        birth_date = 1178.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 9
+        add_finesse = 9
+        add_zeal = 3
+        add_gold = 4502
+        add_popularity = 90
+        c:IR6={
+            set_as_ruler = char:286
+        }
+    }
+}

@@ -1,0 +1,38 @@
+﻿"BRG"={
+    country = "BRG"
+ 100={
+        first_name = Jeanne
+        family_name = Hohenstaufen
+        female = yes
+        birth_date = 1191.1.1
+        culture = "burgundian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 4
+        add_finesse = 9
+        add_zeal = 4
+        add_gold = 1561
+        add_popularity = 67
+        c:BRG={
+            set_as_ruler = char:100
+        }
+#Mother remarried in Jerusalem
+    }
+ 101={
+        first_name = Beatrix
+        family_name = Hohenstaufen
+        female = yes
+        birth_date = 1193.1.1
+        culture = "burgundian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 6
+        add_finesse = 10
+        add_zeal = 10
+        add_gold = 1317
+        add_popularity = 67
+#Mother remarried in Jerusalem
+    }
+}

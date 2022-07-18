@@ -1,0 +1,7 @@
+﻿biyearly_country_pulse = {
+
+	events = {
+		#statsrelated.1
+		#statsrelated.3
+	}
+}

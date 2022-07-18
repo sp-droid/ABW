@@ -1,0 +1,14 @@
+﻿definitions = "definition.csv"
+provinces = "provinces.png"
+positions = "positions.txt"
+rivers = "rivers.png"
+topology = "heightmap.heightmap"
+adjacencies = "adjacencies.csv"
+areas = "areas.txt"
+regions = "regions.txt"
+ports = "ports.csv"
+climate = "climate.txt"
+
+wasteland = LIST { 1 5642 }
+sea_zones = RANGE { 4883 5641 }
+impassable_terrain = RANGE { 5643 5692 }

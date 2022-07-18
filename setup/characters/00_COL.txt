@@ -1,0 +1,20 @@
+﻿"COL"={
+    country = "COL"
+ 166={
+        first_name = Adolf
+        family_name = vonBergAltena
+        birth_date = 1157.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 1
+        add_finesse = 6
+        add_zeal = 4
+        add_gold = 323
+        add_popularity = 62
+        c:COL={
+            set_as_ruler = char:166
+        }
+    }
+}

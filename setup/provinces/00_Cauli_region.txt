@@ -1,0 +1,132 @@
+﻿	232={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	511={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	615={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="steppe_horses"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	924={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	932={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 3 }
+		#
+	}
+
+	975={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="hemp"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	1038={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 3 }
+		#
+	}
+
+	1045={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	1063={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="silk"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	1487={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="mahayana_rel"
+		trade_goods="stone"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1691={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="marble"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+

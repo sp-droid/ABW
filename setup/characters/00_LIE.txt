@@ -1,0 +1,20 @@
+﻿"LIE"={
+    country = "LIE"
+ 335={
+        first_name = Hughes
+        family_name = dePierrepont
+        birth_date = 1174.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 3
+        add_finesse = 5
+        add_zeal = 7
+        add_gold = 5211
+        add_popularity = 73
+        c:LIE={
+            set_as_ruler = char:335
+        }
+    }
+}

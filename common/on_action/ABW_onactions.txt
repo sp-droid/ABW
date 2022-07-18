@@ -1,0 +1,54 @@
+﻿on_game_initialized = {
+	events = {
+		#uiccrusade.1 #aqtinherit.1 #armycap.1
+		#### START UP MAIN
+		startup.1
+	}
+}
+
+on_battle_won_country = { #root = country scope of the main unit on the winning side, scope:actor = main unit on the winning side, scope:target = main unit on the losing side
+	events = {
+		#uiccrusade.4
+	}
+}
+
+on_province_occupied = { #province scope, it will fire AS WELL as on_siege_won
+	events = {
+		#### LEGENDARY CRASH BUGFIX
+		misc.2
+	}
+}
+
+## TIMED PULSES
+biyearly_country_pulse = {
+	events = {
+		#### STATS
+		statsrelated.2
+		statsrelated.3
+		statsrelated.4
+	}
+}
+
+yearly_country_pulse = {
+	events = {
+		#### NEIGHBOR GROUP RELIGIOUS MODIFIER
+		misc.1
+	}
+}
+
+yearly_province_pulse = {
+	events = {
+		#### YEARLY EFFECTS
+		environ.1
+		#### POP SYSTEM
+		popsystem.2
+	}
+}
+
+monthly_country_pulse = {
+
+	events = {
+		#### TERRA INCOGNITA
+		terrainc.2
+	}
+}

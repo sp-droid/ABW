@@ -1,0 +1,7 @@
+﻿yearly_country_pulse =
+{	
+	events = {
+		#colonizers.5
+		#abwconfig.3
+	}
+}

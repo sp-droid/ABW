@@ -1,0 +1,36 @@
+﻿"ANT"={
+    country = "ANT"
+ 142={
+        first_name = Alissa
+        family_name = Rubenids
+        female = yes
+        birth_date = 1182.1.1
+        culture = "armenian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 8
+        add_finesse = 9
+        add_zeal = 10
+        add_gold = 888
+        add_popularity = 66
+    }
+ 143={
+        first_name = RaimondRoupen
+        family_name = Poitiers
+        mother = "char:142"
+        birth_date = 1198.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 6
+        add_finesse = 8
+        add_zeal = 10
+        add_gold = 5250
+        add_popularity = 61
+        c:ANT={
+            set_as_ruler = char:143
+        }
+    }
+}

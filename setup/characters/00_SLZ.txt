@@ -1,0 +1,20 @@
+﻿"SLZ"={
+    country = "SLZ"
+ 525={
+        first_name = Eberhard
+        family_name = vonRegensburg
+        birth_date = 1166.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 4
+        add_finesse = 6
+        add_zeal = 6
+        add_gold = 5548
+        add_popularity = 90
+        c:SLZ={
+            set_as_ruler = char:525
+        }
+    }
+}

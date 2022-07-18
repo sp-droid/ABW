@@ -1,0 +1,95 @@
+﻿barplot = {
+	scope = country
+
+	ai_is_valid = {
+		always = no
+	}
+
+	is_shown = {
+		has_variable = barplot_flag #The event can have an immediate effect (set_variable = event_1), and clicking on an event option removes it
+	}
+}
+
+#### Terra incognita
+terraincmain = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = timain_flag }
+}
+terraincdumm = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = tidumm_flag }
+}
+terrainc1 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti1_flag }
+}
+terrainc2 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti2_flag }
+}
+terrainc3 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti3_flag }
+}
+terrainc4 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti4_flag }
+}
+terrainc5 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti5_flag }
+}
+terrainc6 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti6_flag }
+}
+terrainc7 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti7_flag }
+}
+terrainc8 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti8_flag }
+}
+terrainc9 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti9_flag }
+}
+terrainc10 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti10_flag }
+}
+terrainc11 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti11_flag }
+}
+terrainc12 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti12_flag }
+}
+terrainc13 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti13_flag }
+}
+terrainc14 = {
+	scope = country
+	ai_is_valid = { always = no }
+	is_shown = { has_variable = ti14_flag }
+}
+
+#### End terra incognita

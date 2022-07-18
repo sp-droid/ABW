@@ -1,0 +1,65 @@
+﻿###Tenet types
+#Divine Nature, The Last Prophet, The Religious Branch and Tradition
+
+### Divine Nature. Religion type tenet
+deity_monotheism = {
+	trigger = {
+		OR = {
+			christian_group_trigger = yes
+			muslim_group_trigger = yes
+		}
+	}
+	icon = deity_divine_monotheism
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	deity_category = divinenature
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+### The Last Herald. Specific religion group tenet
+deity_christianity = {
+	trigger = {
+		christian_group_trigger = yes
+	}
+	icon = deity_herald_christians
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	deity_category = thelastprophet
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+### The True Religion. Specific branch tenet
+deity_catholic = {
+	trigger = {
+		religion = catholic_rel
+	}
+	icon = deity_branch_catholic
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	deity_category = religiousbranch
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+### Religious Doctrine. Not specific or partially specific to some religions
+deity_pilgrimage = {
+	trigger = {
+		has_land = yes
+	}
+	icon = deity_tradition_pilgrimage
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	deity_category = reltradition
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}

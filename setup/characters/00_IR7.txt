@@ -1,0 +1,35 @@
+﻿"IR7"={
+    country = "IR7"
+ 287={
+        first_name = DomhnallOg
+        family_name = Caomhanach
+        birth_date = 1163.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 5
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 1051
+        add_popularity = 80
+        c:IR7={
+            set_as_ruler = char:287
+        }
+    }
+ 288={
+        first_name = Muirchertach
+        family_name = Caomhanach
+        father = "char:287"
+        birth_date = 1189.1.1
+        culture = "irish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 4
+        add_finesse = 2
+        add_zeal = 10
+        add_gold = 5573
+        add_popularity = 88
+    }
+}

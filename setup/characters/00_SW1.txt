@@ -1,0 +1,20 @@
+﻿"SW1"={
+    country = "SW1"
+ 527={
+        first_name = Heinrich
+        family_name = vonKlingen
+        birth_date = 1172.1.1
+        culture = "swiss"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 9
+        add_finesse = 4
+        add_zeal = 7
+        add_gold = 727
+        add_popularity = 73
+        c:SW1={
+            set_as_ruler = char:527
+        }
+    }
+}

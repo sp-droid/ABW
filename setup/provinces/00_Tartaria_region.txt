@@ -1,0 +1,456 @@
+﻿	41={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="dates"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	126={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="hemp"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	165={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="theravada_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	221={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	256={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	322={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="wine"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	370={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	372={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	395={
+		terrain="drylands"
+		culture="primitiveculture"
+		religion="nestorian_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	473={
+		terrain="steppes"
+		culture="cuman"
+		religion="suomenusko_rel"
+		trade_goods="dates"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	474={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	552={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	582={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	653={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	656={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	690={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	720={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	730={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	837={
+		terrain="steppes"
+		culture="cuman"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	854={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="stone"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	857={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	877={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1003={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1048={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1098={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="nestorian_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	1128={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1210={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="theravada_rel"
+		trade_goods="glass"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 3 }
+		#
+	}
+
+	1239={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="vajrayana_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1338={
+		terrain="steppes"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="silk"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1600={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="honey"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1627={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="fish"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	1642={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="nestorian_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	1667={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	1715={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	1740={
+		terrain="desert"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	2108={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	2224={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="tengri_rel"
+		trade_goods="salt"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	2369={
+		terrain="forest"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+

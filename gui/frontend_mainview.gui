@@ -1,0 +1,443 @@
+﻿types Frontend
+{
+	
+	type frontend_bottom_right_spacer = widget {
+		size = { 20 0 }
+	}
+}
+
+@decoration_alpha = 0.4
+
+widget = {
+	name = "mainmenu_panel_bottom"
+	size = { 100% 100% }
+	
+	
+	#### ABW
+
+	flowcontainer = {
+		parentanchor = top|left
+		spacing = 8
+		container = {
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/1.dds"
+				framesize = { 384 216 } position = { 0 0 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/2.dds"
+				framesize = { 384 216 } position = { 384 0 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/3.dds"
+				framesize = { 384 216 } position = { 768 0 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/4.dds"
+				framesize = { 384 216 } position = { 1152 0 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/5.dds"
+				framesize = { 384 216 } position = { 1536 0 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/6.dds"
+				framesize = { 384 216 } position = { 0 216 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/7.dds"
+				framesize = { 384 216 } position = { 384 216 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/8.dds"
+				framesize = { 384 216 } position = { 768 216 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/9.dds"
+				framesize = { 384 216 } position = { 1152 216 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/10.dds"
+				framesize = { 384 216 } position = { 1536 216 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/11.dds"
+				framesize = { 384 216 } position = { 0 432 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/12.dds"
+				framesize = { 384 216 } position = { 384 432 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/13.dds"
+				framesize = { 384 216 } position = { 768 432 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/14.dds"
+				framesize = { 384 216 } position = { 1152 432 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/15.dds"
+				framesize = { 384 216 } position = { 1536 432 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/16.dds"
+				framesize = { 384 216 } position = { 0 648 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/17.dds"
+				framesize = { 384 216 } position = { 384 648 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/18.dds"
+				framesize = { 384 216 } position = { 768 648 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/19.dds"
+				framesize = { 384 216 } position = { 1152 648 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/20.dds"
+				framesize = { 384 216 } position = { 1536 648 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/21.dds"
+				framesize = { 384 216 } position = { 0 864 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/22.dds"
+				framesize = { 384 216 } position = { 384 864 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/23.dds"
+				framesize = { 384 216 } position = { 768 864 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/24.dds"
+				framesize = { 384 216 } position = { 1152 864 }
+				loopinterval = 38.67 max=0
+			}
+			progressbar = {
+				gfxtype = framedprogressbargfx
+				texture = "gfx/animations/25.dds"
+				framesize = { 384 216 } position = { 1536 864 }
+				loopinterval = 38.67 max=0
+			}
+		}
+	}
+	#### ABW
+
+	icon = {
+		name = "cloud_save_indicator"
+		position = { -180 5 }
+		parentanchor = top|right
+		texture = "gfx/interface/cloud_uplink.dds"
+		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
+		tooltip = "CLOUD_SAVE_IN_PROGRESS_TOOLTIP"
+		visible = "[GameIsCloudStorageOperationInProgress]"
+	}
+
+	
+	icon = {
+		name = "clausewitz_logo"
+		position = { -160 0 }
+		parentanchor = bottom|right
+		texture = "gfx/interface/clausewitz_logo.dds"
+		scale = 0.9
+		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
+	}
+	
+	icon = {
+		name = "pdx_dev_logo"
+		position = { -40 0 }
+		parentanchor = bottom|right
+		texture = "gfx/interface/pdx_dev_logo_s.dds"
+		scale = 0.9
+		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
+	}
+				
+	
+	widget = {
+		name "main_menu_banner_bit"
+		size = { 398 101% }
+		position = { 252 0 }
+		scissor = yes
+
+		background = {
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			texture = "gfx/interface/base_parts/background_black_texture.dds"
+			spriteType = Corneredtiled
+			alpha = 0.9
+			
+			modify_texture = {
+				name = "Alpha"
+				texture = "gfx/interface/base_parts/background_x60bd_alpha.dds"
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+				spriteborder = { 60 60 }
+			}
+		}
+
+		icon = {
+			texture = "gfx/interface/base_parts/background_black_texture.dds"
+			size = { 388 10 }
+			parentanchor = hcenter
+			spriteType = Corneredtiled
+			alpha = 0.8
+		}
+
+		icon = {
+			name = "game_logo"
+			parentanchor = hcenter
+			texture = "gfx/interface/frontend/abw_logo.dds"
+			position = { 0 74 }
+			scale = 1
+			shaderfile = "gfx/FX/pdxgui_glow_game.shader"
+		}
+
+		flowcontainer = {
+			parentanchor = hcenter
+			position = { 0 269 }
+			direction = vertical 
+			spacing = 28
+
+			widget = {
+				name = "adds correct spacing between logo and menu item buttons"
+				size = { 0 32 }
+			}
+
+			flowcontainer = {
+				name = "vertical menu item buttons"
+				direction = vertical
+				spacing = 30
+				parentanchor = hcenter
+				
+				margin_widget = {
+					size = { 376 48 }
+					parentanchor = hcenter
+					
+					frontend_button = {
+						size = { 100% 100% }
+						blockoverride "Text" { text = "SINGLE_PLAYER" }
+						blockoverride "On_click" { onclick = "[FrontEndMainView.OnSinglePlayer]" }
+					}
+				}
+				margin_widget = {
+					size = { 376 48 }
+					parentanchor = hcenter
+					
+					frontend_button = {
+						size = { 100% 100% }
+						blockoverride "Text" { text = "MULTI_PLAYER" }
+						blockoverride "On_click" { 
+							onclick = "[FrontEndMainView.OnMultiPlayer]"
+							enabled = "[JominiIsMultiplayerAccessible]"
+						}
+						enabled = "[JominiIsMultiplayerAccessible]"
+						tooltip = "[JominiGetMultiplayerAccessibleString]"
+					}
+				}
+				
+				margin_widget = {
+					size = { 376 48 }
+					parentanchor = hcenter
+					
+					frontend_button = {
+						size = { 100% 100% }
+						blockoverride "Text" { text = "SETTINGS_FRONTEND" }
+						blockoverride "On_click" { onclick = "[FrontEndMainView.OnSettings]" }
+					}
+				}
+				
+				margin_widget = {
+					size = { 376 48 }
+					parentanchor = hcenter
+					
+					frontend_button = {
+						size = { 100% 100% }
+						blockoverride "Text" { text = "CREDITS" }
+						blockoverride "On_click" { onclick = "[FrontEndMainView.OnCredits]" }
+					}
+				}
+				
+				margin_widget = {
+					size = { 376 48 }
+					parentanchor = hcenter
+					
+					frontend_button = {
+						size = { 100% 100% }
+						blockoverride "Text" 
+						{ 
+							text = "EXIT_FRONTEND" 
+						}
+						blockoverride "On_click" 
+						{ 
+							onclick = "[FrontEndMainView.OnQuit]" 
+						}
+					}
+				}
+			}
+		}
+
+		icon = { 
+			position = { 0 278 }
+			parentanchor = hcenter
+			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
+			scale = 0.93
+			alpha = @decoration_alpha
+		}
+
+		icon = { 
+			position = { 0 290 }
+			parentanchor = hcenter
+			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
+			alpha = @decoration_alpha
+			mirror = vertical
+			scale = 0.93
+		}
+
+		icon = { 
+			position = { 0 724 }
+			parentanchor = hcenter
+			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
+			alpha = @decoration_alpha
+			scale = 0.93
+		}
+
+		icon = { 
+			position = { 0 736 }
+			parentanchor = hcenter
+			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
+			alpha = @decoration_alpha
+			mirror = vertical
+			scale = 0.93
+		}
+
+		icon = { 
+			position = { 14 0 }
+			parentanchor = vcenter
+			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
+			alpha = 0.1
+			scale = 1.5
+		}
+
+		icon = { 
+			position = { -14 0 }
+			parentanchor = right|vcenter
+			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
+			alpha = 0.1
+			mirror = horizontal
+			scale = 1.5
+		}
+
+		widget = {
+			position = { 0 2 }
+			size = { 386 40 }
+			parentanchor = top|hcenter
+			hbox = {
+				icon = {
+					name = "Ornament1"
+					texture = "gfx/interface/base_parts/header_l_pattern_x0bd.dds"
+					layoutpolicy_horizontal = expanding
+					spriteType = Corneredtiled
+
+					modify_texture = {
+						texture = "gfx/interface/base_parts/ABW_bg_orange.dds"
+						framesize = { 300 300 }
+						frame = 1
+					}
+				}		
+			}
+		}
+		
+		container = {
+			parentanchor = top|hcenter
+			position = { 0 788 }
+			
+			pops_status_widget = {
+				name = "pops_test"
+			}
+		}
+		
+		widget = {
+			position = { 0 -12 }
+			size = { 386 40 }
+			parentanchor = bottom|hcenter
+			hbox = {
+				icon = {
+					name = "Ornament1"
+					texture = "gfx/interface/base_parts/header_l_pattern_x0bd.dds"
+					layoutpolicy_horizontal = expanding
+					spriteType = Corneredtiled
+
+					modify_texture = {
+						texture = "gfx/interface/base_parts/ABW_bg_orange.dds"
+						framesize = { 300 300 }
+						frame = 1
+					}
+				}		
+			}
+		}
+	}
+	
+	textbox = {
+		parentanchor = bottom|right
+		widgetanchor = bottom|right
+		position = { -280 6 }
+		name = "version_label"
+		text = "[GetCompleteVersionInfoString]"
+		size = { 400 120 }
+		using = MarbleButtonFont
+		using = Highlight_FontColor
+		multiline = yes
+		fontsize = 16
+		align = right
+	}
+}
+

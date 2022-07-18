@@ -1,0 +1,33 @@
+﻿country_decisions = {
+	
+	#Player decision, to hide the stats or other mod stuff
+	configdecision = {
+		
+		potential = {
+			is_ai = no
+		}
+		
+		highlight = {
+		}
+		
+		allow = {
+			NOT = { has_variable = configflag }
+		}
+		
+		ai_allow = {
+		}
+		
+		effect = {
+			hidden_effect = {
+				set_variable = {
+					name = configflag
+				}
+				trigger_event = {
+					id = "abwconfig.1"
+				}
+			}
+		}
+		
+	}
+	
+}

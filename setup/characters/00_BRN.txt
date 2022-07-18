@@ -1,0 +1,37 @@
+﻿"BRN"={
+    country = "BRN"
+ 108={
+        first_name = Wilhelm
+        family_name = Welf
+        birth_date = 1184.1.1
+        culture = "norsaxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 7
+        add_zeal = 7
+        add_gold = 173
+        add_popularity = 73
+        c:BRN={
+            set_as_ruler = char:108
+        }
+    }
+ 109={
+        first_name = Helena
+        family_name = Estridsen
+        female = yes
+        birth_date = 1180.1.1
+        culture = "danish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 1
+        add_finesse = 3
+        add_zeal = 10
+        add_gold = 500
+        add_popularity = 68
+        marry_character = char:108
+#Daughter of the King of Denmark
+    }
+}

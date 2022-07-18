@@ -1,0 +1,20 @@
+﻿"BRE"={
+    country = "BRE"
+ 99={
+        first_name = Hartwig
+        family_name = vonUthlede
+        birth_date = 1158.1.1
+        culture = "norsaxon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 10
+        add_finesse = 8
+        add_zeal = 7
+        add_gold = 1011
+        add_popularity = 80
+        c:BRE={
+            set_as_ruler = char:99
+        }
+    }
+}

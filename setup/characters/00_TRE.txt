@@ -1,0 +1,20 @@
+﻿"TRE"={
+    country = "TRE"
+ 542={
+        first_name = Johann
+        family_name = vonFrontenhausen
+        birth_date = 1140.1.1
+        culture = "rheinlander"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 5
+        add_finesse = 2
+        add_zeal = 2
+        add_gold = 1603
+        add_popularity = 72
+        c:TRE={
+            set_as_ruler = char:542
+        }
+    }
+}

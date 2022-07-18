@@ -1,0 +1,36 @@
+﻿"DHB"={
+    country = "DHB"
+ 557={
+        first_name = Maelgwn
+        family_name = Dinefwr
+        birth_date = 1170.1.1
+        culture = "welsh"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 10
+        add_charisma = 1
+        add_finesse = 4
+        add_zeal = 8
+        add_gold = 1919
+        add_popularity = 84
+        c:DHB={
+            set_as_ruler = char:557
+        }
+    }
+ 558={
+        first_name = Gwenllian
+        family_name = Mathrafal
+        female = yes
+        birth_date = 1182.1.1
+        culture = "welsh"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 6
+        add_finesse = 7
+        add_zeal = 3
+        add_gold = 5778
+        add_popularity = 80
+        marry_character = char:557
+    }
+}

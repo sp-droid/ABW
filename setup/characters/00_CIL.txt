@@ -1,0 +1,53 @@
+﻿"CIL"={
+    country = "CIL"
+ 139={
+        first_name = Levon
+        family_name = Rubenids
+        birth_date = 1150.1.1
+        culture = "armenian"
+        religion = "oriental_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 10
+        add_finesse = 2
+        add_zeal = 8
+        add_gold = 382
+        add_popularity = 80
+        c:CIL={
+            set_as_ruler = char:139
+        }
+    }
+ 140={
+        first_name = Elisabeth
+        family_name = vonAustria
+        female = yes
+        birth_date = 1157.1.1
+        culture = "austrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 6
+        add_finesse = 9
+        add_zeal = 7
+        add_gold = 851
+        add_popularity = 65
+        marry_character = char:139
+    }
+ 141={
+        first_name = Stephanie
+        family_name = Rubenids
+        father = "char:139"
+        mother = "char:140"
+        female = yes
+        birth_date = 1195.1.1
+        culture = "armenian"
+        religion = "oriental_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 1
+        add_finesse = 8
+        add_zeal = 1
+        add_gold = 1328
+        add_popularity = 62
+    }
+}

@@ -1,0 +1,37 @@
+﻿"LUX"={
+    country = "LUX"
+ 351={
+        first_name = Angnes
+        family_name = vonWassenberg
+        female = yes
+        birth_date = 1156.1.1
+        culture = "dutch"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 6
+        add_finesse = 9
+        add_zeal = 4
+        add_gold = 2376
+        add_popularity = 67
+    }
+ 352={
+        first_name = Ermesinde
+        family_name = vonLuxemburg
+        mother = "char:351"
+        female = yes
+        birth_date = 1186.1.1
+        culture = "walloon"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 6
+        add_finesse = 6
+        add_zeal = 5
+        add_gold = 3218
+        add_popularity = 94
+        c:LUX={
+            set_as_ruler = char:352
+        }
+    }
+}

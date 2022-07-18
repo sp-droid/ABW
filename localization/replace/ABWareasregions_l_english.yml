@@ -1,0 +1,26 @@
+﻿l_english: 
+#Areas
+ west_norway_area:0 "West Norway"
+ central_sweden_area:0 "Västmanland"
+ finland_area:0 "Finland"
+ estonia_area:0 "Estonia"
+ latvia_area:0 "Latvia"
+ lithuania_area:0 "Lithuania"
+ prussia_area:0 "East Prussia"
+ west_prussia_area:0 "West Prussia"
+ ingermanland_area:0 "Ingria"
+ veliky_novgorod_area:0 "Veliky Novgorod"
+ 
+#Regions
+ scandinavia_region:0 "Scandinavia"
+ contestania_region:0 "Iberia"
+ pannonia_region:0 "Hungary"
+ aquitaine_region:0 "Gallia"
+ baltic_region:0 "Baltic coast"
+ asia_region:0 "Anatolia"
+ germania_region:0 "Upper Germania"
+ lower_germania_region:0 "Lower Germania"
+ lower_egypt_region:0 "Egypt"
+ africa_region:0 "Maghreb"
+ rus_region:0 "Rus"
+#END

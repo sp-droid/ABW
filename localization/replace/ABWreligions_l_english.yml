@@ -1,0 +1,125 @@
+﻿l_english:
+#### Other
+ ENACT_HOLY_SITE_PANTHEON_IS_FULL:1 "@trigger_no! Reached maximum number of holy sites."
+ HOLY_SITE_BUILD_INFO:1 "#T No Holy Site#!\n#TF To construct a Holy Site for this Tenet, find a suitable territory and select the Dedicate Holy Site interaction. You will be prompted with a list of Religious Tenets which the site can be dedicated to.\n\nTenets with dedicated Holy Sites will have #G 25%#! more powerful Passive and Active Effects."
+ APPROVAL_MODIFIER_STACKED_PANTHEON:0 "All Religious Tenets are from State Religion (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!): $VALUE|+=$"
+ cloc_shrine:0 "Shrine"
+ cloc_temple:0 "Holy City"
+ cloc_sanctuary:0 "Great Holy City"
+ cloc_holy_site_default:0 "Shrine"
+ DEITIES_TAB:0 "Religious Tenets"
+ DEITY_NAME:0 "Tenet"
+ DEITY:0 "Tenet"
+ 
+ DIVINENATURE:0 "Divine Nature"
+ THELASTPROPHET:0 "The Last Herald"
+ RELIGIOUSBRANCH:0 "The True Religion"
+ RELTRADITION:0 "Religious Doctrine"
+ 
+ PROPHETS:0 "- Abrahamic faith"
+ SAGES:0 "- Dharmic faith"
+ FIRETEMPLES:0 "- Unorganized denomination"
+
+#### Religions
+##Dharmic
+ hindu_rel:0 "Hindu"
+ desc_hindu_rel:0 "Founded ca. 15th century B.C.: Diverse body of religious and philosophic practices native to India, characterized by the worship of many gods, a belief in reincarnation, and the concept of karma, or the cumulative effect of all of one's actions"
+ jain_rel:0 "Jain"
+ desc_jain_rel:0 "Founded ca. 5th century B.C.: Ascetic religion of India that teaches the immortality and transmigration of the soul and denies the existence of a supreme being, with a focus on nonviolence and personal effort as means to transcendence"
+#Buddhist
+ theravada_rel:0 "Theravada"
+ desc_theravade_rel:0 "Founded ca. 3th century B.C.: The followers of Theravada Buddhism rely on the Pali Canons for religious and legal guidance and emphasis is put on Monastic duties and reaching the status of Arhat or enlightenment."
+ mahayana_rel:0 "Mahayana"
+ desc_mahayana_rel:0 "Founded ca. 3th century B.C.: Mahayana is the most widely practiced branch of Buddhism. The goal of its adherents is to achieve enlightenment, possibly even achieve Buddhahood."
+ vajrayana_rel:0 "Vajrayana" 
+ desc_vajrayana_rel:0 "Founded ca. 6th century A.D.: Also known as Tantric Buddhism or even Lamaism, Vajrayana is a branch of Buddhism where the goal of the adherents is to become a Bodhisattva through use of Tantric Techniques. It is believed enlightenment cannot be reached simply from lone study but must be taught by a teacher."
+##Abrahamic
+ judaism_rel:0 "Jewish"
+ desc_judaism_rel:0 "Founded ca. 6th century B.C.: Judaism builds upon the Torah and the traditions and scriptures of the Jewish people going back over 3000 years."
+#Christianism
+ catholic_rel:0 "Roman Catholic"
+ desc_catholic_rel:0 "Founded 1054 A.D.(Dyophysites or Chalcedonians): In 1054, the Christian church had a Schism, or split, where Eastern and Western Christians were divided. Most of Europe followed the Western form of Christianity, which followed the guidance of the Pope and had a specific set of liturgical practices such as monks, pilgrims, and the Mass."
+ orthodox_rel:0 "Eastern Orthodox"
+ desc_orthodox_rel:0 "Founded 1054 A.D.(Dyophysites or Chalcedonians): Eastern Orthodoxy is the large body of Christians who follow the faith and practices that were defined by the first seven ecumenical councils. The word orthodox (“right believing”) has traditionally been used in the Greek-speaking Christian world to designate communities or individuals who preserved the true faith (as defined by those councils), as opposed to those who were declared heretical. Orthodox Christians are based in Eastern Europe, Greece, and the Balkans."
+ oriental_rel:0 "Oriental Orthodox"
+ desc_oriental_rel:0 "Founded 451 A.D.(Miaphysites or non-Chalcedonians): One of the most ancient Christian communities, Oriental (or Armenian) Christianity originated in the missions of Apostles Bartholomew and Thaddeus in the 1st century. The Kingdom of Armenia was the first state to adopt Christianity as its official religion under the rule of King Tiridates in the early 4th century."
+ nestorian_rel:0 "Nestorian"
+ desc_nestorian_rel:0 "Founded 431 A.D.(Church of the East or non-Ephesians): The doctrine, which is informed by Nestorius' studies under Theodore of Mopsuestia at the School of Antioch, emphasizes the disunion between the human and divine natures of Jesus."
+#Islam
+ #sunni_rel:0 "@sunni_icon! Sunni"
+ sunni_rel:0 "Sunni"
+ desc_sunni_rel:0 "Founded ca. 7th century A.D.: As of the two major branches of Islam, it consists of the majority of Islam’s adherents. Sunni Muslims regard their denomination as the mainstream and traditionalist branch of Islam, as distinguished from the minority denomination, the Shīʿites. The Sunnis recognize the first four caliphs as the Prophet Muhammad’s rightful successors, whereas the Shīʿites believe that Muslim leadership belonged to Muhammad’s son-in-law, ʿAlī, and his descendants alone."
+ shia_rel:0 "Shia"
+ desc_shia_rel:0 "Founded ca. 7th century A.D.: Ali ibn Abi Talib, fourth rashidun caliph and cousin, but also son-in-law of the last prophet, is regarded by Shia muslims as the rightful successor to Muhammad himself, although he is important to sunnis too. He was assassinated in Kufa in 661. To the followers of this branch of Islam, only Ali and the other Imams, all of them from Muhammad's house (Ahl al-Bayt), are legitimate successors."
+ ibadi_rel:0 "Ibadi"
+ desc_ibadi_rel:0 "Founded ca. 7th century A.D.: The Ibadi movement is a school of Islam dominant in Oman. It is also found in parts of Algeria, Tunisia, Libya and East Africa. The movement is said to have been founded around the year 650 CE or about 20 years after the death of the Islamic prophet Muhammad, predating both the Sunni and Shia denominations. Modern historians trace back the origins of the denomination to a moderate current of the Khawarij movement."
+
+##Other
+ zoroastrianism_rel:0 "Zoroastrian"
+ desc_zoroastrianism_rel:0 "Founded ca. 6th century B.C.: Religious system founded by Zoroaster and set forth in the Avesta, teaching the worship of Ahura Mazda in the context of a universal struggle between the forces of light and of darkness."
+
+##Pagan
+ animist_rel:0 "Animist"
+ desc_animist_rel:0 "Primitive set of beliefs that attributes objects, places, or creatures distinct spiritual essence."
+ shamanist_rel:0 "Shamanist"
+ desc_shamanist_rel:0 "Primitive set of animistic beliefs with assigned religious roles to certain elements of society"
+ 
+#Pagan America
+ midewin_rel:0 "Midewin"
+ desc_midewin_rel:0 "A secretive religion of some of the indigenous peoples of the Maritimes, New England and Great Lakes regions in North America. Its practitioners are called Midew, and the practices of Midewiwin are referred to as Mide. Occasionally, male Midew are called Midewinini, which is sometimes translated into English as medicine man."
+ nahuatl_rel:0 "Nahuatl"
+ desc_nahuatl_rel:0 "A range of Mesoamerican polytheistic traditions. While the Pantheon and many concepts are quite similar to the Mayan religion the Nahuas or Aztecs assign a much higher importance on the need for human sacrifice in order to survive each new cosmic cycle."
+ maya_rel:0 "Maya"
+ desc_maya_rel:0 "A range of Mesoamerican polytheistic traditions inherited from the older Mayan civilizations. While the names differ the pantheon and many traditions are quite similar to the Nahuatl religion. In the game the Yucatan Peninsula and the former lands of the League of Mayapan starts out with Mayan religion."
+ andean_rel:0 "Andean"
+ desc_andean_rel:0 "A wide range of disparate Andean faiths with many common features. Inti is the name of the sun god that the Inca empire promoted over all the other local Huacas."
+ 
+#Pagan Africa
+ kemetic_rel:0 "Ancient Egyptian"
+ desc_kemetic_rel:0 "Developed ca. 30th century B.C.: Complex system of polytheistic beliefs and rituals that formed an integral part of ancient Egyptian culture. It centered on the Egyptians' interactions with many deities believed to be present in, and in control of the world. Rituals such as prayer and offerings were provided to the gods to gain their favor."
+ ancentralism_rel:0 "Ancestralist"
+ desc_ancentralism_rel:0 "The social or non-religious function of ancestor veneration is to cultivate kinship values, such as filial piety, family loyalty, and continuity of the family lineage. Ancestor veneration occurs in societies with every degree of social, political, and technological complexity, and it remains an important component of various religious practices."
+
+#Pagan Europe
+ suomenusko_rel:0 "Suomenusko"
+ desc_suomenusko_rel:0 "A pagan religion based in Finland. It is a polytheistic religion, worshipping a number of different deities. The principal god is the god of thunder and the sky, Ukko; other important gods include Jumi, Ahti, and Tapio."
+ romuva_rel:0 "Romuva"
+ desc_romuva_rel:0 "A pagan religion based in the territories dominated by the old Lithuanians. It is a polytheistic pagan faith which asserts the sanctity of nature and ancestor worship."
+ nordic_rel:0 "Germanic"
+ desc_nordic_rel:0 "Germanic paganism was polytheistic, with some underlying similarities to other Indo-European traditions. Many of the deities found in Germanic paganism appeared under similar names across the Germanic peoples, most notably the god known to the Germans as Wodan, to the Anglo-Saxons as Woden, and to the Norse as Odin, as well as the god known to the Germans as Donar, to the Anglo-Saxons as Þunor and to the Norse as Thor."
+ celtic_rel:0 "Celtic"
+ desc_celtic_rel:0 "Celtic paganism was one of a larger group of Iron Age polytheistic religions of Europe. It varied by region and over time, but underlying this were "broad structural similarities"[5] and "a basic religious homogeneity" among the Celtic peoples."
+ slavic_rel:0 "Old slavic"
+ desc_slavic_rel:0 "Religious beliefs, myths, and ritual practices of the Slavs before Christianisation, which occurred at various stages between the 8th and the 13th century."
+
+#Pagan Asia & Oceania
+ tengri_rel:0 "Tengri"
+ desc_tengri_rel:0 "Tengri is the chief deity of one of the oldest Turkic or Mongol Shamanist religions."
+ kamuy_rel:0 "Kamuy"
+ desc_kamuy_rel:0 "The Ainu people have many myths about the kamuy, passed down through oral traditions and rituals. The stories of the kamuy were portrayed in chants and performances, which were often performed during sacred rituals."
+ alcheringa_rel:0 "Alcheringa"
+ desc_alcheringa_rel:0 "The Dreaming, also referred to as Dreamtime, is a term devised by early anthropologists to refer to a religio-cultural worldview attributed to Australian Aboriginal beliefs, such as the concepts of Everywhen, during which the land was inhabited by ancestral figures, often of heroic proportions or with supernatural abilities. These figures were often distinct from gods, as they did not control the material world and were not worshipped but only revered."
+##Experimental
+ bogomil_rel:0 "Bogomil"
+ desc_bogomil_rel:0 "Founded ca. 10th century A.D.:(Christian Dualists) Bogomilism was a Christian neo-Gnostic or dualist sect founded in the First Bulgarian Empire by the priest Bogomil during the reign of Tsar Peter I in the 10th century. It most probably arose in the region of Macedonia as a response to the social stratification that occurred with the introduction of feudalism and as a form of political movement and opposition to the Bulgarian state and the church."
+ 
+
+#### RELIGION MECHANICS
+#Tenets of the type Divine nature
+ deity_monotheism:0 "$omen_monotheism$"
+ omen_monotheism:1 "Abraham"
+ omen_monotheism_desc:3 "Abrahamic religions point to only One Omnipotent God to be obeyed. This being is responsible of the making of the rivers, the oceans, the soil, the plants, the animals and men."
+#Tenets of the type Last herald
+ deity_christianity:0 "$omen_christianity$"
+ omen_christianity:1 "Jesus of Nazareth"
+ omen_christianity_desc:3 "Also known as Jesus Christ or the Messiah, this religious figure is of extreme importance to all christians. Jesus was a Jewish preacher conceived by the Holy Spirit and born circa 4 BC of the Virgin Mary. After founding the Church and performing a number of miracles, he was crucified, returned to the world of the living and finally ascended into Heaven, from where he is expected to return."
+#Tenets of the type True religion
+ deity_catholic:0 "$omen_catholic$"
+ omen_catholic:1 "The Papacy"
+ omen_catholic_desc:3 "The Pontifex Maximus is the chief pastor of the Catholic Church"
+#Tenets of the type Religious doctrine
+ deity_pilgrimage:0 "$omen_pilgrimage$"
+ omen_pilgrimage:1 "Pilgrimage"
+ omen_pilgrimage_desc:3 "A journey, often into an unknown, foreign or holy place, where a person goes in search of new or expanded meaning about something in particular."
+
+#END

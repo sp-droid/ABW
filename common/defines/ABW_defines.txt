@@ -1,0 +1,266 @@
+﻿NJominiMap = {
+	WORLD_EXTENTS_X = 16383
+	WORLD_EXTENTS_Y = 40
+	WORLD_EXTENTS_Z = 6143
+	WATERLEVEL = 5.16
+}
+
+NAI = {
+	# Map
+	MAX_AREA_INNER_DEPTH = 11 # This value denotes the maximum depth needed to go from any one province to another within the same area. It is used for the optimization of certain pathfinding. If your mod changes the map, do make sure to change this value. It can be obtained by running `Map.CalcAreaInnerDepth` in the console
+	MAX_AREA_INNER_PATH = 19 # This value denotes the longest distance from any one province to another within the same area. It is used for the optimization of certain pathfinding. If your mod changes the map, do make sure to change this value. It can be obtained by running `Map.CalcAreaInnerPath` in the console
+	MAX_DEPTH_SEARCH_FOR_NAVAL_INVASION = 5 # How far the AI will search for a shore from land for naval invasions to reachable targets
+	
+	#Buildings
+	BUILD_DURING_WAR_DELAY = 4					# Months the AI will wait before building buildings while at war
+	BUILD_MONTHS_AWAY_FROM_WAR_THRESHOLD = 2	# If the AI is less than this number of months away from declaring war they will hold building construction	
+	BUILD_TROOPS_DELAY = 60						# Delay added to the build counter if the AI wants to build troops, effectively prioritizing troop construction
+	BUILD_REPEAT_TIME = 100						# Time window ( in days ) since last build date that the AI has to quickly queue another building to the front of the plan ( if it can afford it etc. ), else it will be queued at the end
+	BUILD_INSTANT_GOLD_THRESHOLD = 800			# If the AI has more than this much gold left after construction it will try to instantly queue another build
+	BUILD_DELAY = 30							# Default time the AI will wait before trying to build another building unless it decides to do so instantly
+	DESTROY_THRESHOLD = 0.0						# If the AI weight of any building is less than or equal to this the AI might destroy it
+	PORT_BUILDING_COASTAL_NO_PORTS_WEIGHT = 0	# If the Country has coastal provinces but no ports this will be added
+
+	#Performance and search
+	MAX_UNITS_PER_TURN = 125 #Higher => more responsive unit AI on average, more CPU. Use "ai.pawns" and "timing show" console commands to tune.
+	TACTICAL_DEPTH = 60 #Depth of tactical search.
+	IDLE_DEPTH = 12 #Depth of tactical search while idle can be reducd to this.
+	FRIEND_DEPTH_COST = 2 #Depth cost in friendly territory.
+	ENEMY_DEPTH_COST = 3 #Depth cost in enemy territory.
+	DEFAULT_DEPTH_COST = 5 #Depth cost in other cases.
+	NAVAL_DEPTH_COST = 2 #Depth costf for navies.
+	TARGET_PRIORITIZATION_DIST = 80 #Within this distance AI prefers to pick fresh targets (weight).
+	HUNTER_KILLER_PRIORITIZATION_DIST = 120 #Within this path distance AI prefers to choose chase over siege as vice versa for Hunter Killer.
+	SEA_ACCESS_DEPTH = 4 #Search depth over sea provinces for e.g. incresed prio to take coastal provinces. (Divided by 2 for local powers.)
+	SEA_POTENTIAL_ACCESS_DEPTH = 4 #Search depth over sea provinces for e.g. to declare wars. (Divided by 2 for local powers.)
+	POTENTIAL_ACCESS_BORDER_DISTANCE = 250 #Max border distance for "potential" access lists. Impacts mainly range who AI allies due military access.
+	RIVER_CROSS_COST = 1.6 #In tactical only (not A*).
+	STRAIT_CROSS_COST = 3.2 #In tactical only (not A*).
+	ENEMY_CROSS_COST = 4 #In tactical only (not A*). Multiplier for river/strait cost when an enemy is across river or strait.
+	ALLY_NEIGHBOR_ORDER = 3 #Separate check: Recursively iterate of neighbors this many time to generate a list of permitted allies. Countries with ports or adjacent to countries with ports are excluded.
+	DEFENSIVE_LEAGUE_NEIGHBOR_ORDER = 2
+	STRIKE_TEAM_DEPTH = 8 #How far strike teams can be composed.
+	STRIKE_TEAM_ADVANTAGE = 2 #Advantage over enemy before AI contemplates splitting up strike teams into more.
+	STRIKE_TEAM_SUPPORT_RANGE = 100 #Max range a strike team leader is allowed to count friendly units for purposes of attacking.
+	STRIKE_TEAM_TARGET_DECAY_WAR = 20 #Monthly decay rate in % for strike team target strength (based on previously observed enemies in vicinity) while at war.
+	STRIKE_TEAM_TARGET_DECAY_PEACE = 30 #Monthly decay rate in % for strike team target strength (based on previously observed enemies in vicinity) while at peace.
+	OVERCROWD_LIMIT = 5.25 #AI tries to heavily avoid a ratio of friendly units to enemies above this. Recommend to keep above STRIKE_TEAM_ADVANTAGE.
+	REGION_PROVINCE_TARGET_LAND = 40 #This sets a target size for land AI regions. ("ai.map region", "mapmode ai" in console to see these.) Greatly impacts how AI plays so edit with care.
+	REGION_PROVINCE_TARGET_SEA = 22 #This sets a target size for sea AI regions. ("ai.map region", "mapmode ai" in console to see these.) Greatly impacts how AI plays so edit with care.
+	OPERATIONAL_DEPTH = 6 #How far from existing controlled territory AI normally considers starting sieges (exceptions such as war goal excluded).
+	
+	#Objectives
+	MAX_RECON_DISTANCE_ARMY = 900000
+	MAX_RECON_DISTANCE_NAVY = 400
+	INVASION_REGRET_YEARS = 6 #Number of years that AI feels regret over a failed invasion and vows to use more forces.
+	INVASION_REGRET_BOOST = 300 #Additional % of troops AI will try to send as the result of a failed invasion.
+	INVASION_MIN_LAND_PATH_FOR_NAVAL_TRANSPORT = 1200 #If an army can walk less than this distance to goal, don't use naval transport.
+	
+	#Planning
+	FAST_PLANNED_WAR_MONTHS = 24 #Increasing this makes AI more tolerant of choosing long wars.
+	MAX_PLANNED_WAR_MONTHS = 70 #AI will not plan for wars that are expected to take longer than this to be able to declare. It is also the deadline for the war declaration.
+	MAX_WAR_DIFFICULTY_INCREASE = 100 #% more difficult the war is allowed to be at the deadline than at its inception.
+	TRADITION_LOOKAHEAD = 4 #How many traditions ahead does AI look when weighting their effects multiplicatively (also applies to script weights).
+	REPICK_IDEAS_INTERVAL_MONTHS = 60 # How often the ai will reconsider its current national ideas. Does not affect filling empty idea slots which is done as soon as possible.
+	WAR_LATENCY_WEIGHT = 100 #Delaying planned wars is typically undesirable. This is an actual multiplier to latency.
+	PREDICTED_AT_WAR_THRESHOLD = 3 #Months before the AI believes it will be in a planned war. AI will raise levies and take precautions below this threshold
+
+	#Misc.
+	TUTORIAL_RANGE = 500 #Distance from player capital various interactions are possible in tutorial.
+	TUTORIAL_TROOP_MAX = 0.4 #Number of regiments times max manpower AI is allowed to build in tutorial.
+	HISTORICAL_UNIT_FACTOR = 20 #Multiplier for AI selecting a unit on the basis that it's scripted in [Primary Culture]. For no effect, leave at 1.
+	FOG_OF_WAR_FORGET_CHANCE = 1 #Chance of AI forgetting a unit in FoW.
+	MAX_ENDORSEMENT_TYRANNY = 5
+	MAX_ENDORSEMENT_STABILITY = 35
+		
+	#Economy
+	EXPENDITURE_DECAY_FACTOR = 0.9 #Monthly
+	EXPENDITURE_SOFT_FACTOR = 0.5
+	NAVY_BUDGET = 25 #Max fixed cost per month in percent.
+	ARMY_BUDGET = 35
+	ARMY_BUDGET_MANPOWER_REDUCTION = 20 #Percent of reduction in max army size for building troops due to manpower pool getting empty.
+	FORT_BUDGET = 25
+
+	MAX_FORT_DISTANCE_CALCULATION = 3
+	WAR_BUDGET_MULTIPLIER = 1 #Don't go over budget any more, it's very hard to climb back down w/ legions
+	DEFICIT_YEARS = 25 #How long does AI plan to run a deficit when distressed.
+	LEGITIMACY_TARGET = 90 #Amount of desired legitimacy AI will try to reach
+	STABILITY_TARGET = 45 #Amount of desired Stability AI will try to reach
+	
+	#Battle
+	BATTLE_WEIGHT_MARTIAL = 0.15 #How much martial stat matters according to AI.
+	BATTLE_WEIGHT_TERRAIN = 0.4 #How much terrain defensiveness stat matters according to AI.
+	RETINUE_IGNORE_PECENTAGE = 20 #Ignore enemy understrength retinues up to this percentage unless absolutely massive still.
+	MANPOWER_ASSAULT_PERCENTAGE = 30 #AI must have manpower above this percentage to assault (mercenary heavy sieges excluded).
+	RETREAT_MAX_MORALE = 50 #If having morale above this percentage, don't retreat.
+	RETREAT_ARMY_INFERIORITY = 0.2 #Retreeat only if enemy is 5 to 1 in strength. Retreating with armies is much more severe than navies.
+	RETREAT_NAVY_INFERIORITY = 0.5 #Retreeat only if enemy is 2 to 1 in strength.
+	RETREAT_TERRAIN_IMPORTANCE = 1 #Scale factor to alter default impact of terrain variations.
+	IGNORE_STRENGTH_RATIO = 0.15 #AI mostly ignores enemies this much smaller than themselves in terms of prioritization.
+	
+	#Forts
+	PLACE_FORT_BORDER_FACTOR = 2 #Is on border 1/0 multiplied by this.
+	PLACE_FORT_COAST_FACTOR = -1.5 #Is on cost 1/0 multiplied by this.
+	PLACE_FORT_PORT_FACTOR = 1 #Is on cost 1/0 multiplied by this.
+	PLACE_FORT_DISTANCE_FACTOR = 2 #Distance in provinces to nearest fort multiplied by this.
+	PLACE_FORT_CAPITAL_FACTOR = 2 #Capital 1/0 multiplied by this.
+	PLACE_FORT_TERRAIN_FACTOR = 1 #Def bonus multiplied by this.
+	PLACE_FORT_RIVER_FACTOR = 1 #River 1/0 multiplied by this.
+	PLACE_FORT_LEVEL_FACTOR = 0.75 #Existing fort level multiplied by this.
+	PLACE_FORT_PROVINCE_CAPITAL_FACTOR = 10 #Forts in province capitals.
+	PLACE_FORT_PROVINCE_VALUE_FACTOR = 6 #Forts in province capitals relative to value of province.
+	PLACE_FORT_LOCAL_UNREST_FACTOR = 1.25 #Multiplied by local unrest
+	PLACE_ROAD_MIN_DISTANCE = 2 #Minimum distance from one road endpoint to another.
+	DISBAND_FORTS_CAPITAL_BIAS = 1.5 # More likely to choose Forts in capital city to disband first
+	
+	#Recruitment
+	RECRUIT_THREAT_FACTOR = 1.0 #Scale threat by this factor when considering for recruitment.
+	RECRUIT_TERRAIN_FACTOR = 0.25 #Scale terrain defensiveness by this factor when considering for recruitment.
+	RECRUIT_AREAL_BALANCE_FACTOR = 4.0 #Scale balance urgency in is_in_area by this factor when considering for recruiment. (Urgency is highest when balance is close.)
+	RECRUIT_WAR_TARGET_FACTOR = 0.5 #Limit for factor for how much distance to war target capital can alter score. Set to 0 for no limit, or to 1 to disable entirely.
+	RECRUIT_WAR_TARGET_FACTOR_BASE = 500.0 #Base distance for above. Factor = Max( RECRUIT_WAR_TARGET_FACTOR, 1 / (RECRUIT_WAR_TARGET_FACTOR_BASE + Distance) ).
+	RECRUIT_TO_DISTANCE = 300 #AI will not use Recruit to Unit over distances longer than this.
+	RECRUIT_UNITS_PERCENTAGE = 0.2 # Percentage of total number of units to recruit in a single action
+	RECRUIT_SUPPORT_FOOD_MONTHS = 18 #Target months of food for an army.
+	MIN_NUMBER_LEGIONS = 1 #AI will always try to have at least this number of Legions
+	RECRUIT_MERC_SAFETY_EAGERNESS = 0.85 #Safety Eagerness can range from 0 to 1.0 with 1.0 being totally safe. This is calculated based on how many forts and provinces the AI has lost during the war and also factors in enemy strength. AI will want to recruit mercs if the safety value falls below this
+
+	#Unit composition (make sure they all sum up to 1.0)
+	MAX_FLANK = 0.2 #Max % flanking units (to be kept at country wide basis and if possible on army basis)
+	MAX_FRONT = 0.4 
+	MAX_SECONDARY = 0.4
+
+	#Diplomacy
+	AE_MIN = 20 #AI starts being hawkish when AE has reached this value plus its own AE value.
+	AE_MAX = 50 #AI becomes particularly hawkish when AE has reached this value on harder difficulties.
+	AE_CARE = 25 #AI usually waits for around this AE or a somewhat higher value before declaring a war.
+	ALLIANCE_BREAK_WARNING_MONTHS = 6 #Months of warning prior to alliances/defensive leagues breaking.
+	TRADE_REQUEST_ACCEPTANCE = 200 #Scaling of AI's "good/bad for us" acceptances.
+	DEFENSIVE_LEAGUE_COMMON_THREAT_THRESHOLD = 1.1 #AI will only form defensive leagues when the common threat factor is at least this big (not same scale as common threat acceptance, 1 = "as scary as us").
+	EXPANSION_CONSTRICTION_RANGE = 65 #AI is extra careful about allying within this border distance.
+	
+	#Peace
+	MAX_CALL_FOR_PEACE = 20 #Start worrying about peacing ASAP above this value. 0-100 value, tho WE from it is capped at usual level.
+	PEACE_RESPITE_MONTHS = 6 #Anti-ragequit device applied to human player on Easy and Normal; don't DOW them if they had no time to rest.
+	PEACE_ACCEPTANCE_SEPARATE_PEACE = -25 #Modifier for peacing out separatately in the cases that's despicable.
+	PEACE_ACCEPTANCE_MONTHS_OF_WAR = 48 #Maximum months of war (and coincidentally, maximum modifier).
+	PEACE_ACCEPTANCE_MONTHS_OF_WAR_GW = 100 #Max months of war for Great Conquests
+	PEACE_ACCEPTANCE_EXHAUSTION = -10
+	PEACE_ACCEPTANCE_DESPERATION = -10
+	PEACE_ACCEPTANCE_WAR_BALANCE_MINUS = 30 #Scaling for negative enthusiasm/positive acceptance. Underlying factor has been squared so as long as balance isn't completely uneven this will be far closer to 0.
+	PEACE_ACCEPTANCE_WAR_BALANCE_PLUS = 80 #Scaling for positive enthusiasm/negative acceptance. Underlying factor has been squared so as long as balance isn't completely uneven this will be far closer to 0.
+	PEACE_ACCEPTANCE_WAR_BALANCE_CAP = 50 #After scaling, absolute value of war balance acceptance is limited by this. (Due to scaling from unity, the effective min/max can be lower.)
+	PEACE_ACCEPTANCE_WAR_GOAL = 15
+	PEACE_ACCEPTANCE_CAPITAL = 5
+	PEACE_ACCEPTANCE_DIRECTION = 15
+	PEACE_ACCEPTANCE_SUBSTANTIAL_LAND_PERCENTAGE = 40 #Percentage of cities lost for treaty demand to be classified as "substantial". Set to above 100 to effectively disable.
+	PEACE_ACCEPTANCE_SUBSTANTIAL_LAND_LOSS = -20 #if we are losing a lot of land, be less accepting of the deal
+	PEACE_ACCEPTANCE_OFFERED_WAR_GOAL = 20 #if offered wargoal, be more accepting of the deal
+	PEACE_ACCEPTANCE_DUE_TO_REVOLTER = -20 #revolting countries are less likely to accept peace
+	PEACE_ACCEPTANCE_EXHAUSTION_GC = 100
+	#CTA
+	CTA_ACCEPTANCE_WAR_BALANCE_MINUS = 80 #Scaling for negative acceptance. Underlying factor has been squared so as long as balance isn't completely uneven this will be far closer to 0.
+	CTA_ACCEPTANCE_WAR_BALANCE_PLUS = 40 #Scaling for positive acceptance. Underlying factor has been squared so as long as balance isn't completely uneven this will be far closer to 0.
+	
+	#Allies
+	ALLY_VALUE_TARGET_DISTANCE_WEIGHT = 3 #Value of (inverse) distance to target for candidate ally.
+	ALLY_VALUE_SELF_DISTANCE_WEIGHT = 2 #Value of (inverse) distance to self for candidate ally.
+	ALLY_VALUE_ALLY_DISTANCE_WEIGHT = 1 #Value of (inverse) distance to existing allies for candidate ally.
+	
+	#Opinions
+	OPINION_NO_WAR = 125 #AI will never plan wars against a country with opinion being at least this level.
+	OPINION_BREAK_ALLIANCE = -25 #AI will break alliances when opinion has reached the level or below.
+	OPINION_NO_SUPPORT = -10 #AI can try to assist a country for purposes of stopping an aggressor. This should be above OPINION_BREAK_ALLIANCE.
+	OPINION_REASONS_FOR_MILITARY_ACCESS = 30 #Acceptance reasons AI can choose to reach with opinion to gain military access.
+	OPINION_REASONS_FOR_NEIGHBOR_MILITARY_ACCESS = 40 #Acceptance reasons AI can choose to reach with opinion to gain military access in immediate neighbors.
+	
+	#Personality
+	NO_TREACHERY_TRUSTWORTHINESS = 50 #Above this trustworthiness, AI may not even insult you to reduce their opinion of you or support rebellion, etc.
+	
+	#Spam
+	OFFER_MINIMUM_MONTHS = 12 #Minimum months until AI may resend a similar offer to a human country. Note that there is also a probabilistic reduction model additionally, so this can be rather low.
+	OFFER_EMISSION_BASE = 0.01
+	OFFER_EMISSION_ADAPT = 0.15
+	OFFER_EMISSION_DECAY = 0.07
+	START_DATE_DIPLOMACY_REDUCTION_MONTHS = 12 #AI does war declarations and some other diplo actions less frequently during these months.
+	
+	#War declarations
+	WAR_NEIGHBOR_FACTOR = 10 #Scaled weight to declare war on neighbors.
+	WAR_TARGET_NEIGHBOR_FACTOR = 7 #Weight to declare on a target adjacent to a past or present target.
+	WAR_INNER_FACTOR = 40 #Scaled weight to declare war on inner countries (e.g. OPMs) inside AI country.
+	WAR_NEXT_TO_ENEMY_FACTOR = 5 #Scaling weight for target next to enemy being fought.
+	WAR_EASY_FACTOR = 400 #Actually a term, but w/e.. The easier war is expected to be, the more likely AI is to schedule it. Even war will be about 0.5^2 of this value.
+	WAR_QUICK_FACTOR = 120 #To be extra confusing, here is another factor for the (not quite) same thing.
+	WAR_DECISIVE_FACTOR = 12 #Extra extra confusing (but a decisive war is not as good as a quick war, but this could be erroneous ;-)).
+	WAR_ACCESSIBLE_FACTOR = 30 #Scaled weight to declare war on accessible countries.
+	WAR_BORDERGORE_FACTOR = 0.35 #The higher this value is the more AI prioritizes targets based on how less likely conquering their provinces is to cause bordergore and snakes. Not really a factor in the multiplicative sense.
+	WAR_CASUS_BELLI_FACTOR = 4 #Scaled weight for having temporary CB.
+	WAR_CLAIM_FACTOR = 6 #Scaled weight for having permanent CB/claim.
+	WAR_OPPORTUNISM_FACTOR = 0.3 #Separate code path for reactive war declarations.
+	WAR_POWER_FACTOR = 0.012 #Separate code path for power block balancing war declarations.
+	WAR_POWER_FACTOR_ACTIVE = 0.16 #If power war flag has already been raised.
+	WAR_POWER_DISTANCE = 350 #Maximum distance countries may consider engaging in power wars.
+	EAGERNESS_EXTERNAL_MANPOWER_FACTOR = 0.45 #How much manpower advantage over neighbors matters vs. %MP of max for eagerness to declare war.
+	WAR_EXHAUSTION_RECOVERY_MONTHS = 12 #AI will not actively reduce war exhaustion if it can reach WAR_EXHAUSTION_DESIRED at the current rate during war.
+	WAR_EXHAUSTION_RECOVERY_MONTHS_PEACE = 24 #AI will not actively reduce war exhaustion if it can reach WAR_EXHAUSTION_DESIRED at the current rate during peace.
+	WAR_EXHAUSTION_TYRANNY_MONTHS = 60 #Hardcoded way to make AI spend tyranny (up to this number of months when tyranny is decreasing) to decrease WE.
+	WAR_EXHAUSTION_DESIRED = 10 #How much WE is the AI allowed to have before declaring war?
+	WAR_DESIRED_STABILITY = 35 #How much Stability should the AI have before declaring war?
+	LOW_AGGRESSIVE_NO_WAR = 21 #Aggressiveness lower than this threshold means AI will not declare wars
+	HIGH_AGGRESSIVE_ALWAYS_WAR = 400 #Aggressiveness higher than this threshold means AI will always declare wars when it can
+	WAR_MIN_SHIPS_OVERSEAS_WAR = 5 #The minimum number of ships AI needs to consider overseas war against the target 
+	WAR_POWER_BALANCE_BUFFER = 0.2 #Buffer when calculating power balance between countries to declare war on, to prevent AI from going into bad wars where it doesn't have a clear advantage
+	WAR_POWER_BALANCE_MARGIN_MULT = 0.06 #Divided by MAX_WAR_DIFFICULTY_INCREASE to determine the amount of power balance AI needs to have before selecting war target. Increase this number to make the AI only declare war on targets it has a large margin of power balance against
+
+	#Barbarians!
+	BARBARIAN_PAY_OFF_SCALE = 0.8 #The lower this value is, the more reluctant AI will be to pay off barbarians. (In reality, this value is compared to strongest own army that can reach the barbarians.)
+	BARBARIAN_HANDLE_RANGE = 1000 #Armies further than this will not be counted for purposes of killing a barbarian army.
+	
+	#Johan's stuff
+	PEACE_STALLED_WAR_THRESHOLD = 2 # If the warscore has changed by this amount or less in the last year, the war is stalled. Is this even AI?
+
+	# Challenge modifiers
+	ANTAGONIST_BONUS_ON_HARD = 0.25
+	ANTAGONIST_BONUS_ON_VERY_HARD = 0.5
+	ANTAGONIST_VERSUS_OTHER_AI_DICE_BONUS = 2
+	ANTAGONISM_PEACE_ACCEPT_BONUS_VS_OTHER_AI = 25
+
+	# Job assignment weights
+	ASSIGN_OFFICE_SCORNED_WEIGHT = 4.0 # Multiplicative: How much more important is it to fill an office position with a scorned character? The inverse is also true.
+	ASSIGN_UNIT_SCORNED_WEIGHT = 2.0 # Multiplicative: How much more important is it to fill a general position with a scorned character?
+	
+	#Migration:
+	MIGRATION_TARGET_RANDOMNESS = 10 #Larger means there's more randomness in where AI decides to migrate as opposed to calculated "best" culture provinces.
+	MIGRATION_TARGET_DISTANCE_OFFSET = 28 #Larger => distance becomes relatively less important. Should be more than zero as it's used for a divisor of the form MIGRATION_TARGET_DISTANCE_OFFSET + distance.
+
+	#Religion:
+	PANTHEON_HOLY_SITE_WEIGHT = 0.5 #Additive Value: Additional Weight for selecting a deity with a Holy Site within our borders
+	PANTHEON_HAPPINESS_WEIGHT = 0.1 #Weight for happiness, based on percentage of pops matching the deity's religion, might be necessary to rescale this in case modifier values change a lot in your mod.
+	PANTHEON_STICKINESS_WEIGHT = 1.0 #Additive Value: Extra stickiness for currently selected deities to discourage strobing.
+	HOLY_SITE_RANDOMNESS = 40 #The larger this is, the less likely the AI are to check for building holy sites.
+	DEIFICATION_RANDOMNESS = 160 #The larger this is, the less likely AI are to deify their ruler.
+
+	#Culture:
+	CULTURE_CHANGE_HAPPINESS_THRESHOLD = 0.25 # dont change if primary culture happiness modifier is beneath this
+	CULTURE_CHANGE_POPCOUNT_THRESHOLD = 85 # cultures beneath this pop count will be ignored for integration
+	CULTURE_CHANGE_THRESHOLD = 0.08 # how large amount of the population a culture needs to be considered for integration
+	REVOKE_CULTURE_CHANGE_THRESHOLD = 0.04 # how large amount of the population a culture needs to be considered for revoking integration
+	
+	MINIMUM_RECRUIT_NEW_UNIT_IN_EMPTY_LEGIONS_SIZE = 4
+	ADVANCED_GOV_TRIBAL_CONQUEST_WILLINGNESS = 0.02
+
+	OPTIMAL_LEGION_SUBUNIT_COUNT = 60
+	WARS_IN_PLAN_BEFORE_INTEGRATION = 1 #How many wars can we have in our action plan and still consider integrating subjects? 0 = Let's leave this until we have some downtime.
+	MAX_PLANNED_WARS = 3 #How many wars can we plan at any one time? clamped between 1 and Min( Aggressivesness / 50, MAX_PLANNED_WARS )
+	AI_UNIT_SPLIT_WILLINGNESS = 1.22 #DO not change this by large degrees if you still want AI to split units.
+}
+
+NGame = {
+	START_DATE = "1204.04.13"
+	END_DATE = "1700.10.12"
+	MIN_MERCENARIES_PER_REGION = 3
+}
+
+NPowerBase = {
+	HEAD_OF_FAMILY = 20
+}

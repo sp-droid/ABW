@@ -1,0 +1,21 @@
+﻿"AQT"={
+    country = "AQT"
+ 28={
+        first_name = Eleanor
+        family_name = Poitiers
+        female = yes
+        birth_date = 1122.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 5
+        add_finesse = 1
+        add_zeal = 4
+        add_gold = 727
+        add_popularity = 75
+        c:AQT={
+            set_as_ruler = char:28
+        }
+    }
+}

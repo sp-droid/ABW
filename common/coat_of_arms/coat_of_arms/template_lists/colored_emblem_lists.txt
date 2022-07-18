@@ -1,0 +1,57 @@
+colored_emblem_texture_lists = {
+
+	checkers = {
+		#2 = "ce_block.dds"
+		6 = "ce_checker_8x8.dds"
+		#6 = "ce_checker_8x8_diagonal.dds"
+		6 = "ce_checker_8x8_diagonal_02.dds"
+		6 = "ce_checker_16x16.dds"
+		#1 = "ce_stripes_horizontal_8.dds"
+		1 = "ce_stripes_horizontal_16.dds"
+		#1 = "ce_stripes_vertical_8.dds"
+		1 = "ce_stripes_vertical_16.dds"
+	}
+
+	checkers_diagonals = {
+		#2 = "ce_block.dds"
+		6 = "ce_checker_8x8.dds"
+		6 = "ce_checker_8x8_diagonal.dds"
+		#6 = "ce_checker_8x8_diagonal_02.dds"
+		6 = "ce_checker_16x16.dds"
+		#1 = "ce_stripes_horizontal_8.dds"
+		1 = "ce_stripes_horizontal_16.dds"
+		#1 = "ce_stripes_vertical_8.dds"
+		1 = "ce_stripes_vertical_16.dds"
+	}
+	
+	borders = {
+		2 = "ce_border_simple_01.tga"
+		4 = "ce_border_simple_02.tga"
+		1 = "ce_border_checker_01.tga"
+		1 = "ce_border_rug_01.tga"
+		1 = "ce_border_stars_01.dds"
+		1 = "ce_border_triangles_01.dds"
+		1 = "ce_border_triangles_02.dds"
+		1 = "ce_border_zigzag_01.dds"
+		1 = "ce_border_zigzag_02.dds"
+	}
+	
+	symbols = {
+		#1 = "ce_empty.dds"
+		1 = "ce_circle_concentric_01.dds"
+		1 = "ce_spiral_01.dds"
+		1 = "ce_circle_01.dds"
+		1 = "ce_square_01.dds"
+		1 = "ce_square_02.dds"
+		#1 = "ce_square_03.dds"
+		1 = "ce_square_04.dds"
+		1 = "ce_diamond_01.dds"
+		1 = "ce_diamond_02.dds"
+		1 = "ce_diamond_03.dds"
+		1 = "ce_star_4.dds"
+		1 = "ce_star_8.dds"
+		1 = "ce_crescent_01.dds"
+		1 = "ce_circle_wheel_01.dds"
+		1 = "ce_crescent_02.dds"
+	}
+}

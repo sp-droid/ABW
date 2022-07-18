@@ -1,0 +1,15 @@
+﻿divinenature = {
+	icon = deity_war
+}
+
+thelastprophet = {
+	icon = deity_wealth
+}
+
+religiousbranch = {
+	icon = deity_eloquence
+}
+
+reltradition = {
+	icon = deity_love
+}

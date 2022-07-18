@@ -1,0 +1,117 @@
+﻿"ENG"={
+    country = "ENG"
+ 186={
+        first_name = John
+        nickname = Lackland
+        family_name = Angevin
+        mother = "char:28"
+        birth_date = 1166.1.1
+        culture = "norman"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 2
+        add_finesse = 8
+        add_zeal = 2
+        add_gold = 766
+        add_popularity = 77
+        c:ENG={
+            set_as_ruler = char:186
+        }
+    }
+ 187={
+        first_name = Isabella
+        family_name = dAngouleme
+        female = yes
+        birth_date = 1186.1.1
+        culture = "occitan"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 9
+        add_finesse = 10
+        add_zeal = 6
+        add_gold = 64
+        add_popularity = 87
+        marry_character = char:186
+    }
+ 188={
+        first_name = Godfrey
+        family_name = Reginar
+        mother = "char:97"
+        birth_date = 1187.1.1
+        culture = "flemish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 1
+        add_finesse = 1
+        add_zeal = 9
+        add_gold = 720
+        add_popularity = 87
+    }
+ 189={
+        first_name = Isabella
+        family_name = Gloucester
+        female = yes
+        birth_date = 1173.1.1
+        culture = "english"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 6
+        add_finesse = 8
+        add_zeal = 4
+        add_gold = 1543
+        add_popularity = 81
+    }
+ 484={
+        first_name = Maighread
+        family_name = dunkeld
+        father = "char:477"
+        mother = "char:483"
+        female = yes
+        birth_date = 1183.1.1
+        culture = "scottish"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 6
+        add_finesse = 3
+        add_zeal = 1
+        add_gold = 1472
+        add_popularity = 83
+#Bastard
+    }
+ 485={
+        first_name = Eustace
+        family_name = deVesci
+        birth_date = 1179.1.1
+        culture = "english"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 4
+        add_finesse = 5
+        add_zeal = 2
+        add_gold = 832
+        add_popularity = 82
+        marry_character = char:484
+    }
+ 486={
+        first_name = William
+        family_name = deVesci
+        father = "char:485"
+        mother = "char:484"
+        birth_date = 1202.1.1
+        culture = "english"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 10
+        add_finesse = 10
+        add_zeal = 10
+        add_gold = 4407
+        add_popularity = 90
+    }
+}

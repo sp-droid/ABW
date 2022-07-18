@@ -1,0 +1,67 @@
+﻿"NUR"={
+    country = "NUR"
+ 399={
+        first_name = Sophia
+        family_name = vonRaabs
+        female = yes
+        birth_date = 1152.1.1
+        culture = "franconian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 1
+        add_zeal = 1
+        add_gold = 3235
+        add_popularity = 94
+    }
+ 400={
+        first_name = Friedrich
+        family_name = vonZollern
+        mother = "char:399"
+        birth_date = 1188.1.1
+        culture = "swabian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 1
+        add_finesse = 1
+        add_zeal = 10
+        add_gold = 5742
+        add_popularity = 95
+        c:NUR={
+            set_as_ruler = char:400
+        }
+    }
+ 401={
+        first_name = Konrad
+        family_name = vonZollern
+        mother = "char:399"
+        birth_date = 1186.1.1
+        culture = "swabian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 7
+        add_finesse = 1
+        add_zeal = 6
+        add_gold = 1287
+        add_popularity = 82
+    }
+ 402={
+        first_name = Elisabeth
+        family_name = vonZollern
+        mother = "char:399"
+        female = yes
+        birth_date = 1189.1.1
+        culture = "swabian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 5
+        add_finesse = 2
+        add_zeal = 3
+        add_gold = 2983
+        add_popularity = 63
+    }
+}

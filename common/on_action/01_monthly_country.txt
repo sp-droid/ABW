@@ -1,0 +1,6 @@
+﻿monthly_country_pulse = {
+
+	events = {
+		#armycap.2
+	}
+}

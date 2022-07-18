@@ -1,0 +1,101 @@
+﻿"HUN"={
+    country = "HUN"
+ 265={
+        first_name = Imre
+        family_name = Arpad
+        birth_date = 1174.1.1
+        culture = "magyar"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 9
+        add_finesse = 5
+        add_zeal = 9
+        add_gold = 4252
+        add_popularity = 84
+        c:HUN={
+            set_as_ruler = char:265
+        }
+    }
+ 266={
+        first_name = Constance
+        family_name = Barcelona
+        female = yes
+        birth_date = 1179.1.1
+        culture = "aragonese"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 7
+        add_charisma = 2
+        add_finesse = 2
+        add_zeal = 10
+        add_gold = 4680
+        add_popularity = 80
+        marry_character = char:265
+    }
+ 267={
+        first_name = Laszlo
+        family_name = Arpad
+        father = "char:265"
+        mother = "char:266"
+        birth_date = 1200.1.1
+        culture = "magyar"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 8
+        add_finesse = 10
+        add_zeal = 10
+        add_gold = 1886
+        add_popularity = 82
+    }
+ 268={
+        first_name = Gertrude
+        family_name = vonAndechs
+        father = "char:61"
+        female = yes
+        birth_date = 1185.1.1
+        culture = "bavarian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 9
+        add_charisma = 5
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 371
+        add_popularity = 81
+#Married to Andrew future king
+    }
+ 269={
+        first_name = Andraas
+        family_name = Arpad
+        birth_date = 1177.1.1
+        culture = "magyar"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 4
+        add_charisma = 2
+        add_finesse = 4
+        add_zeal = 10
+        add_gold = 401
+        add_popularity = 72
+        marry_character = char:268
+    }
+ 270={
+        first_name = AnciMaria
+        family_name = Arpad
+        father = "char:268"
+        mother = "char:269"
+        female = yes
+        birth_date = 1203.1.1
+        culture = "magyar"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 5
+        add_charisma = 2
+        add_finesse = 3
+        add_zeal = 4
+        add_gold = 5340
+        add_popularity = 83
+    }
+}

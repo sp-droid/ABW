@@ -1,0 +1,64 @@
+﻿From;To;Type;Through;x;y;x;y;
+229;1641;sea;5402;2496;5040;2523;5045;Vancouver
+4604;3976;sea;5241;4644;3986;4678;3974;North Bahamas
+4201;3340;sea;5254;4647;3885;4649;3871;South Bahamas
+3453;538;sea;5393;5406;3379;5415;3400;St Vicent and St Lucia
+1541;4056;sea;5393;5410;3446;5401;3469;Dominica and Martinique
+4488;775;sea;5491;5387;3508;5391;3512;Guadeloupe
+1086;2528;sea;5077;6957;4534;7019;4495;Azores
+1721;2466;sea;5616;7136;3468;7150;3503;South Cabo Verde
+163;2466;sea;5303;7093;3528;7146;3536;North Cabo Verde
+4305;1492;sea;4890;7410;4052;7428;4055;Western Canary
+1492;4647;sea;4890;7442;4053;7473;4043;Central Canary
+4647;510;sea;5505;7488;4041;7538;4051;Western Canary
+2264;1714;sea;4908;8043;5449;8041;5441;Orkney
+459;3153;sea;5322;8131;5085;8132;5081;Wight
+2890;3542;sea;5372;7947;5306;7945;5310;Herbides Arran
+3232;3542;sea;5276;7928;5322;7937;5323;Herbides Isley
+3245;630;sea;5276;7923;5344;7925;5348;Herbides Mull
+3847;630;sea;5276;7927;5374;7930;5370;Herbides Skye
+900;4679;sea;5139;7865;5396;7873;5402;Herbides Uist-Lewis
+4679;3847;sea;5139;7880;5404;7890;5392;Herbides Lewis
+2562;3858;sea;5273;0;0;0;0;West Baleares
+3551;3940;sea;5064;0;0;0;0;Messina
+4430;551;sea;5094;0;0;0;0;Corsica-Sardinia
+2765;2936;sea;5549;0;0;0;0;Kalmar
+2706;3329;sea;5357;0;0;0;0;Jutland - Fyn
+4014;4608;sea;5357;0;0;0;0;Fyn - Sjaelland
+4849;3619;sea;5357;0;0;0;0;Lolland - Sjaelland
+4791;3412;sea;5357;0;0;0;0;Sjaelland - Scandia
+1604;4328;sea;5614;0;0;0;0;Saaremaa - Hiiumaa
+2866;1392;sea;5005;0;0;0;0;Venice
+3177;2679;sea;5005;0;0;0;0;North Croatia
+2109;1730;sea;5504;0;0;0;0;Central Croatia
+3648;4578;sea;5504;0;0;0;0;South Croatia
+2241;2994;sea;5208;0;0;0;0;Corfu
+1744;2910;sea;5627;0;0;0;0;North Ionian
+1437;3497;sea;5627;0;0;0;0;South Ionian
+4471;3398;sea;5336;0;0;0;0;Peloponnese - Kithira
+4620;2124;sea;4903;0;0;0;0;Aegean 1
+2124;825;sea;4903;0;0;0;0;Aegean 2
+1871;825;sea;4903;0;0;0;0;Aegean 3
+3056;3034;sea;5336;0;0;0;0;Aegean 4
+3447;1294;sea;5336;0;0;0;0;Aegean 5
+3034;1294;sea;5336;0;0;0;0;Aegean 6
+2246;4307;sea;5233;0;0;0;0;Aegean 7
+4307;2825;sea;5233;0;0;0;0;Aegean 8
+2825;1137;sea;5233;0;0;0;0;Aegean 9
+1509;1991;sea;5233;0;0;0;0;Aegean 10
+1846;4190;sea;5233;0;0;0;0;Aegean 11
+4190;4664;sea;5233;0;0;0;0;Aegean 12
+2309;3068;sea;5590;0;0;0;0;Crimea
+55;208;sea;5485;0;0;0;0;Hainan
+382;4622;sea;5454;0;0;0;0;Persian Island
+872;5;sea;5149;0;0;0;0;South Japan
+1564;5;sea;5457;0;0;0;0;Central Japan
+69;1287;sea;5628;0;0;0;0;North Japan
+1073;361;sea;5197;0;0;0;0;Filipines 1
+361;1012;sea;5388;0;0;0;0;Filipines 2
+1073;779;sea;5391;0;0;0;0;Filipines 3
+423;957;sea;5361;0;0;0;0;New Zealand
+92;922;sea;5577;0;0;0;0;Indonesia 1
+600;1400;sea;4896;0;0;0;0;Indonesia 2
+560;600;sea;5451;0;0;0;0;Indonesia 3
+-1;-1;;-1;-1

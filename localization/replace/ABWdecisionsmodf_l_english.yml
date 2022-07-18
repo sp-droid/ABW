@@ -1,0 +1,20 @@
+﻿l_english:
+#Modifiers
+ 
+#Opinion modifiers
+ christian_relgroup:0 "Christian Brethren"
+ muslim_relgroup:0 "Muslim Brethren"
+ 
+#Decisions
+ restore_byz:0 "Restore the Eastern Roman Empire"
+ restore_byz_desc:0 "Gain claims on Anatolia, Thrace and Greece"
+ justambition:0 "Justinian's Ambition"
+ justambition_desc:0 "Reform the long gone Roman Empire by conquering the highlighted provinces. Gain claims on the Mare Nostrum plus some inland areas"
+ form_spa:0 "Form Spain militarily"
+ form_spa_desc:0 "Highlighted provinces are required. Gain claims on Iberia minus provinces owned by Portugal"
+ form_gbr:0 "Form Great Britain militarily"
+ form_gbr_desc:0 "Highlighted provinces are required. Gain claims on Caledonia"
+ form_wlh:0 "Unite the Welsh"
+ form_wlh_desc:0 "Highlighted provinces are required. Gain claims on the two main welsh areas plus two more provinces"
+ 
+#END

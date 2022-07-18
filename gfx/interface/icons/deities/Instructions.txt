@@ -1,0 +1,1 @@
+Open template in paint.net, add icons, soften portrait with default parameters and vignette with a big radius

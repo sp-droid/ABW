@@ -1,0 +1,87 @@
+﻿namespace = misc
+
+#### NEIGHBOR GROUP RELIGIOUS MODIFIER
+misc.1 = {
+    type = country_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				christian_group_trigger = yes
+			}
+			every_country = {
+				limit = {
+					christian_group_trigger = yes
+					NOT = { THIS = ROOT }
+				}
+				remove_opinion = {
+					modifier = christian_relgroup
+					target = ROOT
+				}
+				remove_opinion = {
+					modifier = muslim_relgroup
+					target = ROOT
+				}
+				add_opinion = {
+					modifier = christian_relgroup
+					target = ROOT
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				muslim_group_trigger = yes
+			}
+			every_country = {
+				limit = {
+					muslim_group_trigger = yes
+					NOT = { THIS = ROOT }
+				}
+				remove_opinion = {
+					modifier = christian_relgroup
+					target = ROOT
+				}
+				remove_opinion = {
+					modifier = muslim_relgroup
+					target = ROOT
+				}
+				add_opinion = {
+					modifier = muslim_relgroup
+					target = ROOT
+				}
+			}
+		}
+	}
+}
+
+#### LEGENDARY CRASH BUGFIX
+misc.2 = {
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { controller = owner }
+			}
+			owner = {
+				every_countries_at_war_with = {
+					limit = {
+						NOT = { THIS = ROOT.controller }
+						any_current_war = {
+							any_war_participant = { THIS = ROOT.owner }
+							any_war_participant = { THIS = ROOT.controller }
+							is_war_leader = PREV
+						}
+					}
+					ROOT = { set_controller = PREV }
+				}
+			}
+			trigger_event = {
+				id = misc.2
+				days = 1
+			}
+		}
+	}
+}

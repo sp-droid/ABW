@@ -1,0 +1,456 @@
+﻿	115={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	117={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="marble"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	120={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	130={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	152={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	190={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	199={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="leather"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	227={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	290={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	296={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	348={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	409={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="earthware"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	426={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="marble"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	428={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	441={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	487={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 }
+		#
+	}
+
+	501={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	503={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="horses"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	541={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	573={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="hemp"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 3 }
+		#
+	}
+
+	597={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+
+	607={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 10 }
+		#
+	}
+
+	654={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 8 }
+		#
+	}
+
+	701={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 13 }
+		#
+	}
+
+	756={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 3 }
+		#
+	}
+
+	774={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 9 }
+		#
+	}
+
+	818={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	876={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 6 }
+		#
+	}
+
+	884={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	954={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cloth"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	979={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="incense"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	981={
+		terrain="mountain"
+		culture="primitiveculture"
+		religion="maya_rel"
+		trade_goods="leather"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	1011={
+		terrain="plains"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	1049={
+		terrain="hills"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="fish"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 11 }
+		#
+	}
+
+	1142={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="nahuatl_rel"
+		trade_goods="honey"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 }
+		#
+	}
+
+	1348={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 }
+		#
+	}
+
+	1537={
+		terrain="jungle"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="wood"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 1 }
+		#
+	}
+
+	1586={
+		terrain="drylands"
+		culture="primitiveculture"
+		religion="animist_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 }
+		#
+	}
+

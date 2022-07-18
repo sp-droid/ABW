@@ -1,0 +1,20 @@
+﻿"SPO"={
+    country = "SPO"
+ 526={
+        first_name = Corrado
+        family_name = diMolise
+        birth_date = 1159.1.1
+        culture = "umbrian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 6
+        add_finesse = 6
+        add_zeal = 7
+        add_gold = 620
+        add_popularity = 70
+        c:SPO={
+            set_as_ruler = char:526
+        }
+    }
+}

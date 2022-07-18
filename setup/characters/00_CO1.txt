@@ -1,0 +1,37 @@
+﻿"CO1"={
+    country = "CO1"
+ 146={
+        first_name = Odolina
+        family_name = Gunale
+        female = yes
+        birth_date = 1157.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 6
+        add_charisma = 7
+        add_finesse = 2
+        add_zeal = 10
+        add_gold = 1501
+        add_popularity = 70
+    }
+ 147={
+        first_name = Elena
+        family_name = Gunale
+        mother = "char:146"
+        female = yes
+        birth_date = 1190.1.1
+        culture = "sardinian"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 10
+        add_finesse = 8
+        add_zeal = 10
+        add_gold = 677
+        add_popularity = 76
+        c:CO1={
+            set_as_ruler = char:147
+        }
+    }
+}

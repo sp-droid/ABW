@@ -1,0 +1,29 @@
+﻿dacoroman = {
+	color = rgb { 244 63 65 }
+
+	male_names = {
+		Bastiza Andrejan Basaraba Enoh Hrista Ismajlo Matijas Perunka Petrul Sekula Stavros Toman Tomsiav
+	}
+	female_names = {
+		Duccidava Rescuturme Zina Zinai Petriturme Zindurme Roibana Oriza Rescurai Raina Sanziana Claria Eccana
+	}
+
+	family = {
+		Abdusevic.Abdusevic.Abdusevic.Abdusevic
+		Bacunic.Bacunic.Bacunic.Bacunic
+		Basarabic.Basarabic.Basarabic.Basarabic
+		Prvulovic.Prvulovic.Prvulovic.Prvulovic
+	}
+	culture = {
+		vlach = {}
+	}
+	
+	barbarian_names = { AEDI BIEPHI BIESSOI CARPI CIAGINSI CROBIDAE PIEPHIGI SUCI TERICI TRIXAE }
+	
+	
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = levantine
+	}
+}

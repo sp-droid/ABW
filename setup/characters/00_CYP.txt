@@ -1,0 +1,82 @@
+﻿"CYP"={
+    country = "CYP"
+ 173={
+        first_name = Aimery
+        family_name = Lusignan
+        birth_date = 1153.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 2
+        add_finesse = 2
+        add_zeal = 3
+        add_gold = 242
+        add_popularity = 88
+        c:CYP={
+            set_as_ruler = char:173
+        }
+    }
+ 174={
+        first_name = Burgundia
+        family_name = Lusignan
+        father = "char:173"
+        female = yes
+        birth_date = 1180.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 2
+        add_charisma = 4
+        add_finesse = 10
+        add_zeal = 2
+        add_gold = 1879
+        add_popularity = 64
+    }
+ 175={
+        first_name = Walter
+        family_name = deMontbeliard
+        birth_date = 1176.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 6
+        add_finesse = 4
+        add_zeal = 2
+        add_gold = 1759
+        add_popularity = 60
+        marry_character = char:174
+    }
+ 176={
+        first_name = Helvis
+        family_name = Lusignan
+        father = "char:173"
+        female = yes
+        birth_date = 1190.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 1
+        add_charisma = 6
+        add_finesse = 7
+        add_zeal = 2
+        add_gold = 1806
+        add_popularity = 80
+    }
+ 177={
+        first_name = Hugues
+        family_name = Lusignan
+        father = "char:173"
+        birth_date = 1194.1.1
+        culture = "francien"
+        religion = "catholic_rel"
+        no_stats = yes
+        add_martial = 3
+        add_charisma = 6
+        add_finesse = 9
+        add_zeal = 5
+        add_gold = 176
+        add_popularity = 86
+    }
+}

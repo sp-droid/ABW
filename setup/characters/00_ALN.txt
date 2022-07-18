@@ -1,0 +1,35 @@
+﻿"ALN"={
+    country = "ALN"
+ 17={
+        first_name = Vladislav
+        family_name = Halani
+        birth_date = 1160.1.1
+        culture = "alans"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 2
+        add_finesse = 10
+        add_zeal = 5
+        add_gold = 1755
+        add_popularity = 88
+        c:ALN={
+            set_as_ruler = char:17
+        }
+    }
+ 18={
+        first_name = Khankhusy
+        family_name = Halani
+        father = "char:17"
+        birth_date = 1200.1.1
+        culture = "alans"
+        religion = "orthodox_rel"
+        no_stats = yes
+        add_martial = 8
+        add_charisma = 2
+        add_finesse = 7
+        add_zeal = 6
+        add_gold = 1437
+        add_popularity = 90
+    }
+}
