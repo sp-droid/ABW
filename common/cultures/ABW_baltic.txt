@@ -1,0 +1,26 @@
+﻿baltic_group = {
+	color = rgb { 126 145 93 }
+	male_names = {
+        Algelgas Adomas Alvis Edijs Filips Juris Pavels Rihards Vilhelms Visvaldis Voldemar
+    }
+	female_names = {
+        Audra Austra Daina Dolja Gubja Laima Migla Rasa Saule Ugne
+	}
+	family = {
+		Algelgeitis.Algelgeite.Algelgeites.Algelgeitian
+		Mindaugas.Mindaugas.Mindaugas.Mindaugas
+		Monomakhovichi.Monomakhovichi.Monomakhovichi.Monomakhovichi
+		Gediminas.Gediminas.Gediminas.Gediminas
+	}
+	culture = {
+		old_prus = {}
+		lithu = {}
+		latvia = {}
+	}
+	barbarian_names = { SITONES FENNI VENEDAE NAVARI VELTAE }
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = germanic
+	}
+}

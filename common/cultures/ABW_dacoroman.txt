@@ -1,4 +1,4 @@
-﻿dacoroman = {
+﻿dacoroman_group = {
 	color = rgb { 244 63 65 }
 
 	male_names = {

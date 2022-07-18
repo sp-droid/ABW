@@ -1,4 +1,4 @@
-﻿thraciodacian = {
+﻿dacothracian_group = {
 	color = rgb { 103 132 84 }
 
 	male_names = {

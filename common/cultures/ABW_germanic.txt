@@ -1,0 +1,74 @@
+﻿germanic_group = {
+
+	color = hsv { 0.05 0.7 0.3 }
+	
+	male_names = {
+		Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+	}
+	female_names = {
+		Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+	}
+	family = {
+		Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+		Babenberg.Babenberg.Babenberg.Babenberg
+		Ascania.Ascania.Ascania.Ascania
+		Baumgartner.Baumgartner.Baumgartner.Baumgartner
+		Gerver.Gerver.Gerver.Gerver
+		wurttemberg.wurttemberg.wurttemberg.wurttemberg
+	}
+	culture = {
+		flemish = {
+			male_names = {
+				Boudewijn Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Hartmann Konrad Ludwig
+			}
+			family = {
+				Flanders.Flanders.Flanders.Flanders
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+			}
+		}
+		prussian = {}
+		holsatian = {}
+		westphalian = {}
+		dutch = {
+			family = {
+				vAhr.vAhr.vAhr.vAhr
+				vonHolland.vonHolland.vonHolland.vonHolland
+				vonWassenberg.vonWassenberg.vonWassenberg.vonWassenberg
+				Gerver.Gerver.Gerver.Gerver
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Avesnes.Avesnes.Avesnes.Avesnes
+			}
+		}
+		frisian = {}
+		saxon = {}
+		norsaxon = {}
+		austrian = {}
+		bavarian = {}
+		swabian = {}
+		franconian = {}
+		alemannic = {}
+		rheinlander = {}
+		swiss = {}
+		tirole = {}
+		teuton = {
+			family = {
+				Kerpen.Kerpen.Kerpen.Kerpen
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+			}
+		}
+	}
+	barbarian_names = { AMBRONES ANGLII ANGRIVARII AUIONES BATAVI BRUCTERI CALUCONES CHATTI CHAUCI CHERUSCI CIMBRI DULGUMNII FRISII HERMUNDURI INGVAEONES LANGOBARDI LUGII MARCOMANNI QUADI SEMNONES SUGAMBRI TENCTERI TEUTONES UBII USIPI VARISTI }
+	
+	graphical_culture = iberian_gfx
+	ethnicities = {
+		10 = germanic
+	}
+}
+	

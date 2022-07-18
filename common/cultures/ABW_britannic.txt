@@ -1,0 +1,30 @@
+﻿britannic_group = {
+
+	color = hsv { 0.57 0.7 0.4 }
+
+	male_names = {
+		John Adam Nicholas Simon Geoffrey Peter Thomas Gilbert Henry Richard William Hugh Robert Roger
+	}
+	
+	female_names = {
+		Victoria Agnes Isabella Alice Joan Avice Juliana Beatrice Margery Matilda Emma
+	}
+	
+	family = {
+		Angevin.Angevin.Angevin.Angevin
+		York.York.York.York
+		Lancaster.Lancaster.Lancaster.Lancaster
+		Normandy.Normandy.Normandy.Normandy
+	}
+
+	culture = {
+		english = {}
+	}
+	
+	barbarian_names = { ANCALITES ATTACOTTI BIBROCI HORESTI CASSI GABRANTOVICES GANGANI NOVANTAE LOPOCARES SEGONTIACI SELGOVAE }
+	
+	graphical_culture = iberian_gfx	
+	ethnicities = {
+		10 = britannic
+	}
+}

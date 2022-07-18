@@ -1,0 +1,44 @@
+﻿hellenic_group = {
+	
+	color = hsv { 0.65  0.7  0.8 }
+
+	male_names = {
+		Michael Theodoros Constantine Constans Julian Valentinian Theodosius Leo Justinian Constans Philippikos Theophilos Romanos Nikephoros Basil Ioannes
+	}
+	female_names = {
+		Irene Zoe Theodora Constantia Minervina Viviana Constantina Athanasia Eudoxia Ionna Anna Helena Epiphania Nereida
+	}
+	
+	family = {
+		Komnenos.Komnenos.Komnenos.Komnenos
+		Laskaris.Laskaris.Laskaris.Laskaris
+		Angelos.Angelos.Angelos.Angelos
+		Doukas.Doukas.Doukas.Doukas
+		Macedonics.Macedonics.Macedonics.Macedonics
+	}
+	culture = {
+		greekk = {}
+		greco_pontic = {}
+		gothic = {}
+	}
+	
+	barbarian_names = { 
+		# Paeonian Tribes
+		AESTRAEI AGRIANES DERRONES DOBERES LAIAIOUS MYGDONES ODOMANTI PAIOPLAI SIRIOPAIONES TRIBALLI 
+
+		# Illyrian Tribes
+		BARIDUSTAE TARIOTES SELEPITANOI PARTHINI BREUCI PIRUSTAE SARDEATI BYLLIONES BALAITES PARTHENI PEUCETI CINAMBRI DASSARETI PENESTI DEUNI NARENSI CHELIDONI BATHIATAE
+
+		# Thracian Tribes
+		MAEDI PAETI SATRI DERSAEI KORPILOI KORELI NIPSAIOI SAPAIOI SINTEIS MELANOPHAGI MELANDITAE CEBRENII
+
+		# Other
+		PELASGOI
+	}
+	
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = greek
+	}
+}

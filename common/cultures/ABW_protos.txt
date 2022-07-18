@@ -1,4 +1,4 @@
-﻿protos = {
+﻿protos_group = {
 	color = rgb { 206 123 64 }
 
 	male_names = {

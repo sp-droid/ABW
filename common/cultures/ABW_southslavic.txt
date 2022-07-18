@@ -1,0 +1,44 @@
+﻿southslavic_group = {
+	color = hsv { 0.03 0.7 0.7 }
+
+	male_names = {
+		Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+	}
+	female_names = {
+		Roxana Zora Vera Svjetlana Spasena Radka Nadia Mira Mila Bozhidara Ana 
+	}
+	family = {
+		Trpimirovic.Trpimirovic.Trpimirovic.Trpimirovic
+		Nemanj.Nemanj.Nemanj.Nemanj
+		Vojislavljevic.Vojislavljevic.Vojislavljevic.Vojislavljevic
+		Kotromanic.Kotromanic.Kotromanic.Kotromanic
+		Kulinic.Kulinic.Kulinic.Kulinic
+		Boricevic.Boricevic.Boricevic.Boricevic
+	}
+	culture = {
+		bulgarian = {
+			male_names = {
+				Kaloyan
+				Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+			}
+			family = {
+				Asen.Asen.Asen.Asen
+				Cometopuli.Cometopuli.Cometopuli.Cometopuli
+				Krum.Krum.Krum.Krum
+				Terter.Terter.Terter.Terter
+			}
+		}
+		croatian = {}
+		serbian = {}
+		bosnian = {}
+	}
+	
+	barbarian_names = { 
+		DREPSIANOI CHORASMIOI OUARNOI SKORDAI MAROUKAIOI TOCHAROI KOMOI CHOMAROI SALATARAE TAMBYZOI ZARIASPAEA
+	}
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = levantine
+	}
+}
