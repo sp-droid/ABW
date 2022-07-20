@@ -438,13 +438,14 @@
  catalan:0 "Catalan"
  galician:0 "Galician-Portuguese"
  
- egyptian_group:0 "Ancient egyptian"
+ egyptian_group:0 "Egyptian"
  egyptian_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  egyptian_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  ARMY_NAME_egyptian_group:0 "$NUM$$ORDER$ Army"
  NAVY_NAME_egyptian_group:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_egyptian_group:0 "$HOME$'s $NUM$$ORDER$ Regiment"
- egyptian:0 "Egyptian"
+ egyptian:0 "Ancient Egyptian"
+ coptic:0 "Coptic"
  
  berber_group:0 "Berber"
  berber_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

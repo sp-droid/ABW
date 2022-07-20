@@ -2,10 +2,10 @@
 	color = hsv { 0.15  1  0.7 }
 
 	male_names = {
-		Muhammad Omar Abdel Salem Abu Ashraf Ibrahim Ibn Ahmed Nasser Yitzhak Ali Wahbi Jadallah Hassan Abdulsalam Abdulrahman Sayyid
+		Amoun Anoub Apamoun Bishoy Panoub Pamoun Pigol Psote Sarjoun Ruweis Sidhom Yakobos
 	}
 	female_names = {
-		Agape Zuhra Nadia Alaa Fatima Huldu Layla Mamat Maryam Masat Mawiyya Shagilath Shamsi Suhaimat
+		Anthelia Demiana Ese Fibruniyah Kattrin Luca Ourt Tanoute
 	}
 	family = {
 		Almohad.Almohad.Almohad.Almohad
@@ -18,15 +18,8 @@
 	}
 
 	culture = {
-		egyptian = {
-			male_names = {
-				Amoun Anoub Apamoun Bishoy Panoub Pamoun Pigol Psote Sarjoun Ruweis Sidhom Yakobos
-			}
-			female_names = {
-				Anthelia Demiana Ese Fibruniyah Kattrin Luca Ourt Tanoute
-			}
-		}
-		nubi = { }
+		egyptian = { }
+		coptic = { }
 	}
 	
 	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }

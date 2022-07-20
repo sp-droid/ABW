@@ -1918,7 +1918,7 @@ JominiMultiplayerLobby = {
 							using = droptargetbutton
 							blockoverride "IconTexture" { texture = "gfx/interface/icons/minimap/terrain.dds" } 
 							onclick = "[SetMapMode('terrain')]"
-							tooltip = "MAPMODE_TERRAIN"
+							tooltip = "MAPMODE_POLITICAL"
 						}
 						
 						button = {
@@ -1934,7 +1934,7 @@ JominiMultiplayerLobby = {
 							using = droptargetbutton
 							blockoverride "IconTexture" { texture = "gfx/interface/icons/minimap/political.dds" } 
 							onclick = "[SetMapMode('political')]"
-							tooltip = "MAPMODE_POLITICAL"
+							tooltip = "MAPMODE_TERRAIN"
 						}
 						
 						button = {

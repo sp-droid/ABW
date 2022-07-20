@@ -1,9 +1,9 @@
 Maghreb_region = { #19
-	areas = { Lefkamucum_area Kudiosmea_area Klazojuklis_area Hermaraththena_area Kidemene_area Ydhiethera_area Aegmegalida_area Histhyelia_area Askgaosse_area Alinmaronlia_area Chalimetta_area Histrdyosia_area Helnemdia_area Artbyzalous_area Abmetine_area Opuhieraita_area Naxkimmerinda_area Morgacarcum_area Western_Sahara_area }
+	areas = { Maghreb0_area Maghreb1_area Maghreb7_area Maghreb8_area Maghreb6_area Maghreb4_area Maghreb3_area Maghreb9_area Maghreb5_area Maghreb2_area Maghreb17_area Maghreb15_area Maghreb16_area Maghreb13_area Maghreb12_area Maghreb11_area Maghreb14_area Maghreb10_area Maghreb18_area }
 }
 
 Haemus_region = { #39
-	areas = { Dornyum_area Larididita_area Empalinnae_area Aenbhyrtthus_area Hieragorlia_area Emporolosia_area Cyrialytiri_area Dylaptes_area Edgorgion_area Kameirmegcum_area Golgalitiri_area Kemesemyra_area Kouithlia_area Dimajuinda_area Ormonastae_area Kouramaryios_area Muchiai_area Hermidececia_area Corcknosoli_area Marmethoium_area Carymetapoinda_area Marhagios_area Alacalita_area Kannchersosia_area Berghemetiri_area Lineida_area Orchoaeniana_area Monaadramthos_area Gourcaryine_area Hieragazcum_area Helinysosia_area Hermiolia_area Millmetaponlia_area Methamithera_area Kameargyrsos_area Lepreleorea_area Marephethena_area Edkyrenmenus_area Clazoepiium_area }
+	areas = { Haemus23_area Haemus19_area Haemus4_area Haemus20_area Haemus21_area Haemus17_area Haemus2_area Haemus26_area Haemus22_area Haemus18_area Haemus6_area Haemus7_area Haemus3_area Haemus14_area Haemus25_area Haemus24_area Haemus1_area Haemus0_area Haemus15_area Haemus16_area Haemus12_area Haemus5_area Haemus29_area Haemus30_area Haemus13_area Haemus11_area Haemus10_area Haemus28_area Haemus9_area Haemus27_area Haemus32_area Haemus8_area Haemus31_area Haemus33_area Haemus36_area Haemus38_area Haemus37_area Haemus34_area Haemus35_area }
 }
 
 Tartaria_region = { #9
@@ -15,7 +15,7 @@ India_region = { #12
 }
 
 Francia_region = { #25
-	areas = { bar_area franche_comte_area Lorraine_area provence_area dauphine_area normandy_area champagne_area saintonge_area anjou_area burgundy_area limousin_area gascogne_area gascognewip_area auvergne_area ile_de_france_area alencon_area britanny_area Itacorcia_area bourbon_area picardy_area touraine_area poitou_area orleans_area guyenne_area berry_area }
+	areas = { Francia2_area Francia1_area Francia17_area Francia0_area Francia3_area Francia4_area Francia9_area Francia6_area Francia18_area Francia12_area Francia13_area Francia14_area Francia19_area Francia24_area Francia22_area Francia10_area Francia20_area Francia23_area Francia5_area Francia15_area Francia21_area Francia11_area Francia8_area Francia7_area Francia16_area }
 }
 
 Nusantara_region = { #12
@@ -26,12 +26,12 @@ Guinea_region = { #9
 	areas = { Guinea0_area Guinea1_area Guinea2_area Guinea3_area Guinea4_area Guinea5_area Guinea6_area Guinea7_area Guinea8_area }
 }
 
-Cape_region = { #8
+Cape_region = { #9
 	areas = { Cape0_area Cape1_area Cape2_area Cape3_area Cape4_area Cape5_area Cape6_area Cape7_area St_Helena_area }
 }
 
 Anatolia_region = { #20
-	areas = { Elenymphiana_area Namarmmenus_area Neachamosia_area Kerkingoissa_area Imbrmaretta_area Lebkonae_area Chytabuf_area Nygytium_area Oncarlis_area Gormilllea_area Kamaigosoli_area Calmorgus_area Gouraegonia_area Histrepidtiri_area Argemporpolis_area Lamibergpetra_area Jukmonastioli_area Methodydus_area Mamethoica_area Caryalioas_area }
+	areas = { Anatolia6_area Anatolia1_area Anatolia7_area Anatolia3_area Anatolia5_area Anatolia14_area Anatolia4_area Anatolia13_area Anatolia0_area Anatolia8_area Anatolia2_area Anatolia12_area Anatolia9_area Anatolia10_area Anatolia11_area Anatolia17_area Anatolia19_area Anatolia16_area Anatolia15_area Anatolia18_area }
 }
 
 Mashriq_region = { #9
@@ -39,7 +39,7 @@ Mashriq_region = { #9
 }
 
 Egypt_region = { #14
-	areas = { Oropelinon_area Ioiolum_area Dicidauf_area Gokatita_area Lekabdia_area Ephekercia_area Manbrates_area Methoelatnae_area Methamukemea_area Lindkyrenmos_area Imgazsos_area Ololissa_area Boukymos_area Gyrthgonera_area }
+	areas = { Egypt0_area Egypt3_area Egypt9_area Egypt11_area Egypt10_area Egypt1_area Egypt13_area Egypt5_area Egypt12_area Egypt2_area Egypt6_area Egypt8_area Egypt4_area Egypt7_area }
 }
 
 Caucasus_region = { #6
@@ -55,11 +55,11 @@ Nippon_region = { #6
 }
 
 Iberia_region = { #28
-	areas = { alentejo_area algarve_area ribatejo_area beira_area douro_e_minho_area aragon_area valencia_area catalunya_area mallorca_area navarra_area granada_area toledo_area segovia_area murcia_area cuenca_area la_mancha_area burgos_area jaen_area salamanca_area galicia_area soria_area sevilla_area cordoba_area valladolid_area vizcaya_area extremadura_area leon_area asturias_area }
+	areas = { Iberia8_area Iberia7_area Iberia6_area Iberia5_area Iberia13_area Iberia9_area Iberia14_area Iberia20_area Iberia24_area Iberia15_area Iberia17_area Iberia10_area Iberia16_area Iberia11_area Iberia12_area Iberia22_area Iberia23_area Iberia18_area Iberia26_area Iberia27_area Iberia21_area Iberia25_area Iberia4_area Iberia0_area Iberia3_area Iberia19_area Iberia1_area Iberia2_area }
 }
 
 Greater_Russia_region = { #15
-	areas = { Bhyrtkalliina_area Hecyrthos_area Cythbergthus_area Masdimthera_area Gorghiosse_area Kamamonaslea_area Adramolyida_area Oepmarmalis_area Kimmmarollai_area Oepaleios_area Amphiamiuf_area Idaljuktus_area Maskoriinon_area Haglinmos_area Metmocia_area }
+	areas = { Greater_Russia0_area Greater_Russia11_area Greater_Russia14_area Greater_Russia13_area Greater_Russia3_area Greater_Russia1_area Greater_Russia12_area Greater_Russia6_area Greater_Russia5_area Greater_Russia10_area Greater_Russia4_area Greater_Russia2_area Greater_Russia9_area Greater_Russia8_area Greater_Russia7_area }
 }
 
 Brazil_region = { #11
@@ -83,7 +83,7 @@ Midwest_region = { #8
 }
 
 Britannia_region = { #28
-	areas = { meath_area desmond_area leinster_area ulster_area connacht_area thomond_area isle_of_man_area hamilton_area ross_area orkney_area the_isles_area buccleuch_area albany_area welsh_march_area westminster_area sussex_area york_area lancaster_area lincoln_area northumberland_area kent_area cornwall_area bedford_area somerset_area hereford_area gloucester_area wales_area norfolk_area }
+	areas = { Britannia27_area Britannia20_area Britannia14_area Britannia22_area Britannia18_area Britannia15_area Britannia16_area Britannia19_area Britannia25_area Britannia23_area Britannia24_area Britannia17_area Britannia11_area Britannia12_area Britannia13_area Britannia9_area Britannia26_area Britannia8_area Britannia21_area Britannia7_area Britannia6_area Britannia10_area Britannia2_area Britannia3_area Britannia0_area Britannia5_area Britannia4_area Britannia1_area }
 }
 
 Andes_region = { #10
@@ -91,11 +91,11 @@ Andes_region = { #10
 }
 
 Italia_region = { #39
-	areas = { turin_area monferrato_area genoa_area nizza_area brescia_area modena_area Hieramochum_area parma_area Onchherthrae_area pisa_area firenze_area ferrara_area Kanngolgthos_area padua_area Ambrliida_area Byzhalicthena_area Empomeson_area Imbrelion_area Eleumantinder_area perugia_area roma_area ascoli__area aquila_area Jukleontuf_area Emporkiolia_area fondi_area Mulcalylea_area Kydoclazoissa_area palermo_area messina_area siracusa_area Odeslison_area foggia_area Ialeoeia_area isernia_area napoli_area taranto_area Megaloedila_area basilicata_area }
+	areas = { Italia36_area Italia37_area Italia38_area Italia32_area Italia33_area Italia31_area Italia30_area Italia35_area Italia29_area Italia34_area Italia15_area Italia21_area Italia22_area Italia25_area Italia28_area Italia26_area Italia20_area Italia19_area Italia13_area Italia23_area Italia11_area Italia24_area Italia14_area Italia12_area Italia8_area Italia16_area Italia10_area Italia5_area Italia9_area Italia4_area Italia7_area Italia6_area Italia27_area Italia2_area Italia18_area Italia1_area Italia0_area Italia3_area Italia17_area }
 }
 
 Scandia_region = { #28
-	areas = { Elatgythmos_area Dioskorilia_area Linklazorias_area Lapitmetaplia_area Antiantilia_area Megaloaskcia_area Ephylefkapolis_area Dorcallithos_area Methaastpetra_area Koihieene_area Gorgiknidai_area Aigithatrias_area Megahierauf_area Lampscebai_area Chytmethyra_area Hermachyra_area Larisakrdia_area Kataiaila_area Ydaigosthena_area Kameleslia_area Cleoedaea_area Megallaolea_area Kordicthos_area Alehemerea_area Morgkorinthlia_area Hilamea_area Morgamaratthos_area Cheapalia_area }
+	areas = { Scandia5_area Scandia0_area Scandia1_area Scandia4_area Scandia3_area Scandia2_area Scandia23_area Scandia13_area Scandia25_area Scandia20_area Scandia17_area Scandia11_area Scandia14_area Scandia26_area Scandia18_area Scandia15_area Scandia10_area Scandia19_area Scandia22_area Scandia24_area Scandia7_area Scandia12_area Scandia9_area Scandia21_area Scandia6_area Scandia8_area Scandia16_area Scandia27_area }
 }
 
 Pacific_Coast_region = { #8
@@ -103,7 +103,7 @@ Pacific_Coast_region = { #8
 }
 
 Baltic_region = { #10
-	areas = { Epimassate_area Chalckasmlia_area Dicaeakorinuf_area Kydomethorias_area Gortyasisos_area Methuidaoas_area Delleontonia_area Kimmdyion_area Marmaina_area Kimmerlaolia_area }
+	areas = { Baltic9_area Baltic6_area Baltic7_area Baltic4_area Baltic5_area Baltic8_area Baltic3_area Baltic2_area Baltic0_area Baltic1_area }
 }
 
 The_Horn_region = { #10
@@ -135,19 +135,19 @@ Micronesia_region = { #3
 }
 
 Germania_region = { #38
-	areas = { Alsace_area Dioandissa_area Lampsajuktes_area Didymarmaus_area Cherscololi_area Monastigeletta_area Asslekhrea_area Korintdicaeaosse_area Odessaegllai_area Ephemonastpetra_area Cheropthera_area Lefkakerkmos_area Alinandrrias_area Antignymphum_area Cololinera_area Monoastnympdus_area Deljuate_area Heramnitherna_area Histrgorgilia_area Onchnystes_area Demetkameithrae_area Chalcherthos_area Artemkorpetra_area Nymphaigososse_area Metapkimmsos_area Ialyhagipolis_area Dimaaleida_area Lapgournene_area Morgankorrea_area Kerkidioinon_area Lilaimbon_area Gonapollera_area Gorgigothera_area Demcharea_area Millmethalia_area Cyknioli_area Millliosia_area Histelatios_area }
+	areas = { Germania30_area Germania31_area Germania34_area Germania19_area Germania33_area Germania1_area Germania2_area Germania3_area Germania26_area Germania32_area Germania35_area Germania24_area Germania18_area Germania36_area Germania37_area Germania25_area Germania11_area Germania10_area Germania21_area Germania14_area Germania27_area Germania8_area Germania23_area Germania29_area Germania9_area Germania7_area Germania20_area Germania15_area Germania22_area Germania28_area Germania17_area Germania4_area Germania12_area Germania0_area Germania5_area Germania16_area Germania13_area Germania6_area }
 }
 
 Sarmatia_region = { #31
-	areas = { Marmaaphiosia_area Laodolbimos_area Agrinimbtes_area Marmmetapodus_area Hagmonasita_area Knosdimdia_area Gortmiseissa_area Mukmoate_area Odeoenatrea_area Morgachytai_area Chacolcia_area Katmaroetta_area Kynmesthrae_area Kamargoonia_area Gorolynlea_area Gelmillllai_area Metakulia_area Milknidrea_area Mukcrotita_area Morganempium_area Lauorestalous_area Nympoentes_area Chalcactllai_area Hublmonastoas_area Lefkkydoinda_area Monasherida_area Megalolampyra_area Monatgytder_area Naxkyrae_area Gortlefkaate_area Lilliloli_area }
+	areas = { Sarmatia29_area Sarmatia1_area Sarmatia28_area Sarmatia24_area Sarmatia25_area Sarmatia30_area Sarmatia0_area Sarmatia27_area Sarmatia26_area Sarmatia14_area Sarmatia23_area Sarmatia18_area Sarmatia16_area Sarmatia22_area Sarmatia20_area Sarmatia21_area Sarmatia17_area Sarmatia19_area Sarmatia15_area Sarmatia12_area Sarmatia7_area Sarmatia13_area Sarmatia8_area Sarmatia9_area Sarmatia10_area Sarmatia3_area Sarmatia4_area Sarmatia11_area Sarmatia5_area Sarmatia2_area Sarmatia6_area }
 }
 
 Low_Lands_region = { #9
-	areas = { flanders_area Lemorganrias_area Calymetapmea_area Mantastera_area Gytgythiiana_area Monastephyrrias_area Nymphdypetra_area Lilkasissa_area Meslarisosia_area }
+	areas = { Low_Lands7_area Low_Lands4_area Low_Lands2_area Low_Lands3_area Low_Lands5_area Low_Lands1_area Low_Lands6_area Low_Lands8_area Low_Lands0_area }
 }
 
 Carpathia_region = { #17
-	areas = { Decabmea_area Mantinmantinpetra_area Halicmethaium_area Immassaetta_area Chegangoas_area Nyhieratrias_area Artemkerkilia_area Dellebeder_area Arsleonene_area Eresneathena_area Apollmassnes_area Lilalilalia_area Marmlamthrae_area Hikamarai_area Laulapsos_area Askgortessa_area Larisdiosmos_area }
+	areas = { Carpathia6_area Carpathia4_area Carpathia3_area Carpathia5_area Carpathia2_area Carpathia0_area Carpathia9_area Carpathia1_area Carpathia15_area Carpathia12_area Carpathia13_area Carpathia10_area Carpathia14_area Carpathia8_area Carpathia11_area Carpathia7_area Carpathia16_area }
 }
 
 Arabia_region = { #6
