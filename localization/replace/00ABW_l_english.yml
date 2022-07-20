@@ -11,6 +11,13 @@
  JERINTRO:0 "#T Kingdom of Jerusalem#!\nDifficulty: #Y Hard#!\n\nThe Kingdom of Jerusalem was a crusader state established in the Southern Levant by Godfrey of Bouillon in 1099 after the First Crusade. Its history is divided into two distinct periods. The First Kingdom of Jerusalem lasted from 1099 to 1187, when it was almost entirely overrun by Saladin. After the subsequent Third Crusade, the kingdom was re-established in Acre in 1192"
  AUSINTRO:0 "#T Duchy of Austria#!\nDifficulty: #Y Easy#!\n\nThe Duchy of Austria was a medieval principality of the Holy Roman Empire, established in 1156 by the Privilegium Minus, when the Margraviate of Austria was detached from Bavaria and elevated to a duchy in its own right"
  
+ terrain_MAPMODE:0 "Political"
+ terrain_MAPMODE_DESC:1 "#T Political Mapmode#!\nThis will color each #Y Country#! in its unique color."
+ political_MAPMODE:0 "Terrain"
+ political_MAPMODE_DESC:1 "#T Terrain Mapmode#!\nThis will present an aesthetic view of the map, with minimal political information."
+ MAPMODE_TERRAIN:1 "$political_MAPMODE_DESC$"
+ MAPMODE_POLITICAL:1 "$terrain_MAPMODE_DESC$"
+ 
 #Terrains
  plains:0 "Grasslands"
  steppes:0 "Dry grasslands"
