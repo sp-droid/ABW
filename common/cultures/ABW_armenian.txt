@@ -1,0 +1,30 @@
+﻿armenian_group = {
+
+	color = hsv { 0.15  1  0.8 }
+
+	culture = {
+		armenian = {
+			male_names = {
+				Leo Gurgen David Smbat Abas Aghsartan Pahlavan Hasan Gagikk Ashott Derenik
+			}
+			female_names = {
+				Anahit Arax Talin Vartouhi Sona Sirvart Vosgi Voski Zabel
+			}
+			family = {
+				Rubenids.Rubenids.Rubenids.Rubenids
+				Bagratuni.Bagratuni.Bagratuni.Bagratuni
+				Kamsarkan.Kamsarkan.Kamsarkan.Kamsarkan
+				Rshtuni.Rshtuni.Rshtuni.Rshtuni
+				Mamikonian.Mamikonian.Mamikonian.Mamikonian
+			}
+		}
+	}
+
+	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }
+
+	graphical_culture = celtic_gfx
+
+	ethnicities = {
+		10 = persian
+	}
+}

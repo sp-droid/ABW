@@ -1,0 +1,29 @@
+﻿georgian_group = {
+
+	color = hsv { 0.15  0.5  0.8 }
+
+	culture = {
+		georgian = {
+			male_names = {
+				Demtrius George Rusudan David Vakhtang Constantine Alexander Bagrat
+			}
+			female_names = {
+				Tamar Anuki Eteri Eva Irina Ketevan Mariam Mzia Tamari Tsiuri
+			}
+			family = {
+				Bagrationi.Bagrationi.Bagrationi.Bagrationi
+				Omanidze.Omanidze.Omanidze.Omanidze
+				Gugushvili.Gugushvili.Gugushvili.Gugushvili
+				Abazasdze.Abazasdze.Abazasdze.Abazasdze
+			}
+		}
+	}
+
+	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }
+
+	graphical_culture = celtic_gfx
+
+	ethnicities = {
+		10 = persian
+	}
+}

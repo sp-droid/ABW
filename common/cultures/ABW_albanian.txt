@@ -1,27 +1,28 @@
-﻿dacoroman_group = {
-	color = rgb { 244 63 65 }
+﻿albanian_group = {
+	color = rgb { 103 132 84 }
 
 	male_names = {
-		Bastiza Andrejan Basaraba Enoh Hrista Ismajlo Matijas Perunka Petrul Sekula Stavros Toman Tomsiav
+		Bastiza Afrim Agim Bashkim Fatmir Gjergj Gjon Khalil Pavli Pjeter Ylli
 	}
 	female_names = {
 		Duccidava Rescuturme Zina Zinai Petriturme Zindurme Roibana Oriza Rescurai Raina Sanziana Claria Eccana
 	}
 
 	family = {
-		Abdusevic.Abdusevic.Abdusevic.Abdusevic
-		Bacunic.Bacunic.Bacunic.Bacunic
-		Basarabic.Basarabic.Basarabic.Basarabic
-		Prvulovic.Prvulovic.Prvulovic.Prvulovic
+		Ademi.Ademi.Ademi.Ademi
+		Curri.Curri.Curri.Curri
+		Isufaj.Isufaj.Isufaj.Isufaj
+		Lekaj.Lekaj.Lekaj.Lekaj
+		Muka.Muka.Muka.Muka
+		Peco.Peco.Peco.Peco
+		Shehhi.Shehhi.Shehhi.Shehhi
 	}
 	culture = {
-		vlach = {}
+		albanian = {}
 	}
-	
+
 	barbarian_names = { AEDI BIEPHI BIESSOI CARPI CIAGINSI CROBIDAE PIEPHIGI SUCI TERICI TRIXAE }
-	
-	
-	
+
 	graphical_culture = carthaginian_gfx
 	ethnicities = {
 		10 = levantine

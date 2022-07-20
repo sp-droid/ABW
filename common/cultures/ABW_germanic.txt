@@ -2,24 +2,13 @@
 
 	color = hsv { 0.05 0.7 0.3 }
 	
-	male_names = {
-		Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
-	}
-	female_names = {
-		Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
-	}
-	family = {
-		Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
-		Babenberg.Babenberg.Babenberg.Babenberg
-		Ascania.Ascania.Ascania.Ascania
-		Baumgartner.Baumgartner.Baumgartner.Baumgartner
-		Gerver.Gerver.Gerver.Gerver
-		wurttemberg.wurttemberg.wurttemberg.wurttemberg
-	}
 	culture = {
 		flemish = {
 			male_names = {
 				Boudewijn Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Hartmann Konrad Ludwig
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
 			}
 			family = {
 				Flanders.Flanders.Flanders.Flanders
@@ -30,10 +19,61 @@
 				Gerver.Gerver.Gerver.Gerver
 			}
 		}
-		prussian = {}
-		holsatian = {}
-		westphalian = {}
+		prussian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		holsatian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		westphalian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
 		dutch = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
 			family = {
 				vAhr.vAhr.vAhr.vAhr
 				vonHolland.vonHolland.vonHolland.vonHolland
@@ -43,24 +83,271 @@
 				Avesnes.Avesnes.Avesnes.Avesnes
 			}
 		}
-		frisian = {}
-		saxon = {}
-		norsaxon = {}
-		austrian = {}
-		bavarian = {}
-		swabian = {}
-		franconian = {}
-		alemannic = {}
-		rheinlander = {}
-		swiss = {}
-		tirole = {}
+		frisian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		saxon = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		norsaxon = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		austrian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		bavarian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		swabian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		franconian = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		alemannic = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		rheinlander = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		swiss = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
+		tirole = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
+			family = {
+				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
+				Babenberg.Babenberg.Babenberg.Babenberg
+				Ascania.Ascania.Ascania.Ascania
+				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+				Gerver.Gerver.Gerver.Gerver
+				wurttemberg.wurttemberg.wurttemberg.wurttemberg
+			}
+		}
 		teuton = {
+			male_names = {
+				Baudouin Frederick Leopold Bernhard Otto Abraham Franz Fritz Gustav Heinreich Johann Klaus Kurt Maximilian Dietrich Hartmann Konrad Ludwig Berthold
+			}
+			female_names = {
+				Abigail Agnes Charlotte Christine Doris Ernestine Heinrike Helma Ina Judith Krista Magda Maike Oda
+			}
 			family = {
 				Kerpen.Kerpen.Kerpen.Kerpen
 				Hohenstaufen.Hohenstaufen.Hohenstaufen.Hohenstaufen
 				Babenberg.Babenberg.Babenberg.Babenberg
 				Ascania.Ascania.Ascania.Ascania
 				Baumgartner.Baumgartner.Baumgartner.Baumgartner
+			}
+		}
+		english = {
+			male_names = {
+				John Adam Nicholas Simon Geoffrey Peter Thomas Gilbert Henry Richard William Hugh Robert Roger
+			}
+			female_names = {
+				Victoria Agnes Isabella Alice Joan Avice Juliana Beatrice Margery Matilda Emma
+			}
+			family = {
+				Angevin.Angevin.Angevin.Angevin
+				York.York.York.York
+				Lancaster.Lancaster.Lancaster.Lancaster
+				Normandy.Normandy.Normandy.Normandy
+			}
+		}
+		danish = {
+			male_names = {
+				Taki Agner Aksel Haakon Valdemar Inge Sverker Alf Anders Ansgar Arne Einarr Anlaufr Borkvard Emund Geirr Hrafn Hysing Ingemar Ragnarr Sumarlidi Oysteinn
+			}
+			female_names = {
+				Bine Audra Austra Daina Dolja Gubja Laima Migla Rasa Saule Ugne Asta Alvor Beata Cecilia Edla Glod Hafrid Ingfrid Kraka Rikissa Sif
+			}
+			family = {
+				Hvide.Hvide.Hvide.Hvide
+				Niklotid.Niklotid.Niklotid.Niklotid
+				Godwin.Godwin.Godwin.Godwin
+				Estridsen.Estridsen.Estridsen.Estridsen
+				Sverk.Sverk.Sverk.Sverk
+			}
+		}
+		norwegian = {
+			male_names = {
+				Haakon Valdemar Inge Sverker Alf Anders Ansgar Arne Einarr Anlaufr Borkvard Emund Geirr Hrafn Hysing Ingemar Ragnarr Sumarlidi Oysteinn
+			}
+			female_names = {
+				Audra Austra Daina Dolja Gubja Laima Migla Rasa Saule Ugne Asta Alvor Beata Cecilia Edla Glod Hafrid Ingfrid Kraka Rikissa Sif
+			}
+			family = {
+				Estrid.Estrid.Estrid.Estrid
+				Norway.Norway.Norway.Norway
+				Ynling.Ynling.Ynling.Ynling
+				Rein.Rein.Rein.Rein
+				Atholl.Atholl.Atholl.Atholl
+			}
+		}
+		swedish = {
+			male_names = {
+				Abbiorn
+				Haakon Valdemar Inge Sverker Alf Anders Ansgar Arne Einarr Anlaufr Borkvard Emund Geirr Hrafn Hysing Ingemar Ragnarr Sumarlidi Oysteinn
+			}
+			female_names = {
+				Audra Austra Daina Dolja Gubja Laima Migla Rasa Saule Ugne Asta Alvor Beata Cecilia Edla Glod Hafrid Ingfrid Kraka Rikissa Sif
+			}
+			family = {
+				Bjelbo.Bjelbo.Bjelbo.Bjelbo
+				Estridsen.Estridsen.Estridsen.Estridsen
+				ofEric.ofEric.ofEric.ofEric
+				Godwin.Godwin.Godwin.Godwin
+				Sverk.Sverk.Sverk.Sverk
+			}
+		}
+		gutnish = {
+			male_names = {
+				Haakon Valdemar Inge Sverker Alf Anders Ansgar Arne Einarr Anlaufr Borkvard Emund Geirr Hrafn Hysing Ingemar Ragnarr Sumarlidi Oysteinn
+			}
+			female_names = {
+				Audra Austra Daina Dolja Gubja Laima Migla Rasa Saule Ugne Asta Alvor Beata Cecilia Edla Glod Hafrid Ingfrid Kraka Rikissa Sif
+			}
+			family = {
+				Stenkyrka.Stenkyrka.Stenkyrka.Stenkyrka
+				Hejnum.Hejnum.Hejnum.Hejnum
+				Guldsmed.Guldsmed.Guldsmed.Guldsmed
+				Godwin.Godwin.Godwin.Godwin
+				Estridsen.Estridsen.Estridsen.Estridsen
+				Sverk.Sverk.Sverk.Sverk
 			}
 		}
 	}

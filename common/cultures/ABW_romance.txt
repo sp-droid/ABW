@@ -1,0 +1,401 @@
+﻿romance_group = {
+	color = hsv { 0 0.91 0.55 }
+	
+	culture = {
+		piedmontese = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		sotirol = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		genoese = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Grimaldi.Grimaldi.Grimaldi.Grimaldi
+				Spinola.Spinola.Spinola.Spinola
+				Fieschi.Fieschi.Fieschi.Fieschi
+				Doria.Doria.Doria.Doria
+			}
+		}
+		tuscan = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Orlandi.Orlandi.Orlandi.Orlandi
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		sardinian = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Serra.Serra.Serra.Serra
+				Torres.Torres.Torres.Torres
+				Gunale.Gunale.Gunale.Gunale
+				Massa.Massa.Massa.Massa
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+				Montferrat.Montferrat.Montferrat.Montferrat
+			}
+		}
+		umbrian = {
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			male_names = {
+				Innocenzo Urbano Leone Silvestro Alessandro Bonifacio Benedetto Gregorio Adriano Lucio Stefano Callisto Anastasio Clemente Celestino Eugenio Giovanni Romano Niccolo
+			}
+			family = {
+				Segni.Segni.Segni.Segni
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		venetian = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Dandolo.Dandolo.Dandolo.Dandolo
+				Morosini.Morosini.Morosini.Morosini
+				Contarini.Contarini.Contarini.Contarini
+				Cornaro.Cornaro.Cornaro.Cornaro
+			}
+		}
+		emilian = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		lombard = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		neapolitan = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		sicilian = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		friulian = {
+			male_names = {
+				Bonifacio Guglielmo Aldobrando Ugone Costantino Enrico Adamo Aldo Basilio Biaggio Constantino Enea Ezio Filippo Galeazzo Ignazio Grimaldo Lazzaro Manuel Maurizio Nicodemo Paolo Pietro Teodoro Vittorio Silvio
+			}
+			female_names = {
+				Elena Adelaide Alessa Antonina Aurora Berenice Carla Caterina Dorotea Emilia Fabia Fiorella Isabella Margherita Maria Renata Romana Silvia Teofila Zoe Viviana
+			}
+			family = {
+				Montferrat.Montferrat.Montferrat.Montferrat
+				Medici.Medici.Medici.Medici
+				Orsini.Orsini.Orsini.Orsini
+				Cesarini.Cesarini.Cesarini.Cesarini
+				Aldobrandini.Aldobrandini.Aldobrandini.Aldobrandini
+				Ludovisi.Ludovisi.Ludovisi.Ludovisi
+				Pamphili.Pamphili.Pamphili.Pamphili
+				Colonna.Colonna.Colonna.Colonna
+				Barberini.Barberini.Barberini.Barberini
+			}
+		}
+		vlach = {
+			male_names = {
+				Bastiza Andrejan Basaraba Enoh Hrista Ismajlo Matijas Perunka Petrul Sekula Stavros Toman Tomsiav
+			}
+			female_names = {
+				Duccidava Rescuturme Zina Zinai Petriturme Zindurme Roibana Oriza Rescurai Raina Sanziana Claria Eccana
+			}
+			family = {
+				Abdusevic.Abdusevic.Abdusevic.Abdusevic
+				Bacunic.Bacunic.Bacunic.Bacunic
+				Basarabic.Basarabic.Basarabic.Basarabic
+				Prvulovic.Prvulovic.Prvulovic.Prvulovic
+			}
+		}
+		burgundian = {
+			male_names = {
+				Eudes Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Champlitte.Champlitte.Champlitte.Champlitte
+				Roche.Roche.Roche.Roche
+				Anjou.Anjou.Anjou.Anjou
+				Lusignan.Lusignan.Lusignan.Lusignan
+				Poitiers.Poitiers.Poitiers.Poitiers
+				Thouars.Thouars.Thouars.Thouars
+				Capet.Capet.Capet.Capet
+				Burgundy.Burgundy.Burgundy.Burgundy
+			}
+		}
+		francien = {
+			male_names = {
+				Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Champlitte.Champlitte.Champlitte.Champlitte
+				Roche.Roche.Roche.Roche
+				Anjou.Anjou.Anjou.Anjou
+				Lusignan.Lusignan.Lusignan.Lusignan
+				Poitiers.Poitiers.Poitiers.Poitiers
+				Thouars.Thouars.Thouars.Thouars
+				Capet.Capet.Capet.Capet
+				Burgundy.Burgundy.Burgundy.Burgundy
+			}
+		}
+		norman = {
+			male_names = {
+				John
+				Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Victoria
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Angevin.Angevin.Angevin.Angevin
+				York.York.York.York
+				Lancaster.Lancaster.Lancaster.Lancaster
+				Anjou.Anjou.Anjou.Anjou
+				Normandy.Normandy.Normandy.Normandy
+			}
+		}
+		occitan = {
+			male_names = {
+				Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Rourgue.Rourgue.Rourgue.Rourgue
+				Savoy.Savoy.Savoy.Savoy
+				Montcada.Montcada.Montcada.Montcada
+				Albon.Albon.Albon.Albon
+			}
+		}
+		gascon = {
+			male_names = {
+				Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Champlitte.Champlitte.Champlitte.Champlitte
+				Roche.Roche.Roche.Roche
+				Anjou.Anjou.Anjou.Anjou
+				Lusignan.Lusignan.Lusignan.Lusignan
+				Poitiers.Poitiers.Poitiers.Poitiers
+				Thouars.Thouars.Thouars.Thouars
+				Capet.Capet.Capet.Capet
+				Burgundy.Burgundy.Burgundy.Burgundy
+			}
+		}
+		walloon = {
+			male_names = {
+				Guillaume Othon Raymond Amaury Hugues Bohemond Philippe Jehan Pierre Nicolas Jaques Estienne Robin Pierre Thomas Regnault Gilles Henry Francois Gaston Bertrand
+			}
+			female_names = {
+				Isabelle Marie Jehanne Guillemette Jehannette Perrette Katherine Marguerite Collette Beatrix Eleanor
+			}
+			family = {
+				Champlitte.Champlitte.Champlitte.Champlitte
+				Roche.Roche.Roche.Roche
+				Anjou.Anjou.Anjou.Anjou
+				Lusignan.Lusignan.Lusignan.Lusignan
+				Poitiers.Poitiers.Poitiers.Poitiers
+				Thouars.Thouars.Thouars.Thouars
+				Capet.Capet.Capet.Capet
+				Burgundy.Burgundy.Burgundy.Burgundy
+			}
+		}
+		castleon = {
+			male_names = {
+				Alfonso Sancho Ramon Juan Carlos Fernando Felipe Enrique Jose Luis Manuel Miguel Pedro Rodrigo Diego Nuno Gonzalo Gutier Alvaro Berenguela Pablo Pedro
+			}
+			female_names = {
+				Juana Ana Mariia Adela Aitana Alba Alejandra Alicia Amelia Blanca Catalina Elena Fatima Ines Irene Josefina Laura Leyre Lorena Luz Pilar Susana Teodora Ursula Isabel
+			}
+			family = {
+				Borgona.Borgona.Borgona.Borgona
+				Jimena.Jimena.Jimena.Jimena
+				Arag.Arag.Arag.Arag
+				Lara.Lara.Lara.Lara
+			}
+		}
+		aragonese = {
+			male_names = {
+				Alfonso Sancho Ramon Juan Carlos Fernando Felipe Enrique Jose Luis Manuel Miguel Pedro Rodrigo Diego Nuno Gonzalo Gutier Alvaro Berenguela Pablo Pedro
+			}
+			female_names = {
+				Juana Ana Mariia Adela Aitana Alba Alejandra Alicia Amelia Blanca Catalina Elena Fatima Ines Irene Josefina Laura Leyre Lorena Luz Pilar Susana Teodora Ursula Isabel
+			}
+			family = {
+				Borgona.Borgona.Borgona.Borgona
+				Jimena.Jimena.Jimena.Jimena
+				Arag.Arag.Arag.Arag
+				Lara.Lara.Lara.Lara
+			}
+		}
+		catalan = {
+			male_names = {
+				RamonBer Adria Albert Arnau Bernat Eloi Enric Ferran Guillem Ignasi Joan Joaquim Josep Lluis Marcel Pau Ricard Vicent Xavier Pedro
+			}
+			female_names = {
+				Alba Anna Arlet Blanca Carla Elisabet Gemma Joana Laia Maria Paula Sofia Zooe Victoriaa Dulce
+			}
+			family = {
+				Barcelona.Barcelona.Barcelona.Barcelona
+				Urgell.Urgell.Urgell.Urgell
+				Borgona.Borgona.Borgona.Borgona
+				Arag.Arag.Arag.Arag
+			}
+		}
+		galician = {
+			male_names = {
+				Afonso Joao Carlos Dinis Duarte Fernando Filipe Henrique Jose Luis Manuel Miguel Pedro Sancho Sebastiao Pedro
+			}
+			female_names = {
+				Joana Ana Maria Adela Alicia Amelia Blanca Catalina Elena Fatima Ines Irene Laura Luz Susana Ursula Isabel
+			}
+			family = {
+				Borgona.Borgona.Borgona.Borgona
+				Jimena.Jimena.Jimena.Jimena
+				Arag.Arag.Arag.Arag
+				Lara.Lara.Lara.Lara
+			}
+		}
+	}
+	
+	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI VENETI }
+	
+	graphical_culture = iberian_gfx
+
+	ethnicities = {
+		10 = roman
+	}
+}

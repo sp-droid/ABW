@@ -1,0 +1,189 @@
+﻿slavic_group = {
+
+	color = rgb { 35 63 122 }
+
+	culture = {
+		bohemian = {
+			male_names = {
+				Otakar Václav Konrad Vratislav Boleslav Bretislav Jindrich Vladislav Alex Roman Rostislavol Aleksander Vseslav Vsevolod Mstislav
+			}
+			female_names = {
+				Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana Katariina
+			}
+			family = {
+				Piast.Piast.Piast.Piast
+				premislid.premislid.premislid.premislid
+				depoltici.depoltici.depoltici.depoltici
+				olomouc.olomouc.olomouc.olomouc
+			}
+		}
+		silesian = {
+			male_names = {
+				wladis Adrian Alojzy Andrzej Bonifacy Cyryl Mieszko Boleslaw Otto Casimir Leszek Henryk Przemysl Waclaw Rostislavol Konrad Aleksander Roman Vseslav Vladimir Vsevolod Mstislav
+			}
+			female_names = {
+				Katarzyna Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				Piast.Piast.Piast.Piast
+				premislid.premislid.premislid.premislid
+				depoltici.depoltici.depoltici.depoltici
+				olomouc.olomouc.olomouc.olomouc
+			}
+		}
+		polish = {
+			male_names = {
+				wladis Adrian Alojzy Andrzej Bonifacy Cyryl Mieszko Boleslaw Otto Casimir Leszek Henryk Przemysl Waclaw Rostislavol Konrad Aleksander
+			}
+			female_names = {
+				Katarzyna Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				Griffins.Griffins.Griffins.Griffins
+				Piast.Piast.Piast.Piast
+				premislid.premislid.premislid.premislid
+				Wisniewieki.Wisniewieki.Wisniewieki.Wisniewieki
+				Vasa.Vasa.Vasa.Vasa
+			}
+		}
+		pomeranian = {
+			male_names = {
+				wladis Adrian Alojzy Andrzej Bonifacy Cyryl Mieszko Boleslaw Otto Casimir Leszek Henryk Przemysl Waclaw Rostislavol Konrad Aleksander
+			}
+			female_names = {
+				Katarzyna Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				Griffins.Griffins.Griffins.Griffins
+				Piast.Piast.Piast.Piast
+				Wisniewieki.Wisniewieki.Wisniewieki.Wisniewieki
+				Vasa.Vasa.Vasa.Vasa
+				Samborides.Samborides.Samborides.Samborides
+			}
+		}
+		rani = {
+			male_names = {
+				Kruto Vartislav Ratislav Tetislav Jaromar Barnuta Wizlaw Grinus Leszek Henryk Alojzy Andrzej Cyryl Mieszko
+			}
+			female_names = {
+				Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				Wizlaw.Wizlaw.Wizlaw.Wizlaw
+				Piast.Piast.Piast.Piast
+				Wisniewieki.Wisniewieki.Wisniewieki.Wisniewieki
+				Vasa.Vasa.Vasa.Vasa
+			}
+		}
+		russian = {
+			male_names = {
+				Roman Rostislavol Rurik Konrad Aleksander Oleg Igor Svyatoslav Yaropolk Vladimir Yaroslav Izyaslav Vseslav Vsevolod Mstislav Vyacheslav Yuri Gleb
+			}
+			female_names = {
+				Yekaterina Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				rurikov.rurikov.rurikov.rurikov
+				Vasa.Vasa.Vasa.Vasa
+				Godunov.Godunov.Godunov.Godunov
+				Shuysky.Shuysky.Shuysky.Shuysky
+			}
+		}
+		ucranian = {
+			male_names = {
+				Roman Rostislavol Rurik Konrad Aleksander Oleg Igor Svyatoslav Yaropolk Vladimir Yaroslav Izyaslav Vseslav Vsevolod Mstislav Vyacheslav Yuri Gleb
+			}
+			female_names = {
+				Kateryna Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				rurikov.rurikov.rurikov.rurikov
+				Vasa.Vasa.Vasa.Vasa
+				Godunov.Godunov.Godunov.Godunov
+				Shuysky.Shuysky.Shuysky.Shuysky
+			}
+		}
+		novgorodian = {
+			male_names = {
+				Oleg Igor Sviatoslav Vladimir Yaropolk Viacheslav Yaroslav Iziaslav Mstislav Gleb Sviatopolk Davyd Vsevolod Yuri Konstantin Mikhail Ostromir Dobrynya Gostomysl Roman Rostislavol Rurik Konrad Aleksander 
+			}
+			female_names = {
+				Yekaterina Aleksandra Agata Diana Dominika Eleonora Hanna Julia Karina Maria Milena Olga Sabina Tatiana 
+			}
+			family = {
+				rurikov.rurikov.rurikov.rurikov
+				Vasa.Vasa.Vasa.Vasa
+				Godunov.Godunov.Godunov.Godunov
+				Shuysky.Shuysky.Shuysky.Shuysky
+			}
+		}
+		bulgarian = {
+			male_names = {
+				Kaloyan Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+			}
+			female_names = {
+				Roxana Zora Vera Svjetlana Spasena Radka Nadia Mira Mila Bozhidara Ana 
+			}
+			family = {
+				Asen.Asen.Asen.Asen
+				Cometopuli.Cometopuli.Cometopuli.Cometopuli
+				Krum.Krum.Krum.Krum
+				Terter.Terter.Terter.Terter
+			}
+		}
+		croatian = {
+			male_names = {
+				Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+			}
+			female_names = {
+				Roxana Zora Vera Svjetlana Spasena Radka Nadia Mira Mila Bozhidara Ana 
+			}
+			family = {
+				Trpimirovic.Trpimirovic.Trpimirovic.Trpimirovic
+				Nemanj.Nemanj.Nemanj.Nemanj
+				Vojislavljevic.Vojislavljevic.Vojislavljevic.Vojislavljevic
+				Kotromanic.Kotromanic.Kotromanic.Kotromanic
+				Kulinic.Kulinic.Kulinic.Kulinic
+				Boricevic.Boricevic.Boricevic.Boricevic
+			}
+		}
+		serbian = {
+			male_names = {
+				Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+			}
+			female_names = {
+				Roxana Zora Vera Svjetlana Spasena Radka Nadia Mira Mila Bozhidara Ana 
+			}
+			family = {
+				Trpimirovic.Trpimirovic.Trpimirovic.Trpimirovic
+				Nemanj.Nemanj.Nemanj.Nemanj
+				Vojislavljevic.Vojislavljevic.Vojislavljevic.Vojislavljevic
+				Kotromanic.Kotromanic.Kotromanic.Kotromanic
+				Kulinic.Kulinic.Kulinic.Kulinic
+				Boricevic.Boricevic.Boricevic.Boricevic
+			}
+		}
+		bosnian = {
+			male_names = {
+				Stefan Bogdan Vladimir Vasil Stanislav Radomir Mirko Darin Boyan Borislav Bogomil Biser
+			}
+			female_names = {
+				Roxana Zora Vera Svjetlana Spasena Radka Nadia Mira Mila Bozhidara Ana 
+			}
+			family = {
+				Trpimirovic.Trpimirovic.Trpimirovic.Trpimirovic
+				Nemanj.Nemanj.Nemanj.Nemanj
+				Vojislavljevic.Vojislavljevic.Vojislavljevic.Vojislavljevic
+				Kotromanic.Kotromanic.Kotromanic.Kotromanic
+				Kulinic.Kulinic.Kulinic.Kulinic
+				Boricevic.Boricevic.Boricevic.Boricevic
+			}
+		}
+	}
+	barbarian_names = { AMBRONES ANGLII ANGRIVARII AUIONES BATAVI BRUCTERI CALUCONES CHATTI CHAUCI CHERUSCI CIMBRI DULGUMNII FRISII HERMUNDURI INGVAEONES LANGOBARDI LUGII MARCOMANNI QUADI SEMNONES SUGAMBRI TENCTERI TEUTONES UBII USIPI VARISTI }
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = germanic
+	}
+}
