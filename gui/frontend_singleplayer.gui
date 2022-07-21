@@ -291,7 +291,6 @@ widget = {
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					tooltip = rest_warning_tooltip
 					
 					frontend_button = {
 						size = { 100% 100% }

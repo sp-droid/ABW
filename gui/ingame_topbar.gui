@@ -2161,98 +2161,98 @@ vbox = {
 			datacontext = "[GetScriptedGui('terrainc1')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" on_finish = "[GetVariableSystem.Set('ti_defaultback1','true')]" }
 		}
 		container = {
 			name = "titoggle2"
 			datacontext = "[GetScriptedGui('terrainc2')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" on_finish = "[GetVariableSystem.Set('ti_defaultback2','true')]" }
 		}
 		container = {
 			name = "titoggle3"
 			datacontext = "[GetScriptedGui('terrainc3')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" on_finish = "[GetVariableSystem.Set('ti_defaultback3','true')]" }
 		}
 		container = {
 			name = "titoggle4"
 			datacontext = "[GetScriptedGui('terrainc4')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_4')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_4')]" on_finish = "[GetVariableSystem.Set('ti_defaultback4','true')]" }
 		}
 		container = {
 			name = "titoggle5"
 			datacontext = "[GetScriptedGui('terrainc5')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_5')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_5')]" on_finish = "[GetVariableSystem.Set('ti_defaultback5','true')]" }
 		}
 		container = {
 			name = "titoggle6"
 			datacontext = "[GetScriptedGui('terrainc6')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_6')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_6')]" on_finish = "[GetVariableSystem.Set('ti_defaultback6','true')]" }
 		}
 		container = {
 			name = "titoggle7"
 			datacontext = "[GetScriptedGui('terrainc7')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_7')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_7')]" on_finish = "[GetVariableSystem.Set('ti_defaultback7','true')]" }
 		}
 		container = {
 			name = "titoggle8"
 			datacontext = "[GetScriptedGui('terrainc8')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_8')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_8')]" on_finish = "[GetVariableSystem.Set('ti_defaultback8','true')]" }
 		}
 		container = {
 			name = "titoggle9"
 			datacontext = "[GetScriptedGui('terrainc9')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_9')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_9')]" on_finish = "[GetVariableSystem.Set('ti_defaultback9','true')]" }
 		}
 		container = {
 			name = "titoggle10"
 			datacontext = "[GetScriptedGui('terrainc10')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_10')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_10')]" on_finish = "[GetVariableSystem.Set('ti_defaultback10','true')]" }
 		}
 		container = {
 			name = "titoggle11"
 			datacontext = "[GetScriptedGui('terrainc11')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_11')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_11')]" on_finish = "[GetVariableSystem.Set('ti_defaultback11','true')]" }
 		}
 		container = {
 			name = "titoggle12"
 			datacontext = "[GetScriptedGui('terrainc12')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_12')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_12')]" on_finish = "[GetVariableSystem.Set('ti_defaultback12','true')]" }
 		}
 		container = {
 			name = "titoggle13"
 			datacontext = "[GetScriptedGui('terrainc13')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_13')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_13')]" on_finish = "[GetVariableSystem.Set('ti_defaultback13','true')]" }
 		}
 		container = {
 			name = "titoggle14"
 			datacontext = "[GetScriptedGui('terrainc14')]"
 			visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Player.MakeScope ).End )]"
 			
-			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_14')]" }
+			state = { name = _show on_start = "[ExecuteConsoleCommand('shader_debug ti_region_14')]" on_finish = "[GetVariableSystem.Set('ti_defaultback14','true')]" }
 		}
 		container = {
 			name = "titoggledumm"

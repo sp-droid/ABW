@@ -209,6 +209,27 @@ widget = {
 		position = { 252 0 }
 		scissor = yes
 
+		#### Terra incognita
+		container = {
+			name = "ti_maincontainer"
+			#visible = "[HasDlc('testdlcc')]"
+			state = { name = defaultback1 trigger_when = "[GetVariableSystem.Exists('ti_defaultback1')]" duration = 0.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback1' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" }
+			state = { name = defaultback2 trigger_when = "[GetVariableSystem.Exists('ti_defaultback2')]" duration = 0.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback2' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" }
+			state = { name = defaultback3 trigger_when = "[GetVariableSystem.Exists('ti_defaultback3')]" duration = 0.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback3' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" }
+			state = { name = defaultback4 trigger_when = "[GetVariableSystem.Exists('ti_defaultback4')]" duration = 0.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback4' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_4')]" }
+			state = { name = defaultback5 trigger_when = "[GetVariableSystem.Exists('ti_defaultback5')]" duration = 1.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback5' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_5')]" }
+			state = { name = defaultback6 trigger_when = "[GetVariableSystem.Exists('ti_defaultback6')]" duration = 1.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback6' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_6')]" }
+			state = { name = defaultback7 trigger_when = "[GetVariableSystem.Exists('ti_defaultback7')]" duration = 1.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback7' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_7')]" }
+			state = { name = defaultback8 trigger_when = "[GetVariableSystem.Exists('ti_defaultback8')]" duration = 1.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback8' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_8')]" }
+			state = { name = defaultback9 trigger_when = "[GetVariableSystem.Exists('ti_defaultback9')]" duration = 1.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback9' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_9')]" }
+			state = { name = defaultback10 trigger_when = "[GetVariableSystem.Exists('ti_defaultback10')]" duration = 2.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback10' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_10')]" }
+			state = { name = defaultback11 trigger_when = "[GetVariableSystem.Exists('ti_defaultback11')]" duration = 2.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback11' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_11')]" }
+			state = { name = defaultback12 trigger_when = "[GetVariableSystem.Exists('ti_defaultback12')]" duration = 2.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback12' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_12')]" }
+			state = { name = defaultback13 trigger_when = "[GetVariableSystem.Exists('ti_defaultback13')]" duration = 2.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback13' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_13')]" }
+			state = { name = defaultback14 trigger_when = "[GetVariableSystem.Exists('ti_defaultback14')]" duration = 2.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback14' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_14')]" }
+		}
+		#### END Terra incognita
+
 		background = {
 			shaderfile = "gfx/FX/pdxgui_default.shader"
 			texture = "gfx/interface/base_parts/background_black_texture.dds"

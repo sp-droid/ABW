@@ -34,7 +34,7 @@
  ocean:0 "Oceanic (harsh)"
 
 #### TERRA INCOGNITA
- rest_warning_tooltip:0 "#T ONLY LOADING AFTER RESTARTING THE GAME ASSURES CORRECT TERRA INCOGNITA PLACEMENT #!"
+ rest_warning_tooltip:0 "#T It is necessary to pass through the main menu before loading a game#!"
  terrainc.1.t:0 "Northern Pacific discovered"
  terrainc.1.desc:0 ""
  terrainc.1.a:0 "The world's riches await us"

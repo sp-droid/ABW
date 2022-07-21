@@ -264,6 +264,7 @@ window = {
 					size = { 100% 26 }
 					name = "load_button"
 					tooltip = rest_warning_tooltip
+					
 					blockoverride "Center_text" { text = "LOAD_GAME" }
 					blockoverride "On_click" 
 					{
