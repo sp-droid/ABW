@@ -1,1 +1,2091 @@
 ﻿
+### Britain / Ireland
+DHB_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		local_hostile_attrition = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = DHB
+	}
+}
+ENG_heritage = {
+	modifier = {
+		#good
+		global_population_happiness = 0.03
+		light_infantry_discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ENG
+	}
+}
+GWY_heritage = {
+	modifier = {
+		#good
+		light_infantry_discipline = 0.1
+		levy_size_multiplier = 0.025
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = GWY
+	}
+}
+IR1_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.25
+		garrison_size = 0.25
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR1
+	}
+}
+IR2_heritage = {
+	modifier = {
+		#good
+		local_happiness_for_same_religion_modifier = 0.04
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR2
+	}
+}
+IR3_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.1
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR3
+	}
+}
+IR4_heritage = {
+	modifier = {
+		#good
+		local_happiness_for_same_religion_modifier = 0.04
+		local_pop_assimilation_speed = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR4
+	}
+}
+IR5_heritage = {
+	modifier = {
+		#good
+		fort_maintenance_cost = -0.2
+		garrison_growth = 0.25
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR5
+	}
+}
+IR6_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.2
+		global_tax_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR6
+	}
+}
+IR7_heritage = {
+	modifier = {
+		#good
+		local_hostile_attrition = 0.2
+		global_defensive = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = IR7
+	}
+}
+POW_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.03
+		ruler_popularity_gain = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = POW
+	}
+}
+SCO_heritage = {
+	modifier = {
+		#good
+		levy_size_multiplier = 0.025
+		assault_ability = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SCO
+	}
+}
+
+####France
+AQT_heritage = {
+	modifier = {
+		#good
+		fort_maintenance_cost = -0.1
+		light_cavalry_cost = -0.1
+		heavy_cavalry_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = AQT
+	}
+}
+BEN_heritage = {
+	modifier = {
+		#good
+		civic_tech_investment = 0.1
+		global_population_growth = 0.03
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BEN
+	}
+}
+BRI_heritage = {
+	modifier = {
+		#good
+		naval_morale_modifier = 0.1
+		global_import_commerce_modifier = 0.10
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRI
+	}
+}
+BRG_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRG
+	}
+}
+BUG_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BUG
+	}
+}
+DAU_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		happiness_for_same_culture_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = DAU
+	}
+}
+FOL_heritage = {
+	modifier = {
+		#good
+		recruit_mercenary_cost_modifier = -0.05
+		discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FOL
+	}
+}
+FRA_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.2
+		diplomatic_reputation = 1.0
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FRA
+	}
+}
+LOR_heritage = {
+	modifier = {
+		#good
+		army_maintenance_cost = -0.05
+		global_capital_trade_routes = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LOR
+	}
+}
+MTZ_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MTZ
+	}
+}
+POV_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		diplomatic_reputation = 1.0
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = POV
+	}
+}
+RET_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		diplomatic_reputation = 1.0
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = RET
+	}
+}
+SAV_heritage = {
+	modifier = {
+		#good
+		improve_relation_impact = 0.25
+		buy_idea_cost_modifier = -0.25
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SAV
+	}
+}
+TOL_heritage = {
+	modifier = {
+		#good
+		global_citizen_happyness = happiness_large_svalue
+		ruler_popularity_gain = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TOL
+	}
+}
+
+####Iberia
+ARA_heritage = {
+	modifier = {
+		#good
+		global_import_commerce_modifier = 0.1
+		trireme_offensive = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ARA
+	}
+}
+CAS_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.15
+		build_time = -0.10
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CAS
+	}
+}
+LEO_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		happiness_for_same_religion_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LEO
+	}
+}
+NAV_heritage = {
+	modifier = {
+		#good
+		navy_maintenance_cost = -0.2
+		ship_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = NAV
+	}
+}
+POR_heritage = {
+	modifier = {
+		#good
+		light_infantry_discipline = 0.05
+		ship_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = POR
+	}
+}
+
+####Italy
+
+AQU_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 2
+		global_manpower_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = AQU
+	}
+}
+BRR_heritage = {
+	modifier = {
+		#good
+		global_freemen_happyness = happiness_large_svalue
+		global_pop_promotion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRR
+	}
+}
+CO1_heritage = {
+	modifier = {
+		#good
+		light_infantry_discipline = 0.1
+		levy_size_multiplier = 0.025
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CO1
+	}
+}
+CO2_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CO2
+	}
+}
+CO3_heritage = {
+	modifier = {
+		#good
+		mercenary_land_maintenance_cost = -0.1
+		naval_damage_taken = -0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CO3
+	}
+}
+CO4_heritage = {
+	modifier = {
+		#good
+		levy_size_multiplier = 0.025
+		discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CO4
+	}
+}
+CUN_heritage = {
+	modifier = {
+		#good
+		global_migration_speed_modifier = 0.05
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CUN
+	}
+}
+FLO_heritage = {
+	modifier = {
+		#good
+		country_civilization_value = 5
+        happiness_for_same_religion_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FLO
+	}
+}
+GEN_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		global_tax_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = GEN
+	}
+}
+LUC_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LUC
+	}
+}
+MAN_heritage = {
+	modifier = {
+		#good
+		army_maintenance_cost = -0.1
+		fort_maintenance_cost = -0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MAN
+	}
+}
+MLO_heritage = {
+	modifier = {
+		#good
+		light_infantry_offensive = 0.1
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MLO
+	}
+}
+MON_heritage = {
+	modifier = {
+		#good
+		land_morale_recovery = 0.1
+		monthly_legitimacy = 1.0
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MON
+	}
+}
+PAP_heritage = {
+	modifier = {
+		#good
+		diplomatic_reputation = 2.0
+		happiness_for_same_religion_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PAP
+	}
+}
+PAR_heritage = {
+	modifier = {
+		#good
+		siege_ability = 0.05
+		diplomatic_reputation = 2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PAR
+	}
+}
+PIS_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		global_defensive = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PIS
+	}
+}
+SIC_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		global_manpower_modifier = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SIC
+	}
+}
+SIE_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SIE
+	}
+}
+SPO_heritage = {
+	modifier = {
+		#good
+		global_citizen_happyness = happiness_large_svalue
+		civic_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SPO
+	}
+}
+VEN_heritage = {
+	modifier = {
+		#good
+		navy_maintenance_cost = -0.1
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = VEN
+	}
+}
+VER_heritage = {
+	modifier = {
+		#good
+		light_infantry_offensive = 0.1
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = VER
+	}
+}
+
+####Scandinavia
+
+DAN_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		naval_damage_taken = -0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = DAN
+	}
+}
+NOR_heritage = {
+	modifier = {
+		#good
+		naval_morale_modifier = 0.1
+		naval_damage_taken = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = NOR
+	}
+}
+SWE_heritage = {
+	modifier = {
+		#good
+		light_infantry_offensive = 0.2
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SWE
+	}
+}
+####Low Lands
+BRB_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		stability_cost_modifier = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRB
+	}
+}
+FLA_heritage = {
+	modifier = {
+		#good
+		global_slaves_output = 0.1
+		civic_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FLA
+	}
+}
+FRI_heritage = {
+	modifier = {
+		#good
+		country_civilization_value = 5
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FRI
+	}
+}
+GEL_heritage = {
+	modifier = {
+		#good
+		navy_maintenance_cost = -0.1
+		stability_cost_modifier = -0.1 
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = GEL
+	}
+}
+HAI_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.05
+		omen_power = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HAI
+	}
+}
+HOL_heritage = {
+	modifier = {
+		#good
+		naval_morale_modifier = 0.15
+		naval_damage_done = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HOL
+	}
+}
+LUX_heritage = {
+	modifier = {
+		#good
+		garrison_growth = 0.25
+		global_slaves_output = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LUX
+	}
+}
+TRE_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.15
+		happiness_for_same_religion_modifier = 0.08
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TRE
+	}
+}
+UTR_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		happiness_for_wrong_culture_modifier = 0.04
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = UTR
+	}
+}
+
+####Germania
+
+ALS_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.1
+		build_cost = -0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ALS
+	}
+}
+ANH_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.15
+		research_points_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ANH
+	}
+}
+ANS_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.15
+		research_points_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ANS
+	}
+}
+AUS_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		improve_relation_impact = 0.30
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = AUS
+	}
+}
+BAD_heritage = {
+	modifier = {
+		#good
+		fort_maintenance_cost = -0.1
+		global_monthly_food_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BAD
+	}
+}
+BAM_heritage = {
+	modifier = {
+		#good
+		monthly_legitimacy = 0.02
+		global_pop_conversion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BAM
+	}
+}
+BAV_heritage = {
+	modifier = {
+		#good
+		light_cavalry_offensive = 0.1
+		monthly_legitimacy = 0.02
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BAV
+	}
+}
+BA2_heritage = {
+	modifier = {
+		#good
+		civic_tech_investment = 0.1
+		global_population_growth = 0.03
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BA2
+	}
+}
+BA3_heritage = {
+	modifier = {
+		#good
+		research_points_modifier = 0.1
+		build_cost = -0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BA3
+	}
+}
+BA4_heritage = {
+	modifier = {
+		#good
+		price_found_city_cost_modifier = -0.25
+		siege_ability = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BA4
+	}
+}
+BRA_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.15
+        fabricate_claim_cost_modifier = -0.25
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRA
+	}
+}
+BRE_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+        global_pop_conversion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRE
+	}
+}
+BRN_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 1
+        agressive_expansion_monthly_decay = 0.02
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BRN
+	}
+}
+CAR_heritage = {
+	modifier = {
+		#good
+		war_score_cost = -0.05
+		price_state_investment_civic_cost_modifier = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CAR
+	}
+}
+CLE_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+        global_slaves_output = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CLE
+	}
+}
+COL_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.15
+        global_pop_conversion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = COL
+	}
+}
+FRK_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		global_commerce_modifier = 0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = FRK
+	}
+}
+HAM_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		liburnian_offensive = 0.1
+		trireme_offensive = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HAM
+	}
+}
+HES_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		diplomatic_reputation = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HES
+	}
+}
+HLS_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.15
+		global_population_happiness = 0.04
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HLS
+	}
+}
+KRA_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = KRA
+	}
+}
+LIE_heritage = {
+	modifier = {
+		#good
+		heavy_infantry_cost = -0.1
+        light_infantry_cost = -0.1
+		global_capital_trade_routes = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LIE
+	}
+}
+LUB_heritage = {
+	modifier = {
+		#good
+		global_commerce_modifier = 0.1
+        global_capital_trade_routes = 2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LUB
+	}
+}
+LUN_heritage = {
+	modifier = {
+		#good
+	    army_maintenance_cost = -0.05
+        war_exhaustion = -0.01
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LUN
+	}
+}
+NUM_heritage = {
+	modifier = {
+		#good
+		garrison_size = 0.25
+		global_capital_trade_routes = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = NUM
+	}
+}
+MAG_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.1
+		religious_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MAG
+	}
+}
+MAI_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		monthly_political_influence_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MAI
+	}
+}
+MKL_heritage = {
+	modifier = {
+		#good
+		global_population_capacity_modifier = 0.05
+		religious_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MKL
+	}
+}
+MUN_heritage = {
+	modifier = {
+		#good
+		omen_power = 0.05
+		global_commerce_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MUN
+	}
+}
+OLD_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.05
+		oratory_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = OLD
+	}
+}
+POM_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		navy_maintenance_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = POM
+	}
+}
+PMR_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.05
+		build_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PMR
+	}
+}
+PFA_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.1
+		diplomatic_relations = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PFA
+	}
+}
+RAV_heritage = {
+	modifier = {
+		#good
+		global_citizen_happyness = happiness_large_svalue
+		ruler_popularity_gain = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = RAV
+	}
+}
+RUG_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		happiness_for_same_culture_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = RUG
+	}
+}
+SAX_heritage = {
+	modifier = {
+		#good
+		country_civilization_value = 5
+		research_points_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SAX
+	}
+}
+SW1_heritage = {
+	modifier = {
+		#good
+		discipline = 0.05
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SW1
+	}
+}
+SW2_heritage = {
+	modifier = {
+		#good
+		discipline = 0.05
+		mercenary_land_maintenance_cost = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SW2
+	}
+}
+TIR_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.15
+		global_pop_conversion_speed_modifier = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TIR
+	}
+}
+ULM_heritage = {
+	modifier = {
+		#good
+		army_movement_speed = 0.05
+		global_capital_trade_routes = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ULM
+	}
+}
+WUT_heritage = {
+	modifier = {
+		#good
+		monthly_legitimacy = 0.02
+		global_capital_trade_routes = 2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = WUT
+	}
+}
+WUZ_heritage = {
+	modifier = {
+		#good
+		global_commerce_modifier = 0.05
+		global_pop_conversion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = WUZ
+	}
+}
+ZAH_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 1
+		global_defensive = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ZAH
+	}
+}
+####Bohemia Poland Hungary Area
+
+BOH_heritage = {
+	modifier = {
+		#good
+		global_population_capacity_modifier = 0.05
+		religious_tech_investment = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BOH
+	}
+}
+HUN_heritage = {
+	modifier = {
+		#good
+		light_cavalry_offensive = 0.2
+		land_morale_recovery = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = HUN
+	}
+}
+MAZ_heritage = {
+	modifier = {
+		#good
+		light_cavalry_offensive = 0.1
+		army_maintenance_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = MAZ
+	}
+}
+POL_heritage = {
+	modifier = {
+		#good
+		light_cavalry_offensive = 0.33
+		happiness_for_wrong_culture_modifier = 0.04
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = POL
+	}
+}
+SIL_heritage = {
+	modifier = {
+		#good
+		diplomatic_reputation = 1
+		global_tax_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SIL
+	}
+}
+
+#Baltics
+
+CUR_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 1
+		heavy_infantry_maintenance_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CUR
+	}
+}
+LIO_heritage = {
+	modifier = {
+		#good
+		discipline = 0.05
+		global_manpower_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LIO
+	}
+}
+OSE_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		happiness_for_same_culture_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = OSE
+	}
+}
+REV_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.05
+		build_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = REV
+	}
+}
+ROT_heritage = {
+	modifier = {
+		#good
+		global_freemen_happyness = happiness_large_svalue
+		global_pop_promotion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ROT
+	}
+}
+PPP_heritage = {
+	modifier = {
+		#good
+		levy_size_multiplier = 0.025
+		discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = PPP
+	}
+}
+SEM_heritage = {
+	modifier = {
+		#good
+		ruler_popularity_gain = 0.04
+		global_defensive = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SEM
+	}
+}
+VIR_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.1
+		omen_power = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = VIR
+	}
+}
+
+####Balkan
+
+ACC_heritage = {
+	modifier = {
+		#good
+		levy_size_multiplier = 0.025
+		discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ACC
+	}
+}
+ATH_heritage = {
+	modifier = {
+		#good
+		naval_damage_taken = -0.05
+		monthly_tyranny = -0.02
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ATH
+	}
+}
+BUL_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 1
+		global_manpower_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = BUL
+	}
+}
+CIL_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.1
+		happiness_for_wrong_culture_group_modifier = wrong_culture_group_large
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CIL
+	}
+}
+EPI_heritage = {
+	modifier = {
+		#good
+		light_infantry_discipline = 0.1
+		levy_size_multiplier = 0.025
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = EPI
+	}
+}
+LAT_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.1
+		omen_power = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LAT
+	}
+}
+NIC_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		global_population_capacity_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = NIC
+	}
+}
+RUM_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.1
+		global_manpower_modifier = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = RUM
+	}
+}
+SER_heritage = {
+	modifier = {
+		#good
+		manpower_recovery_speed = 0.15
+		cohort_reinforcement_speed = 0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = SER
+	}
+}
+TES_heritage = {
+	modifier = {
+		#good
+		siege_ability = 0.05
+		diplomatic_reputation = 2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TES
+	}
+}
+TRB_heritage = {
+	modifier = {
+		#good
+		global_commerce_modifier = 0.1
+		navy_maintenance_cost = -0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TRB
+	}
+}
+
+####Ukraine / Russia / Caucasus
+
+ALN_heritage = {
+	modifier = {
+		#good
+		light_cavalry_morale = 0.1
+		light_cavalry_discipline = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ALN
+	}
+}
+ARM_heritage = {
+	modifier = {
+		#good
+		heavy_cavalry_discipline = 0.05
+		global_defensive = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ARM
+	}
+}
+CUM_heritage = {
+	modifier = {
+		#good
+		light_cavalry_morale = 0.1
+		improve_relation_impact = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CUM
+	}
+}
+GAV_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		global_population_growth = 0.03
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = GAV
+	}
+}
+GEO_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.1
+		global_population_growth = 0.03
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = GEO
+	}
+}
+KIE_heritage = {
+	modifier = {
+		#good
+		global_population_happiness = 0.04
+		global_pop_conversion_speed_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = KIE
+	}
+}
+NOV_heritage = {
+	modifier = {
+		#good
+		mercenary_land_maintenance_cost = -0.15
+		diplomatic_reputation = 1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = NOV
+	}
+}
+
+####North Africa / Levant
+
+ABS_heritage = {
+	modifier = {
+		#good
+		research_points_modifier = 0.1
+		happiness_for_wrong_culture_group_modifier = wrong_culture_group_small
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ABS
+	}
+}
+ALM_heritage = {
+	modifier = {
+		#good
+		global_pop_conversion_speed_modifier = 0.1
+		land_morale = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ALM
+	}
+}
+ANT_heritage = {
+	modifier = {
+		#good
+		country_civilization_value = 5
+		global_tax_modifier = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = ANT
+	}
+}
+AYY_heritage = {
+	modifier = {
+		#good
+		global_manpower_modifier = 0.15
+		land_unit_attrition = -0.15
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = AYY
+	}
+}
+AZZ_heritage = {
+	modifier = {
+		#good
+		global_commerce_modifier = 0.1
+		heavy_cavalry_discipline = 0.5
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = AZZ
+	}
+}
+CYP_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_modifier = 0.08
+		naval_damage_done = 0.05
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = CYP
+	}
+}
+LYB_heritage = {
+	modifier = {
+		#good
+		pirate_plunder = 0.25
+		naval_morale_modifier = 0.1
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = LYB
+	}
+}
+JER_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.1
+		global_pop_conversion_speed_modifier = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = JER
+	}
+}
+TRI_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.1
+		fort_maintenance_cost = 0.2
+		
+		#bad
+
+	}
+	
+	trigger = {
+		tag = TRI
+	}
+}
