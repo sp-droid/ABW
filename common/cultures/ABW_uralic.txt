@@ -62,8 +62,7 @@
 	barbarian_names = { AEDI BIEPHI BIESSOI CARPI CIAGINSI CROBIDAE PIEPHIGI SUCI TERICI TRIXAE }
 	
 	
-	
-	graphical_culture = carthaginian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = levantine
 	}

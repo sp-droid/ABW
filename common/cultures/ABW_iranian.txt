@@ -49,7 +49,7 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = persian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = levantine
 	}

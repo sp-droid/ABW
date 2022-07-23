@@ -55,7 +55,7 @@
 		KYNEGETAE ELEPHANTOMACHOI TROGODYTAE MACROBIOI
 	}
 	
-	graphical_culture = nubian_gfx
+	graphical_culture = western_gfx
 	
 	ethnicities = {
 		10 = ethiopian

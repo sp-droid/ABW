@@ -110,7 +110,7 @@
 	
 	barbarian_names = { AUTINI DARINI EBLANI ERPEDITANI IVERNI MAGNATAE UTERNI ULIDIA }
 	
-	graphical_culture = celtic_gfx	
+	graphical_culture = western_gfx	
 	ethnicities = {
 		10 = celtic
 	}

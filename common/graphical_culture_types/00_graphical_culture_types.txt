@@ -1,0 +1,2 @@
+﻿western_gfx = {}
+barbarian_gfx = {}

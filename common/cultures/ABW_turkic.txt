@@ -71,7 +71,7 @@
 		SITTACENI ASPURGIANI 
 	}
 	
-	graphical_culture = persian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = turk
 	}

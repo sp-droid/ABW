@@ -19,7 +19,7 @@
 	
 	barbarian_names = { AUSETANI BASTETANI LAIETANI CASTELLANI CERRETANI HELISYCES SORDONES PITYUSSAI }
 	
-	graphical_culture = iberian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = iberian
 	}

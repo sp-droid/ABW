@@ -37,7 +37,7 @@
 	}
 	
 	
-	graphical_culture = carthaginian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = greek
 	}

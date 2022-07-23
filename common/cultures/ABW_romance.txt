@@ -393,7 +393,7 @@
 	
 	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI VENETI }
 	
-	graphical_culture = iberian_gfx
+	graphical_culture = western_gfx
 
 	ethnicities = {
 		10 = roman

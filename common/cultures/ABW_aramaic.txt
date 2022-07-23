@@ -56,7 +56,7 @@
 		SARAKENOI ITOURAIOI SCENITAE HEMESENOI ZABADAIOI AOUIDENOI CHALUTAIOI AGRAIOI EPIMARANITAE
 	}
 	
-	graphical_culture = arabian_gfx
+	graphical_culture = western_gfx
 	ethnicities = {
 		10 = levantine
 	}

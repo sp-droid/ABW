@@ -24,7 +24,7 @@
 	
 	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }
 	
-	graphical_culture = arabian_gfx
+	graphical_culture = western_gfx
 	
 	ethnicities = {
 		10 = north_african
