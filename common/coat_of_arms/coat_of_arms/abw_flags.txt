@@ -817,6 +817,70 @@ NOV = {
 		texture = "te_NOV.dds"
 	}
 }
+VLA = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_VLA.dds"
+	}
+}
+RYA = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_RYA.dds"
+	}
+}
+MUR = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_MUR.dds"
+	}
+}
+OKA = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_OKA.dds"
+	}
+}
+CHR = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_CHR.dds"
+	}
+}
+PLT = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_PLT.dds"
+	}
+}
+SMO = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_SMO.dds"
+	}
+}
+PEY = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_PEY.dds"
+	}
+}
 TEU = {
 	pattern = "pattern_solid.tga"
 	color1= rgb { 228 228 228 }

@@ -870,7 +870,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1163	#Kiev
-			own_control_core = 	{ 448 783 1018 1101 1163 1480 1584 1675 1942 2198 2401 2531 2604 2680 2705 2711 2722 2915 2940 2996 3051 3108 3491 3973 4017 4153 4312 4396 4462 4499 }
+			own_control_core = 	{ 448 783 1018 1101 1163 1480 1675 1942 2198 2401 2531 2604 2680 2705 2711 2722 2915 2940 2996 3051 3108 3491 3973 4017 4153 4312 4396 4462 4499 }
 		}
 		NOV = {
 			#55,76,23
@@ -880,6 +880,78 @@ country = {
 			historical_regnal_numbers = {}
 			capital = 4549	#Novgorod
 			own_control_core = 	{ 641 680 879 1090 1095 1129 1354 1416 1548 1827 1868 1968 2144 2191 2196 2228 2255 2459 2496 2512 2639 2698 2731 2753 2884 2898 3048 3125 3126 3182 3257 3288 3314 3324 3383 3433 3500 3654 3829 3851 3899 4063 4147 4151 4301 4321 4405 4439 4473 4542 4549 4577 4641 4741 }
+		}
+		VLA = {
+			#80,80,140
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 968	#Vladimir
+			own_control_core = 	{ 968 }
+		}
+		RYA = {
+			#146,134,77
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 3701	#Ryazan
+			own_control_core = 	{ 3701 }
+		}
+		MUR = {
+			#35,110,195
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 4374	#Murom
+			own_control_core = 	{ 4374 }
+		}
+		OKA = {
+			#43,136,207
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 4519	#Orel
+			own_control_core = 	{ 4519 }
+		}
+		CHR = {
+			#190,190,190
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 1659	#Chernihiv
+			own_control_core = 	{ 1659 }
+		}
+		PLT = {
+			#16,113,155
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 4650	#Minsk
+			own_control_core = 	{ 4650 }
+		}
+		SMO = {
+			#106,160,43
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 1474	#Smolensk
+			own_control_core = 	{ 1474 }
+		}
+		PEY = {
+			#168,80,140
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 1584	#Pereyaslav
+			own_control_core = 	{ 1584 }
 		}
 		CUR = {
 			#105,119,77
