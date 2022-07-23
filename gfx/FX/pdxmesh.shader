@@ -423,7 +423,10 @@ PixelShader =
 				#endif
 
 				DebugReturn( Color, MaterialProps, LightingProps, EnvironmentMap );
+				
 				return float4( Color, Alpha );
+				//return float4( UserColor.r, UserColor.g, UserColor.b, 1 );
+				//return float4( NormalPacked.b, NormalPacked.b, NormalPacked.b, 1 );
 			}
 		]]
 	}

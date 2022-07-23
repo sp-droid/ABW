@@ -10,8 +10,8 @@ entity = {
 	name = "naval_combat_control_entity"
 	pdxmesh = "naval_combat_control_mesh"
 	
-	locator = { name = "loc_1" position = { -8.0 0 -5.0 } rotation = { 180.0 0 0 } }
-	locator = { name = "loc_2" position = { 8.0 0 -5.0 } rotation = { 0 0 0.0 } }
+	locator = { name = "loc_1" position = { 8.0 0 -5.0 } rotation = { 180.0 0 0 } }
+	locator = { name = "loc_2" position = { -8.0 0 -5.0 } rotation = { 0 0 0.0 } }
 	
 	default_state = "chill"
 

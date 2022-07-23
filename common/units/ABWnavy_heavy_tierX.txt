@@ -1,0 +1,16 @@
+﻿war_galleon = {
+	army = no
+	category = light
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 120
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
