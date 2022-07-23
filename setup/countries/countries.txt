@@ -161,7 +161,6 @@ MAZ = "setup/countries/maz.txt"
 
 # Baltic coast
 PPP = "setup/countries/ppp.txt"
-NOV = "setup/countries/NOV.txt"
 CUR = "setup/countries/CUR.txt"
 OSE = "setup/countries/OSE.txt"
 LIO = "setup/countries/LIO.txt"
@@ -170,6 +169,16 @@ ROT = "setup/countries/ROT.txt"
 VIR = "setup/countries/VIR.txt"
 REV = "setup/countries/REV.txt"
 
+# Russia Ukraine
+NOV = "setup/countries/NOV.txt"
+VLA = "setup/countries/VLA.txt"
+RYA = "setup/countries/RYA.txt"
+MUR = "setup/countries/MUR.txt"
+OKA = "setup/countries/OKA.txt"
+CHR = "setup/countries/CHR.txt"
+PLT = "setup/countries/PLT.txt"
+SMO = "setup/countries/SMO.txt"
+PEY = "setup/countries/PEY.txt"
 
 ###ASIA and AFRICA###
 
