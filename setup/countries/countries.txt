@@ -179,6 +179,7 @@ CHR = "setup/countries/CHR.txt"
 PLT = "setup/countries/PLT.txt"
 SMO = "setup/countries/SMO.txt"
 PEY = "setup/countries/PEY.txt"
+VBU = "setup/countries/VBU.txt"
 
 ###ASIA and AFRICA###
 
@@ -208,3 +209,17 @@ ALA = "setup/countries/ala.txt"
 AYY = "setup/countries/ayy.txt"
 ALM = "setup/countries/alm.txt"
 LYB = "setup/countries/lyb.txt"
+
+# India
+GHU = "setup/countries/ghu.txt"
+YAD = "setup/countries/yad.txt"
+CLS = "setup/countries/cls.txt"
+SEA = "setup/countries/sea.txt"
+HOY = "setup/countries/hoy.txt"
+SND = "setup/countries/snd.txt"
+EGD = "setup/countries/egd.txt"
+KLC = "setup/countries/klc.txt"
+CDS = "setup/countries/cds.txt"
+PDD = "setup/countries/pdd.txt"
+KDD = "setup/countries/kdd.txt"
+AHK = "setup/countries/ahk.txt"
