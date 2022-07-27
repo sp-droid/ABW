@@ -1,4 +1,4 @@
-﻿war_galley = {
+﻿heavy_frigate = {
 	army = no
 	category = medium
 	port_level = 1
@@ -6,7 +6,75 @@
 	maneuver = 4
 	movement_speed = 13
 
-	build_time = 120
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+frigate = {
+	army = no
+	category = medium
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+caravel = {
+	army = no
+	category = medium
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+holc = {
+	army = no
+	category = medium
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+war_galley = {
+	army = no
+	category = medium
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
 	
 	morale_damage_done = 1.15
 	

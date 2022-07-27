@@ -1,4 +1,4 @@
-﻿war_galleon = {
+﻿threedecker = {
 	army = no
 	category = heavy
 	port_level = 1
@@ -6,7 +6,41 @@
 	maneuver = 4
 	movement_speed = 13
 
-	build_time = 120
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+twodecker = {
+	army = no
+	category = heavy
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+war_galleon = {
+	army = no
+	category = heavy
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
 	
 	morale_damage_done = 1.15
 	
@@ -23,7 +57,7 @@ carrack = {
 	maneuver = 4
 	movement_speed = 13
 
-	build_time = 120
+	build_time = 5
 	
 	morale_damage_done = 1.15
 	

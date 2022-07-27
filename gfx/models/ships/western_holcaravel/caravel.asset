@@ -1,0 +1,105 @@
+pdxmesh = {
+	name = "western_caravel_mesh"
+	file = "caravel.mesh"
+	
+	animation = { id = "idle" 			type = "caravel_idle.anim" }
+	#animation = { id = "move_start" 	type = "war_galleon_move_start.anim" }
+	#animation = { id = "moving" 		type = "war_galleon_move.anim" }
+	#animation = { id = "combat" 		type = "war_galleon_combat.anim" }
+
+
+	meshsettings = {
+		name = "polySurfaceShape1"
+		index = 0
+		texture_diffuse = "caravel_diffuse.dds"
+		texture_normal = "caravel_normal.dds"
+		texture_specular = "caravel_spec.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	#scale = 0.3
+	scale = 3.0
+}
+
+entity = {
+	name = "western_gfx_caravel"
+	pdxmesh = "western_caravel_mesh"
+	
+	locator = { name = "combat_effect" position = { 0 0 0 } rotation = { -90 0 0 } }
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+    	animation = "idle"
+		event = { time = 0 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 3 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_idle" } keep_sound = yes }
+    }
+	state = {
+		name = "port_idle"
+    	animation = "idle"
+    }
+	state = {
+		name = "move"
+    	animation = "idle"
+		looping = no
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"move" = 0
+			}
+		}
+		next_state = "move"
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_start" } keep_sound = no }
+   }
+	state = {
+		name = "move"
+    	animation = "idle"
+		looping = yes
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"move" = 100
+			}
+		}
+		next_state = "move"
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Ambience/2DMapEmitters/Nature/sfx_amb_base_wind" } keep_sound = yes }
+    }
+	state = {
+		name = "death"
+    	animation = "idle"
+		looping = no
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_sinking_front_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_sinking_middle_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0 node = "root" particle = "units/ship_sinking_fire_01_effect" keep_particle = yes trigger_once = no }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_death" } keep_sound = yes }
+    }
+	state = {
+		name = "combat"
+    	animation = "idle"
+		looping = yes
+		event = { time = 0 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 3 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0 node = "combat_effect" particle = "units/naval_combat_arrow_effect" keep_particle = yes trigger_once = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_vfx_combat_arrows" } keep_sound = yes }
+	}
+	
+	#scale = 0.15
+	scale = 1
+}
+
+##############
+### Clones ### ----------------------------------------------------------------
+##############
+
+entity = {
+	name = "caravel"
+	clone = "western_gfx_caravel"
+}

@@ -1,4 +1,4 @@
-﻿cog = {
+﻿fluyt = {
 	army = no
 	category = light
 	port_level = 1
@@ -6,7 +6,24 @@
 	maneuver = 4
 	movement_speed = 13
 
-	build_time = 120
+	build_time = 5
+	
+	morale_damage_done = 1.15
+	
+	build_cost = {
+		gold = 5
+	}
+}
+
+cog = {
+	army = no
+	category = light
+	port_level = 1
+	
+	maneuver = 4
+	movement_speed = 13
+
+	build_time = 5
 	
 	morale_damage_done = 1.15
 	
@@ -23,7 +40,7 @@ galley = {
 	maneuver = 4
 	movement_speed = 13
 
-	build_time = 120
+	build_time = 5
 	
 	morale_damage_done = 1.15
 	
