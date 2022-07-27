@@ -211,8 +211,26 @@ widget = {
 
 		#### Terra incognita
 		container = {
+			name = "ti_auxcontainer"
+			visible = "[HasDlc('testdlcc')]"
+			state = { name = _hide duration = 2.9 on_start = "[GetVariableSystem.Set('ti_defaultback0','true')]" on_finish = "[GetVariableSystem.Clear( 'ti_defaultback0' )]" }
+		}
+		container = {
+			name = "ti_textnotice"
+			visible = "[GetVariableSystem.Exists('ti_defaultback0')]"
+			textbox = {
+				position = { -132 254 }
+				name = "player_notice"
+				text = "LOAD_GFX"
+				size = { 400 120 }
+				using = MarbleButtonFont
+				using = Highlight_FontColor
+				fontsize = 16
+				align = right
+			}
+		}
+		container = {
 			name = "ti_maincontainer"
-			#visible = "[HasDlc('testdlcc')]"
 			state = { name = defaultback1 trigger_when = "[GetVariableSystem.Exists('ti_defaultback1')]" duration = 0.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback1' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" }
 			state = { name = defaultback2 trigger_when = "[GetVariableSystem.Exists('ti_defaultback2')]" duration = 0.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback2' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" }
 			state = { name = defaultback3 trigger_when = "[GetVariableSystem.Exists('ti_defaultback3')]" duration = 0.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback3' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" }
@@ -286,7 +304,10 @@ widget = {
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "SINGLE_PLAYER" }
-						blockoverride "On_click" { onclick = "[FrontEndMainView.OnSinglePlayer]" }
+						blockoverride "On_click" { 
+							onclick = "[FrontEndMainView.OnSinglePlayer]"
+							enabled = "[Not(GetVariableSystem.Exists('ti_defaultback0'))]"
+						}
 					}
 				}
 				margin_widget = {
@@ -298,7 +319,7 @@ widget = {
 						blockoverride "Text" { text = "MULTI_PLAYER" }
 						blockoverride "On_click" { 
 							onclick = "[FrontEndMainView.OnMultiPlayer]"
-							enabled = "[JominiIsMultiplayerAccessible]"
+							enabled = "[And(JominiIsMultiplayerAccessible,Not(GetVariableSystem.Exists('ti_defaultback0')))]"
 						}
 						enabled = "[JominiIsMultiplayerAccessible]"
 						tooltip = "[JominiGetMultiplayerAccessibleString]"

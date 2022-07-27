@@ -1,6 +1,6 @@
-﻿war_galleon = {
+﻿war_galley = {
 	army = no
-	category = light
+	category = medium
 	port_level = 1
 	
 	maneuver = 4

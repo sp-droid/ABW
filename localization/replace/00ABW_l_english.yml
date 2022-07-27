@@ -15,8 +15,11 @@
  terrain_MAPMODE_DESC:1 "#T Political Mapmode#!\nThis will color each #Y Country#! in its unique color."
  political_MAPMODE:0 "Terrain"
  political_MAPMODE_DESC:1 "#T Terrain Mapmode#!\nThis will present an aesthetic view of the map, with minimal political information."
+ political2_MAPMODE:0 "Political (Classic)"
+ political2_MAPMODE_DESC:1 "#T Political Mapmode#!\nThis will color each #Y Country#! in its unique color following classic or vanilla Imperator Rome"
  MAPMODE_TERRAIN:1 "$political_MAPMODE_DESC$"
  MAPMODE_POLITICAL:1 "$terrain_MAPMODE_DESC$"
+ MAPMODE_POLITICAL2:1 "$political2_MAPMODE_DESC$"
  
 #Terrains
  plains:0 "Grasslands"
@@ -161,7 +164,7 @@
  cityfort.3.a:0 "Exit"
  cityfort.3.b:0 "Go back"
  startup.3.t:0 "A Broken World"
- startup.3.desc:0 "-----------------------------------------------------------------------------------------\n''In memory of Buddy, my five year old canine brother I lost on 28th March 2021. May your name live forever through this work.''\n----------------------------------------------------------------------------------------- \n\n Be sure to check the "Configuration" decision \n -- Team: \n -Founder&Developer- #R SP #! \n -Special thanks- #G Le-Rhone, xangelo7 & MrAdrianPl #! \n -Modders of the I:R & ck3 mod coop- #Y Agamidae, Sobisonator, Snowlet & others #! \n ----------------- \n -Old contributors- Kase, BringItBoy, Cobex, tsf4, SultanTurk "
+ startup.3.desc:0 "-----------------------------------------------------------------------------------------\n''In memory of Buddy, my five year old canine brother I lost on 28th March 2021. May your name live forever through this work.''\n----------------------------------------------------------------------------------------- \n\n Be sure to check the "Configuration" decision \n #R -- Credits: #! \n  To see credits visit our discord features and staff channels \n #Y -- Not yet implemented features/systems: #! \n   Technology, Army, land combat, epidemics, population health, internal & external migration, custom peace deals, pop production, trade, internal construction & investing, education, new governments"
  startup.3.a:0 "Take me to the Dark Ages"
  
  abwconfig.998.a:0 "[GetModifier('global_tax_modifier').GetDesc]"

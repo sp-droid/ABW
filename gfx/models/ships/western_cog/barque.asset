@@ -1,19 +1,19 @@
 pdxmesh = {
-	name = "western_war_galleon_mesh"
-	file = "war_galleon.mesh"
+	name = "western_cog_mesh"
+	file = "barque.mesh"
 	
-	animation = { id = "idle" 			type = "war_galleon_idle.anim" }
-	animation = { id = "move_start" 	type = "war_galleon_move_start.anim" }
-	animation = { id = "moving" 		type = "war_galleon_move.anim" }
-	animation = { id = "combat" 		type = "war_galleon_combat.anim" }
+	animation = { id = "idle" 			type = "barque_idle.anim" }
+	#animation = { id = "move_start" 	type = "war_galleon_move_start.anim" }
+	#animation = { id = "moving" 		type = "war_galleon_move.anim" }
+	#animation = { id = "combat" 		type = "war_galleon_combat.anim" }
 
 
 	meshsettings = {
-		name = "jorodoxShape"
+		name = "polySurfaceShape1"
 		index = 0
-		texture_diffuse = "war_galleon_diffuse.dds"
-		texture_normal = "war_galleon_normal.dds"
-		texture_specular = "war_galleon_spec.dds"
+		texture_diffuse = "barque_diffuse.dds"
+		texture_normal = "barque_normal.dds"
+		texture_specular = "barque_spec.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -23,8 +23,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "western_gfx_war_galleon"
-	pdxmesh = "western_war_galleon_mesh"
+	name = "western_gfx_cog"
+	pdxmesh = "western_cog_mesh"
 	
 	locator = { name = "combat_effect" position = { 0 0 0 } rotation = { -90 0 0 } }
 	
@@ -42,7 +42,7 @@ entity = {
     }
 	state = {
 		name = "move"
-    	animation = "move_start"
+    	animation = "idle"
 		looping = no
 		chance = {
 			if_current_state = {
@@ -58,7 +58,7 @@ entity = {
    }
 	state = {
 		name = "move"
-    	animation = "moving"
+    	animation = "idle"
 		looping = yes
 		chance = {
 			if_current_state = {
@@ -83,7 +83,7 @@ entity = {
     }
 	state = {
 		name = "combat"
-    	animation = "combat"
+    	animation = "idle"
 		looping = yes
 		event = { time = 0 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
 		event = { time = 3 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
@@ -100,6 +100,6 @@ entity = {
 ##############
 
 entity = {
-	name = "war_galleon"
-	clone = "western_gfx_war_galleon"
+	name = "cog"
+	clone = "western_gfx_cog"
 }

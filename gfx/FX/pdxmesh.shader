@@ -166,7 +166,7 @@ PixelShader =
 		SampleModeU = "Clamp"
 		SampleModeV = "Clamp"
 		Type = "Cube"
-		File = "gfx/map/environment/SkyBox.dds"
+		File = "gfx/map/environment/nightsky.dds"
 		srgb = yes
 	}
 	# END MOD
@@ -302,6 +302,7 @@ PixelShader =
 				float3 FromCameraDir = normalize(Input.WorldSpacePos - CameraPosition);
 				float4 CubemapSample = PdxTexCube(SkyboxSample, FromCameraDir);
 
+				CubemapSample.a *= 1;
 				return CubemapSample;
 			}
 		]]
@@ -424,8 +425,9 @@ PixelShader =
 
 				DebugReturn( Color, MaterialProps, LightingProps, EnvironmentMap );
 				
+				//Color *= (44,44,44);
 				return float4( Color, Alpha );
-				//return float4( UserColor.r, UserColor.g, UserColor.b, 1 );
+				//return float4( 11, 255, 255, 1 );
 				//return float4( NormalPacked.b, NormalPacked.b, NormalPacked.b, 1 );
 			}
 		]]

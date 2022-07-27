@@ -1,30 +1,56 @@
 pdxmesh = {
-	name = "western_war_galleon_mesh"
-	file = "war_galleon.mesh"
-	
-	animation = { id = "idle" 			type = "war_galleon_idle.anim" }
-	animation = { id = "move_start" 	type = "war_galleon_move_start.anim" }
-	animation = { id = "moving" 		type = "war_galleon_move.anim" }
-	animation = { id = "combat" 		type = "war_galleon_combat.anim" }
+	name = "persian_warship_mesh"
+	file = "persian_warship.mesh"
 
+	animation = { id = "idle" 			type = "persian_warship_idle.anim" }
+	animation = { id = "move_start" 	type = "persian_warship_move_start.anim" }
+	animation = { id = "moving" 		type = "persian_warship_moving.anim" }
+	animation = { id = "port_idle" 		type = "persian_warship_port_idle.anim" }
+	animation = { id = "death" 			type = "persian_warship_death.anim" }
+	animation = { id = "combat" 		type = "persian_warship_combat.anim" }
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
 
 	meshsettings = {
-		name = "jorodoxShape"
+		name = "persian_warship_LOD0Shape"
 		index = 0
-		texture_diffuse = "war_galleon_diffuse.dds"
-		texture_normal = "war_galleon_normal.dds"
-		texture_specular = "war_galleon_spec.dds"
+		texture_diffuse = "persian_warship_01_diffuse.dds"
+		texture_normal = "persian_warship_01_normal.dds"
+		texture_specular = "persian_warship_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_warship_LOD1Shape"
+		index = 0
+		texture_diffuse = "persian_warship_01_diffuse.dds"
+		texture_normal = "persian_warship_01_normal.dds"
+		texture_specular = "persian_warship_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_warship_LOD2Shape"
+		index = 0
+		texture_diffuse = "persian_warship_01_diffuse.dds"
+		texture_normal = "persian_warship_01_normal.dds"
+		texture_specular = "persian_warship_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 	
 	#scale = 0.3
-	scale = 3.0
+	scale = 2.0
 }
 
 entity = {
-	name = "western_gfx_war_galleon"
-	pdxmesh = "western_war_galleon_mesh"
+	name = "western_gfx_war_galley"
+	pdxmesh = "persian_warship_mesh"
 	
 	locator = { name = "combat_effect" position = { 0 0 0 } rotation = { -90 0 0 } }
 	
@@ -38,7 +64,7 @@ entity = {
     }
 	state = {
 		name = "port_idle"
-    	animation = "idle"
+    	animation = "port_idle"
     }
 	state = {
 		name = "move"
@@ -54,7 +80,7 @@ entity = {
 		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
-		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_start" } keep_sound = no }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_start" } keep_sound = yes }
    }
 	state = {
 		name = "move"
@@ -67,14 +93,17 @@ entity = {
 			}
 		}
 		next_state = "move"
+		event = { time = 0.25 node = "left_oars_locator" particle = "units/ship_water_oars_03_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0.25 node = "right_oars_locator" particle = "units/ship_water_oars_03_effect" keep_particle = yes trigger_once = no }
 		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_oars_back_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
-		start_event = { sound = { soundeffect = "event:/SFX/Ambience/2DMapEmitters/Nature/sfx_amb_base_wind" } keep_sound = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_move" } keep_sound = yes }
     }
 	state = {
 		name = "death"
-    	animation = "idle"
+    	animation = "death"
 		looping = no
 		event = { time = 0 node = "hull_front_locator" particle = "units/ship_sinking_front_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "root" particle = "units/ship_sinking_middle_effect" keep_particle = yes trigger_once = no }
@@ -95,11 +124,14 @@ entity = {
 	scale = 1
 }
 
+
 ##############
 ### Clones ### ----------------------------------------------------------------
 ##############
 
+#Triremes:
+
 entity = {
-	name = "war_galleon"
-	clone = "western_gfx_war_galleon"
+	name = "war_galley"
+	clone = "western_gfx_war_galley"
 }
