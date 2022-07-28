@@ -166,7 +166,7 @@ PixelShader =
 		SampleModeU = "Clamp"
 		SampleModeV = "Clamp"
 		Type = "Cube"
-		File = "gfx/map/environment/nightsky.dds"
+		File = "gfx/map/environment/SkyBox.dds"
 		srgb = yes
 	}
 	# END MOD
@@ -302,7 +302,16 @@ PixelShader =
 				float3 FromCameraDir = normalize(Input.WorldSpacePos - CameraPosition);
 				float4 CubemapSample = PdxTexCube(SkyboxSample, FromCameraDir);
 
-				CubemapSample.a *= 1;
+				#ifdef eveningLight
+					CubemapSample.r *= 5.00;
+					CubemapSample.g *= 0.7;
+					CubemapSample.b *= 0.31;
+				#endif
+				#ifdef morningLight
+					CubemapSample.r *= 2.00;
+					CubemapSample.g *= 0.93;
+					CubemapSample.b *= 0.89;
+				#endif
 				return CubemapSample;
 			}
 		]]

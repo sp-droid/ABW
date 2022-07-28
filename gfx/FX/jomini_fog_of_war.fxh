@@ -56,6 +56,14 @@ PixelShader =
 		float3 FogOfWarBlend( float3 Color, float Alpha )
 		{
 			float4 ColorAndAlpha = FOG_OF_WAR_BLEND_FUNCTION( Alpha );
+			//if ( ColorAndAlpha.a > 0.1 ) {
+			//	float tempp = 0.4;
+			//	float gray = 0.2989*Color.r + 0.5870*Color.g + 0.1140*Color.b;
+			//	Color.r = max(0,gray*tempp+Color.r*(1-tempp));
+			//	Color.g = max(0,gray*tempp+Color.g*(1-tempp));
+			//	Color.b = max(0,gray*tempp+Color.b*(1-tempp));
+			//}
+			//return Color;
 			return lerp( Color, ColorAndAlpha.rgb, ColorAndAlpha.a );
 		}
 
