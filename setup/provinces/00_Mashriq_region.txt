@@ -29,7 +29,7 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -137,7 +137,7 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="city"
+		province_rank="settlement"
 		freemen={amount= 6 }
 		holy_site="omen_monotheism"
 	}
@@ -293,7 +293,7 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 6 }
 		#
 	}
@@ -305,7 +305,7 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 9 }
 		#
 	}
@@ -389,7 +389,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -401,7 +401,7 @@
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 8 }
 		#
 	}
@@ -641,7 +641,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 7 }
 		#
 	}
@@ -653,7 +653,7 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 7 }
 		#
 	}
@@ -689,7 +689,7 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -857,7 +857,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}

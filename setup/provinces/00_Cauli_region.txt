@@ -89,7 +89,7 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 9 }
 		#
 	}
@@ -101,7 +101,7 @@
 		trade_goods="silk"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 6 }
 		#
 	}

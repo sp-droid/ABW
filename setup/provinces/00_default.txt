@@ -1,7 +1,7 @@
 ﻿	1={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -2988,8 +2988,8 @@
 
 	5131={
 		terrain="drylands"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -3756,8 +3756,8 @@
 
 	5195={
 		terrain="forest"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -3804,8 +3804,8 @@
 
 	5199={
 		terrain="jungle"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -4524,8 +4524,8 @@
 
 	5259={
 		terrain="plains"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -5760,8 +5760,8 @@
 
 	5362={
 		terrain="jungle"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -6240,8 +6240,8 @@
 
 	5402={
 		terrain="forest"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9120,8 +9120,8 @@
 
 	5642={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9132,8 +9132,8 @@
 
 	5643={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9144,8 +9144,8 @@
 
 	5644={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9156,8 +9156,8 @@
 
 	5645={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9168,8 +9168,8 @@
 
 	5646={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9180,8 +9180,8 @@
 
 	5647={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9192,8 +9192,8 @@
 
 	5648={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9204,8 +9204,8 @@
 
 	5649={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9216,8 +9216,8 @@
 
 	5650={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9228,8 +9228,8 @@
 
 	5651={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9240,8 +9240,8 @@
 
 	5652={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9252,8 +9252,8 @@
 
 	5653={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9264,8 +9264,8 @@
 
 	5654={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9276,8 +9276,8 @@
 
 	5655={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9288,8 +9288,8 @@
 
 	5656={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9300,8 +9300,8 @@
 
 	5657={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9312,8 +9312,8 @@
 
 	5658={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9324,8 +9324,8 @@
 
 	5659={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9336,8 +9336,8 @@
 
 	5660={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9348,8 +9348,8 @@
 
 	5661={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9360,8 +9360,8 @@
 
 	5662={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9372,8 +9372,8 @@
 
 	5663={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9384,8 +9384,8 @@
 
 	5664={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9396,8 +9396,8 @@
 
 	5665={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9408,8 +9408,8 @@
 
 	5666={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9420,8 +9420,8 @@
 
 	5667={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9432,8 +9432,8 @@
 
 	5668={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9444,8 +9444,8 @@
 
 	5669={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9456,8 +9456,8 @@
 
 	5670={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9468,8 +9468,8 @@
 
 	5671={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9480,8 +9480,8 @@
 
 	5672={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9492,8 +9492,8 @@
 
 	5673={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9504,8 +9504,8 @@
 
 	5674={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9516,8 +9516,8 @@
 
 	5675={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9528,8 +9528,8 @@
 
 	5676={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9540,8 +9540,8 @@
 
 	5677={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9552,8 +9552,8 @@
 
 	5678={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9564,8 +9564,8 @@
 
 	5679={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9576,8 +9576,8 @@
 
 	5680={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9588,8 +9588,8 @@
 
 	5681={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9600,8 +9600,8 @@
 
 	5682={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9612,8 +9612,8 @@
 
 	5683={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9624,8 +9624,8 @@
 
 	5684={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9636,8 +9636,8 @@
 
 	5685={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9648,8 +9648,8 @@
 
 	5686={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9660,8 +9660,8 @@
 
 	5687={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9672,8 +9672,8 @@
 
 	5688={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9684,8 +9684,8 @@
 
 	5689={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9696,8 +9696,8 @@
 
 	5690={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9708,8 +9708,8 @@
 
 	5691={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
@@ -9720,8 +9720,8 @@
 
 	5692={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0

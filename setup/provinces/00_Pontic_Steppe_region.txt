@@ -17,7 +17,7 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 1 }
 		#
 	}
@@ -36,7 +36,7 @@
 
 	691={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="vegetables"
 		civilization_value=0
@@ -53,7 +53,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 1 }
 		#
 	}
@@ -144,7 +144,7 @@
 
 	1398={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="grain"
 		civilization_value=0
@@ -197,14 +197,14 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 5 }
 		#
 	}
 
 	1568={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
@@ -228,7 +228,7 @@
 
 	1608={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="cattle"
 		civilization_value=0
@@ -240,7 +240,7 @@
 
 	1633={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="honey"
 		civilization_value=0
@@ -252,7 +252,7 @@
 
 	1723={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="stone"
 		civilization_value=0
@@ -389,7 +389,7 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 10 }
 		#
 	}
@@ -456,7 +456,7 @@
 
 	2421={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="sunni_rel"
 		trade_goods="wild_game"
 		civilization_value=0
@@ -516,19 +516,19 @@
 
 	2633={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
 
 	2645={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
@@ -557,7 +557,7 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 10 }
 		#
 	}
@@ -576,7 +576,7 @@
 
 	2801={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="fur"
 		civilization_value=0
@@ -588,7 +588,7 @@
 
 	2875={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="dates"
 		civilization_value=0
@@ -600,7 +600,7 @@
 
 	3020={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
@@ -684,7 +684,7 @@
 
 	3133={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="fish"
 		civilization_value=0
@@ -792,7 +792,7 @@
 
 	3456={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="suomenusko_rel"
 		trade_goods="honey"
 		civilization_value=0
@@ -864,7 +864,7 @@
 
 	3555={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="suomenusko_rel"
 		trade_goods="hemp"
 		civilization_value=0
@@ -936,7 +936,7 @@
 
 	3769={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="leather"
 		civilization_value=0
@@ -972,12 +972,12 @@
 
 	3833={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -1056,7 +1056,7 @@
 
 	3972={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="hemp"
 		civilization_value=0
@@ -1092,7 +1092,7 @@
 
 	4120={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="wood"
 		civilization_value=0
@@ -1128,7 +1128,7 @@
 
 	4182={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
@@ -1188,7 +1188,7 @@
 
 	4359={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="cuman"
 		religion="tengri_rel"
 		trade_goods="grain"
 		civilization_value=0
@@ -1236,7 +1236,7 @@
 
 	4460={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="suomenusko_rel"
 		trade_goods="salt"
 		civilization_value=0
@@ -1332,7 +1332,7 @@
 
 	4803={
 		terrain="steppes"
-		culture="primitiveculture"
+		culture="novgorodian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0

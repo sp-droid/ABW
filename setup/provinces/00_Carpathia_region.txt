@@ -257,7 +257,7 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 10 }
 		#
 	}
@@ -317,7 +317,7 @@
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -365,7 +365,7 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -377,7 +377,7 @@
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -468,7 +468,7 @@
 
 	1738={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="tengri_rel"
 		trade_goods="grain"
 		civilization_value=0
@@ -528,7 +528,7 @@
 
 	1783={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="tengri_rel"
 		trade_goods="fish"
 		civilization_value=0
@@ -552,7 +552,7 @@
 
 	1832={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
@@ -629,7 +629,7 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -653,7 +653,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -725,7 +725,7 @@
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -761,7 +761,7 @@
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -780,7 +780,7 @@
 
 	2239={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="tengri_rel"
 		trade_goods="cattle"
 		civilization_value=0
@@ -821,7 +821,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -893,7 +893,7 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -912,7 +912,7 @@
 
 	2519={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="tengri_rel"
 		trade_goods="wood"
 		civilization_value=0
@@ -1169,7 +1169,7 @@
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -1421,7 +1421,7 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -1505,7 +1505,7 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -1589,7 +1589,7 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -1613,7 +1613,7 @@
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -2009,7 +2009,7 @@
 		trade_goods="fur"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -2064,7 +2064,7 @@
 
 	4530={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="tengri_rel"
 		trade_goods="grain"
 		civilization_value=0
@@ -2117,7 +2117,7 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
+		province_rank="city"
 		freemen={amount= 11 }
 		#
 	}
@@ -2136,7 +2136,7 @@
 
 	4631={
 		terrain="plains"
-		culture="cuman"
+		culture="ucranian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
