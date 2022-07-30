@@ -2495,7 +2495,7 @@ country = {
 		VLA = {
 			#80,80,140
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 968	#Vladimir
@@ -2504,7 +2504,7 @@ country = {
 		RYA = {
 			#146,134,77
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 3701	#Ryazan
@@ -2513,7 +2513,7 @@ country = {
 		CHR = {
 			#190,190,190
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1659	#Chernihiv
@@ -2522,7 +2522,7 @@ country = {
 		PLT = {
 			#16,113,155
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 4650	#Minsk
@@ -2531,7 +2531,7 @@ country = {
 		SMO = {
 			#106,160,43
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1474	#Smolensk
@@ -2540,7 +2540,7 @@ country = {
 		PEY = {
 			#168,80,140
 			government = aristocratic_monarchy
-			primary_culture = novgorodian
+			primary_culture = russian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1584	#Pereyaslav
