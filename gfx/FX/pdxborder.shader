@@ -104,7 +104,12 @@ PixelShader =
                 #endif
 
                 Diffuse.rgb = ApplyFogOfWar( Diffuse.rgb, Input.WorldSpacePos, FogOfWarAlpha );
-                Diffuse.rgb = ApplyDistanceFog( Diffuse.rgb, Input.WorldSpacePos );
+
+				float vFogFactor = min(CalculateDistanceFogFactor( Input.WorldSpacePos ),0.6);
+				#if defined(nightLight)
+					vFogFactor *= 0.05;
+				#endif
+				Diffuse.rgb = ApplyDistanceFog( Diffuse.rgb, vFogFactor );
 
                 Diffuse.a *= GH_IsCameraTilted() ? 0.0f : vAlpha;
 

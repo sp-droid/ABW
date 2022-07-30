@@ -462,15 +462,15 @@ PixelShader =
 			#endif
 			
 			#ifdef eveningLight
-				FinalColor.r *= 0.4;
-				FinalColor.g *= 0.4;
-				FinalColor.b *= 0.4;
+				FinalColor *= 0.4;
 			#endif
 			#ifdef morningLight
-				FinalColor.r *= 0.7;
-				FinalColor.g *= 0.7;
-				FinalColor.b *= 0.7;
+				FinalColor *= 0.7;
 			#endif
+			#ifdef nightLight
+				FinalColor *= 0.1;
+			#endif
+			
 			return float4( FinalColor, WaterFade );
 		}
 		

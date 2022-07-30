@@ -35,12 +35,17 @@ PixelShader =
 			#ifdef eveningLight
 				float2 tempUV = WorldSpacePos.xz / MapSize;
 				tempUV.y = 1 - tempUV.y;
-				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV );
+				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV )*2;
 			#endif
 			#ifdef morningLight
 				float2 tempUV = WorldSpacePos.xz / MapSize;
 				tempUV.y = 1 - tempUV.y;
 				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV );
+			#endif
+			#ifdef nightLight
+				float2 tempUV = WorldSpacePos.xz / MapSize;
+				tempUV.y = 1 - tempUV.y;
+				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV )*3;
 			#endif
 			
 			return LightingProps;
@@ -74,6 +79,10 @@ PixelShader =
 				tempp.g *= 0.93;
 				tempp.b *= 0.89;
 			#endif
+			#ifdef nightLight
+				tempp *= 0.1;
+			#endif
+			
 			return tempp;
 		}
 		

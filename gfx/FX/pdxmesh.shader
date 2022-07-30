@@ -313,9 +313,10 @@ PixelShader =
 					CubemapSample.g *= 0.93;
 					CubemapSample.b *= 0.89;
 				#endif
-				//CubemapSample.r *= 0.03;
-				//CubemapSample.g *= 0.03;
-				//CubemapSample.b *= 0.03;
+				#ifdef nightLight
+					CubemapSample *= 0.015;
+				#endif
+
 				return CubemapSample;
 			}
 		]]
@@ -426,7 +427,11 @@ PixelShader =
 
 				#if !defined( UNDERWATER ) && !defined( DISABLE_FOG_OF_WAR )
 					Color = ApplyFogOfWar( Color, Input.WorldSpacePos, FogOfWarAlpha );
-					Color = ApplyDistanceFog( Color, Input.WorldSpacePos );
+					float vFogFactor = min(CalculateDistanceFogFactor( Input.WorldSpacePos ),0.6);
+					#if defined(nightLight)
+						vFogFactor *= 0.05;
+					#endif
+					Color = ApplyDistanceFog( Color, vFogFactor );
 				#endif
 				
 				float Alpha = Diffuse.a;

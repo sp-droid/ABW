@@ -1498,7 +1498,7 @@ widget = {
 		
 		dynamicgridbox = {
 			name = "unit_items_grid"
-			visible = "[Not(IsMapMode('religion'))]"
+			visible = "[Not(IsMapMode('political'))]"
 			item = {
 				container = {
 					ignoreinvisible = yes

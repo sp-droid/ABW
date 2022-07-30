@@ -75,7 +75,12 @@ PixelShader =
 			MixedColor.a *= Transparency;
 
 			MixedColor.rgb = ApplyFogOfWar( MixedColor.rgb, Input.WorldSpacePos, FogOfWarAlpha );
-			MixedColor.rgb = ApplyDistanceFog( MixedColor.rgb, Input.WorldSpacePos );
+			
+			float vFogFactor = min(CalculateDistanceFogFactor( Input.WorldSpacePos ),0.6);
+			#if defined(nightLight)
+				vFogFactor *= 0.05;
+			#endif
+			MixedColor.rgb = ApplyDistanceFog( MixedColor.rgb, vFogFactor );
 			
 			return MixedColor;
 			}

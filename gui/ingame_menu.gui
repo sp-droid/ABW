@@ -557,8 +557,7 @@ window = {
 				blockoverride "On_click"
 				{
 					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
-					enabled = "False"
-					onclick = "[PauseMenu.Save]"
+					onclick = "[ExecuteConsoleCommand('shader_debug nightLight')]"
 					tooltip = "ABWMENU_LIGHTMODES_TT"
 				}
 				blockoverride "Center_text" { visible = yes }
