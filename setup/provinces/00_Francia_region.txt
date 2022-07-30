@@ -1,12 +1,15 @@
 ﻿	86={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -18,7 +21,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -30,7 +36,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -42,43 +51,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
 	189={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	203={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	264={
 		terrain="plains"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -90,7 +111,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -102,7 +126,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -114,43 +141,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
 	484={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	485={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="precious_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 3 culture="occitan" religion="catholic_rel" }
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 	}
 
 	486={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -162,7 +201,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -174,7 +216,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="breton" religion="celtic_rel" }
 		#
 	}
 
@@ -186,19 +231,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	643={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -210,20 +261,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	684={
 		terrain="forest"
-		culture="occitan"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 7 } # Total-17
 		#
+		#
+		freemen={amount= 7 culture="occitan" religion="catholic_rel" }
+		freemen={amount= 3 culture="gascon" religion="catholic_rel" }
 	}
 
 	715={
@@ -234,7 +291,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -246,55 +306,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	753={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	754={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="gems"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	808={
 		terrain="forest"
-		culture="alemannic"
+		culture="rheinlander"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
 	809={
 		terrain="marsh"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -306,19 +381,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	816={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -330,7 +411,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -342,19 +426,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	859={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -366,7 +456,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -378,7 +471,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -390,19 +486,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	956={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
+		#
+		#
+		freemen={amount= 5 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -414,7 +516,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -426,7 +531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -438,7 +546,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -450,7 +561,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -462,7 +576,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -474,7 +591,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="breton" religion="catholic_rel" }
 		#
 	}
 
@@ -486,19 +606,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1036={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -510,19 +636,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	1061={
 		terrain="forest"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -534,7 +666,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -546,7 +681,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -558,55 +696,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="alemannic" religion="catholic_rel" }
 		#
 	}
 
 	1077={
 		terrain="hills"
-		culture="gascon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
 	1088={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	1108={
 		terrain="forest"
-		culture="occitan"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 6 } # Total-16
 		#
+		#
+		freemen={amount= 6 culture="occitan" religion="catholic_rel" }
+		freemen={amount= 3 culture="gascon" religion="catholic_rel" }
 	}
 
 	1109={
 		terrain="marsh"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -618,7 +771,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -630,7 +786,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -642,19 +801,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	1155={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 17 }
+		freemen={amount= 10 } # Total-17
+		#
+		#
+		freemen={amount= 7 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -666,7 +831,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -678,19 +846,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1164={
 		terrain="mountain"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -702,7 +876,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -714,7 +891,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -726,19 +906,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1220={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -750,31 +936,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1227={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1237={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -786,31 +981,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="norman" religion="catholic_rel" }
 		#
 	}
 
 	1263={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 9 } # Total-15
+		#
+		#
+		freemen={amount= 6 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	1297={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -822,7 +1026,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -834,7 +1041,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -846,7 +1056,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -858,7 +1071,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="norman" religion="catholic_rel" }
 		#
 	}
 
@@ -870,7 +1086,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -882,7 +1101,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -894,7 +1116,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -906,43 +1131,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	1467={
 		terrain="hills"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1493={
 		terrain="plains"
+		culture="norman"
+		religion="catholic_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 7 } # Total-12
+		#
+		#
+		freemen={amount= 5 culture="francien" religion="catholic_rel" }
+		#
+	}
+
+	1521={
+		terrain="forest"
 		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-10
 		#
-	}
-
-	1521={
-		terrain="forest"
-		culture="occitan"
-		religion="catholic_rel"
-		trade_goods="grain"
-		civilization_value=0
-		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		#
+		#
 		#
 	}
 
@@ -954,19 +1191,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 22 }
+		freemen={amount= 22 } # Total-22
+		#
+		#
+		#
 		#
 	}
 
 	1569={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -978,7 +1221,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -990,7 +1236,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1002,19 +1251,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1618={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 11 } # Total-18
+		#
+		#
+		freemen={amount= 7 culture="basque" religion="catholic_rel" }
 		#
 	}
 
@@ -1026,7 +1281,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1038,7 +1296,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1050,31 +1311,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	1647={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	1650={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1086,31 +1356,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1682={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="woad"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="catholic_rel" }
 		#
 	}
 
 	1685={
 		terrain="hills"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1122,7 +1401,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -1134,19 +1416,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1700={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -1158,7 +1446,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1170,31 +1461,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	1719={
 		terrain="plains"
-		culture="dutch"
+		culture="flemish"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
 	1720={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -1206,7 +1506,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
@@ -1218,7 +1521,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -1230,7 +1536,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -1242,19 +1551,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
+		freemen={amount= 1 culture="basque" religion="catholic_rel" }
 	}
 
 	1777={
 		terrain="hills"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1266,7 +1581,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -1278,7 +1596,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -1290,19 +1611,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	1799={
 		terrain="forest"
-		culture="burgundian"
+		culture="alemannic"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1314,7 +1641,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1326,7 +1656,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -1338,7 +1671,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1350,7 +1686,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -1362,7 +1701,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1374,7 +1716,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -1386,19 +1731,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 8 } # Total-14
+		#
+		#
+		freemen={amount= 6 culture="norman" religion="catholic_rel" }
 		#
 	}
 
 	1869={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -1410,19 +1761,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	1877={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1434,7 +1791,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1446,44 +1806,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	1912={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	1913={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1914={
 		terrain="forest"
-		culture="alemannic"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="alemannic" religion="catholic_rel" }
+		freemen={amount= 2 culture="rheinlander" religion="catholic_rel" }
 	}
 
 	1915={
@@ -1494,19 +1866,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	1931={
 		terrain="forest"
-		culture="walloon"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
@@ -1518,43 +1896,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	1939={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	1940={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1948={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1566,7 +1956,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
@@ -1578,7 +1971,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -1590,31 +1986,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="alemannic" religion="catholic_rel" }
 		#
 	}
 
 	2003={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="papyrus"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
 	2004={
 		terrain="hills"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1626,7 +2031,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1638,8 +2046,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="norman" religion="catholic_rel" }
+		freemen={amount= 2 culture="flemish" religion="catholic_rel" }
 	}
 
 	2076={
@@ -1650,7 +2061,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="flemish" religion="catholic_rel" }
 		#
 	}
 
@@ -1662,19 +2076,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2080={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -1686,7 +2106,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -1698,7 +2121,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1710,7 +2136,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1722,7 +2151,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1734,19 +2166,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	2232={
 		terrain="plains"
 		culture="breton"
-		religion="celtic_rel"
+		religion="catholic_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="breton" religion="celtic_rel" }
 		#
 	}
 
@@ -1758,19 +2196,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2277={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -1782,7 +2226,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1794,7 +2241,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1806,7 +2256,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1818,7 +2271,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 7 } # Total-12
+		#
+		#
+		freemen={amount= 5 culture="norman" religion="catholic_rel" }
 		#
 	}
 
@@ -1830,7 +2286,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -1842,7 +2301,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -1854,7 +2316,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1866,7 +2331,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="norman" religion="catholic_rel" }
 		#
 	}
 
@@ -1878,7 +2346,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -1890,31 +2361,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="norman" religion="catholic_rel" }
 		#
 	}
 
 	2394={
 		terrain="forest"
-		culture="burgundian"
+		culture="alemannic"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2395={
 		terrain="plains"
-		culture="burgundian"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -1926,7 +2406,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="rheinlander" religion="catholic_rel" }
 		#
 	}
 
@@ -1938,31 +2421,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="norman" religion="catholic_rel" }
 		#
 	}
 
 	2436={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2514={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 14 } # Total-18
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -1974,7 +2466,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1986,7 +2481,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -1998,7 +2496,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -2010,7 +2511,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -2022,20 +2526,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2568={
 		terrain="forest"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 7 } # Total-18
 		#
+		#
+		freemen={amount= 7 culture="francien" religion="catholic_rel" }
+		freemen={amount= 4 culture="walloon" religion="catholic_rel" }
 	}
 
 	2579={
@@ -2046,19 +2556,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
 	2629={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -2070,20 +2586,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	2634={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 7 } # Total-17
 		#
+		#
+		freemen={amount= 7 culture="occitan" religion="catholic_rel" }
+		freemen={amount= 3 culture="catalan" religion="catholic_rel" }
 	}
 
 	2671={
@@ -2094,7 +2616,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -2106,31 +2631,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2700={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
 	2701={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2142,7 +2676,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 9 } # Total-15
+		#
+		#
+		freemen={amount= 6 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -2154,7 +2691,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 25 }
+		freemen={amount= 25 } # Total-25
+		#
+		#
+		#
 		#
 	}
 
@@ -2166,7 +2706,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -2178,19 +2721,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2780={
 		terrain="hills"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2202,55 +2751,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	2785={
 		terrain="plains"
-		culture="occitan"
+		culture="breton"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	2786={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	2826={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	2828={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 10 } # Total-17
+		#
+		#
+		freemen={amount= 7 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -2262,19 +2826,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2858={
 		terrain="mountain"
-		culture="gascon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2286,7 +2856,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2298,7 +2871,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2310,7 +2886,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 7 } # Total-12
+		#
+		#
+		freemen={amount= 5 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
@@ -2322,19 +2901,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2942={
 		terrain="hills"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -2346,19 +2931,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
 	2959={
 		terrain="plains"
 		culture="breton"
-		religion="celtic_rel"
+		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="breton" religion="celtic_rel" }
 		#
 	}
 
@@ -2370,31 +2961,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2991={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	3031={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -2406,7 +3006,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="alemannic" religion="catholic_rel" }
 		#
 	}
 
@@ -2418,7 +3021,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -2430,31 +3036,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3111={
 		terrain="plains"
-		culture="occitan"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	3143={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2466,31 +3081,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3186={
 		terrain="hills"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3187={
 		terrain="plains"
-		culture="burgundian"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -2502,19 +3126,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3209={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="iron"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2526,43 +3156,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3297={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	3299={
 		terrain="forest"
-		culture="burgundian"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 10 } # Total-16
+		#
+		#
+		freemen={amount= 6 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
 	3300={
 		terrain="marsh"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2574,7 +3216,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -2586,31 +3231,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	3342={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3344={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -2622,7 +3276,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -2634,7 +3291,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="norman" religion="catholic_rel" }
 		#
 	}
 
@@ -2646,7 +3306,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2658,7 +3321,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2670,8 +3336,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="rheinlander" religion="catholic_rel" }
+		freemen={amount= 2 culture="walloon" religion="catholic_rel" }
 	}
 
 	3457={
@@ -2682,7 +3351,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2694,7 +3366,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2706,7 +3381,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2718,7 +3396,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="basque" religion="catholic_rel" }
 		#
 	}
 
@@ -2730,7 +3411,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -2742,19 +3426,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3568={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2766,7 +3456,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -2778,7 +3471,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -2790,8 +3486,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
+		freemen={amount= 1 culture="walloon" religion="catholic_rel" }
 	}
 
 	3621={
@@ -2802,19 +3501,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	3629={
 		terrain="hills"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2826,7 +3531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -2838,19 +3546,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
 	3758={
 		terrain="plains"
-		culture="burgundian"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -2862,19 +3576,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3761={
 		terrain="forest"
-		culture="alemannic"
+		culture="rheinlander"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="alemannic" religion="catholic_rel" }
 		#
 	}
 
@@ -2886,7 +3606,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2898,7 +3621,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -2910,19 +3636,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	3987={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2934,7 +3666,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -2946,7 +3681,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2958,20 +3696,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4058={
 		terrain="plains"
-		culture="dutch"
+		culture="walloon"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="flemish" religion="catholic_rel" }
+		freemen={amount= 1 culture="francien" religion="catholic_rel" }
 	}
 
 	4104={
@@ -2982,55 +3726,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
 	4110={
 		terrain="plains"
-		culture="burgundian"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	4125={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="breton" religion="catholic_rel" }
 		#
 	}
 
 	4159={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="breton" religion="catholic_rel" }
 		#
 	}
 
 	4191={
 		terrain="mountain"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -3042,7 +3801,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -3054,19 +3816,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4194={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3078,19 +3846,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4223={
 		terrain="forest"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -3102,7 +3876,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -3114,43 +3891,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4254={
 		terrain="plains"
-		culture="dutch"
+		culture="flemish"
 		religion="catholic_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 10 } # Total-16
+		#
+		#
+		freemen={amount= 6 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
 	4268={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		port_building=1
+		#
 		#
 	}
 
 	4269={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -3162,31 +3951,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="rheinlander" religion="catholic_rel" }
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 	}
 
 	4308={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4314={
 		terrain="plains"
-		culture="francien"
+		culture="flemish"
 		religion="catholic_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -3198,7 +3996,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3210,7 +4011,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -3222,7 +4026,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="breton" religion="catholic_rel" }
 		#
 	}
 
@@ -3234,7 +4041,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3246,7 +4056,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -3258,19 +4071,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4408={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -3282,19 +4101,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	4412={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -3306,7 +4131,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3318,19 +4146,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4415={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -3342,19 +4176,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	4450={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -3366,19 +4206,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="rheinlander" religion="catholic_rel" }
 		#
 	}
 
 	4477={
 		terrain="plains"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="woad"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -3390,31 +4236,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4490={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	4491={
 		terrain="forest"
-		culture="english"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -3426,7 +4281,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -3438,7 +4296,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -3450,19 +4311,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4507={
 		terrain="forest"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -3474,7 +4341,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -3486,55 +4356,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	4563={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	4582={
 		terrain="hills"
-		culture="francien"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
 	4585={
 		terrain="forest"
-		culture="burgundian"
+		culture="alemannic"
 		religion="catholic_rel"
 		trade_goods="dye"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="swiss" religion="catholic_rel" }
 		#
 	}
 
 	4586={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
+		#
+		#
+		freemen={amount= 5 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -3546,7 +4431,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3558,7 +4446,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -3570,31 +4461,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	4619={
 		terrain="plains"
-		culture="francien"
+		culture="norman"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="breton" religion="catholic_rel" }
 		#
 	}
 
 	4645={
 		terrain="plains"
-		culture="francien"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3606,7 +4506,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -3618,7 +4521,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -3630,7 +4536,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -3642,7 +4551,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
@@ -3654,55 +4566,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4696={
 		terrain="forest"
-		culture="burgundian"
+		culture="alemannic"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="burgundian" religion="catholic_rel" }
 		#
 	}
 
 	4706={
 		terrain="plains"
-		culture="dutch"
+		culture="flemish"
 		religion="catholic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
+		#
+		#
+		freemen={amount= 5 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	4711={
 		terrain="forest"
-		culture="occitan"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
 	4713={
 		terrain="forest"
-		culture="occitan"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 8 } # Total-14
+		#
+		#
+		freemen={amount= 6 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -3714,7 +4641,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -3726,31 +4656,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	4773={
 		terrain="plains"
-		culture="francien"
+		culture="flemish"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 14 } # Total-18
+		#
+		#
+		freemen={amount= 4 culture="francien" religion="catholic_rel" }
 		#
 	}
 
 	4781={
 		terrain="plains"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="elephants"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3762,7 +4701,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="basque" religion="catholic_rel" }
 		#
 	}
 
@@ -3774,7 +4716,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="gascon" religion="catholic_rel" }
 		#
 	}
 
@@ -3786,7 +4731,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="francien" religion="catholic_rel" }
 		#
 	}
 
@@ -3798,7 +4746,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3810,19 +4761,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	4850={
 		terrain="forest"
-		culture="occitan"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3834,31 +4791,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4880={
 		terrain="forest"
-		culture="walloon"
+		culture="francien"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="walloon" religion="catholic_rel" }
 		#
 	}
 
 	4882={
 		terrain="forest"
-		culture="english"
+		culture="gascon"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="basque" religion="catholic_rel" }
 		#
 	}
 

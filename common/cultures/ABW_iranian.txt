@@ -1,5 +1,5 @@
 ﻿iranian_group = {	
-	color = hsv { 0.05 1.0 0.5 }
+	color = rgb { 223 76 91 }
 
 	male_names = {
 		Muhammad Hassan Reza Babak Abbas Jaffar Mirza-Akbar Shahin Shahpur Shahrzad Paiman Ali Mirzaad Baarag Jafar Osamn Gwahraam Hammal Zangi Dousteyn Doudaa Mallouk Reza Babak

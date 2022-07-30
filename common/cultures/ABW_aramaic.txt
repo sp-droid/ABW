@@ -1,5 +1,5 @@
 ﻿aramaic_group = {	
-	color = hsv { 0.75 0.9 0.73 }
+	color = rgb { 102 18 186 }
 
 
 	male_names = {
@@ -18,38 +18,6 @@
 	}
 	culture = {
 		syrian = {}
-		hebrew = {
-			male_names = {
-				Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias 
-			}
-			
-			female_names = {
-				Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Mara Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Joanna Mara 
-			}
-			
-			family = {	
-				Hyrcanus.Hyrcanus.Hyrcanus.Hyrcanian						
-				Iscariot.Iscariot.Iscariot.Iscarian								
-				Laganiat.Laganiat.Laganiat.Laganian								
-				Braham.Braham.Braham.Brahamid						
-				Gedide.Gedide.Gedide.Gedidid							
-				Kohan.Kohan.Kohan.Kohanid							
-				Yochanan.Yochanan.Yochanan.Yochanid								
-				Maiman.Maiman.Maiman.Maimanian							
-				Megiston.Megiston.Megiston.Megistonid								
-				Likhluket.Likhluket.Likhluket.Likhlukid								
-				Marsyam.Marsyam.Marsyam.Marsyamid								
-				Neron.Neron.Neron.Neronid								
-				Nicoliat.Nicoliat.Nicoliat.Nicolid								
-				Nisat.Nisat.Nisat.Nisatid								
-				Nuri.Nuri.Nuri.Nurian						
-				Mahana.Mahana.Mahana.Mahanian				
-				Manale.Manale.Manale.Manalian			
-				Josephus.Josephus.Josephus.Josephiad			
-				Kalatha.Kalatha.Kalatha.Kalathid				
-				Karkema.Karkema.Karkema.Karkemid
-			}
-		}
 	}
 	
 	barbarian_names = { 

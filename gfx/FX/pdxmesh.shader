@@ -300,6 +300,7 @@ PixelShader =
 			PDX_MAIN
 			{
 				float3 FromCameraDir = normalize(Input.WorldSpacePos - CameraPosition);
+				FromCameraDir.y *= 3;
 				float4 CubemapSample = PdxTexCube(SkyboxSample, FromCameraDir);
 
 				#ifdef eveningLight
@@ -312,6 +313,9 @@ PixelShader =
 					CubemapSample.g *= 0.93;
 					CubemapSample.b *= 0.89;
 				#endif
+				//CubemapSample.r *= 0.03;
+				//CubemapSample.g *= 0.03;
+				//CubemapSample.b *= 0.03;
 				return CubemapSample;
 			}
 		]]

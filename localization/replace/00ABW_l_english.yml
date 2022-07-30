@@ -23,7 +23,7 @@
  
  INGAME_ABWMENU:0 "abw settings"
  ABWMENU_LIGHTMODES:0 "Special lighting modes"
- ABWMENU_LIGHTMODES_TT:0 "#T Custom lightmode#!\n Best appreciated in terrain mapmode while zoomed in.\n To deactivate, click again#!"
+ ABWMENU_LIGHTMODES_TT:0 "#T Custom lightmode#!\n Game will freeze for a couple seconds\n Best appreciated in terrain mapmode while zoomed in.\n To deactivate, click again on the same button"
  ABWMENU_MORNING:0 "Dawn"
  ABWMENU_EVENING:0 "Dusk"
  ABWMENU_NIGHT:0 "Midnight"

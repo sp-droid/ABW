@@ -6,7 +6,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -18,7 +21,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -30,7 +36,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -42,7 +51,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -54,7 +66,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -66,7 +81,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -78,7 +96,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -90,7 +111,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -102,7 +126,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -114,7 +141,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -126,7 +156,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -138,7 +171,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -150,7 +186,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -162,7 +201,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -174,7 +216,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -186,7 +231,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -198,7 +246,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -210,7 +261,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -222,7 +276,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -234,7 +291,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -246,7 +306,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -258,7 +321,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -270,7 +336,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -282,7 +351,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -294,7 +366,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -306,7 +381,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -318,7 +396,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -330,7 +411,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -342,7 +426,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -354,7 +441,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -366,7 +456,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -378,7 +471,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -390,7 +486,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -402,7 +501,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -414,7 +516,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -426,7 +531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -438,7 +546,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -450,7 +561,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -462,7 +576,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -474,7 +591,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -486,7 +606,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -498,7 +621,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -510,7 +636,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -522,7 +651,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -534,7 +666,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -546,7 +681,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -558,7 +696,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -570,7 +711,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -582,7 +726,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -594,7 +741,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -606,7 +756,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -618,7 +771,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -630,7 +786,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -642,7 +801,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -654,19 +816,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1778={
 		terrain="forest"
 		culture="primitiveculture"
-		religion="animist_rel"
+		religion="ancentralism_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -678,7 +846,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -690,7 +861,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -702,7 +876,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -714,7 +891,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -726,7 +906,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -738,7 +921,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -750,7 +936,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -762,7 +951,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -774,7 +966,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -786,7 +981,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -798,7 +996,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -810,7 +1011,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -822,7 +1026,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -834,7 +1041,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -846,7 +1056,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -858,19 +1071,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2348={
 		terrain="forest"
 		culture="primitiveculture"
-		religion="animist_rel"
+		religion="ancentralism_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -882,7 +1101,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -894,7 +1116,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -906,7 +1131,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -918,7 +1146,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -930,7 +1161,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -942,19 +1176,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2747={
 		terrain="forest"
 		culture="primitiveculture"
-		religion="animist_rel"
+		religion="ancentralism_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -966,7 +1206,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -978,7 +1221,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -990,7 +1236,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1002,7 +1251,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1014,7 +1266,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1026,7 +1281,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1038,7 +1296,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1050,7 +1311,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1062,7 +1326,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1074,7 +1341,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1086,7 +1356,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1098,7 +1371,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1110,7 +1386,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1122,7 +1401,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1134,7 +1416,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1146,19 +1431,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3909={
 		terrain="forest"
 		culture="primitiveculture"
-		religion="animist_rel"
+		religion="ancentralism_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1170,7 +1461,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1182,7 +1476,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1194,7 +1491,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1206,7 +1506,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1218,7 +1521,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1230,7 +1536,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1242,7 +1551,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1254,7 +1566,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1266,7 +1581,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1278,7 +1596,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1290,7 +1611,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1302,7 +1626,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1314,7 +1641,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1326,7 +1656,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1338,7 +1671,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 

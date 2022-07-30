@@ -1,5 +1,5 @@
 ﻿uralic_group = {
-	color = hsv { 0.0 0.5 1.0 }
+	color = rgb { 255 127 127 }
 
 	male_names = {
 		none
@@ -43,6 +43,36 @@
 			}
 		}
 		finnish = {
+			male_names = {
+				Aatto Aimo Eemil Eerikki Eljas Jaakoppi Jalo Manu Niclas Sauli Seppo Topi Tuukka Topias Vilppu
+			}
+			female_names = {
+				Aada Ella Emmi Jenni Katri Laila Maire Milja Pinja Rauha Riika Riina Sylvia
+			}
+			family = {
+				Jarvi.Jarvi.Jarvi.Jarvi
+				Karppinen.Karppinen.Karppinen.Karppinen
+				Saari.Saari.Saari.Saari
+				Tahtinen.Tahtinen.Tahtinen.Tahtinen
+				Virtanen.Virtanen.Virtanen.Virtanen
+			}
+		}
+		sami = {
+			male_names = {
+				Aatto Aimo Eemil Eerikki Eljas Jaakoppi Jalo Manu Niclas Sauli Seppo Topi Tuukka Topias Vilppu
+			}
+			female_names = {
+				Aada Ella Emmi Jenni Katri Laila Maire Milja Pinja Rauha Riika Riina Sylvia
+			}
+			family = {
+				Jarvi.Jarvi.Jarvi.Jarvi
+				Karppinen.Karppinen.Karppinen.Karppinen
+				Saari.Saari.Saari.Saari
+				Tahtinen.Tahtinen.Tahtinen.Tahtinen
+				Virtanen.Virtanen.Virtanen.Virtanen
+			}
+		}
+		permic = {
 			male_names = {
 				Aatto Aimo Eemil Eerikki Eljas Jaakoppi Jalo Manu Niclas Sauli Seppo Topi Tuukka Topias Vilppu
 			}
