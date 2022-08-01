@@ -1,5 +1,5 @@
 ﻿arabic_group = {
-	color = hsv { 0.3 0.7 0.6 }
+	color = rgb { 67 153 45 }
 
 	male_names = {
 		Al-Adil Al-Nasir Amir Ali Malik Ahmad Muhammad Jamal Ayaan Khalil Zahir Rashad Hamza Abdullah Tariq Zamir Mustafa Maleek Umar

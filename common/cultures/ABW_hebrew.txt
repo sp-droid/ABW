@@ -1,5 +1,5 @@
 ﻿hebrew_group = {	
-	color = hsv { 0.75 0.9 0.73 }
+	color = rgb { 150 134 183 }
 
 
 	male_names = {
@@ -17,7 +17,6 @@
 		Tlass.Tlass.Tlass.Tlass
 	}
 	culture = {
-		syrian = {}
 		hebrew = {
 			male_names = {
 				Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias 

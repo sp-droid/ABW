@@ -300,7 +300,22 @@ PixelShader =
 			PDX_MAIN
 			{
 				float3 FromCameraDir = normalize(Input.WorldSpacePos - CameraPosition);
+				FromCameraDir.y *= 3;
 				float4 CubemapSample = PdxTexCube(SkyboxSample, FromCameraDir);
+
+				#ifdef eveningLight
+					CubemapSample.r *= 5.00;
+					CubemapSample.g *= 0.7;
+					CubemapSample.b *= 0.31;
+				#endif
+				#ifdef morningLight
+					CubemapSample.r *= 2.00;
+					CubemapSample.g *= 0.93;
+					CubemapSample.b *= 0.89;
+				#endif
+				#ifdef nightLight
+					CubemapSample *= 0.03;
+				#endif
 
 				return CubemapSample;
 			}
@@ -412,7 +427,11 @@ PixelShader =
 
 				#if !defined( UNDERWATER ) && !defined( DISABLE_FOG_OF_WAR )
 					Color = ApplyFogOfWar( Color, Input.WorldSpacePos, FogOfWarAlpha );
-					Color = ApplyDistanceFog( Color, Input.WorldSpacePos );
+					float vFogFactor = min(CalculateDistanceFogFactor( Input.WorldSpacePos ),0.6);
+					#if defined(nightLight)
+						vFogFactor *= 0.05;
+					#endif
+					Color = ApplyDistanceFog( Color, vFogFactor );
 				#endif
 				
 				float Alpha = Diffuse.a;
@@ -424,8 +443,9 @@ PixelShader =
 
 				DebugReturn( Color, MaterialProps, LightingProps, EnvironmentMap );
 				
+				//Color *= (44,44,44);
 				return float4( Color, Alpha );
-				//return float4( UserColor.r, UserColor.g, UserColor.b, 1 );
+				//return float4( 11, 255, 255, 1 );
 				//return float4( NormalPacked.b, NormalPacked.b, NormalPacked.b, 1 );
 			}
 		]]

@@ -19,7 +19,7 @@ pdxmesh = {
 	}
 	
 	#scale = 0.3
-	scale = 4.0
+	scale = 3.0
 }
 
 entity = {
@@ -101,10 +101,5 @@ entity = {
 
 entity = {
 	name = "war_galleon"
-	clone = "western_gfx_war_galleon"
-}
-
-entity = {
-	name = "western_gfx_war_galleon"
 	clone = "western_gfx_war_galleon"
 }

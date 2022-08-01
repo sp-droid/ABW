@@ -464,7 +464,7 @@ widget = {
 	flowcontainer = {
 		parentanchor = center
 		ignoreinvisible = yes
-		visible = "[Not( IsMapMode('cool_map_effect') )]"
+		visible = "[Not( Or(IsMapMode('cool_map_effect'),IsMapMode('political')) )]"
 		
 		@map_icon_size = 34
 		
@@ -786,34 +786,37 @@ widget = {
 	tooltip = "[PortMapIcon.GetTooltip]"
 	tooltip_offset = { 0 0 }
 	
-	icon = {
-		name = "port_icon"
-		texture = "gfx/interface/map/portrank1.dds"
-		size = { @map_icon_size @map_icon_size }
-		visible = "[EqualTo_int32( PortMapIcon.GetFrame, '(int32)1' )]"
-		widgetanchor = top|hcenter
-		parentanchor = top|hcenter
-		position = { 0 5 }
-	}
-	
-	icon = {
-		name = "port_icon2"
-		texture = "gfx/interface/map/portrank2.dds"
-		size = { @map_icon_size @map_icon_size }
-		visible = "[EqualTo_int32( PortMapIcon.GetFrame, '(int32)2' )]"
-		widgetanchor = top|hcenter
-		parentanchor = top|hcenter
-		position = { 0 5 }
-	}
-	
-	icon = {
-		name = "port_icon3"
-		texture = "gfx/interface/map/portrank3.dds"
-		size = { @map_icon_size @map_icon_size }
-		visible = "[GreaterThanOrEqualTo_int32( PortMapIcon.GetFrame, '(int32)3' )]"
-		widgetanchor = top|hcenter
-		parentanchor = top|hcenter
-		position = { 0 5 }
+	container = {
+		visible = "[Not( IsMapMode('political') )]"
+		icon = {
+			name = "port_icon"
+			texture = "gfx/interface/map/portrank1.dds"
+			size = { @map_icon_size @map_icon_size }
+			visible = "[EqualTo_int32( PortMapIcon.GetFrame, '(int32)1' )]"
+			widgetanchor = top|hcenter
+			parentanchor = top|hcenter
+			position = { 0 5 }
+		}
+		
+		icon = {
+			name = "port_icon2"
+			texture = "gfx/interface/map/portrank2.dds"
+			size = { @map_icon_size @map_icon_size }
+			visible = "[EqualTo_int32( PortMapIcon.GetFrame, '(int32)2' )]"
+			widgetanchor = top|hcenter
+			parentanchor = top|hcenter
+			position = { 0 5 }
+		}
+		
+		icon = {
+			name = "port_icon3"
+			texture = "gfx/interface/map/portrank3.dds"
+			size = { @map_icon_size @map_icon_size }
+			visible = "[GreaterThanOrEqualTo_int32( PortMapIcon.GetFrame, '(int32)3' )]"
+			widgetanchor = top|hcenter
+			parentanchor = top|hcenter
+			position = { 0 5 }
+		}
 	}
 }
 
@@ -822,14 +825,14 @@ widget = {
 	name = "county_capital_widget"
 	widget = {
 		size = { 38 38 }
-		visible = "[Or(IsMapMode('cool_map_effect'),IsMapMode('terrain'))]"
+		visible = "[Or(Or(IsMapMode('cool_map_effect'),IsMapMode('terrain')),IsMapMode('political'))]"
 		parentanchor = center
 		icon = {
-			size = { 38 38 }
+			size = { 22 22 }
 			texture = "gfx/interface/icons/icon_alpha/star_filled.dds"
 			#framesize = { 50 50 }
 			icon = {
-				size = { 28 28 }
+				size = { 12 12 }
 				texture = "gfx/interface/icons/icon_alpha/star_filled_white.dds"
 				color = { 1 1 1 1 }
 				parentanchor = center
@@ -838,6 +841,7 @@ widget = {
 		textbox = {
 			text = "[CapitalMapIcon.GetCountry.GetCapital.GetName]"
 			using = HeaderFont
+			fontsize = 12
 			fontcolor = { 1 1 1 1 }
 			position = { 0 22 }
 			autoresize = yes
@@ -1151,7 +1155,7 @@ widget = {
 		
 		dynamicgridbox = {
 			name = "unit_items_grid"
-			visible = "[And( Not(IsMapMode('religion')), Not( IsMapMode('cool_map_effect') ) )]"
+			visible = "[Not( Or(IsMapMode('cool_map_effect'),IsMapMode('political')) )]"
 			item = {
 				flowcontainer = {
 					direction = vertical
@@ -1364,7 +1368,7 @@ widget = {
 	name = "unit_widget"
 	position = { 5 8 }
 	widgetanchor = top|hcenter
-	visible = "[Not( IsMapMode('cool_map_effect') )]"
+	visible = "[Not( Or(IsMapMode('cool_map_effect'),IsMapMode('political')) )]"
 	layer = top
 	 
 	flowcontainer = {
@@ -1494,7 +1498,7 @@ widget = {
 		
 		dynamicgridbox = {
 			name = "unit_items_grid"
-			visible = "[Not(IsMapMode('religion'))]"
+			visible = "[Not(IsMapMode('political'))]"
 			item = {
 				container = {
 					ignoreinvisible = yes

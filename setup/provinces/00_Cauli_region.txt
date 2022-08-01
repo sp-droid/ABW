@@ -6,7 +6,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -18,7 +21,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="primitiveculture" religion="tengri_rel" }
 		#
 	}
 
@@ -30,7 +36,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="primitiveculture" religion="animist_rel" }
 		#
 	}
 
@@ -42,7 +51,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="primitiveculture" religion="tengri_rel" }
 		#
 	}
 
@@ -54,7 +66,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="primitiveculture" religion="animist_rel" }
 		#
 	}
 
@@ -66,7 +81,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -78,7 +96,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -89,8 +110,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="primitiveculture" religion="mahayana_rel" }
 		#
 	}
 
@@ -101,9 +125,12 @@
 		trade_goods="silk"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 6 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="primitiveculture" religion="tengri_rel" }
+		freemen={amount= 1 culture="primitiveculture" religion="mahayana_rel" }
 	}
 
 	1487={
@@ -114,7 +141,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -126,7 +156,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="primitiveculture" religion="mahayana_rel" }
 		#
 	}
 

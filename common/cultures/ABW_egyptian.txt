@@ -1,5 +1,5 @@
 ﻿egyptian_group = {
-	color = hsv { 0.15  1  0.7 }
+	color = rgb { 178 160 0 }
 
 	male_names = {
 		Amoun Anoub Apamoun Bishoy Panoub Pamoun Pigol Psote Sarjoun Ruweis Sidhom Yakobos

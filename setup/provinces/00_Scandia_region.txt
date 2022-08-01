@@ -1,24 +1,30 @@
 ﻿	14={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	53={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -30,31 +36,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	231={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	242={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -65,20 +80,26 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 7 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-7
+		#
+		port_building=1
+		freemen={amount= 3 culture="danish" religion="catholic_rel" }
 		#
 	}
 
 	470={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -90,55 +111,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	540={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	546={
 		terrain="plains"
-		culture="swedish"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	689={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	736={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="norwegian"
 		religion="nordic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -150,19 +186,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 		#
 	}
 
 	829={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -174,19 +216,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1008={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 2 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -198,19 +246,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1046={
 		terrain="hills"
-		culture="primitiveculture"
-		religion="nordic_rel"
+		culture="sami"
+		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -222,7 +276,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="danish" religion="nordic_rel" }
 		#
 	}
 
@@ -233,20 +290,26 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		port_building=1
+		#
 		#
 	}
 
 	1105={
 		terrain="forest"
 		culture="swedish"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -258,19 +321,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1185={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -282,19 +351,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	1277={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -306,7 +381,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -318,7 +396,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
@@ -330,31 +411,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1441={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1448={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -366,31 +456,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
 	1500={
 		terrain="forest"
-		culture="norwegian"
+		culture="swedish"
 		religion="nordic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1536={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -402,31 +501,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1593={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="norwegian"
 		religion="nordic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1612={
 		terrain="forest"
-		culture="swedish"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -438,7 +546,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -449,8 +560,11 @@
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-5
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -462,7 +576,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -473,20 +590,26 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		port_building=1
+		#
 		#
 	}
 
 	1713={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -498,7 +621,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -509,8 +635,11 @@
 		trade_goods="stone"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 2 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -522,7 +651,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -533,8 +665,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 15 }
+		province_rank="city"
+		freemen={amount= 15 } # Total-15
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -546,31 +681,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1861={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 1 }
+		province_rank="city"
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	1925={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -582,7 +726,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="nordic_rel" }
 		#
 	}
 
@@ -594,7 +741,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -606,31 +756,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	1968={
 		terrain="plains"
 		culture="novgorodian"
-		religion="suomenusko_rel"
+		religion="orthodox_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2086={
 		terrain="plains"
-		culture="swedish"
-		religion="catholic_rel"
+		culture="finnish"
+		religion="suomenusko_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 8 } # Total-10
+		#
+		port_building=1
+		freemen={amount= 2 culture="finnish" religion="catholic_rel" }
 		#
 	}
 
@@ -642,19 +801,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2116={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -666,19 +831,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2168={
 		terrain="plains"
 		culture="danish"
-		religion="catholic_rel"
+		religion="nordic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 		#
 	}
 
@@ -690,7 +861,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -702,31 +876,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="norwegian" religion="nordic_rel" }
 		#
 	}
 
 	2216={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2221={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -738,19 +921,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2282={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -761,45 +950,57 @@
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-9
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2307={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2360={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2378={
 		terrain="forest"
 		culture="swedish"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 4 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-4
 		#
+		#
+		freemen={amount= 2 culture="swedish" religion="nordic_rel" }
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 	}
 
 	2396={
@@ -810,7 +1011,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -821,8 +1025,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 3 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="norwegian" religion="nordic_rel" }
 		#
 	}
 
@@ -834,7 +1041,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -846,7 +1056,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
@@ -858,19 +1071,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2492={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="norwegian"
 		religion="nordic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -882,19 +1101,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
 	2540={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -906,19 +1131,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2646={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="stone"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -930,43 +1161,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2669={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="norwegian"
 		religion="nordic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2683={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2693={
 		terrain="forest"
-		culture="norwegian"
+		culture="swedish"
 		religion="nordic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -977,32 +1220,41 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2725={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2736={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1014,19 +1266,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2834={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1037,8 +1295,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 3 }
+		province_rank="city"
+		freemen={amount= 3 } # Total-3
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1050,7 +1311,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="norwegian" religion="nordic_rel" }
 		#
 	}
 
@@ -1062,32 +1326,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2960={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2965={
 		terrain="plains"
-		culture="holsatian"
+		culture="danish"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="holsatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="danish" religion="nordic_rel" }
 	}
 
 	2980={
@@ -1098,7 +1371,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1110,7 +1386,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1122,7 +1401,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1134,31 +1416,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3026={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3058={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1170,19 +1461,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3124={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1194,7 +1491,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1206,7 +1506,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="norwegian" religion="catholic_rel" }
 		#
 	}
 
@@ -1218,31 +1521,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	3154={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3176={
 		terrain="hills"
-		culture="primitiveculture"
+		culture="norwegian"
 		religion="nordic_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1254,7 +1566,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1266,7 +1581,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1278,7 +1596,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="nordic_rel" }
 		#
 	}
 
@@ -1290,19 +1611,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	3251={
 		terrain="plains"
-		culture="swedish"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1314,7 +1641,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1326,19 +1656,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3365={
 		terrain="forest"
-		culture="swedish"
+		culture="danish"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1350,7 +1686,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1362,7 +1701,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1374,19 +1716,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3455={
 		terrain="plains"
-		culture="holsatian"
-		religion="nordic_rel"
+		culture="danish"
+		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="danish" religion="nordic_rel" }
 		#
 	}
 
@@ -1398,55 +1746,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3516={
 		terrain="mountain"
-		culture="norwegian"
-		religion="catholic_rel"
+		culture="sami"
+		religion="suomenusko_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3565={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3573={
 		terrain="forest"
 		culture="swedish"
-		religion="suomenusko_rel"
+		religion="nordic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3577={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1458,7 +1821,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1470,7 +1836,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1482,44 +1851,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	3698={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3699={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3717={
 		terrain="plains"
 		culture="swedish"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 2 } # Total-5
 		#
+		#
+		freemen={amount= 2 culture="swedish" religion="nordic_rel" }
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 	}
 
 	3719={
@@ -1530,19 +1911,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
 	3742={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1554,19 +1941,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="norwegian" religion="nordic_rel" }
 		#
 	}
 
 	3848={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1578,19 +1971,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3901={
 		terrain="forest"
-		culture="norwegian"
+		culture="swedish"
 		religion="nordic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1602,31 +2001,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3932={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3938={
 		terrain="plains"
-		culture="swedish"
+		culture="danish"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
@@ -1638,7 +2046,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1649,20 +2060,26 @@
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-5
+		#
+		port_building=1
+		freemen={amount= 1 culture="swedish" religion="catholic_rel" }
 		#
 	}
 
 	3978={
 		terrain="forest"
-		culture="danish"
+		culture="swedish"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1674,31 +2091,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3992={
 		terrain="forest"
 		culture="swedish"
-		religion="suomenusko_rel"
+		religion="nordic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3999={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1710,7 +2136,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1722,67 +2151,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4025={
 		terrain="mountain"
-		culture="norwegian"
+		culture="swedish"
 		religion="nordic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4026={
 		terrain="forest"
-		culture="primitiveculture"
-		religion="suomenusko_rel"
+		culture="finnish"
+		religion="slavic_rel"
 		trade_goods="woad"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4029={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4066={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4069={
 		terrain="hills"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1794,7 +2241,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1806,7 +2256,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1817,20 +2270,26 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4091={
 		terrain="mountain"
 		culture="norwegian"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1842,43 +2301,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	4105={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4143={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4197={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1890,7 +2361,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -1902,7 +2376,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1914,31 +2391,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4280={
 		terrain="forest"
-		culture="norwegian"
+		culture="swedish"
 		religion="nordic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4289={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1950,19 +2436,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	4321={
 		terrain="forest"
-		culture="novgorodian"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1974,7 +2466,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -1986,7 +2481,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1998,19 +2496,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4431={
 		terrain="plains"
-		culture="swedish"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="fur"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2022,7 +2526,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 		#
 	}
 
@@ -2034,31 +2541,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="catholic_rel" }
 		#
 	}
 
 	4472={
 		terrain="plains"
 		culture="danish"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 4 culture="danish" religion="nordic_rel" }
 		#
 	}
 
 	4494={
 		terrain="forest"
-		culture="primitiveculture"
-		religion="catholic_rel"
+		culture="norwegian"
+		religion="nordic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -2070,19 +2586,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="nordic_rel" }
 		#
 	}
 
 	4521={
 		terrain="forest"
 		culture="swedish"
-		religion="suomenusko_rel"
+		religion="nordic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -2094,7 +2616,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2105,8 +2630,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2118,7 +2646,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="norwegian" religion="nordic_rel" }
 		#
 	}
 
@@ -2130,7 +2661,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -2141,20 +2675,26 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
 	4613={
 		terrain="tundra"
-		culture="primitiveculture"
+		culture="sami"
 		religion="suomenusko_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -2166,7 +2706,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="nordic_rel" }
 		#
 	}
 
@@ -2178,31 +2721,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4674={
 		terrain="plains"
 		culture="danish"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="danish" religion="nordic_rel" }
 		#
 	}
 
 	4684={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="finnish"
 		religion="suomenusko_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
@@ -2214,19 +2766,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	4779={
 		terrain="forest"
-		culture="norwegian"
+		culture="swedish"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -2238,7 +2796,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -2250,7 +2811,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2262,7 +2826,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="danish" religion="catholic_rel" }
 		#
 	}
 
@@ -2274,7 +2841,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="pomeranian" religion="catholic_rel" }
 		#
 	}
 
@@ -2285,8 +2855,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="swedish" religion="nordic_rel" }
 		#
 	}
 
@@ -2298,7 +2871,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 

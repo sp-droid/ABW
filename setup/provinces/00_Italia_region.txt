@@ -6,7 +6,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -18,19 +21,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	240={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -42,7 +51,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="friulian" religion="animist_rel" }
 		#
 	}
 
@@ -54,7 +66,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -66,8 +81,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="lombard" religion="catholic_rel" }
+		freemen={amount= 2 culture="primitiveculture" religion="catholic_rel" }
 	}
 
 	411={
@@ -78,7 +96,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -90,55 +111,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	453={
 		terrain="forest"
-		culture="piedmontese"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="silk"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 5 } # Total-12
 		#
+		#
+		freemen={amount= 5 culture="piedmontese" religion="catholic_rel" }
+		freemen={amount= 2 culture="genoese" religion="catholic_rel" }
 	}
 
 	467={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 14 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
 	518={
 		terrain="plains"
 		culture="sicilian"
-		religion="sunni_rel"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="qatabanian" religion="ibadi_rel" }
+		freemen={amount= 2 culture="qatabanian" religion="sunni_rel" }
 	}
 
 	530={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -150,7 +186,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -162,7 +201,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
+		#
+		#
+		freemen={amount= 5 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -174,31 +216,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	725={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	785={
 		terrain="plains"
-		culture="piedmontese"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 10 } # Total-16
+		#
+		#
+		freemen={amount= 6 culture="piedmontese" religion="catholic_rel" }
 		#
 	}
 
@@ -210,7 +261,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -222,7 +276,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -234,7 +291,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
@@ -245,8 +305,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 14 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -258,31 +321,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="swiss" religion="catholic_rel" }
 		#
 	}
 
 	982={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
 	1053={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -294,19 +366,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 18 }
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	1093={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -317,9 +395,12 @@
 		trade_goods="dye"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-18
 		#
+		#
+		freemen={amount= 7 culture="lombard" religion="catholic_rel" }
+		freemen={amount= 4 culture="tuscan" religion="catholic_rel" }
 	}
 
 	1328={
@@ -330,7 +411,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -341,8 +425,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 17 }
+		province_rank="city"
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -354,19 +441,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	1365={
 		terrain="mountain"
-		culture="umbrian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="spices"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -378,7 +471,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -390,20 +486,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
 		#
 	}
 
 	1392={
 		terrain="plains"
-		culture="venetian"
-		religion="animist_rel"
+		culture="friulian"
+		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 17 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-17
 		#
+		port_building=1
+		freemen={amount= 7 culture="venetian" religion="catholic_rel" }
+		freemen={amount= 3 culture="venetian" religion="animist_rel" }
 	}
 
 	1397={
@@ -414,7 +516,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -426,20 +531,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1465={
 		terrain="mountain"
-		culture="sotirol"
-		religion="nordic_rel"
+		culture="venetian"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 7 }
+		province_rank="city"
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="primitiveculture" religion="catholic_rel" }
+		freemen={amount= 1 culture="sotirol" religion="nordic_rel" }
 	}
 
 	1470={
@@ -449,8 +560,11 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 20 }
+		province_rank="city"
+		freemen={amount= 16 } # Total-20
+		#
+		port_building=1
+		freemen={amount= 4 culture="qatabanian" religion="ibadi_rel" }
 		#
 	}
 
@@ -462,8 +576,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 10 } # Total-16
 		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
+		freemen={amount= 3 culture="venetian" religion="catholic_rel" }
 	}
 
 	1545={
@@ -474,19 +591,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="tuscan" religion="animist_rel" }
 		#
 	}
 
 	1559={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -498,7 +621,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -510,7 +636,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="qatabanian" religion="ibadi_rel" }
 		#
 	}
 
@@ -522,55 +651,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="sardinian" religion="catholic_rel" }
 		#
 	}
 
 	1707={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
 	1731={
 		terrain="mountain"
-		culture="primitiveculture"
-		religion="nordic_rel"
+		culture="friulian"
+		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
 		#
+		#
+		freemen={amount= 1 culture="austrian" religion="catholic_rel" }
+		freemen={amount= 1 culture="austrian" religion="nordic_rel" }
 	}
 
 	1733={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1745={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -582,19 +726,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	1758={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -606,7 +756,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="genoese" religion="catholic_rel" }
 		#
 	}
 
@@ -618,7 +771,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -630,7 +786,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -642,7 +801,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -654,19 +816,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="emilian" religion="catholic_rel" }
+		freemen={amount= 2 culture="lombard" religion="catholic_rel" }
 	}
 
 	1840={
 		terrain="plains"
 		culture="sicilian"
-		religion="ibadi_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="qatabanian" religion="ibadi_rel" }
 		#
 	}
 
@@ -678,19 +846,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="piedmontese" religion="catholic_rel" }
 		#
 	}
 
 	1875={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -702,19 +876,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="austrian" religion="nordic_rel" }
 		#
 	}
 
 	1906={
 		terrain="forest"
-		culture="piedmontese"
+		culture="genoese"
 		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="piedmontese" religion="catholic_rel" }
 		#
 	}
 
@@ -726,31 +906,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
 	1952={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1974={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -762,19 +951,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
 	1985={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -786,7 +981,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="friulian" religion="animist_rel" }
 		#
 	}
 
@@ -798,31 +996,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	2022={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2046={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -834,43 +1041,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2056={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2114={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2131={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -882,20 +1101,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
 	2162={
 		terrain="mountain"
 		culture="austrian"
-		religion="nordic_rel"
+		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="austrian" religion="nordic_rel" }
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
 	}
 
 	2178={
@@ -905,8 +1130,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 17 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -917,20 +1145,26 @@
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 15 }
+		province_rank="city"
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
 	2193={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -942,19 +1176,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
 	2254={
 		terrain="plains"
 		culture="tuscan"
-		religion="animist_rel"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="tuscan" religion="animist_rel" }
 		#
 	}
 
@@ -966,8 +1206,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="piedmontese" religion="catholic_rel" }
+		freemen={amount= 2 culture="primitiveculture" religion="catholic_rel" }
 	}
 
 	2295={
@@ -978,32 +1221,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2318={
 		terrain="mountain"
-		culture="umbrian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
 	2325={
 		terrain="forest"
-		culture="umbrian"
+		culture="emilian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
+		freemen={amount= 2 culture="venetian" religion="catholic_rel" }
 	}
 
 	2327={
@@ -1013,20 +1265,26 @@
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	2332={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1038,7 +1296,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="swiss" religion="nordic_rel" }
 		#
 	}
 
@@ -1050,31 +1311,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 9 } # Total-15
 		#
+		#
+		freemen={amount= 3 culture="lombard" religion="catholic_rel" }
+		freemen={amount= 3 culture="piedmontese" religion="catholic_rel" }
 	}
 
 	2376={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="tirole" religion="catholic_rel" }
 		#
 	}
 
 	2377={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1086,19 +1356,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="sardinian" religion="sunni_rel" }
 		#
 	}
 
 	2413={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1109,8 +1385,11 @@
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1121,21 +1400,27 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2448={
 		terrain="plains"
-		culture="piedmontese"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 16 }
+		province_rank="city"
+		freemen={amount= 6 } # Total-16
 		#
+		#
+		freemen={amount= 6 culture="piedmontese" religion="catholic_rel" }
+		freemen={amount= 3 culture="genoese" religion="catholic_rel" }
 	}
 
 	2458={
@@ -1146,43 +1431,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="genoese" religion="catholic_rel" }
 		#
 	}
 
 	2461={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	2478={
 		terrain="mountain"
-		culture="primitiveculture"
-		religion="catholic_rel"
+		culture="tirole"
+		religion="nordic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-5
 		#
+		#
+		freemen={amount= 1 culture="primitiveculture" religion="catholic_rel" }
+		freemen={amount= 1 culture="tirole" religion="catholic_rel" }
 	}
 
 	2499={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1194,7 +1491,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -1206,19 +1506,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
 	2511={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -1230,19 +1536,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	2557={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="spices"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1254,8 +1566,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
 		holy_site="omen_catholic"
+		#
+		#
+		#
 	}
 
 	2581={
@@ -1265,20 +1580,26 @@
 		trade_goods="gems"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 14 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-14
+		#
+		port_building=1
+		freemen={amount= 3 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
 	2632={
 		terrain="forest"
-		culture="genoese"
+		culture="occitan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="genoese" religion="catholic_rel" }
 		#
 	}
 
@@ -1290,7 +1611,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1302,43 +1626,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
 	2774={
 		terrain="mountain"
-		culture="swiss"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="swiss" religion="nordic_rel" }
 		#
 	}
 
 	2802={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	2809={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1350,7 +1686,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1361,8 +1700,11 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 13 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -1374,7 +1716,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 8 } # Total-14
+		#
+		#
+		freemen={amount= 6 culture="friulian" religion="catholic_rel" }
 		#
 	}
 
@@ -1385,44 +1730,56 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	2880={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2883={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="fur"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
 	2892={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -1433,8 +1790,11 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 14 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -1446,7 +1806,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 7 } # Total-12
+		#
+		#
+		freemen={amount= 5 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
@@ -1458,7 +1821,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1470,7 +1836,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -1482,7 +1851,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -1494,19 +1866,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	3014={
 		terrain="forest"
 		culture="sardinian"
-		religion="sunni_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="sardinian" religion="sunni_rel" }
 		#
 	}
 
@@ -1518,7 +1896,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1530,31 +1911,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	3060={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	3066={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1566,44 +1956,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	3099={
 		terrain="forest"
 		culture="sicilian"
-		religion="sunni_rel"
+		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3106={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
 	3139={
 		terrain="forest"
-		culture="tuscan"
+		culture="emilian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 6 } # Total-15
 		#
+		#
+		freemen={amount= 6 culture="tuscan" religion="catholic_rel" }
+		freemen={amount= 3 culture="genoese" religion="catholic_rel" }
 	}
 
 	3140={
@@ -1614,19 +2016,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3164={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="swiss"
 		religion="catholic_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
@@ -1638,7 +2046,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -1649,8 +2060,11 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1662,20 +2076,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	3216={
 		terrain="forest"
-		culture="austrian"
+		culture="friulian"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="austrian" religion="catholic_rel" }
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
 	}
 
 	3240={
@@ -1686,31 +2106,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
+		#
+		#
+		freemen={amount= 5 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
 	3243={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3250={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 7 }
+		province_rank="city"
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -1722,7 +2151,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="friulian" religion="animist_rel" }
 		#
 	}
 
@@ -1734,7 +2166,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1746,7 +2181,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1758,7 +2196,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1770,7 +2211,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -1782,7 +2226,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1794,8 +2241,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
 		#
+		#
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
+		freemen={amount= 1 culture="venetian" religion="catholic_rel" }
 	}
 
 	3463={
@@ -1805,8 +2255,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1818,7 +2271,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1830,7 +2286,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="venetian" religion="catholic_rel" }
 		#
 	}
 
@@ -1842,8 +2301,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 8 } # Total-13
 		#
+		#
+		freemen={amount= 3 culture="lombard" religion="catholic_rel" }
+		freemen={amount= 3 culture="venetian" religion="catholic_rel" }
 	}
 
 	3541={
@@ -1854,19 +2316,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3543={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1878,19 +2346,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
 	3551={
 		terrain="mountain"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 10 } # Total-17
+		#
+		#
+		freemen={amount= 7 culture="sicilian" religion="catholic_rel" }
 		#
 	}
 
@@ -1902,32 +2376,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="friulian" religion="catholic_rel" }
 		#
 	}
 
 	3578={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
 	3580={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="austrian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
 		#
+		#
+		freemen={amount= 2 culture="friulian" religion="catholic_rel" }
+		freemen={amount= 1 culture="bavarian" religion="catholic_rel" }
 	}
 
 	3595={
@@ -1938,79 +2421,100 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 10 } # Total-13
+		#
+		#
+		freemen={amount= 3 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
 	3596={
 		terrain="mountain"
-		culture="primitiveculture"
-		religion="catholic_rel"
+		culture="tirole"
+		religion="nordic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3597={
 		terrain="forest"
 		culture="sardinian"
-		religion="sunni_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="sardinian" religion="sunni_rel" }
 		#
 	}
 
 	3598={
 		terrain="forest"
-		culture="austrian"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="austrian" religion="catholic_rel" }
+		freemen={amount= 2 culture="friulian" religion="catholic_rel" }
 	}
 
 	3601={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3626={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3628={
 		terrain="forest"
-		culture="austrian"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="friulian" religion="catholic_rel" }
 		#
 	}
 
@@ -2022,7 +2526,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 10 } # Total-16
+		#
+		#
+		freemen={amount= 6 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -2034,7 +2541,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2046,7 +2556,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -2058,7 +2571,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -2070,19 +2586,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3700={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -2094,7 +2616,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2106,7 +2631,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -2117,20 +2645,26 @@
 		trade_goods="stone"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 17 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-17
+		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
 	3737={
 		terrain="plains"
-		culture="venetian"
+		culture="friulian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="venetian" religion="catholic_rel" }
 		#
 	}
 
@@ -2142,7 +2676,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2154,7 +2691,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2165,8 +2705,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 12 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-12
+		#
+		port_building=1
+		freemen={amount= 2 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -2178,31 +2721,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
 	3826={
 		terrain="mountain"
-		culture="primitiveculture"
-		religion="nordic_rel"
+		culture="bavarian"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 1 } # Total-4
 		#
+		#
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
+		freemen={amount= 1 culture="tirole" religion="catholic_rel" }
 	}
 
 	3828={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="catholic_rel" }
 		#
 	}
 
@@ -2214,19 +2766,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="piedmontese" religion="catholic_rel" }
 		#
 	}
 
 	3884={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="friulian"
 		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="venetian" religion="catholic_rel" }
 		#
 	}
 
@@ -2238,7 +2796,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -2250,7 +2811,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -2262,19 +2826,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 7 } # Total-12
+		#
+		#
+		freemen={amount= 5 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
 	3940={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -2285,20 +2855,26 @@
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	3956={
 		terrain="mountain"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2310,7 +2886,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -2322,19 +2901,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3985={
 		terrain="forest"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="neapolitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2346,19 +2931,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 11 } # Total-14
+		#
+		#
+		freemen={amount= 3 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
 	4006={
 		terrain="mountain"
-		culture="occitan"
+		culture="burgundian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="occitan" religion="catholic_rel" }
 		#
 	}
 
@@ -2370,7 +2961,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -2382,19 +2976,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	4015={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2406,7 +3006,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2418,19 +3021,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="genoese" religion="catholic_rel" }
+		freemen={amount= 2 culture="lombard" religion="catholic_rel" }
 	}
 
 	4095={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -2442,7 +3051,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2453,32 +3065,41 @@
 		trade_goods="dye"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	4210={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4217={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -2489,8 +3110,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-18
+		#
+		#
+		freemen={amount= 4 culture="genoese" religion="catholic_rel" }
 		#
 	}
 
@@ -2502,7 +3126,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -2514,7 +3141,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -2526,7 +3156,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="lombard" religion="catholic_rel" }
 		#
 	}
 
@@ -2538,43 +3171,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	4285={
 		terrain="plains"
-		culture="genoese"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-18
+		#
+		port_building=1
+		freemen={amount= 7 culture="genoese" religion="catholic_rel" }
 		#
 	}
 
 	4331={
 		terrain="plains"
 		culture="friulian"
-		religion="animist_rel"
+		religion="catholic_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 10 } # Total-12
+		#
+		#
+		freemen={amount= 2 culture="friulian" religion="animist_rel" }
 		#
 	}
 
 	4333={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -2586,7 +3231,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="emilian" religion="catholic_rel" }
 		#
 	}
 
@@ -2597,8 +3245,11 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 15 }
+		province_rank="city"
+		freemen={amount= 12 } # Total-15
+		#
+		#
+		freemen={amount= 3 culture="tuscan" religion="catholic_rel" }
 		#
 	}
 
@@ -2610,7 +3261,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 8 } # Total-14
+		#
+		#
+		freemen={amount= 6 culture="umbrian" religion="catholic_rel" }
 		#
 	}
 
@@ -2621,20 +3275,26 @@
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 6 } # Total-10
+		#
+		port_building=1
+		freemen={amount= 4 culture="sardinian" religion="catholic_rel" }
 		#
 	}
 
 	4452={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2646,7 +3306,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -2658,7 +3321,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2670,32 +3336,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	4505={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="friulian"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="austrian" religion="catholic_rel" }
 		#
 	}
 
 	4509={
 		terrain="plains"
-		culture="venetian"
+		culture="emilian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 5 } # Total-13
 		#
+		#
+		freemen={amount= 5 culture="lombard" religion="catholic_rel" }
+		freemen={amount= 3 culture="venetian" religion="catholic_rel" }
 	}
 
 	4516={
@@ -2706,56 +3381,71 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	4517={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	4540={
 		terrain="mountain"
-		culture="primitiveculture"
+		culture="lombard"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="burgundian" religion="catholic_rel" }
+		freemen={amount= 1 culture="piedmontese" religion="catholic_rel" }
 	}
 
 	4541={
 		terrain="mountain"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4560={
 		terrain="forest"
-		culture="genoese"
+		culture="emilian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 7 } # Total-17
 		#
+		#
+		freemen={amount= 7 culture="genoese" religion="catholic_rel" }
+		freemen={amount= 3 culture="lombard" religion="catholic_rel" }
 	}
 
 	4590={
@@ -2766,55 +3456,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	4644={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
 	4671={
 		terrain="plains"
-		culture="sicilian"
+		culture="greekk"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	4695={
 		terrain="forest"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4697={
 		terrain="mountain"
-		culture="umbrian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2826,7 +3531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2837,8 +3545,11 @@
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-9
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -2850,7 +3561,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="swiss" religion="catholic_rel" }
 		#
 	}
 
@@ -2862,7 +3576,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
@@ -2874,19 +3591,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4777={
 		terrain="plains"
-		culture="sicilian"
+		culture="neapolitan"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
@@ -2898,7 +3621,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2910,7 +3636,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -2922,7 +3651,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="friulian" religion="catholic_rel" }
 		#
 	}
 

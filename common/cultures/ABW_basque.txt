@@ -1,5 +1,5 @@
 ﻿basque_group = {
-	color = rgb { 206 123 64 }
+	color = rgb { 196 107 72 }
 
 	male_names = {
 		Alfonso Sancho Aitor Asier Bittor Gaizka Imanol Iban Mitxel Xabier Zuzen Zigor Xanti Petri Oroitz

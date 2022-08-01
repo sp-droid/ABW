@@ -34,7 +34,7 @@ startup.1 = {
 			#### STATS
 			trigger_event = { id = "statsrelated.1" days = 1 }
 			#### WELCOME
-			trigger_event = { id = "startup.3" }
+			trigger_event = { id = "startup.3" days = 1 }
 		}
 		
 		

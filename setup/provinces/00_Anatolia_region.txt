@@ -1,12 +1,15 @@
 ﻿	8={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -17,8 +20,11 @@
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -29,8 +35,11 @@
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -42,7 +51,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
@@ -53,21 +65,27 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	389={
 		terrain="mountain"
-		culture="greekk"
+		culture="georgian"
 		religion="oriental_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="armenian" religion="oriental_rel" }
+		freemen={amount= 2 culture="georgian" religion="orthodox_rel" }
 	}
 
 	469={
@@ -78,7 +96,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
@@ -89,8 +110,11 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="syrian" religion="sunni_rel" }
 		#
 	}
 
@@ -102,7 +126,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -114,7 +141,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -126,8 +156,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="armenian" religion="animist_rel" }
+		freemen={amount= 1 culture="qatabanian" religion="orthodox_rel" }
 	}
 
 	664={
@@ -138,19 +171,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	708={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="sunni_rel" }
 		#
 	}
 
@@ -162,19 +201,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	848={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -186,19 +231,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	983={
 		terrain="mountain"
-		culture="greekk"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -210,7 +261,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="animist_rel" }
 		#
 	}
 
@@ -222,20 +276,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1025={
 		terrain="drylands"
-		culture="turkman"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="greekk" religion="oriental_rel" }
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 	}
 
 	1082={
@@ -245,8 +305,11 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -258,7 +321,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -270,7 +336,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -282,7 +351,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -294,7 +366,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -306,20 +381,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1275={
 		terrain="mountain"
 		culture="greekk"
-		religion="animist_rel"
+		religion="oriental_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="greekk" religion="orthodox_rel" }
+		freemen={amount= 1 culture="greekk" religion="animist_rel" }
 	}
 
 	1281={
@@ -330,31 +411,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1282={
 		terrain="mountain"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="georgian" religion="oriental_rel" }
+		freemen={amount= 1 culture="georgian" religion="orthodox_rel" }
 	}
 
 	1302={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -366,20 +456,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	1379={
 		terrain="hills"
 		culture="armenian"
-		religion="animist_rel"
+		religion="oriental_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="armenian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="armenian" religion="animist_rel" }
 	}
 
 	1384={
@@ -389,8 +485,11 @@
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
@@ -402,7 +501,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -414,7 +516,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -426,7 +531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -437,20 +545,26 @@
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	1508={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -462,32 +576,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	1702={
 		terrain="hills"
 		culture="greekk"
-		religion="sunni_rel"
+		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	1725={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="greco_pontic" religion="orthodox_rel" }
+		freemen={amount= 1 culture="greekk" religion="sunni_rel" }
 	}
 
 	1734={
@@ -498,19 +621,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1766={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -522,7 +651,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -534,7 +666,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
@@ -546,19 +681,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1816={
 		terrain="hills"
-		culture="turkman"
+		culture="kurds"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -570,7 +711,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -582,32 +726,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	1895={
 		terrain="drylands"
-		culture="francien"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="oriental_rel" }
 		#
 	}
 
 	1926={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="oriental_rel"
 		trade_goods="precious_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 4 } # Total-10
 		#
+		#
+		freemen={amount= 4 culture="georgian" religion="oriental_rel" }
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 	}
 
 	1943={
@@ -618,32 +771,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2025={
 		terrain="drylands"
-		culture="turkman"
+		culture="greekk"
 		religion="sunni_rel"
 		trade_goods="papyrus"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	2030={
 		terrain="drylands"
-		culture="turkman"
-		religion="sunni_rel"
+		culture="greekk"
+		religion="oriental_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 1 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
+		freemen={amount= 1 culture="turkman" religion="orthodox_rel" }
 	}
 
 	2065={
@@ -654,8 +816,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="greekk" religion="oriental_rel" }
+		freemen={amount= 1 culture="turkman" religion="oriental_rel" }
 	}
 
 	2084={
@@ -666,7 +831,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -677,45 +845,57 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2135={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2142={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2170={
 		terrain="drylands"
-		culture="egyptianara"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="syrian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="syrian" religion="sunni_rel" }
 	}
 
 	2172={
@@ -726,7 +906,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -738,43 +921,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2214={
 		terrain="drylands"
-		culture="turkman"
+		culture="greekk"
 		religion="sunni_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	2235={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2242={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="georgian" religion="orthodox_rel" }
 		#
 	}
 
@@ -786,7 +981,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -798,7 +996,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -810,32 +1011,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	2371={
 		terrain="mountain"
-		culture="turkman"
-		religion="sunni_rel"
+		culture="georgian"
+		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="armenian" religion="sunni_rel" }
+		freemen={amount= 2 culture="kurds" religion="sunni_rel" }
 	}
 
 	2406={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="turkman" religion="orthodox_rel" }
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 	}
 
 	2424={
@@ -846,19 +1056,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2439={
 		terrain="hills"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="georgian" religion="orthodox_rel" }
 		#
 	}
 
@@ -870,43 +1086,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2482={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
+		freemen={amount= 2 culture="greco_pontic" religion="sunni_rel" }
 	}
 
 	2508={
 		terrain="mountain"
-		culture="turkman"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	2529={
 		terrain="mountain"
-		culture="greekk"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -918,20 +1146,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2535={
 		terrain="forest"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="turkman" religion="orthodox_rel" }
+		freemen={amount= 1 culture="greco_pontic" religion="sunni_rel" }
 	}
 
 	2537={
@@ -942,20 +1176,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="greekk" religion="oriental_rel" }
+		freemen={amount= 1 culture="greekk" religion="sunni_rel" }
 	}
 
 	2547={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="georgian" religion="oriental_rel" }
+		freemen={amount= 2 culture="georgian" religion="orthodox_rel" }
 	}
 
 	2605={
@@ -966,7 +1206,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -978,7 +1221,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -990,7 +1236,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1002,19 +1251,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	2638={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1026,19 +1281,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
 	2655={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -1050,7 +1311,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1062,7 +1326,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="syrian" religion="orthodox_rel" }
 		#
 	}
 
@@ -1073,21 +1340,27 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
 	2715={
 		terrain="hills"
-		culture="greekk"
-		religion="sunni_rel"
+		culture="greco_pontic"
+		religion="orthodox_rel"
 		trade_goods="elephants"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="sunni_rel" }
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 	}
 
 	2716={
@@ -1098,31 +1371,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	2730={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
 	2755={
 		terrain="mountain"
-		culture="greekk"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -1134,8 +1416,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="georgian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
 	}
 
 	2762={
@@ -1146,7 +1431,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="syrian" religion="sunni_rel" }
 		#
 	}
 
@@ -1158,7 +1446,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1170,7 +1461,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1182,19 +1476,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2840={
 		terrain="hills"
-		culture="turkman"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
@@ -1206,31 +1506,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2855={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2879={
 		terrain="drylands"
-		culture="francien"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="oriental_rel" }
 		#
 	}
 
@@ -1242,7 +1551,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="oriental_rel" }
 		#
 	}
 
@@ -1254,7 +1566,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1266,19 +1581,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
 	3013={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-9
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1290,7 +1611,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1302,7 +1626,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="oriental_rel" }
 		#
 	}
 
@@ -1314,7 +1641,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
@@ -1326,7 +1656,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1338,7 +1671,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1350,43 +1686,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	3146={
 		terrain="mountain"
-		culture="turkman"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	3149={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
 	3161={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="elephants"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1398,7 +1746,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -1410,7 +1761,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1422,20 +1776,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3212={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 	}
 
 	3222={
@@ -1446,19 +1806,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 	}
 
 	3223={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -1470,43 +1836,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3270={
 		terrain="drylands"
-		culture="turkman"
+		culture="greekk"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	3278={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 	}
 
 	3317={
 		terrain="mountain"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -1518,7 +1896,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="armenian" religion="oriental_rel" }
 		#
 	}
 
@@ -1530,7 +1911,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1542,44 +1926,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3347={
 		terrain="hills"
-		culture="turkman"
+		culture="kurds"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="georgian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 	}
 
 	3363={
 		terrain="mountain"
-		culture="turkman"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	3371={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="kurds" religion="sunni_rel" }
+		freemen={amount= 1 culture="georgian" religion="orthodox_rel" }
 	}
 
 	3380={
@@ -1590,44 +1986,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3386={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	3399={
 		terrain="hills"
-		culture="greekk"
-		religion="orthodox_rel"
+		culture="turkman"
+		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
+		freemen={amount= 1 culture="turkman" religion="orthodox_rel" }
 	}
 
 	3415={
 		terrain="mountain"
-		culture="greekk"
-		religion="orthodox_rel"
+		culture="georgian"
+		religion="oriental_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="georgian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="greco_pontic" religion="orthodox_rel" }
 	}
 
 	3418={
@@ -1638,7 +2046,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1650,7 +2061,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1662,7 +2076,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1673,8 +2090,11 @@
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -1686,20 +2106,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
 	3481={
 		terrain="mountain"
-		culture="greekk"
-		religion="orthodox_rel"
+		culture="georgian"
+		religion="oriental_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="greco_pontic" religion="orthodox_rel" }
+		freemen={amount= 1 culture="georgian" religion="orthodox_rel" }
 	}
 
 	3482={
@@ -1710,7 +2136,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1722,31 +2151,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3498={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="oriental_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
 	3538={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1758,31 +2196,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
 	3561={
 		terrain="drylands"
-		culture="armenian"
+		culture="greekk"
 		religion="oriental_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="armenian" religion="oriental_rel" }
 		#
 	}
 
 	3576={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -1794,7 +2241,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
@@ -1806,7 +2256,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1818,7 +2271,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1830,7 +2286,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1842,7 +2301,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1854,31 +2316,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3708={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3745={
 		terrain="mountain"
-		culture="greekk"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 4 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -1890,20 +2361,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3772={
 		terrain="hills"
-		culture="turkman"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
+		freemen={amount= 2 culture="armenian" religion="sunni_rel" }
 	}
 
 	3784={
@@ -1914,55 +2391,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 	}
 
 	3785={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3792={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
 	3803={
 		terrain="drylands"
-		culture="turkman"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fur"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="turkman" religion="orthodox_rel" }
+		freemen={amount= 1 culture="turkman" religion="sunni_rel" }
 	}
 
 	3816={
 		terrain="hills"
-		culture="turkman"
+		culture="kurds"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -1974,20 +2466,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	3859={
 		terrain="mountain"
-		culture="turkman"
+		culture="kurds"
 		religion="sunni_rel"
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="syrian" religion="sunni_rel" }
+		freemen={amount= 1 culture="armenian" religion="sunni_rel" }
 	}
 
 	3864={
@@ -1998,7 +2496,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2010,7 +2511,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2022,7 +2526,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -2034,7 +2541,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2046,7 +2556,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2057,9 +2570,12 @@
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="greekk" religion="oriental_rel" }
+		freemen={amount= 2 culture="greekk" religion="sunni_rel" }
 	}
 
 	3937={
@@ -2070,7 +2586,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2082,19 +2601,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3949={
 		terrain="hills"
-		culture="francien"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -2106,19 +2631,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3970={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2130,44 +2661,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3981={
 		terrain="mountain"
-		culture="greekk"
-		religion="oriental_rel"
+		culture="greco_pontic"
+		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="armenian" religion="sunni_rel" }
+		freemen={amount= 1 culture="georgian" religion="oriental_rel" }
 	}
 
 	3995={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4016={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="kurds" religion="sunni_rel" }
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 	}
 
 	4037={
@@ -2178,7 +2721,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
@@ -2190,7 +2736,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2202,7 +2751,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2214,7 +2766,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2226,7 +2781,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2238,7 +2796,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2250,8 +2811,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 3 culture="turkman" religion="orthodox_rel" }
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 	}
 
 	4103={
@@ -2262,32 +2826,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4108={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4150={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="oriental_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="greekk" religion="oriental_rel" }
+		freemen={amount= 2 culture="turkman" religion="oriental_rel" }
 	}
 
 	4175={
@@ -2297,20 +2870,26 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4216={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2322,7 +2901,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="sunni_rel" }
 		#
 	}
 
@@ -2334,7 +2916,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2346,7 +2931,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -2358,19 +2946,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="armenian" religion="oriental_rel" }
+		freemen={amount= 1 culture="greekk" religion="sunni_rel" }
 	}
 
 	4281={
 		terrain="hills"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -2382,19 +2976,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4299={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -2406,7 +3006,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2418,7 +3021,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2430,7 +3036,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2442,7 +3051,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2454,7 +3066,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2466,19 +3081,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="orthodox_rel" }
 		#
 	}
 
 	4469={
 		terrain="mountain"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="georgian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2490,19 +3111,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4504={
 		terrain="mountain"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="georgian" religion="oriental_rel" }
 		#
 	}
 
@@ -2514,7 +3141,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -2526,7 +3156,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2538,7 +3171,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="turkman" religion="sunni_rel" }
 		#
 	}
 
@@ -2550,44 +3186,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	4607={
 		terrain="mountain"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="georgian" religion="orthodox_rel" }
 		#
 	}
 
 	4669={
 		terrain="forest"
-		culture="greekk"
+		culture="greco_pontic"
 		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4677={
 		terrain="hills"
-		culture="turkman"
+		culture="armenian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="kurds" religion="sunni_rel" }
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
 	}
 
 	4694={
@@ -2598,7 +3246,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2610,19 +3261,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="armenian" religion="oriental_rel" }
 		#
 	}
 
 	4719={
 		terrain="mountain"
-		culture="turkman"
+		culture="georgian"
 		religion="orthodox_rel"
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2634,7 +3291,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2646,7 +3306,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2658,19 +3321,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4814={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -2682,7 +3351,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2694,19 +3366,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4872={
 		terrain="hills"
-		culture="greekk"
+		culture="turkman"
 		religion="sunni_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="greco_pontic" religion="orthodox_rel" }
 		#
 	}
 
@@ -2718,19 +3396,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="turkman" religion="sunni_rel" }
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 	}
 
 	4877={
 		terrain="hills"
-		culture="turkman"
+		culture="kurds"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="armenian" religion="sunni_rel" }
 		#
 	}
 
@@ -2742,7 +3426,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 

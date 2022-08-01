@@ -1,36 +1,45 @@
 ﻿	23={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	26={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	45={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -41,32 +50,41 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	209={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	297={
 		terrain="forest"
-		culture="castleon"
-		religion="animist_rel"
+		culture="galician"
+		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="galician" religion="animist_rel" }
 		#
 	}
 
@@ -78,67 +96,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	391={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	478={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	575={
 		terrain="drylands"
-		culture="castleon"
+		culture="aragonese"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	668={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
 	693={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="woad"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
@@ -149,8 +185,11 @@
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -162,19 +201,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	880={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -186,19 +231,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	958={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -210,68 +261,86 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1066={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1099={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="sunni_rel" }
 		#
 	}
 
 	1123={
 		terrain="mountain"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
 	1150={
 		terrain="forest"
-		culture="berber"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="andalusian" religion="sunni_rel" }
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 	}
 
 	1215={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="aragonese" religion="sunni_rel" }
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 	}
 
 	1240={
@@ -282,7 +351,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -294,19 +366,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="catalan" religion="catholic_rel" }
+		freemen={amount= 1 culture="catalan" religion="sunni_rel" }
 	}
 
 	1295={
 		terrain="drylands"
-		culture="berber"
-		religion="ibadi_rel"
+		culture="andalusian"
+		religion="sunni_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 2 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
@@ -318,43 +396,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1307={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 16 }
+		province_rank="city"
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
 	1310={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
 	1350={
 		terrain="forest"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 16 }
+		province_rank="city"
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -366,19 +456,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1364={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="incense"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -390,7 +486,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 9 } # Total-15
+		#
+		#
+		freemen={amount= 6 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
@@ -402,7 +501,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -414,19 +516,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1372={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -437,20 +545,26 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 8 }
+		province_rank="city"
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1433={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -462,43 +576,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	1456={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
 		holy_site="omen_christianity"
+		#
+		#
+		#
 	}
 
 	1497={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	1513={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -509,56 +635,71 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	1550={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1554={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1566={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1571={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
@@ -569,20 +710,26 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1632={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -594,91 +741,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	1698={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1736={
 		terrain="hills"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	1804={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1813={
 		terrain="mountain"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	1857={
 		terrain="plains"
-		culture="castleon"
+		culture="andalusian"
 		religion="catholic_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-18
+		#
+		#
+		freemen={amount= 7 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	1867={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
 	1896={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -690,43 +861,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	1934={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	1945={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	1960={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -738,7 +921,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -750,7 +936,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="basque" religion="catholic_rel" }
 		#
 	}
 
@@ -762,7 +951,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -774,31 +966,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2049={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="spices"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
 	2051={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -810,7 +1011,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
@@ -822,31 +1026,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2070={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2089={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="incense"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
@@ -858,7 +1071,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
@@ -870,7 +1086,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -882,7 +1101,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -894,43 +1116,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2218={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2271={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2305={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -942,7 +1176,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -954,7 +1191,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -965,56 +1205,71 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2338={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2364={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
 	2365={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
+		freemen={amount= 1 culture="catalan" religion="catholic_rel" }
 	}
 
 	2367={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1026,7 +1281,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1038,31 +1296,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	2411={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2412={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 16 } # Total-16
+		#
+		#
+		#
 		#
 	}
 
@@ -1073,20 +1340,26 @@
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2483={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1098,7 +1371,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1110,19 +1386,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2505={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1134,7 +1416,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1146,7 +1431,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1158,43 +1446,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2562={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	2566={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2569={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1206,31 +1506,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="galician" religion="catholic_rel" }
+		freemen={amount= 1 culture="andalusian" religion="sunni_rel" }
 	}
 
 	2582={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2584={
 		terrain="forest"
-		culture="castleon"
-		religion="celtic_rel"
+		culture="galician"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="galician" religion="celtic_rel" }
 		#
 	}
 
@@ -1242,19 +1551,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2615={
 		terrain="hills"
-		culture="castleon"
+		culture="aragonese"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
@@ -1266,19 +1581,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2647={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1290,7 +1611,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1302,7 +1626,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1314,55 +1641,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2677={
 		terrain="forest"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	2690={
 		terrain="drylands"
-		culture="castleon"
+		culture="aragonese"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
 	2708={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2717={
 		terrain="plains"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1374,7 +1716,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 16 }
+		freemen={amount= 13 } # Total-16
+		#
+		#
+		freemen={amount= 3 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
@@ -1386,19 +1731,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
 	2768={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
@@ -1410,7 +1761,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
@@ -1421,8 +1775,11 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1434,7 +1791,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
@@ -1446,7 +1806,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1458,127 +1821,160 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2878={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2891={
 		terrain="plains"
-		culture="castleon"
+		culture="andalusian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="castleon" religion="catholic_rel" }
+		freemen={amount= 1 culture="andalusian" religion="sunni_rel" }
 	}
 
 	2904={
 		terrain="hills"
-		culture="english"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2926={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	2931={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2956={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2972={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2988={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3009={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 2 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
 	3055={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
@@ -1590,55 +1986,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="sunni_rel" }
 		#
 	}
 
 	3084={
 		terrain="forest"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	3091={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	3094={
 		terrain="forest"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3095={
 		terrain="forest"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1650,7 +2061,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1662,19 +2076,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
 	3179={
 		terrain="forest"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1686,19 +2106,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	3200={
 		terrain="plains"
-		culture="castleon"
+		culture="aragonese"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
@@ -1710,7 +2136,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1722,7 +2151,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1734,91 +2166,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 4 } # Total-5
+		#
+		#
+		freemen={amount= 1 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	3261={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3265={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3279={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	3285={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3316={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	3320={
 		terrain="forest"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 14 }
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
 	3335={
 		terrain="mountain"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
@@ -1830,7 +2286,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1842,19 +2301,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
 	3392={
 		terrain="mountain"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1866,31 +2331,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3436={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="camel"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3459={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -1901,20 +2375,26 @@
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="catholic_rel" }
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
 	}
 
 	3506={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1926,7 +2406,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -1938,7 +2421,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1949,44 +2435,56 @@
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 13 }
+		province_rank="city"
+		freemen={amount= 13 } # Total-13
+		#
+		port_building=1
+		#
 		#
 	}
 
 	3547={
 		terrain="mountain"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	3566={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3614={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1997,32 +2495,41 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 12 }
+		province_rank="city"
+		freemen={amount= 12 } # Total-12
+		#
+		port_building=1
+		#
 		#
 	}
 
 	3646={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3649={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
@@ -2034,7 +2541,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2046,7 +2556,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2058,19 +2571,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	3688={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2082,7 +2601,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="galician" religion="catholic_rel" }
 		#
 	}
 
@@ -2094,55 +2616,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3705={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3710={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3720={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3721={
 		terrain="forest"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
@@ -2154,7 +2691,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
@@ -2165,20 +2705,26 @@
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3752={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2190,43 +2736,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	3765={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3768={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	3783={
 		terrain="drylands"
-		culture="berber"
-		religion="ibadi_rel"
+		culture="andalusian"
+		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="ibadi_rel" }
 		#
 	}
 
@@ -2238,7 +2796,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2250,7 +2811,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2262,7 +2826,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2274,7 +2841,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2286,43 +2856,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3849={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
 	3858={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 4 }
+		province_rank="city"
+		freemen={amount= 2 } # Total-4
+		#
+		port_building=1
+		freemen={amount= 2 culture="catalan" religion="catholic_rel" }
 		#
 	}
 
 	3869={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2334,19 +2916,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3888={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="galician" religion="catholic_rel" }
 		#
 	}
 
@@ -2358,7 +2946,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2370,7 +2961,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2382,7 +2976,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -2394,19 +2991,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3933={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
@@ -2418,43 +3021,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
 	3961={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3980={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	4009={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="spices"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2466,7 +3081,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2478,91 +3096,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4027={
 		terrain="drylands"
-		culture="basque"
+		culture="aragonese"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	4052={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4067={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4072={
 		terrain="forest"
-		culture="berber"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
 	4074={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4115={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 		#
 	}
 
 	4117={
 		terrain="forest"
-		culture="berber"
-		religion="sunni_rel"
+		culture="catalan"
+		religion="catholic_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 
@@ -2574,19 +3216,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4155={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2598,31 +3246,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4198={
 		terrain="mountain"
-		culture="castleon"
-		religion="catholic_rel"
+		culture="andalusian"
+		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="catholic_rel" }
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
 	}
 
 	4206={
 		terrain="hills"
-		culture="galician"
+		culture="castleon"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="galician" religion="catholic_rel" }
 		#
 	}
 
@@ -2634,55 +3291,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="galician" religion="catholic_rel" }
 		#
 	}
 
 	4247={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4255={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4256={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="castleon" religion="catholic_rel" }
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
 	}
 
 	4262={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -2694,8 +3366,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
+		freemen={amount= 2 culture="basque" religion="catholic_rel" }
 	}
 
 	4267={
@@ -2706,91 +3381,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4296={
 		terrain="plains"
-		culture="berber"
+		culture="castleon"
 		religion="catholic_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
+		freemen={amount= 1 culture="andalusian" religion="catholic_rel" }
 	}
 
 	4330={
 		terrain="plains"
-		culture="berber"
-		religion="ibadi_rel"
+		culture="andalusian"
+		religion="sunni_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	4343={
 		terrain="mountain"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4345={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
 	4346={
 		terrain="hills"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4371={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4395={
 		terrain="plains"
-		culture="aragonese"
+		culture="catalan"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
@@ -2802,19 +3501,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="aragonese" religion="catholic_rel" }
 		#
 	}
 
 	4424={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2826,32 +3531,41 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4459={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4492={
 		terrain="plains"
-		culture="castleon"
+		culture="andalusian"
 		religion="catholic_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="castleon" religion="catholic_rel" }
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 	}
 
 	4535={
@@ -2862,19 +3576,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4558={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2885,8 +3605,11 @@
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		#
+		#
 		#
 	}
 
@@ -2898,19 +3621,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="catalan" religion="catholic_rel" }
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 	}
 
 	4591={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2922,43 +3651,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4638={
 		terrain="hills"
-		culture="castleon"
+		culture="galician"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4646={
 		terrain="hills"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4673={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -2970,19 +3711,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4703={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="camel"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="galician" religion="catholic_rel" }
 		#
 	}
 
@@ -2994,7 +3741,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3006,31 +3756,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4739={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4740={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -3042,19 +3801,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4772={
 		terrain="forest"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3066,7 +3831,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="basque" religion="catholic_rel" }
 		#
 	}
 
@@ -3078,44 +3846,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="basque" religion="catholic_rel" }
 		#
 	}
 
 	4828={
 		terrain="drylands"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="castleon" religion="catholic_rel" }
 		#
 	}
 
 	4843={
 		terrain="forest"
-		culture="castleon"
+		culture="basque"
 		religion="catholic_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4863={
 		terrain="plains"
-		culture="berber"
+		culture="andalusian"
 		religion="sunni_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="aragonese" religion="catholic_rel" }
+		freemen={amount= 2 culture="aragonese" religion="sunni_rel" }
 	}
 
 	4869={
@@ -3126,7 +3906,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="andalusian" religion="sunni_rel" }
 		#
 	}
 

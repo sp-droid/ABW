@@ -1,6 +1,5 @@
 ﻿germanic_group = {
-
-	color = hsv { 0.05 0.7 0.3 }
+	color = rgb { 76 58 50 }
 	
 	culture = {
 		flemish = {

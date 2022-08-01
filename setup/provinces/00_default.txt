@@ -1,11 +1,14 @@
 ﻿	1={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -20,6 +23,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4884={
@@ -30,6 +36,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -44,6 +53,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4886={
@@ -54,6 +66,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -68,6 +83,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4888={
@@ -78,6 +96,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -92,6 +113,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4890={
@@ -102,6 +126,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -116,6 +143,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4892={
@@ -126,6 +156,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -140,6 +173,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4894={
@@ -150,6 +186,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -164,6 +203,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4896={
@@ -174,6 +216,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -188,6 +233,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4898={
@@ -198,6 +246,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -212,6 +263,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4900={
@@ -222,6 +276,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -236,6 +293,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4902={
@@ -246,6 +306,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -260,6 +323,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4904={
@@ -270,6 +336,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -284,6 +353,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4906={
@@ -294,6 +366,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -308,6 +383,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4908={
@@ -318,6 +396,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -332,6 +413,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4910={
@@ -342,6 +426,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -356,6 +443,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4912={
@@ -366,6 +456,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -380,6 +473,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4914={
@@ -390,6 +486,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -404,6 +503,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4916={
@@ -414,6 +516,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -428,6 +533,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4918={
@@ -438,6 +546,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -452,6 +563,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4920={
@@ -462,6 +576,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -476,6 +593,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4922={
@@ -486,6 +606,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -500,6 +623,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4924={
@@ -510,6 +636,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -524,6 +653,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4926={
@@ -534,6 +666,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -548,6 +683,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4928={
@@ -558,6 +696,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -572,6 +713,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4930={
@@ -582,6 +726,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -596,6 +743,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4932={
@@ -606,6 +756,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -620,6 +773,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4934={
@@ -630,6 +786,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -644,6 +803,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4936={
@@ -654,6 +816,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -668,6 +833,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4938={
@@ -678,6 +846,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -692,6 +863,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4940={
@@ -702,6 +876,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -716,6 +893,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4942={
@@ -726,6 +906,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -740,6 +923,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4944={
@@ -750,6 +936,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -764,6 +953,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4946={
@@ -774,6 +966,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -788,6 +983,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4948={
@@ -798,6 +996,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -812,6 +1013,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4950={
@@ -822,6 +1026,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -836,6 +1043,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4952={
@@ -846,6 +1056,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -860,6 +1073,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4954={
@@ -870,6 +1086,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -884,6 +1103,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4956={
@@ -894,6 +1116,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -908,6 +1133,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4958={
@@ -918,6 +1146,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -932,6 +1163,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4960={
@@ -942,6 +1176,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -956,6 +1193,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4962={
@@ -966,6 +1206,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -980,6 +1223,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4964={
@@ -990,6 +1236,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1004,6 +1253,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4966={
@@ -1014,6 +1266,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1028,6 +1283,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4968={
@@ -1038,6 +1296,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1052,6 +1313,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4970={
@@ -1062,6 +1326,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1076,6 +1343,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4972={
@@ -1086,6 +1356,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1100,6 +1373,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4974={
@@ -1110,6 +1386,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1124,6 +1403,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4976={
@@ -1134,6 +1416,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1148,6 +1433,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4978={
@@ -1158,6 +1446,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1172,6 +1463,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4980={
@@ -1182,6 +1476,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1196,6 +1493,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4982={
@@ -1206,6 +1506,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1220,6 +1523,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4984={
@@ -1230,6 +1536,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1244,6 +1553,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4986={
@@ -1254,6 +1566,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1268,6 +1583,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4988={
@@ -1278,6 +1596,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1292,6 +1613,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4990={
@@ -1302,6 +1626,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1316,6 +1643,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4992={
@@ -1326,6 +1656,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1340,6 +1673,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4994={
@@ -1350,6 +1686,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1364,6 +1703,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4996={
@@ -1374,6 +1716,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1388,6 +1733,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	4998={
@@ -1398,6 +1746,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1412,6 +1763,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5000={
@@ -1422,6 +1776,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1436,6 +1793,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5002={
@@ -1446,6 +1806,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1460,6 +1823,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5004={
@@ -1470,6 +1836,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1484,6 +1853,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5006={
@@ -1494,6 +1866,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1508,6 +1883,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5008={
@@ -1518,6 +1896,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1532,6 +1913,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5010={
@@ -1542,6 +1926,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1556,6 +1943,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5012={
@@ -1566,6 +1956,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1580,6 +1973,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5014={
@@ -1590,6 +1986,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1604,6 +2003,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5016={
@@ -1614,6 +2016,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1628,6 +2033,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5018={
@@ -1638,6 +2046,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1652,6 +2063,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5020={
@@ -1662,6 +2076,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1676,6 +2093,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5022={
@@ -1686,6 +2106,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1700,6 +2123,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5024={
@@ -1710,6 +2136,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1724,6 +2153,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5026={
@@ -1734,6 +2166,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1748,6 +2183,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5028={
@@ -1758,6 +2196,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1772,6 +2213,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5030={
@@ -1782,6 +2226,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1796,6 +2243,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5032={
@@ -1806,6 +2256,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1820,6 +2273,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5034={
@@ -1830,6 +2286,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1844,6 +2303,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5036={
@@ -1854,6 +2316,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1868,6 +2333,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5038={
@@ -1878,6 +2346,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1892,6 +2363,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5040={
@@ -1902,6 +2376,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1916,6 +2393,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5042={
@@ -1926,6 +2406,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1940,6 +2423,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5044={
@@ -1950,6 +2436,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1964,6 +2453,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5046={
@@ -1974,6 +2466,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -1988,6 +2483,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5048={
@@ -1998,6 +2496,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2012,6 +2513,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5050={
@@ -2022,6 +2526,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2036,6 +2543,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5052={
@@ -2046,6 +2556,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2060,6 +2573,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5054={
@@ -2070,6 +2586,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2084,6 +2603,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5056={
@@ -2094,6 +2616,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2108,6 +2633,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5058={
@@ -2118,6 +2646,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2132,6 +2663,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5060={
@@ -2142,6 +2676,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2156,6 +2693,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5062={
@@ -2166,6 +2706,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2180,6 +2723,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5064={
@@ -2190,6 +2736,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2204,6 +2753,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5066={
@@ -2214,6 +2766,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2228,6 +2783,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5068={
@@ -2238,6 +2796,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2252,6 +2813,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5070={
@@ -2262,6 +2826,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2276,6 +2843,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5072={
@@ -2286,6 +2856,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2300,6 +2873,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5074={
@@ -2310,6 +2886,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2324,6 +2903,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5076={
@@ -2334,6 +2916,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2348,6 +2933,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5078={
@@ -2358,6 +2946,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2372,6 +2963,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5080={
@@ -2382,6 +2976,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2396,6 +2993,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5082={
@@ -2406,6 +3006,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2420,6 +3023,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5084={
@@ -2430,6 +3036,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2444,6 +3053,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5086={
@@ -2454,6 +3066,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2468,6 +3083,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5088={
@@ -2478,6 +3096,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2492,6 +3113,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5090={
@@ -2502,6 +3126,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2516,6 +3143,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5092={
@@ -2526,6 +3156,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2540,6 +3173,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5094={
@@ -2550,6 +3186,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2564,6 +3203,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5096={
@@ -2574,6 +3216,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2588,6 +3233,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5098={
@@ -2598,6 +3246,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2612,6 +3263,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5100={
@@ -2622,6 +3276,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2636,6 +3293,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5102={
@@ -2646,6 +3306,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2660,6 +3323,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5104={
@@ -2670,6 +3336,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2684,6 +3353,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5106={
@@ -2694,6 +3366,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2708,6 +3383,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5108={
@@ -2718,6 +3396,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2732,6 +3413,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5110={
@@ -2742,6 +3426,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2756,6 +3443,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5112={
@@ -2766,6 +3456,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2780,6 +3473,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5114={
@@ -2790,6 +3486,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2804,6 +3503,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5116={
@@ -2814,6 +3516,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2828,6 +3533,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5118={
@@ -2838,6 +3546,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2852,6 +3563,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5120={
@@ -2862,6 +3576,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2876,6 +3593,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5122={
@@ -2886,6 +3606,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2900,6 +3623,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5124={
@@ -2910,6 +3636,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2924,6 +3653,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5126={
@@ -2934,6 +3666,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2948,6 +3683,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5128={
@@ -2958,6 +3696,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -2972,6 +3713,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5130={
@@ -2984,16 +3728,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5131={
 		terrain="drylands"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3008,6 +3758,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5133={
@@ -3018,6 +3771,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3032,6 +3788,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5135={
@@ -3042,6 +3801,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3056,6 +3818,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5137={
@@ -3066,6 +3831,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3080,6 +3848,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5139={
@@ -3090,6 +3861,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3104,6 +3878,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5141={
@@ -3114,6 +3891,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3128,6 +3908,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5143={
@@ -3138,6 +3921,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3152,6 +3938,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5145={
@@ -3162,6 +3951,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3176,6 +3968,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5147={
@@ -3186,6 +3981,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3200,6 +3998,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5149={
@@ -3210,6 +4011,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3224,6 +4028,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5151={
@@ -3234,6 +4041,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3248,6 +4058,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5153={
@@ -3258,6 +4071,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3272,6 +4088,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5155={
@@ -3282,6 +4101,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3296,6 +4118,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5157={
@@ -3306,6 +4131,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3320,6 +4148,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5159={
@@ -3330,6 +4161,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3344,6 +4178,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5161={
@@ -3354,6 +4191,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3368,6 +4208,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5163={
@@ -3378,6 +4221,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3392,6 +4238,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5165={
@@ -3402,6 +4251,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3416,6 +4268,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5167={
@@ -3426,6 +4281,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3440,6 +4298,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5169={
@@ -3450,6 +4311,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3464,6 +4328,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5171={
@@ -3474,6 +4341,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3488,6 +4358,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5173={
@@ -3498,6 +4371,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3512,6 +4388,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5175={
@@ -3522,6 +4401,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3536,6 +4418,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5177={
@@ -3546,6 +4431,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3560,6 +4448,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5179={
@@ -3570,6 +4461,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3584,6 +4478,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5181={
@@ -3594,6 +4491,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3608,6 +4508,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5183={
@@ -3618,6 +4521,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3632,6 +4538,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5185={
@@ -3642,6 +4551,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3656,6 +4568,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5187={
@@ -3666,6 +4581,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3680,6 +4598,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5189={
@@ -3690,6 +4611,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3704,6 +4628,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5191={
@@ -3714,6 +4641,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3728,6 +4658,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5193={
@@ -3738,6 +4671,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3752,16 +4688,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5195={
 		terrain="forest"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3776,6 +4718,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5197={
@@ -3786,6 +4731,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3800,16 +4748,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5199={
 		terrain="jungle"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3824,6 +4778,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5201={
@@ -3834,6 +4791,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3848,6 +4808,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5203={
@@ -3858,6 +4821,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3872,6 +4838,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5205={
@@ -3882,6 +4851,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3896,6 +4868,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5207={
@@ -3906,6 +4881,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3920,6 +4898,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5209={
@@ -3930,6 +4911,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3944,6 +4928,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5211={
@@ -3954,6 +4941,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3968,6 +4958,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5213={
@@ -3978,6 +4971,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -3992,6 +4988,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5215={
@@ -4002,6 +5001,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4016,6 +5018,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5217={
@@ -4026,6 +5031,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4040,6 +5048,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5219={
@@ -4050,6 +5061,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4064,6 +5078,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5221={
@@ -4074,6 +5091,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4088,6 +5108,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5223={
@@ -4098,6 +5121,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4112,6 +5138,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5225={
@@ -4122,6 +5151,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4136,6 +5168,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5227={
@@ -4146,6 +5181,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4160,6 +5198,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5229={
@@ -4170,6 +5211,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4184,6 +5228,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5231={
@@ -4194,6 +5241,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4208,6 +5258,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5233={
@@ -4218,6 +5271,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4232,6 +5288,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5235={
@@ -4242,6 +5301,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4256,6 +5318,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5237={
@@ -4266,6 +5331,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4280,6 +5348,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5239={
@@ -4290,6 +5361,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4304,6 +5378,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5241={
@@ -4314,6 +5391,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4328,6 +5408,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5243={
@@ -4338,6 +5421,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4352,6 +5438,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5245={
@@ -4362,6 +5451,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4376,6 +5468,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5247={
@@ -4386,6 +5481,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4400,6 +5498,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5249={
@@ -4410,6 +5511,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4424,6 +5528,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5251={
@@ -4434,6 +5541,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4448,6 +5558,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5253={
@@ -4458,6 +5571,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4472,6 +5588,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5255={
@@ -4482,6 +5601,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4496,6 +5618,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5257={
@@ -4506,6 +5631,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4520,16 +5648,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5259={
 		terrain="plains"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4544,6 +5678,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5261={
@@ -4554,6 +5691,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4568,6 +5708,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5263={
@@ -4578,6 +5721,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4592,6 +5738,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5265={
@@ -4602,6 +5751,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4616,6 +5768,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5267={
@@ -4626,6 +5781,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4640,6 +5798,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5269={
@@ -4650,6 +5811,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4664,6 +5828,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5271={
@@ -4674,6 +5841,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4688,6 +5858,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5273={
@@ -4698,6 +5871,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4712,6 +5888,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5275={
@@ -4722,6 +5901,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4736,6 +5918,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5277={
@@ -4746,6 +5931,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4760,6 +5948,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5279={
@@ -4770,6 +5961,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4784,6 +5978,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5281={
@@ -4794,6 +5991,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4808,6 +6008,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5283={
@@ -4818,6 +6021,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4832,6 +6038,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5285={
@@ -4842,6 +6051,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4856,6 +6068,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5287={
@@ -4866,6 +6081,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4880,6 +6098,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5289={
@@ -4890,6 +6111,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4904,6 +6128,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5291={
@@ -4914,6 +6141,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4928,6 +6158,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5293={
@@ -4938,6 +6171,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4952,6 +6188,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5295={
@@ -4962,6 +6201,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -4976,6 +6218,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5297={
@@ -4986,6 +6231,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5000,6 +6248,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5299={
@@ -5010,6 +6261,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5024,6 +6278,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5301={
@@ -5034,6 +6291,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5048,6 +6308,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5303={
@@ -5058,6 +6321,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5072,6 +6338,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5305={
@@ -5082,6 +6351,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5096,6 +6368,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5307={
@@ -5106,6 +6381,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5120,6 +6398,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5309={
@@ -5130,6 +6411,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5144,6 +6428,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5311={
@@ -5154,6 +6441,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5168,6 +6458,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5313={
@@ -5178,6 +6471,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5192,6 +6488,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5315={
@@ -5202,6 +6501,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5216,6 +6518,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5317={
@@ -5226,6 +6531,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5240,6 +6548,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5319={
@@ -5250,6 +6561,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5264,6 +6578,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5321={
@@ -5274,6 +6591,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5288,6 +6608,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5323={
@@ -5298,6 +6621,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5312,6 +6638,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5325={
@@ -5322,6 +6651,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5336,6 +6668,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5327={
@@ -5346,6 +6681,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5360,6 +6698,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5329={
@@ -5370,6 +6711,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5384,6 +6728,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5331={
@@ -5394,6 +6741,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5408,6 +6758,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5333={
@@ -5418,6 +6771,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5432,6 +6788,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5335={
@@ -5442,6 +6801,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5456,6 +6818,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5337={
@@ -5466,6 +6831,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5480,6 +6848,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5339={
@@ -5490,6 +6861,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5504,6 +6878,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5341={
@@ -5514,6 +6891,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5528,6 +6908,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5343={
@@ -5538,6 +6921,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5552,6 +6938,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5345={
@@ -5562,6 +6951,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5576,6 +6968,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5347={
@@ -5586,6 +6981,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5600,6 +6998,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5349={
@@ -5610,6 +7011,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5624,6 +7028,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5351={
@@ -5634,6 +7041,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5648,6 +7058,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5353={
@@ -5658,6 +7071,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5672,6 +7088,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5355={
@@ -5682,6 +7101,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5696,6 +7118,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5357={
@@ -5706,6 +7131,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5720,6 +7148,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5359={
@@ -5730,6 +7161,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5744,6 +7178,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5361={
@@ -5756,16 +7193,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5362={
 		terrain="jungle"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5780,6 +7223,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5364={
@@ -5790,6 +7236,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5804,6 +7253,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5366={
@@ -5814,6 +7266,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5828,6 +7283,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5368={
@@ -5838,6 +7296,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5852,6 +7313,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5370={
@@ -5862,6 +7326,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5876,6 +7343,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5372={
@@ -5886,6 +7356,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5900,6 +7373,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5374={
@@ -5910,6 +7386,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5924,6 +7403,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5376={
@@ -5934,6 +7416,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5948,6 +7433,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5378={
@@ -5958,6 +7446,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5972,6 +7463,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5380={
@@ -5982,6 +7476,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -5996,6 +7493,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5382={
@@ -6006,6 +7506,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6020,6 +7523,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5384={
@@ -6030,6 +7536,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6044,6 +7553,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5386={
@@ -6054,6 +7566,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6068,6 +7583,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5388={
@@ -6078,6 +7596,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6092,6 +7613,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5390={
@@ -6102,6 +7626,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6116,6 +7643,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5392={
@@ -6126,6 +7656,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6140,6 +7673,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5394={
@@ -6150,6 +7686,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6164,6 +7703,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5396={
@@ -6174,6 +7716,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6188,6 +7733,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5398={
@@ -6198,6 +7746,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6212,6 +7763,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5400={
@@ -6222,6 +7776,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6236,16 +7793,22 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5402={
 		terrain="forest"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6260,6 +7823,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5404={
@@ -6270,6 +7836,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6284,6 +7853,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5406={
@@ -6294,6 +7866,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6308,6 +7883,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5408={
@@ -6318,6 +7896,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6332,6 +7913,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5410={
@@ -6342,6 +7926,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6356,6 +7943,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5412={
@@ -6366,6 +7956,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6380,6 +7973,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5414={
@@ -6390,6 +7986,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6404,6 +8003,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5416={
@@ -6414,6 +8016,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6428,6 +8033,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5418={
@@ -6438,6 +8046,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6452,6 +8063,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5420={
@@ -6462,6 +8076,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6476,6 +8093,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5422={
@@ -6486,6 +8106,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6500,6 +8123,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5424={
@@ -6510,6 +8136,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6524,6 +8153,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5426={
@@ -6534,6 +8166,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6548,6 +8183,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5428={
@@ -6558,6 +8196,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6572,6 +8213,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5430={
@@ -6582,6 +8226,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6596,6 +8243,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5432={
@@ -6606,6 +8256,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6620,6 +8273,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5434={
@@ -6630,6 +8286,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6644,6 +8303,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5436={
@@ -6654,6 +8316,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6668,6 +8333,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5438={
@@ -6678,6 +8346,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6692,6 +8363,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5440={
@@ -6702,6 +8376,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6716,6 +8393,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5442={
@@ -6726,6 +8406,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6740,6 +8423,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5444={
@@ -6750,6 +8436,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6764,6 +8453,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5446={
@@ -6774,6 +8466,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6788,6 +8483,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5448={
@@ -6798,6 +8496,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6812,6 +8513,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5450={
@@ -6822,6 +8526,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6836,6 +8543,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5452={
@@ -6846,6 +8556,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6860,6 +8573,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5454={
@@ -6870,6 +8586,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6884,6 +8603,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5456={
@@ -6894,6 +8616,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6908,6 +8633,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5458={
@@ -6918,6 +8646,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6932,6 +8663,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5460={
@@ -6942,6 +8676,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6956,6 +8693,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5462={
@@ -6966,6 +8706,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -6980,6 +8723,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5464={
@@ -6990,6 +8736,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7004,6 +8753,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5466={
@@ -7014,6 +8766,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7028,6 +8783,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5468={
@@ -7038,6 +8796,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7052,6 +8813,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5470={
@@ -7062,6 +8826,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7076,6 +8843,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5472={
@@ -7086,6 +8856,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7100,6 +8873,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5474={
@@ -7110,6 +8886,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7124,6 +8903,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5476={
@@ -7134,6 +8916,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7148,6 +8933,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5478={
@@ -7158,6 +8946,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7172,6 +8963,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5480={
@@ -7182,6 +8976,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7196,6 +8993,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5482={
@@ -7206,6 +9006,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7220,6 +9023,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5484={
@@ -7230,6 +9036,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7244,6 +9053,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5486={
@@ -7254,6 +9066,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7268,6 +9083,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5488={
@@ -7278,6 +9096,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7292,6 +9113,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5490={
@@ -7302,6 +9126,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7316,6 +9143,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5492={
@@ -7326,6 +9156,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7340,6 +9173,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5494={
@@ -7350,6 +9186,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7364,6 +9203,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5496={
@@ -7374,6 +9216,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7388,6 +9233,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5498={
@@ -7398,6 +9246,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7412,6 +9263,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5500={
@@ -7422,6 +9276,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7436,6 +9293,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5502={
@@ -7446,6 +9306,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7460,6 +9323,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5504={
@@ -7470,6 +9336,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7484,6 +9353,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5506={
@@ -7494,6 +9366,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7508,6 +9383,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5508={
@@ -7518,6 +9396,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7532,6 +9413,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5510={
@@ -7542,6 +9426,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7556,6 +9443,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5512={
@@ -7566,6 +9456,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7580,6 +9473,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5514={
@@ -7590,6 +9486,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7604,6 +9503,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5516={
@@ -7614,6 +9516,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7628,6 +9533,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5518={
@@ -7638,6 +9546,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7652,6 +9563,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5520={
@@ -7662,6 +9576,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7676,6 +9593,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5522={
@@ -7686,6 +9606,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7700,6 +9623,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5524={
@@ -7710,6 +9636,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7724,6 +9653,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5526={
@@ -7734,6 +9666,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7748,6 +9683,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5528={
@@ -7758,6 +9696,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7772,6 +9713,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5530={
@@ -7782,6 +9726,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7796,6 +9743,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5532={
@@ -7806,6 +9756,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7820,6 +9773,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5534={
@@ -7830,6 +9786,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7844,6 +9803,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5536={
@@ -7854,6 +9816,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7868,6 +9833,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5538={
@@ -7878,6 +9846,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7892,6 +9863,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5540={
@@ -7902,6 +9876,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7916,6 +9893,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5542={
@@ -7926,6 +9906,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7940,6 +9923,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5544={
@@ -7950,6 +9936,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7964,6 +9953,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5546={
@@ -7974,6 +9966,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -7988,6 +9983,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5548={
@@ -7998,6 +9996,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8012,6 +10013,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5550={
@@ -8022,6 +10026,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8036,6 +10043,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5552={
@@ -8046,6 +10056,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8060,6 +10073,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5554={
@@ -8070,6 +10086,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8084,6 +10103,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5556={
@@ -8094,6 +10116,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8108,6 +10133,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5558={
@@ -8118,6 +10146,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8132,6 +10163,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5560={
@@ -8142,6 +10176,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8156,6 +10193,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5562={
@@ -8166,6 +10206,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8180,6 +10223,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5564={
@@ -8190,6 +10236,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8204,6 +10253,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5566={
@@ -8214,6 +10266,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8228,6 +10283,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5568={
@@ -8238,6 +10296,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8252,6 +10313,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5570={
@@ -8262,6 +10326,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8276,6 +10343,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5572={
@@ -8286,6 +10356,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8300,6 +10373,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5574={
@@ -8310,6 +10386,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8324,6 +10403,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5576={
@@ -8334,6 +10416,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8348,6 +10433,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5578={
@@ -8358,6 +10446,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8372,6 +10463,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5580={
@@ -8382,6 +10476,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8396,6 +10493,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5582={
@@ -8406,6 +10506,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8420,6 +10523,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5584={
@@ -8430,6 +10536,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8444,6 +10553,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5586={
@@ -8454,6 +10566,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8468,6 +10583,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5588={
@@ -8478,6 +10596,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8492,6 +10613,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5590={
@@ -8502,6 +10626,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8516,6 +10643,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5592={
@@ -8526,6 +10656,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8540,6 +10673,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5594={
@@ -8550,6 +10686,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8564,6 +10703,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5596={
@@ -8574,6 +10716,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8588,6 +10733,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5598={
@@ -8598,6 +10746,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8612,6 +10763,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5600={
@@ -8622,6 +10776,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8636,6 +10793,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5602={
@@ -8646,6 +10806,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8660,6 +10823,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5604={
@@ -8670,6 +10836,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8684,6 +10853,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5606={
@@ -8694,6 +10866,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8708,6 +10883,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5608={
@@ -8718,6 +10896,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8732,6 +10913,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5610={
@@ -8742,6 +10926,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8756,6 +10943,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5612={
@@ -8766,6 +10956,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8780,6 +10973,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5614={
@@ -8790,6 +10986,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8804,6 +11003,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5616={
@@ -8814,6 +11016,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8828,6 +11033,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5618={
@@ -8838,6 +11046,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8852,6 +11063,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5620={
@@ -8862,6 +11076,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8876,6 +11093,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5622={
@@ -8886,6 +11106,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8900,6 +11123,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5624={
@@ -8910,6 +11136,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8924,6 +11153,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5626={
@@ -8934,6 +11166,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8948,6 +11183,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5628={
@@ -8958,6 +11196,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8972,6 +11213,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5630={
@@ -8982,6 +11226,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -8996,6 +11243,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5632={
@@ -9006,6 +11256,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -9020,6 +11273,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5634={
@@ -9030,6 +11286,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -9044,6 +11303,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5636={
@@ -9054,6 +11316,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -9068,6 +11333,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5638={
@@ -9078,6 +11346,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -9092,6 +11363,9 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5640={
@@ -9102,6 +11376,9 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
@@ -9116,616 +11393,772 @@
 		province_rank=""
 		#
 		#
+		#
+		#
+		#
 	}
 
 	5642={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5643={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5644={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5645={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5646={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5647={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5648={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5649={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5650={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5651={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5652={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5653={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5654={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5655={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5656={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5657={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5658={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5659={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5660={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5661={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5662={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5663={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5664={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5665={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5666={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5667={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5668={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5669={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5670={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5671={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5672={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5673={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5674={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5675={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5676={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5677={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5678={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5679={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5680={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5681={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5682={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5683={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5684={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5685={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5686={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5687={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5688={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5689={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5690={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5691={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}
 
 	5692={
 		terrain="impassable_terrain"
-		culture=""
-		religion=""
+		culture="primitiveculture"
+		religion="animist_rel"
 		trade_goods=""
 		civilization_value=0
 		barbarian_power=0
 		province_rank=""
+		#
+		#
+		#
 		#
 		#
 	}

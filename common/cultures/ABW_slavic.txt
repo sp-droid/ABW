@@ -1,5 +1,4 @@
 ﻿slavic_group = {
-
 	color = rgb { 35 63 122 }
 
 	culture = {

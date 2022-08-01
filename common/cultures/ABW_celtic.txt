@@ -1,6 +1,5 @@
 ﻿celtic_group = {
-
-	color = hsv { 0.43 0.9 0.6 }
+	color = rgb { 15 153 95 }
 	
 	male_names = {
 		none

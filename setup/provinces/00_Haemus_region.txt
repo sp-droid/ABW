@@ -1,216 +1,270 @@
 ﻿	3={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	27={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	211={
 		terrain="plains"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 4 } # Total-10
 		#
+		#
+		freemen={amount= 4 culture="magyar" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	243={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	316={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	327={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	362={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	363={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	368={
 		terrain="plains"
 		culture="magyar"
-		religion="slavic_rel"
+		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 8 }
+		province_rank="city"
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 	}
 
 	434={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 10 } # Total-10
+		#
+		port_building=1
+		#
 		#
 	}
 
 	509={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	571={
 		terrain="marsh"
 		culture="bulgarian"
-		religion="tengri_rel"
+		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-11
 		#
+		port_building=1
+		freemen={amount= 4 culture="cuman" religion="tengri_rel" }
+		freemen={amount= 2 culture="bulgarian" religion="tengri_rel" }
 	}
 
 	583={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 15 }
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	585={
 		terrain="mountain"
-		culture="magyar"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 		#
 	}
 
 	595={
 		terrain="mountain"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	635={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	639={
 		terrain="mountain"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="iron"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	667={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -222,31 +276,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	760={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	805={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -258,7 +321,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -270,20 +336,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	901={
 		terrain="mountain"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
 		#
+		#
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 	}
 
 	992={
@@ -293,8 +365,11 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
@@ -306,55 +381,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1004={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	1059={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 		#
 	}
 
 	1078={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	1116={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="stone"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -366,19 +456,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	1137={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -389,32 +485,41 @@
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1182={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	1216={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -426,7 +531,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -438,43 +546,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	1258={
 		terrain="hills"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="steppe_horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1259={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	1276={
 		terrain="forest"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
@@ -486,19 +606,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	1293={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -510,7 +636,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -522,43 +651,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	1308={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	1309={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="bosnian" religion="slavic_rel" }
 		#
 	}
 
 	1312={
 		terrain="drylands"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -570,91 +711,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	1386={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	1403={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	1436={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	1437={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	1439={
 		terrain="drylands"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	1483={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1509={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -666,163 +831,205 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1524={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	1535={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1542={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	1582={
 		terrain="forest"
-		culture="venetian"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
+		freemen={amount= 1 culture="magyar" religion="catholic_rel" }
 	}
 
 	1583={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
 	1594={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	1597={
 		terrain="hills"
+		culture="albanian"
+		religion="orthodox_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
+		#
+	}
+
+	1601={
+		terrain="hills"
+		culture="bosnian"
+		religion="orthodox_rel"
+		trade_goods="grain"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
+	}
+
+	1603={
+		terrain="plains"
+		culture="greekk"
+		religion="orthodox_rel"
+		trade_goods="vegetables"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
+		#
+	}
+
+	1622={
+		terrain="forest"
 		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 5 } # Total-8
 		#
-	}
-
-	1601={
-		terrain="hills"
-		culture="magyar"
-		religion="orthodox_rel"
-		trade_goods="grain"
-		civilization_value=0
-		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 8 }
 		#
-	}
-
-	1603={
-		terrain="plains"
-		culture="flemish"
-		religion="orthodox_rel"
-		trade_goods="vegetables"
-		civilization_value=0
-		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 17 }
-		#
-	}
-
-	1622={
-		terrain="forest"
-		culture="flemish"
-		religion="orthodox_rel"
-		trade_goods="grain"
-		civilization_value=0
-		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	1623={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	1631={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="orthodox_rel" }
 		#
 	}
 
 	1644={
 		terrain="hills"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="bosnian"
+		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 		#
 	}
 
@@ -834,20 +1041,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1703={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="bosnian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="venetian" religion="orthodox_rel" }
 	}
 
 	1724={
@@ -858,43 +1071,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	1730={
 		terrain="hills"
 		culture="venetian"
-		religion="orthodox_rel"
+		religion="animist_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 2 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	1744={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	1757={
 		terrain="plains"
-		culture="bulgarian"
+		culture="vlach"
 		religion="orthodox_rel"
 		trade_goods="marble"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
@@ -906,7 +1131,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -918,31 +1146,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="serbian" religion="catholic_rel" }
 		#
 	}
 
 	1782={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1825={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 14 }
+		province_rank="city"
+		freemen={amount= 14 } # Total-14
+		#
+		#
+		#
 		#
 	}
 
@@ -954,43 +1191,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	1848={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	1871={
 		terrain="drylands"
 		culture="greekk"
-		religion="animist_rel"
-		trade_goods="cattle"
-		civilization_value=0
-		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 3 }
-		#
-	}
-
-	1880={
-		terrain="drylands"
-		culture="burgundian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="animist_rel" }
+		#
+	}
+
+	1880={
+		terrain="drylands"
+		culture="greekk"
+		religion="orthodox_rel"
+		trade_goods="cattle"
+		civilization_value=0
+		barbarian_power=0
+		province_rank="settlement"
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -1002,7 +1251,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
@@ -1014,7 +1266,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1026,79 +1281,100 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	1962={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	1991={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="elephants"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2013={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 9 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2014={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2048={
 		terrain="hills"
-		culture="magyar"
-		religion="catholic_rel"
+		culture="venetian"
+		religion="animist_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 4 } # Total-10
 		#
+		#
+		freemen={amount= 4 culture="croatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	2082={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1110,19 +1386,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2093={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1134,8 +1416,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 	}
 
 	2109={
@@ -1146,8 +1431,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	2124={
@@ -1157,92 +1445,116 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 4 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-4
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2127={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2128={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	2129={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2141={
 		terrain="forest"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="serbian"
+		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 4 } # Total-10
 		#
+		#
+		freemen={amount= 4 culture="serbian" religion="slavic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 	}
 
 	2145={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 		#
 	}
 
 	2151={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	2185={
 		terrain="plains"
-		culture="bulgarian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
@@ -1253,44 +1565,56 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 	}
 
 	2220={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	2225={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	2241={
 		terrain="forest"
-		culture="genoese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1301,92 +1625,116 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 4 }
+		province_rank="city"
+		freemen={amount= 3 } # Total-4
+		#
+		port_building=1
+		freemen={amount= 1 culture="greekk" religion="animist_rel" }
 		#
 	}
 
 	2258={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	2303={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="animist_rel" }
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 	}
 
 	2313={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
 	2314={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2352={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	2353={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2354={
 		terrain="drylands"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1398,7 +1746,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -1410,19 +1761,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 2 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 	}
 
 	2379={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -1434,67 +1791,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2404={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2438={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 3 } # Total-5
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2440={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="incense"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2463={
 		terrain="mountain"
-		culture="piedmontese"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2469={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -1506,19 +1881,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	2471={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1530,7 +1911,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
@@ -1541,20 +1925,26 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
 		#
 	}
 
 	2517={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -1566,8 +1956,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="bosnian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="croatian" religion="catholic_rel" }
 	}
 
 	2526={
@@ -1578,43 +1971,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2530={
 		terrain="plains"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="croatian"
+		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
+		freemen={amount= 2 culture="croatian" religion="slavic_rel" }
 	}
 
 	2560={
 		terrain="mountain"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	2590={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 		#
 	}
 
@@ -1626,43 +2031,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	2610={
 		terrain="forest"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	2618={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 	}
 
 	2622={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="incense"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1674,7 +2091,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -1685,20 +2105,26 @@
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	2657={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -1710,43 +2136,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	2679={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		port_building=1
+		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
 		#
 	}
 
 	2684={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	2686={
 		terrain="forest"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -1758,19 +2196,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2720={
 		terrain="mountain"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -1782,7 +2226,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
@@ -1794,247 +2241,310 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2749={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	2767={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	2769={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2790={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	2792={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 12 }
+		freemen={amount= 12 } # Total-12
+		#
+		#
+		#
 		#
 	}
 
 	2793={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	2794={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="orthodox_rel" }
 		#
 	}
 
 	2825={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2830={
 		terrain="plains"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2847={
 		terrain="plains"
-		culture="magyar"
+		culture="serbian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 4 } # Total-9
 		#
+		#
+		freemen={amount= 4 culture="serbian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
 	}
 
 	2863={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	2871={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	2886={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="venetian" religion="animist_rel" }
+		freemen={amount= 1 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	2895={
 		terrain="forest"
-		culture="magyar"
-		religion="animist_rel"
+		culture="bosnian"
+		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="bosnian" religion="animist_rel" }
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 	}
 
 	2897={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="vlach" religion="orthodox_rel" }
+		freemen={amount= 2 culture="vlach" religion="catholic_rel" }
 	}
 
 	2910={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	2932={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2958={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	2968={
 		terrain="plains"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	2974={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2046,19 +2556,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	2992={
 		terrain="forest"
-		culture="bulgarian"
+		culture="vlach"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2070,80 +2586,101 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	2995={
 		terrain="forest"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3000={
 		terrain="hills"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="bosnian"
+		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 2 } # Total-6
 		#
+		#
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="bosnian" religion="slavic_rel" }
 	}
 
 	3003={
 		terrain="forest"
-		culture="magyar"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3017={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="gems"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3023={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 15 }
+		province_rank="city"
+		freemen={amount= 15 } # Total-15
+		#
+		#
+		#
 		#
 	}
 
 	3027={
 		terrain="hills"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="bosnian"
+		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="slavic_rel" }
 	}
 
 	3034={
@@ -2154,19 +2691,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3036={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2178,7 +2721,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -2189,56 +2735,71 @@
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 5 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-5
+		#
+		port_building=1
+		freemen={amount= 1 culture="greekk" religion="animist_rel" }
 		#
 	}
 
 	3069={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fur"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	3073={
 		terrain="drylands"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	3076={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3078={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2250,43 +2811,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3103={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3113={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3114={
 		terrain="hills"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2298,19 +2871,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3160={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 6 } # Total-7
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2322,43 +2901,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3175={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="salt"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	3177={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
 		#
 	}
 
 	3189={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2370,19 +2961,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="serbian" religion="catholic_rel" }
 		#
 	}
 
 	3198={
 		terrain="mountain"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="base_metals"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2394,31 +2991,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3220={
 		terrain="forest"
-		culture="friulian"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3227={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -2430,55 +3036,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="magyar" religion="catholic_rel" }
 		#
 	}
 
 	3263={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3274={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 3 } # Total-4
+		#
+		#
+		freemen={amount= 1 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3283={
 		terrain="mountain"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3286={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 17 }
+		freemen={amount= 17 } # Total-17
+		#
+		#
+		#
 		#
 	}
 
@@ -2490,7 +3111,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
@@ -2502,31 +3126,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3306={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3309={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -2538,79 +3171,100 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	3338={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
 		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 	}
 
 	3350={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
 	3358={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3362={
 		terrain="forest"
-		culture="magyar"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	3366={
 		terrain="drylands"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3377={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2622,31 +3276,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	3398={
 		terrain="drylands"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 1 }
+		freemen={amount= 1 } # Total-1
+		#
+		#
+		#
 		#
 	}
 
 	3402={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
@@ -2657,44 +3320,56 @@
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 7 } # Total-11
+		#
+		#
+		freemen={amount= 4 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	3413={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3423={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3439={
 		terrain="plains"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -2706,67 +3381,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	3450={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3460={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3461={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-10
 		#
+		port_building=1
+		freemen={amount= 4 culture="serbian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	3494={
 		terrain="drylands"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 8 }
+		province_rank="city"
+		freemen={amount= 8 } # Total-8
+		#
+		port_building=1
+		#
 		#
 	}
 
 	3497={
 		terrain="forest"
-		culture="primitiveculture"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -2778,67 +3471,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	3571={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 	}
 
 	3575={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	3581={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="glass"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	3586={
 		terrain="hills"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3588={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -2850,44 +3561,56 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 7 } # Total-9
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3606={
 		terrain="plains"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="spices"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3607={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	3608={
 		terrain="hills"
-		culture="magyar"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="olive"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
 		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	3610={
@@ -2898,20 +3621,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
 	3617={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
 		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 	}
 
 	3640={
@@ -2922,55 +3651,70 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	3648={
 		terrain="forest"
-		culture="magyar"
-		religion="animist_rel"
+		culture="bosnian"
+		religion="orthodox_rel"
 		trade_goods="amber"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="animist_rel" }
+		freemen={amount= 2 culture="croatian" religion="orthodox_rel" }
 	}
 
 	3675={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 13 }
+		freemen={amount= 13 } # Total-13
+		#
+		#
+		#
 		#
 	}
 
 	3676={
 		terrain="mountain"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	3678={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
@@ -2982,19 +3726,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	3686={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
@@ -3006,43 +3756,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	3707={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3716={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	3723={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -3054,67 +3816,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3731={
 		terrain="forest"
-		culture="bulgarian"
+		culture="vlach"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	3738={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="venetian" religion="animist_rel" }
 		#
 	}
 
 	3762={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="honey"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 6 } # Total-10
+		#
+		#
+		freemen={amount= 4 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3763={
 		terrain="hills"
-		culture="flemish"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="serbian" religion="orthodox_rel" }
 		#
 	}
 
 	3798={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="hemp"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3126,7 +3906,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -3138,19 +3921,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3811={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3162,19 +3951,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3837={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 4 }
+		province_rank="city"
+		freemen={amount= 4 } # Total-4
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -3186,68 +3981,86 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	3860={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	3870={
 		terrain="hills"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	3871={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	3872={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 5 } # Total-8
+		#
+		#
+		freemen={amount= 3 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	3873={
 		terrain="hills"
-		culture="magyar"
-		religion="slavic_rel"
+		culture="serbian"
+		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
 		#
+		#
+		freemen={amount= 2 culture="bosnian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="serbian" religion="slavic_rel" }
 	}
 
 	3916={
@@ -3258,43 +4071,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	3917={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="croatian" religion="orthodox_rel" }
+		freemen={amount= 1 culture="venetian" religion="animist_rel" }
 	}
 
 	3918={
 		terrain="mountain"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3923={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3306,19 +4131,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	3958={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
@@ -3330,7 +4161,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
@@ -3342,31 +4176,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
 	3991={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="cloth"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	3993={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
@@ -3378,67 +4221,85 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4061={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	4062={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4064={
 		terrain="mountain"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4119={
 		terrain="mountain"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 4 } # Total-7
+		#
+		#
+		freemen={amount= 3 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
 	4127={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -3450,43 +4311,55 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4163={
 		terrain="forest"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	4181={
 		terrain="drylands"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4189={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 11 }
+		province_rank="city"
+		freemen={amount= 11 } # Total-11
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -3498,7 +4371,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -3510,20 +4386,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4205={
 		terrain="forest"
 		culture="magyar"
-		religion="orthodox_rel"
+		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 3 } # Total-8
 		#
+		#
+		freemen={amount= 3 culture="bosnian" religion="orthodox_rel" }
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 	}
 
 	4207={
@@ -3534,7 +4416,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
@@ -3546,19 +4431,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="catholic_rel" }
 		#
 	}
 
 	4224={
 		terrain="forest"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3570,20 +4461,26 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4243={
 		terrain="plains"
-		culture="magyar"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 3 } # Total-7
 		#
+		#
+		freemen={amount= 3 culture="magyar" religion="catholic_rel" }
+		freemen={amount= 1 culture="bosnian" religion="orthodox_rel" }
 	}
 
 	4246={
@@ -3594,31 +4491,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4258={
 		terrain="mountain"
-		culture="greekk"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="dates"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	4271={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="bulgarian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3630,91 +4536,115 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
 	4288={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4307={
 		terrain="drylands"
 		culture="greekk"
-		religion="animist_rel"
+		religion="orthodox_rel"
 		trade_goods="stone"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="greekk" religion="animist_rel" }
 		#
 	}
 
 	4327={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	4350={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="greekk" religion="orthodox_rel" }
 		#
 	}
 
 	4355={
 		terrain="forest"
-		culture="austrian"
+		culture="croatian"
 		religion="catholic_rel"
 		trade_goods="wood"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
 	4391={
 		terrain="mountain"
-		culture="serbian"
+		culture="albanian"
 		religion="orthodox_rel"
 		trade_goods="horses"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 2 } # Total-2
+		#
+		#
+		#
 		#
 	}
 
 	4401={
 		terrain="hills"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 2 } # Total-4
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3726,19 +4656,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	4438={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 10 }
+		province_rank="city"
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3750,19 +4686,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 7 }
+		freemen={amount= 7 } # Total-7
+		#
+		#
+		#
 		#
 	}
 
 	4471={
 		terrain="drylands"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -3774,19 +4716,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 }
+		freemen={amount= 1 } # Total-2
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
 	4568={
 		terrain="hills"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="cattle"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 6 } # Total-6
+		#
+		#
+		#
 		#
 	}
 
@@ -3798,31 +4746,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4578={
 		terrain="hills"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="earthware"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 4 } # Total-6
+		#
+		#
+		freemen={amount= 2 culture="croatian" religion="orthodox_rel" }
 		#
 	}
 
 	4588={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="leather"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 8 } # Total-10
+		#
+		#
+		freemen={amount= 2 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3834,7 +4791,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -3846,7 +4806,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
@@ -3858,31 +4821,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
 	4625={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 11 } # Total-11
+		#
+		#
+		#
 		#
 	}
 
 	4664={
 		terrain="forest"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="wine"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 4 }
+		freemen={amount= 4 } # Total-4
+		#
+		#
+		#
 		#
 	}
 
@@ -3894,19 +4866,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 6 } # Total-8
+		#
+		#
+		freemen={amount= 2 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	4666={
 		terrain="forest"
-		culture="flemish"
+		culture="serbian"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3918,7 +4896,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3930,7 +4911,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 5 } # Total-9
+		#
+		#
+		freemen={amount= 4 culture="albanian" religion="orthodox_rel" }
 		#
 	}
 
@@ -3942,31 +4926,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 4 } # Total-11
 		#
+		#
+		freemen={amount= 4 culture="serbian" religion="catholic_rel" }
+		freemen={amount= 2 culture="serbian" religion="orthodox_rel" }
 	}
 
 	4709={
 		terrain="forest"
-		culture="flemish"
+		culture="bulgarian"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 10 }
+		freemen={amount= 10 } # Total-10
+		#
+		#
+		#
 		#
 	}
 
 	4730={
 		terrain="plains"
-		culture="flemish"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="fish"
 		civilization_value=0
 		barbarian_power=0
-		province_rank="settlement"
-		freemen={amount= 18 }
+		province_rank="city"
+		freemen={amount= 18 } # Total-18
+		#
+		port_building=1
+		#
 		#
 	}
 
@@ -3978,7 +4971,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -3990,7 +4986,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 2 } # Total-3
+		#
+		#
+		freemen={amount= 1 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
@@ -4002,19 +5001,25 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 11 }
+		freemen={amount= 9 } # Total-11
+		#
+		#
+		freemen={amount= 2 culture="vlach" religion="orthodox_rel" }
 		#
 	}
 
 	4796={
 		terrain="forest"
-		culture="piedmontese"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="grain"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 9 }
+		freemen={amount= 9 } # Total-9
+		#
+		#
+		#
 		#
 	}
 
@@ -4026,7 +5031,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 }
+		freemen={amount= 8 } # Total-8
+		#
+		#
+		#
 		#
 	}
 
@@ -4038,31 +5046,40 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 5 }
+		freemen={amount= 5 } # Total-5
+		#
+		#
+		#
 		#
 	}
 
 	4845={
 		terrain="hills"
-		culture="burgundian"
+		culture="greekk"
 		religion="orthodox_rel"
 		trade_goods="vegetables"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 3 }
+		freemen={amount= 3 } # Total-3
+		#
+		#
+		#
 		#
 	}
 
 	4871={
 		terrain="forest"
-		culture="magyar"
+		culture="bosnian"
 		religion="orthodox_rel"
 		trade_goods="wild_game"
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 6 }
+		freemen={amount= 5 } # Total-6
+		#
+		#
+		freemen={amount= 1 culture="croatian" religion="catholic_rel" }
 		#
 	}
 

@@ -1,6 +1,5 @@
 ﻿georgian_group = {
-
-	color = hsv { 0.15  0.5  0.8 }
+	color = rgb { 226 152 213 }
 
 	culture = {
 		georgian = {

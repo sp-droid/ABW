@@ -351,7 +351,12 @@ PixelShader =
 				Color = lerp( Color, BorderColor, BorderPostLightingBlend );
 				
 				Color = ApplyFogOfWar( Color, Input.WorldSpacePos, FogOfWarAlpha ); // included :jomini/jomini_fog_of_war.fxh
-				Color = ApplyDistanceFog( Color, Input.WorldSpacePos ); // included :jomini/jomini_fog.fxh
+
+				float vFogFactor = min(CalculateDistanceFogFactor( Input.WorldSpacePos ),0.6);
+				#if defined(nightLight)
+					vFogFactor *= 0.05;
+				#endif
+				Color = ApplyDistanceFog( Color, vFogFactor );
 				
 				float Alpha = Diffuse.a;
 				

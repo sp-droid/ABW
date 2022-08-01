@@ -1,5 +1,5 @@
 ﻿default_group = {
-	color = hsv { 0.0  0.0  0.0 }
+	color = rgb { 0 0 0 }
 
 	male_names = {
 		Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva

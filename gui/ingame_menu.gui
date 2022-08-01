@@ -108,6 +108,7 @@ window = {
 	
 	base_window = {
 		size = { 420 505 }
+		position = { -180 0 }
 		parentanchor = vcenter|hcenter
 		widgetanchor = vcenter|hcenter
 		blockoverride "Fade" {}
@@ -263,7 +264,6 @@ window = {
 				text_button_square = {
 					size = { 100% 26 }
 					name = "load_button"
-					tooltip = rest_warning_tooltip
 					
 					blockoverride "Center_text" { text = "LOAD_GAME" }
 					blockoverride "On_click" 
@@ -418,6 +418,242 @@ window = {
 			scale = 0.75
 		}
 	}
+	base_window = {
+		size = { 420 320 }
+		position = { 232 0 }
+		parentanchor = vcenter|hcenter
+		widgetanchor = vcenter|hcenter
+		blockoverride "Fade" {}
+
+		icon = {
+			texture = "gfx/interface/ornamental/menu_higher_white.dds"
+			parentanchor = hcenter
+			position = { 0 -115 }
+			scale = 0.74
+		}
+		
+		menu_header = {  
+			name = "uncolonized_header"
+			layoutpolicy_horizontal = expanding
+			size = { 100% 40 }
+			
+			blockoverride "Title_text"
+			{
+				text = "INGAME_ABWMENU"  
+							
+			}
+		}
+	
+		icon = {
+			texture = "gfx/interface/ornamental/menu_top_abw.dds"
+			parentanchor = hcenter
+			position = { 0 -95 }
+		}
+		
+		icon = {
+			texture = "gfx/interface/base_parts/background_red.dds"
+			parentanchor = right
+			#scale = 0.74
+			position = { -30 36 }
+			size = { 40 280 }
+			
+			modify_texture = {
+				name = "Alpha"
+				texture = "gfx/interface/base_parts/header_l_pattern_x0bd_vertical.dds"
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+			}
+			
+			modify_texture = {
+				name = "Alpha2"
+				texture = "gfx/interface/base_parts/side_s_x104bd_right_cut_alpha.dds"
+				blend_mode = alphamultiply
+				spritetype = corneredTiled
+				spriteborder = { 60 40 }
+			}
+			
+		}
+		
+		icon = {
+			texture = "gfx/interface/base_parts/background_red.dds"
+			#scale = 0.74
+			position = { 30 36 }
+			size = { 40 280 }
+			
+			modify_texture = {
+				name = "Alpha"
+				texture = "gfx/interface/base_parts/header_l_pattern_x0bd_vertical.dds"
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+			}
+			
+			modify_texture = {
+				name = "Alpha2"
+				texture = "gfx/interface/base_parts/side_s_x104bd_left_cut_alpha.dds"
+				blend_mode = alphamultiply
+				spritetype = corneredTiled
+				spriteborder = { 60 40 }
+			}
+			
+		}
+		
+		container = {
+			name = "lightmodes"
+			position = { 65 58 }
+			textbox = {
+				position = { 15 0 }
+				name = "lightmodes_text"
+				text = "ABWMENU_LIGHTMODES"
+				using = HeaderFont
+				using = Black_FontColor
+				fontsize = 18
+			}
+			text_button_square_hollow = {
+				position = { 2 20 }
+				size = { 93 26 }
+				name = "dawn_button"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_MORNING"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[ExecuteConsoleCommand('shader_debug morningLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = {
+				position = { 99 20 }
+				size = { 93 26 }
+				name = "dusk_button"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_EVENING"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[ExecuteConsoleCommand('shader_debug eveningLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = {
+				position = { 195 20 }
+				size = { 93 26 }
+				name = "night_button"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_NIGHT"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[ExecuteConsoleCommand('shader_debug nightLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			icon = {
+				position = { 55 36 }
+				texture = "gfx/interface/base_parts/brown_underline_x60bd.dds"
+				size = { 180 6 }
+				parentanchor = vcenter
+			}
+		}
+		
+		container = {
+			name = "Other"
+			position = { 65 134 }
+			textbox = {
+				position = { 15 0 }
+				name = "other_text"
+				text = "ABWMENU_OTHER"
+				using = HeaderFont
+				using = Black_FontColor
+				fontsize = 18
+			}
+			#### Terra Incognita
+			container = {
+				name = "ti_auxcontainer"
+				visible = "[GetVariableSystem.Exists('ti_defaultback0')]"
+				state = { name = _show duration = 3.0 on_start = "[ExecuteConsoleCommand('event terrainc.4')]" on_finish = "[GetVariableSystem.Clear( 'ti_defaultback0' )]" }
+				textbox = {
+					position = { 155 -188 }
+					name = "player_notice"
+					text = "LOAD_GFX"
+					using = MarbleButtonFont
+					using = Highlight_FontColor
+					fontsize = 16
+					align = center
+				}
+			}
+			text_button_square_hollow = {
+				position = { 2 20 }
+				enabled = "[Not(GetVariableSystem.Exists('ti_defaultback0'))]"
+				size = { 93 26 }
+				name = "dawn_button"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_TI"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					#onclick = "[ExecuteConsoleCommand('event terrainc.4')]"
+					onclick = "[GetVariableSystem.Set('ti_defaultback0','true')]"
+					tooltip = "ABWMENU_TI_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			container = {
+				name = "ti_maincontainer"
+				state = { name = defaultback1 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback1'))]" duration = 0.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback1' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" }
+				state = { name = defaultback2 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback2'))]" duration = 0.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback2' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" }
+				state = { name = defaultback3 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback3'))]" duration = 0.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback3' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" }
+				state = { name = defaultback4 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback4'))]" duration = 0.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback4' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_4')]" }
+				state = { name = defaultback5 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback5'))]" duration = 1.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback5' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_5')]" }
+				state = { name = defaultback6 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback6'))]" duration = 1.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback6' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_6')]" }
+				state = { name = defaultback7 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback7'))]" duration = 1.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback7' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_7')]" }
+				state = { name = defaultback8 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback8'))]" duration = 1.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback8' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_8')]" }
+				state = { name = defaultback9 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback9'))]" duration = 1.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback9' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_9')]" }
+				state = { name = defaultback10 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback10'))]" duration = 2.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback10' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_10')]" }
+				state = { name = defaultback11 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback11'))]" duration = 2.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback11' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_11')]" }
+				state = { name = defaultback12 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback12'))]" duration = 2.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback12' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_12')]" }
+				state = { name = defaultback13 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback13'))]" duration = 2.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback13' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_13')]" }
+				state = { name = defaultback14 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback14'))]" duration = 2.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback14' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_14')]" }
+			}
+			#### END Terra Incognita
+			icon = {
+				position = { 55 36 }
+				texture = "gfx/interface/base_parts/brown_underline_x60bd.dds"
+				size = { 180 6 }
+				parentanchor = vcenter
+			}
+		}
+		
+		menu_footer = {
+			size = { 100% 40 }
+			parentanchor = bottom
+		}
+		
+		icon = {
+			texture = "gfx/interface/ornamental/menu_bot_red_leaves.dds"
+			parentanchor = bottom|hcenter
+			position = { 0 53 }
+			size = { 498 160 }
+		}
+	}
 }
 
 save_menu = {
@@ -470,8 +706,43 @@ load_menu = {
 	}
 
 	blockoverride "on_load" {
-		onclick = "[LoadIngameWindow.OnLoad]"
+		onclick = "[GetVariableSystem.Set('ti_defaultback0','true')]"
+		#onclick = "[LoadIngameWindow.OnLoad]"
 	}
+	
+	#### Terra incognita
+	container = {
+		name = "ti_auxcontainer"
+		visible = "[GetVariableSystem.Exists('ti_defaultback0')]"
+		state = { name = _show duration = 3.0 on_finish = "[LoadIngameWindow.OnLoad]" on_finish = "[GetVariableSystem.Clear( 'ti_defaultback0' )]" }
+		textbox = {
+			position = { 410 694 }
+			name = "player_notice"
+			text = "LOAD_GFX"
+			using = MarbleButtonFont
+			using = Black_FontColor
+			fontsize = 18
+			align = center
+		}
+	}
+	container = {
+		name = "ti_maincontainer"
+		state = { name = defaultback1 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback1'))]" duration = 0.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback1' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_1')]" }
+		state = { name = defaultback2 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback2'))]" duration = 0.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback2' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_2')]" }
+		state = { name = defaultback3 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback3'))]" duration = 0.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback3' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_3')]" }
+		state = { name = defaultback4 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback4'))]" duration = 0.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback4' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_4')]" }
+		state = { name = defaultback5 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback5'))]" duration = 1.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback5' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_5')]" }
+		state = { name = defaultback6 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback6'))]" duration = 1.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback6' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_6')]" }
+		state = { name = defaultback7 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback7'))]" duration = 1.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback7' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_7')]" }
+		state = { name = defaultback8 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback8'))]" duration = 1.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback8' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_8')]" }
+		state = { name = defaultback9 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback9'))]" duration = 1.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback9' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_9')]" }
+		state = { name = defaultback10 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback10'))]" duration = 2.0 on_start = "[GetVariableSystem.Clear( 'ti_defaultback10' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_10')]" }
+		state = { name = defaultback11 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback11'))]" duration = 2.2 on_start = "[GetVariableSystem.Clear( 'ti_defaultback11' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_11')]" }
+		state = { name = defaultback12 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback12'))]" duration = 2.4 on_start = "[GetVariableSystem.Clear( 'ti_defaultback12' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_12')]" }
+		state = { name = defaultback13 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback13'))]" duration = 2.6 on_start = "[GetVariableSystem.Clear( 'ti_defaultback13' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_13')]" }
+		state = { name = defaultback14 trigger_when = "[And(GetVariableSystem.Exists('ti_defaultback0'),GetVariableSystem.Exists('ti_defaultback14'))]" duration = 2.8 on_start = "[GetVariableSystem.Clear( 'ti_defaultback14' )]" on_finish = "[ExecuteConsoleCommand('shader_debug ti_region_14')]" }
+	}
+	#### END Terra incognita
 
 	widget = {
 		position = { -8 8 }

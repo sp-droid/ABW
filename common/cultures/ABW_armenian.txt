@@ -1,6 +1,5 @@
 ﻿armenian_group = {
-
-	color = hsv { 0.15  1  0.8 }
+	color = rgb { 204 183 0 }
 
 	culture = {
 		armenian = {
