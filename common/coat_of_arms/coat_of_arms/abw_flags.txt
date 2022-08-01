@@ -340,7 +340,7 @@ GAV = {
 KIE = {
 	pattern = "pattern_solid.tga"
 	color1= rgb { 18 110 135 }
-	color2= rgb { 0 0 0 }
+	color2= rgb { 180 178 42 }
 	textured_emblem = {
 		texture = "te_ui21.dds"
 	}
@@ -819,32 +819,32 @@ NOV = {
 }
 VLA = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 247 202 0 }
+	color2= rgb { 247 22 16 }
 	textured_emblem = {
 		texture = "te_VLA.dds"
 	}
 }
 RYA = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 189 69 16 }
+	color2= rgb { 255 255 255 }
 	textured_emblem = {
 		texture = "te_RYA.dds"
 	}
 }
 MUR = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 222 32 25 }
+	color2= rgb { 0 121 197 }
 	textured_emblem = {
 		texture = "te_MUR.dds"
 	}
 }
 OKA = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 181 142 49 }
+	color2= rgb { 16 1 0 }
 	textured_emblem = {
 		texture = "te_OKA.dds"
 	}
@@ -852,33 +852,49 @@ OKA = {
 CHR = {
 	pattern = "pattern_solid.tga"
 	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color2= rgb { 254 212 0 }
 	textured_emblem = {
 		texture = "te_CHR.dds"
 	}
 }
 PLT = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 16 113 155 }
+	color2= rgb { 230 190 8 }
 	textured_emblem = {
 		texture = "te_PLT.dds"
 	}
 }
 SMO = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 216 174 19 }
+	color2= rgb { 255 255 255 }
 	textured_emblem = {
 		texture = "te_SMO.dds"
 	}
 }
 PEY = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 255 255 255 }
-	color2= rgb { 58 81 0 }
+	color1= rgb { 222 20 49 }
+	color2= rgb { 239 221 12 }
 	textured_emblem = {
 		texture = "te_PEY.dds"
+	}
+}
+PEY = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 222 20 49 }
+	color2= rgb { 239 221 12 }
+	textured_emblem = {
+		texture = "te_PEY.dds"
+	}
+}
+VBU = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 94 73 95 }
+	color2= rgb { 239 19 32 }
+	textured_emblem = {
+		texture = "te_VBU.dds"
 	}
 }
 TEU = {
@@ -1198,5 +1214,101 @@ ULM = {
 	color2= rgb { 255 255 255 }
 	textured_emblem = {
 		texture = "te_ULM.dds"
+	}
+}
+GHU = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 0 0 }
+	color2= rgb { 255 255 255 }
+	textured_emblem = {
+		texture = "te_GHU.dds"
+	}
+}
+YAD = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 202 16 }
+	color2= rgb { 239 45 49 }
+	textured_emblem = {
+		texture = "te_YAD.dds"
+	}
+}
+CLS = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 253 223 94 }
+	color2= rgb { 140 102 26 }
+	textured_emblem = {
+		texture = "te_CLS.dds"
+	}
+}
+SEA = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 101 0 }
+	color2= rgb { 12 2 2 }
+	textured_emblem = {
+		texture = "te_SEA.dds"
+	}
+}
+HOY = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 156 255 255 }
+	color2= rgb { 221 151 157 }
+	textured_emblem = {
+		texture = "te_HOY.dds"
+	}
+}
+SND = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 173 16 16 }
+	color2= rgb { 255 255 255 }
+	textured_emblem = {
+		texture = "te_SND.dds"
+	}
+}
+EGD = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 239 0 }
+	color2= rgb { 0 61 132 }
+	textured_emblem = {
+		texture = "te_EGD.dds"
+	}
+}
+KLC = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 206 33 }
+	color2= rgb { 164 89 0 }
+	textured_emblem = {
+		texture = "te_KLC.dds"
+	}
+}
+CDS = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 255 255 255 }
+	color2= rgb { 58 81 0 }
+	textured_emblem = {
+		texture = "te_CDS.dds"
+	}
+}
+PDD = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 26 26 28 }
+	color2= rgb { 89 85 89 }
+	textured_emblem = {
+		texture = "te_PDD.dds"
+	}
+}
+KDD = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 0 134 0 }
+	color2= rgb { 255 0 0 }
+	textured_emblem = {
+		texture = "te_KDD.dds"
+	}
+}
+AHK = {
+	pattern = "pattern_solid.tga"
+	color1= rgb { 145 29 68 }
+	color2= rgb { 116 175 225 }
+	textured_emblem = {
+		texture = "te_AHK.dds"
 	}
 }
