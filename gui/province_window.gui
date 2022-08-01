@@ -22,12 +22,15 @@ window = {
 	state = {
 		name = _show
 		#on_start = "[GetVariableSystem.Set( 'city_change_window', 'dont_show_city_change' )]"
+		on_start = "[GetVariableSystem.Set('abw_VPL','true')]"
 		start_sound = {
 			soundeffect = "event:/SFX/UI/Generic/2.0/sfx_ui_window_tab_close"
 		}
 	}
 	state = { 
 		name = _hide
+		on_start = "[GetVariableSystem.Clear( 'abw_VPL' )]"
+		on_start = "[GetVariableSystem.Clear( 'abw_VPL_main' )]"
 		start_sound = {
 			soundeffect = "event:/SFX/UI/Generic/2.0/sfx_ui_window_tab_close"
 		}
@@ -58,6 +61,7 @@ window = {
 			size = { 100% 100% }
 			margin = { 8 14 }
 			margin_top = 42
+			
 			scrollarea = {
 				size = { 100% 100% }
 				scrollbarpolicy_horizontal = always_off
@@ -2932,60 +2936,6 @@ window = {
 										}
 									}
 								}
-								
-								container = {
-									position = { 26 114 }
-									textbox = {
-										position = { 0 65 }
-										using = BaseFontM
-										using = Black_FontColor
-										text = "CULTURE_PROVPIE"
-										fontsize = 14
-									}
-									icon_pie = {
-										position = { -4 0 }
-										size = { 56 56 }
-										datamodel = "[ProvinceWindow.GetPopCultures]"
-										blockoverride "Icon" { using = icon_culture }
-										blockoverride "SliceTooltip" { tooltip = "[PopCultureItem.GetTooltip]" }
-										blockoverride "SliceValue" { value = "[PopCultureItem.GetSize]" }
-										blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
-									}
-									textbox = {
-										position = { 96 65 }
-										using = BaseFontM
-										using = Black_FontColor
-										text = "RELIGION_PROVPIE"
-										fontsize = 14
-									}
-									icon_pie = {
-										position = { 92 0 }
-										size = { 56 56 }
-										datamodel = "[ProvinceWindow.GetPopReligions]"
-										blockoverride "Icon" { using = icon_religious }
-										blockoverride "SliceTooltip" { tooltip = "[PopReligionItem.GetTooltip]" }
-										blockoverride "SliceValue" { value = "[PopReligionItem.GetSize]" }
-										blockoverride "SliceColor" { color = "[PopReligionItem.GetColor]" }
-									}
-									textbox = {
-										position = { 202 65 }
-										using = BaseFontM
-										using = Black_FontColor
-										text = "POP_PROVPIE"
-										fontsize = 14
-									}
-									icon_pie = {
-										position = { 190 0 }
-										size = { 56 56 }
-										datamodel = "[ProvinceWindow.GetPopTypes]"
-										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/pop_type.dds" }
-										blockoverride "SliceTooltip" { tooltip = "[PopTypeItem.GetTooltip]" }
-										blockoverride "SliceValue" { value = "[PopTypeItem.GetSize]" }
-										blockoverride "SliceColor" { color = "[PopTypeItem.GetColor]" }
-									}
-								}
-								
-							#HEREABW
 							}
 						}
 					}
@@ -3410,7 +3360,12 @@ window = {
 							}
 							text_button_square_highlighted = {
 								size = { 200 0 }
-								blockoverride "On_click" { onclick = "[ProvinceWindow.ShowPopDetails('slaves')]" }
+								#blockoverride "On_click" { onclick = "[ProvinceWindow.ShowPopDetails('slaves')]" }
+								#blockoverride "On_click" { onclick = "[GetVariableSystem.Clear( 'abw_viewpopslist' )]" }
+								blockoverride "On_click" { onclick = "[GetVariableSystem.Set('abw_VPL_main','true')]" }
+								visible = "[Not(GetVariableSystem.Exists('abw_VPL_main'))]"
+								
+								
 								blockoverride "Center_text" 
 								{ 
 									text = "POP_SCREEN" 

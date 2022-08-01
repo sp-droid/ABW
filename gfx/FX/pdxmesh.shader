@@ -314,7 +314,7 @@ PixelShader =
 					CubemapSample.b *= 0.89;
 				#endif
 				#ifdef nightLight
-					CubemapSample *= 0.015;
+					CubemapSample *= 0.03;
 				#endif
 
 				return CubemapSample;

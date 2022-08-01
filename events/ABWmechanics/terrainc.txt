@@ -65,40 +65,26 @@ terrainc.3 = {
 	}
 }
 
-#### Config event to remove all terra incognita
+#### Config event to stop the terra incognita from triggering after disabling it
 terrainc.4 = {
     type = country_event
 	hidden = yes
 
 	immediate = {
-		if = { limit = { NOT = { has_variable = ti1_gameflag } } 
-			if = { limit = { has_variable = ti1_flag } remove_variable = ti1_flag } set_variable = ti1_gameflag trigger_event = { id = "terrainc.701" days = 1 } }
-		if = { limit = { NOT = { has_variable = ti2_gameflag } }
-			if = { limit = { has_variable = ti2_flag } remove_variable = ti2_flag } set_variable = ti2_gameflag trigger_event = { id = "terrainc.702" days = 2 } }
-		if = { limit = { NOT = { has_variable = ti3_gameflag } }
-			if = { limit = { has_variable = ti3_flag } remove_variable = ti3_flag } set_variable = ti3_gameflag trigger_event = { id = "terrainc.703" days = 3 } }
-		if = { limit = { NOT = { has_variable = ti4_gameflag } }
-			if = { limit = { has_variable = ti4_flag } remove_variable = ti4_flag } set_variable = ti4_gameflag trigger_event = { id = "terrainc.704" days = 4 } }
-		if = { limit = { NOT = { has_variable = ti5_gameflag } }
-			if = { limit = { has_variable = ti5_flag } remove_variable = ti5_flag } set_variable = ti5_gameflag trigger_event = { id = "terrainc.705" days = 5 } }
-		if = { limit = { NOT = { has_variable = ti6_gameflag } }
-			if = { limit = { has_variable = ti6_flag } remove_variable = ti6_flag } set_variable = ti6_gameflag trigger_event = { id = "terrainc.706" days = 6 } }
-		if = { limit = { NOT = { has_variable = ti7_gameflag } }
-			if = { limit = { has_variable = ti7_flag } remove_variable = ti7_flag } set_variable = ti7_gameflag trigger_event = { id = "terrainc.707" days = 7 } }
-		if = { limit = { NOT = { has_variable = ti8_gameflag } }
-			if = { limit = { has_variable = ti8_flag } remove_variable = ti8_flag } set_variable = ti8_gameflag trigger_event = { id = "terrainc.708" days = 8 } }
-		if = { limit = { NOT = { has_variable = ti9_gameflag } }
-			if = { limit = { has_variable = ti9_flag } remove_variable = ti9_flag } set_variable = ti9_gameflag trigger_event = { id = "terrainc.709" days = 9 } }
-		if = { limit = { NOT = { has_variable = ti10_gameflag } }
-			if = { limit = { has_variable = ti10_flag } remove_variable = ti10_flag } set_variable = ti10_gameflag trigger_event = { id = "terrainc.710" days = 10 } }
-		if = { limit = { NOT = { has_variable = ti11_gameflag } }
-			if = { limit = { has_variable = ti11_flag } remove_variable = ti11_flag } set_variable = ti11_gameflag trigger_event = { id = "terrainc.711" days = 11 } }
-		if = { limit = { NOT = { has_variable = ti12_gameflag } }
-			if = { limit = { has_variable = ti12_flag } remove_variable = ti12_flag } set_variable = ti12_gameflag trigger_event = { id = "terrainc.712" days = 12 } }
-		if = { limit = { NOT = { has_variable = ti13_gameflag } }
-			if = { limit = { has_variable = ti13_flag } remove_variable = ti13_flag } set_variable = ti13_gameflag trigger_event = { id = "terrainc.713" days = 13 } }
-		if = { limit = { NOT = { has_variable = ti14_gameflag } }
-			if = { limit = { has_variable = ti14_flag } remove_variable = ti14_flag } set_variable = ti14_gameflag trigger_event = { id = "terrainc.714" days = 14 } }
+		if = { limit = { NOT = { has_variable = ti1_gameflag } } set_variable = ti1_gameflag }
+		if = { limit = { NOT = { has_variable = ti2_gameflag } } set_variable = ti2_gameflag }
+		if = { limit = { NOT = { has_variable = ti3_gameflag } } set_variable = ti3_gameflag }
+		if = { limit = { NOT = { has_variable = ti4_gameflag } } set_variable = ti4_gameflag }
+		if = { limit = { NOT = { has_variable = ti5_gameflag } } set_variable = ti5_gameflag }
+		if = { limit = { NOT = { has_variable = ti6_gameflag } } set_variable = ti6_gameflag }
+		if = { limit = { NOT = { has_variable = ti7_gameflag } } set_variable = ti7_gameflag }
+		if = { limit = { NOT = { has_variable = ti8_gameflag } } set_variable = ti8_gameflag }
+		if = { limit = { NOT = { has_variable = ti9_gameflag } } set_variable = ti9_gameflag }
+		if = { limit = { NOT = { has_variable = ti10_gameflag } } set_variable = ti10_gameflag }
+		if = { limit = { NOT = { has_variable = ti11_gameflag } } set_variable = ti11_gameflag }
+		if = { limit = { NOT = { has_variable = ti12_gameflag } } set_variable = ti12_gameflag }
+		if = { limit = { NOT = { has_variable = ti13_gameflag } } set_variable = ti13_gameflag }
+		if = { limit = { NOT = { has_variable = ti14_gameflag } } set_variable = ti14_gameflag }
 	}
 }
 

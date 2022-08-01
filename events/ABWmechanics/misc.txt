@@ -55,7 +55,7 @@ misc.1 = {
 	}
 }
 
-#### LEGENDARY CRASH BUGFIX
+#### LEGENDARY-CRASH BUGFIX
 misc.2 = {
 	type = province_event
 	hidden = yes
