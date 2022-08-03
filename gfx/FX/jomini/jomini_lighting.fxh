@@ -15,7 +15,6 @@ PixelShader =
 		MipFilter = "Linear"
 		SampleModeU = "Border"
 		SampleModeV = "Border"
-		Border_Color = { 1 1 1 1 }
         File = "gfx/map/environment/nightLight.dds"
     }
 	Code
@@ -46,6 +45,16 @@ PixelShader =
 				float2 tempUV = WorldSpacePos.xz / MapSize;
 				tempUV.y = 1 - tempUV.y;
 				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV )*3;
+			#endif
+			#ifdef cycleLight
+				float2 tempUV = WorldSpacePos.xz / MapSize;
+				tempUV.y = 1 - tempUV.y;
+				float tempp = PdxTex2D( lightMask, tempUV );
+				
+				float freq = 0.25f;
+				float4 weights = float4(sqrt(max(0,sin(freq*GlobalTime))), pow(max(0,sin(freq*GlobalTime-1.57)),5.0), sqrt(max(0,sin(freq*GlobalTime-3.14))), pow(max(0,sin(freq*GlobalTime-4.71)),5.0));
+				weights /= length(weights);
+				LightingProps._LightIntensity *= weights.x+2*tempp*weights.y+3*tempp*weights.z+tempp*weights.w;
 			#endif
 			
 			return LightingProps;
@@ -81,6 +90,14 @@ PixelShader =
 			#endif
 			#ifdef nightLight
 				tempp *= 0.1;
+			#endif
+			#ifdef cycleLight
+				float freq = 0.25f;
+				float4 weights = float4(sqrt(max(0,sin(freq*GlobalTime))), pow(max(0,sin(freq*GlobalTime-1.57)),5.0), sqrt(max(0,sin(freq*GlobalTime-3.14))), pow(max(0,sin(freq*GlobalTime-4.71)),5.0));
+				weights /= length(weights);
+				tempp.r = min(1, tempp.r*(weights.x+0.7*weights.y+0.1*weights.z+weights.w));
+				tempp.g = min(1, tempp.g*(weights.x+0.4*weights.y+0.1*weights.z+0.93*weights.w));
+				tempp.b = min(1, tempp.b*(weights.x+0.1*weights.y+0.1*weights.z+0.89*weights.w));
 			#endif
 			
 			return tempp;

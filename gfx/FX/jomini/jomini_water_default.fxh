@@ -470,6 +470,12 @@ PixelShader =
 			#ifdef nightLight
 				FinalColor *= 0.1;
 			#endif
+			#ifdef cycleLight
+				float freq = 0.25f;
+				float4 weights = float4(sqrt(max(0,sin(freq*GlobalTime))), pow(max(0,sin(freq*GlobalTime-1.57)),5.0), sqrt(max(0,sin(freq*GlobalTime-3.14))), pow(max(0,sin(freq*GlobalTime-4.71)),5.0));
+				weights /= length(weights);
+				FinalColor *= weights.x+0.4*weights.y+0.1*weights.z+0.7*weights.w;
+			#endif
 			
 			return float4( FinalColor, WaterFade );
 		}

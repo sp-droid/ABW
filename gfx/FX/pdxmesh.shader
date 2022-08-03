@@ -316,6 +316,14 @@ PixelShader =
 				#ifdef nightLight
 					CubemapSample *= 0.03;
 				#endif
+				#ifdef cycleLight
+					float freq = 0.25f;
+					float4 weights = float4(sqrt(max(0,sin(freq*GlobalTime))), pow(max(0,sin(freq*GlobalTime-1.57)),5.0), sqrt(max(0,sin(freq*GlobalTime-3.14))), pow(max(0,sin(freq*GlobalTime-4.71)),5.0));
+					weights /= length(weights);
+					CubemapSample.r = min(1, CubemapSample.r*(weights.x+5*weights.y+0.03*weights.z+2*weights.w));
+					CubemapSample.g = min(1, CubemapSample.g*(weights.x+0.7*weights.y+0.03*weights.z+0.93*weights.w));
+					CubemapSample.b = min(1, CubemapSample.b*(weights.x+0.31*weights.y+0.03*weights.z+0.89*weights.w));
+				#endif
 
 				return CubemapSample;
 			}

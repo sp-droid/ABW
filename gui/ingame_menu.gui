@@ -508,10 +508,11 @@ window = {
 				using = Black_FontColor
 				fontsize = 18
 			}
-			text_button_square_hollow = {
+			text_button_square_hollow = {  #### Morning lightmode
 				position = { 2 20 }
 				size = { 93 26 }
-				name = "dawn_button"
+				visible = "[GetVariableSystem.HasValue('lightMode', 'morning')]"
+				name = "dawn_buttonpressed"
 				blockoverride "Button_text"
 				{
 					text = "ABWMENU_MORNING"
@@ -522,14 +523,37 @@ window = {
 				{
 					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
 					onclick = "[ExecuteConsoleCommand('shader_debug morningLight')]"
+					onclick = "[GetVariableSystem.Clear('lightMode')]"
 					tooltip = "ABWMENU_LIGHTMODES_TT"
 				}
 				blockoverride "Center_text" { visible = yes }
 			}
 			text_button_square_hollow = {
+				position = { 2 20 }
+				size = { 93 26 } 
+				enabled = "[Not(GetVariableSystem.Exists('lightMode'))]"
+				visible = "[Not(GetVariableSystem.HasValue('lightMode', 'morning'))]"
+				name = "dawn_button"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_MORNING"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[GetVariableSystem.Set('lightMode','morning')]"
+					onclick = "[ExecuteConsoleCommand('shader_debug morningLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = { #### Evening lightmode
 				position = { 99 20 }
 				size = { 93 26 }
-				name = "dusk_button"
+				name = "dusk_buttonpressed"
+				visible = "[GetVariableSystem.HasValue('lightMode', 'evening')]"
 				blockoverride "Button_text"
 				{
 					text = "ABWMENU_EVENING"
@@ -540,14 +564,37 @@ window = {
 				{
 					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
 					onclick = "[ExecuteConsoleCommand('shader_debug eveningLight')]"
+					onclick = "[GetVariableSystem.Clear('lightMode')]"
 					tooltip = "ABWMENU_LIGHTMODES_TT"
 				}
 				blockoverride "Center_text" { visible = yes }
 			}
 			text_button_square_hollow = {
+				position = { 99 20 }
+				size = { 93 26 }
+				name = "dusk_button"
+				enabled = "[Not(GetVariableSystem.Exists('lightMode'))]"
+				visible = "[Not(GetVariableSystem.HasValue('lightMode', 'evening'))]"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_EVENING"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[GetVariableSystem.Set('lightMode','evening')]"
+					onclick = "[ExecuteConsoleCommand('shader_debug eveningLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = { #### Night lightmode
 				position = { 195 20 }
 				size = { 93 26 }
-				name = "night_button"
+				name = "night_buttonpressed"
+				visible = "[GetVariableSystem.HasValue('lightMode', 'night')]"
 				blockoverride "Button_text"
 				{
 					text = "ABWMENU_NIGHT"
@@ -558,6 +605,69 @@ window = {
 				{
 					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
 					onclick = "[ExecuteConsoleCommand('shader_debug nightLight')]"
+					onclick = "[GetVariableSystem.Clear('lightMode')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = {
+				position = { 195 20 }
+				size = { 93 26 }
+				name = "night_button"
+				enabled = "[Not(GetVariableSystem.Exists('lightMode'))]"
+				visible = "[Not(GetVariableSystem.HasValue('lightMode', 'night'))]"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_NIGHT"
+					position = { -5 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[GetVariableSystem.Set('lightMode','night')]"
+					onclick = "[ExecuteConsoleCommand('shader_debug nightLight')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = { #### Cycle lightmode
+				position = { 210 -11 }
+				size = { 63 26 }
+				name = "cycle_buttonpressed"
+				visible = "[GetVariableSystem.HasValue('lightMode', 'cycle')]"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_CYCLE"
+					position = { -23 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[ExecuteConsoleCommand('shader_debug cycleLight')]"
+					onclick = "[GetVariableSystem.Clear('lightMode')]"
+					tooltip = "ABWMENU_LIGHTMODES_TT"
+				}
+				blockoverride "Center_text" { visible = yes }
+			}
+			text_button_square_hollow = {
+				position = { 210 -11 }
+				size = { 63 26 }
+				name = "cycle_button"
+				enabled = "[Not(GetVariableSystem.Exists('lightMode'))]"
+				visible = "[Not(GetVariableSystem.HasValue('lightMode', 'cycle'))]"
+				blockoverride "Button_text"
+				{
+					text = "ABWMENU_CYCLE"
+					position = { -23 -2 }
+					using = Teal_FontColor
+				}
+				blockoverride "On_click"
+				{
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+					onclick = "[GetVariableSystem.Set('lightMode','cycle')]"
+					onclick = "[ExecuteConsoleCommand('shader_debug cycleLight')]"
 					tooltip = "ABWMENU_LIGHTMODES_TT"
 				}
 				blockoverride "Center_text" { visible = yes }
@@ -600,7 +710,7 @@ window = {
 				position = { 2 20 }
 				enabled = "[Not(GetVariableSystem.Exists('ti_defaultback0'))]"
 				size = { 93 26 }
-				name = "dawn_button"
+				name = "removeti_button"
 				blockoverride "Button_text"
 				{
 					text = "ABWMENU_TI"
@@ -610,7 +720,6 @@ window = {
 				blockoverride "On_click"
 				{
 					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
-					#onclick = "[ExecuteConsoleCommand('event terrainc.4')]"
 					onclick = "[GetVariableSystem.Set('ti_defaultback0','true')]"
 					tooltip = "ABWMENU_TI_TT"
 				}
