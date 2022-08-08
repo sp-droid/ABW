@@ -15,6 +15,7 @@ jain_rel = { # Jainism
 	}
 	religion_category = sages
 	sacrifice_icon = icon_jain
+	can_deify_ruler = no
 }
 theravada_rel = { # Theravada Buddhism
 	color = rgb { 217 124 84 }
@@ -23,6 +24,7 @@ theravada_rel = { # Theravada Buddhism
 	}
 	religion_category = sages
 	sacrifice_icon = icon_theravada
+	can_deify_ruler = no
 }
 mahayana_rel = { # Mahayana Buddhism
 	color = rgb { 212 84 217 }
@@ -31,6 +33,7 @@ mahayana_rel = { # Mahayana Buddhism
 	}
 	religion_category = sages
 	sacrifice_icon = icon_mahayana
+	can_deify_ruler = no
 }
 vajrayana_rel = { # Vajrayana Buddhism
 	color = rgb { 217 84 120 }
@@ -39,6 +42,7 @@ vajrayana_rel = { # Vajrayana Buddhism
 	}
 	religion_category = sages
 	sacrifice_icon = icon_vajrayana
+	can_deify_ruler = no
 }
 judaism_rel = { # Judaism
 	color = rgb { 38 113 255 }
@@ -47,6 +51,7 @@ judaism_rel = { # Judaism
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_judaism
+	can_deify_ruler = no
 }
 catholic_rel = { # Roman Catholicism
 	color = rgb { 206 226 106 }
@@ -55,6 +60,7 @@ catholic_rel = { # Roman Catholicism
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_catholic
+	can_deify_ruler = no
 }
 orthodox_rel = { # Eastern Orthodoxy
 	color = rgb { 184 131 0 }
@@ -63,6 +69,7 @@ orthodox_rel = { # Eastern Orthodoxy
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_orthodox
+	can_deify_ruler = no
 }
 oriental_rel = { # Oriental Orthodoxy
 	color = rgb { 117 9 0 }
@@ -71,6 +78,7 @@ oriental_rel = { # Oriental Orthodoxy
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_oriental
+	can_deify_ruler = no
 }
 nestorian_rel = { # Nestorians
 	color = rgb { 150 141 65 }
@@ -79,6 +87,7 @@ nestorian_rel = { # Nestorians
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_nestorian
+	can_deify_ruler = no
 }
 sunni_rel = { # Sunni Islam
 	color = rgb { 0 102 0 }
@@ -87,6 +96,7 @@ sunni_rel = { # Sunni Islam
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_sunni
+	can_deify_ruler = no
 }
 shia_rel = { # Sunni Islam
 	color = rgb { 0 153 0 }
@@ -95,6 +105,7 @@ shia_rel = { # Sunni Islam
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_shia
+	can_deify_ruler = no
 }
 ibadi_rel = { # Ibadi Islam
 	color = rgb { 0 130 84 }
@@ -103,6 +114,7 @@ ibadi_rel = { # Ibadi Islam
 	}
 	religion_category = prophets
 	sacrifice_icon = icon_ibadi
+	can_deify_ruler = no
 }
 tengri_rel = { # Tengriism / Turko-Mongolian
 	color = rgb { 40 55 255 }
@@ -119,6 +131,7 @@ zoroastrianism_rel = { # Zoroastrianism
 	}
 	religion_category = firetemples
 	sacrifice_icon = icon_zoroastrianism
+	can_deify_ruler = no
 }
 kamuy_rel = { # Kamuyism / Ainu
 	color = rgb { 235 190 186 }
@@ -215,6 +228,7 @@ kemetic_rel = { # Ancient Egyptian
 	}
 	religion_category = firetemples
 	sacrifice_icon = icon_kemetic
+	can_deify_ruler = no
 }
 ancentralism_rel = { # Ancestralism
 	color = rgb { 89 51 18 }
@@ -231,6 +245,7 @@ shamanist_rel = { # Shamanism
 	}
 	religion_category = firetemples
 	sacrifice_icon = icon_shamanist
+	can_deify_ruler = no
 }
 animist_rel = { # Animism
 	color = rgb { 153 102 51 }
@@ -239,4 +254,5 @@ animist_rel = { # Animism
 	}
 	religion_category = firetemples
 	sacrifice_icon = icon_animist
+	can_deify_ruler = no
 }

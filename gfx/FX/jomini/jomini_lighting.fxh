@@ -47,6 +47,8 @@ PixelShader =
 				LightingProps._LightIntensity *= PdxTex2D( lightMask, tempUV )*3;
 			#endif
 			#ifdef cycleLight
+				LightingProps._ToLightDir.z *= 5*sin(0.25*GlobalTime);
+			
 				float2 tempUV = WorldSpacePos.xz / MapSize;
 				tempUV.y = 1 - tempUV.y;
 				float tempp = PdxTex2D( lightMask, tempUV );
@@ -54,7 +56,7 @@ PixelShader =
 				float freq = 0.25f;
 				float4 weights = float4(sqrt(max(0,sin(freq*GlobalTime))), pow(max(0,sin(freq*GlobalTime-1.57)),5.0), sqrt(max(0,sin(freq*GlobalTime-3.14))), pow(max(0,sin(freq*GlobalTime-4.71)),5.0));
 				weights /= length(weights);
-				LightingProps._LightIntensity *= weights.x+2*tempp*weights.y+3*tempp*weights.z+tempp*weights.w;
+				LightingProps._LightIntensity *= 0.25*weights.x+1.0*tempp*weights.y+1.5*tempp*weights.z+0.7*tempp*weights.w;
 			#endif
 			
 			return LightingProps;
