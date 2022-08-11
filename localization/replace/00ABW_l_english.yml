@@ -85,7 +85,8 @@
  ABWtext_area:0 "[ProvinceWindow.GetProvince.MakeScope.GetVariable('dat_area').GetValue|0] sqm."
  ABWtooltip_area:0 "#T Province extension#!\nUnits: Square miles"
  ABWtext_elev:0 "[ProvinceWindow.GetProvince.MakeScope.GetVariable('dat_elev').GetValue|0] ft."
- ABWtooltip_elev:0 "#T Province elevation#!\nUnits: Feet above sea level"
+ #ABWtooltip_elev:0 "#T Province elevation#!\nUnits: Feet above sea level"
+ ABWtooltip_elev:0 "#T TEMP#!\nLocal Traveltime: [ProvinceWindow.GetProvince.MakeScope.GetVariable('traveltime').GetValue|2]\nAdmin time: [ProvinceWindow.GetProvince.MakeScope.GetVariable('admintime').GetValue|2]"
  
 #### RGO SUBTAB
  RGO_SUBTAB:0 "Resource Gathering"

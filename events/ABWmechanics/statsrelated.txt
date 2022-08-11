@@ -26,7 +26,6 @@ statsrelated.1 = { #Initial stats for future events
 		ordered_ownable_province = {
 			limit = { is_uninhabitable = no }
 			order_by = var:abw_pop
-			max = 1
 			set_variable = { name = statshistorycity value = var:abw_pop.divk_sv }
 		}
 	}
