@@ -21,7 +21,14 @@ road_network = {
 	
 }
 
+trade = { #If any are changed also change trade agreements.
+	
+}
+
 provinces = {
+	16 = {
+		fortress_building = 1
+	}
 	18 = {
 		fortress_building = 1
 	}
@@ -52,7 +59,16 @@ provinces = {
 	151 = {
 		fortress_building = 1
 	}
+	164 = {
+		fortress_building = 1
+	}
+	185 = {
+		fortress_building = 1
+	}
 	214 = {
+		fortress_building = 1
+	}
+	220 = {
 		fortress_building = 1
 	}
 	235 = {
@@ -67,10 +83,19 @@ provinces = {
 	321 = {
 		fortress_building = 1
 	}
+	345 = {
+		fortress_building = 1
+	}
 	368 = {
 		fortress_building = 1
 	}
 	375 = {
+		fortress_building = 1
+	}
+	382 = {
+		fortress_building = 1
+	}
+	390 = {
 		fortress_building = 1
 	}
 	403 = {
@@ -103,10 +128,19 @@ provinces = {
 	517 = {
 		fortress_building = 1
 	}
+	519 = {
+		fortress_building = 1
+	}
 	521 = {
 		fortress_building = 1
 	}
 	542 = {
+		fortress_building = 1
+	}
+	553 = {
+		fortress_building = 1
+	}
+	559 = {
 		fortress_building = 1
 	}
 	571 = {
@@ -139,10 +173,16 @@ provinces = {
 	717 = {
 		fortress_building = 1
 	}
+	718 = {
+		fortress_building = 1
+	}
 	724 = {
 		fortress_building = 1
 	}
 	727 = {
+		fortress_building = 1
+	}
+	788 = {
 		fortress_building = 1
 	}
 	797 = {
@@ -160,6 +200,15 @@ provinces = {
 	907 = {
 		fortress_building = 1
 	}
+	928 = {
+		fortress_building = 1
+	}
+	953 = {
+		fortress_building = 1
+	}
+	955 = {
+		fortress_building = 1
+	}
 	959 = {
 		fortress_building = 1
 	}
@@ -170,6 +219,9 @@ provinces = {
 		fortress_building = 1
 	}
 	992 = {
+		fortress_building = 1
+	}
+	1040 = {
 		fortress_building = 1
 	}
 	1047 = {
@@ -185,6 +237,9 @@ provinces = {
 		fortress_building = 1
 	}
 	1101 = {
+		fortress_building = 1
+	}
+	1144 = {
 		fortress_building = 1
 	}
 	1147 = {
@@ -265,7 +320,13 @@ provinces = {
 	1392 = {
 		fortress_building = 1
 	}
+	1401 = {
+		fortress_building = 1
+	}
 	1403 = {
+		fortress_building = 1
+	}
+	1405 = {
 		fortress_building = 1
 	}
 	1406 = {
@@ -335,6 +396,9 @@ provinces = {
 		fortress_building = 1
 	}
 	1558 = {
+		fortress_building = 1
+	}
+	1562 = {
 		fortress_building = 1
 	}
 	1566 = {
@@ -1121,7 +1185,6 @@ provinces = {
 		fortress_building = 1
 	}
 }
-
 country = {
 	countries = {
 		ALA = {
@@ -1968,7 +2031,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1163	#Kiev
-			own_control_core = 	{ 448 783 889 963 1018 1101 1163 1480 1675 1942 2198 2344 2401 2531 2595 2604 2705 2711 2722 2813 2915 2940 2996 3051 3108 3281 3491 3513 3973 4017 4153 4312 4396 4462 4499 4543 }
+			own_control_core = 	{ 448 783 889 963 1018 1101 1163 1675 1942 2198 2344 2401 2531 2595 2604 2705 2711 2722 2813 2915 2996 3051 3108 3281 3491 3513 3973 4017 4153 4312 4396 4462 4499 4543 }
 		}
 		NOV = {
 			#55,76,23
@@ -2508,7 +2571,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 3701	#Ryazan
-			own_control_core = 	{ 159 796 1207 1520 1568 1606 2230 2273 2421 2842 2993 3020 3178 3312 3456 3555 3603 3613 3701 3791 3833 3843 3969 4297 4335 4337 4428 4460 4579 4691 4710 4803 4857 }
+			own_control_core = 	{ 159 796 1520 1568 2230 2273 2421 2842 2993 3020 3178 3312 3456 3555 3603 3613 3701 3791 3833 3843 3969 4297 4335 4337 4428 4460 4579 4691 4710 4803 4857 }
 		}
 		CHR = {
 			#190,190,190
@@ -2517,7 +2580,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 1659	#Chernihiv
-			own_control_core = 	{ 28 50 386 965 1424 1452 1484 1543 1636 1659 1749 1793 2034 2100 2117 2247 2385 2575 2928 3109 3390 3397 3662 3697 3714 3881 3942 3953 3994 4042 4078 4278 4388 4519 4538 4551 4634 4688 4765 }
+			own_control_core = 	{ 28 50 386 965 1424 1452 1480 1484 1543 1636 1659 1749 1793 2034 2100 2117 2247 2385 2575 2928 2940 3109 3390 3397 3662 3697 3714 3881 3942 3953 3994 4042 4078 4278 4388 4519 4538 4551 4634 4688 4765 }
 		}
 		PLT = {
 			#16,113,155
@@ -2553,7 +2616,7 @@ country = {
 			religion = sunni_rel
 			historical_regnal_numbers = {}
 			capital = 1097	#Ghazni
-			own_control_core = 	{ 1097 }
+			own_control_core = 	{ 54 87 116 244 279 356 382 385 458 468 494 553 563 576 758 768 928 1042 1083 1097 1119 1143 1169 1303 1318 1405 1450 1464 1525 1957 }
 		}
 		YAD = {
 			#129,19,149
@@ -2562,7 +2625,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 383	#Dhulia
-			own_control_core = 	{ 383 }
+			own_control_core = 	{ 184 383 624 752 821 1562 }
 		}
 		CLS = {
 			#169,189,100
@@ -2571,7 +2634,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 303	#Bangalore
-			own_control_core = 	{ 303 }
+			own_control_core = 	{ 164 285 303 565 1040 }
 		}
 		SEA = {
 			#4,189,41
@@ -2580,7 +2643,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 601	#Kolkata not accurate
-			own_control_core = 	{ 601 }
+			own_control_core = 	{ 16 353 601 971 }
 		}
 		HOY = {
 			#129,199,159
@@ -2589,7 +2652,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 504	#Hubli not accurate
-			own_control_core = 	{ 504 }
+			own_control_core = 	{ 504 578 1768 }
 		}
 		SND = {
 			#135,104,85
@@ -2607,7 +2670,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 1320	#Jamshedpur not accurate
-			own_control_core = 	{ 1320 }
+			own_control_core = 	{ 481 1055 1320 }
 		}
 		KLC = {
 			#93,183,140
@@ -2616,7 +2679,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 606	#Gondia not accurate
-			own_control_core = 	{ 606 }
+			own_control_core = 	{ 67 185 338 390 606 699 925 1111 1401 }
 		}
 		CDS = {
 			#231,224,107
@@ -2625,16 +2688,16 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 102	#Udaipur not accurate
-			own_control_core = 	{ 102 }
+			own_control_core = 	{ 102 407 491 519 }
 		}
 		PDD = {
-			#192,5,24 
+			#192,5,24
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 396	#Indore not accurate
-			own_control_core = 	{ 396 }
+			own_control_core = 	{ 336 393 396 }
 		}
 		KDD = {
 			#158,164,225
@@ -2643,7 +2706,7 @@ country = {
 			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 655	#Warangal not accurate
-			own_control_core = 	{ 655 }
+			own_control_core = 	{ 526 655 }
 		}
 		AHK = {
 			#103,121,136
@@ -2679,7 +2742,7 @@ country = {
 			religion = oriental_rel
 			historical_regnal_numbers = {}
 			capital = 718	#Addis Ababa not accurate
-			own_control_core = 	{ 718 }
+			own_control_core = 	{ 718 1249 }
 		}
 		ALO = {
 			#135,144,180
@@ -2688,10 +2751,10 @@ country = {
 			religion = oriental_rel
 			historical_regnal_numbers = {}
 			capital = 140	#Asmara not accurate
-			own_control_core = 	{ 140 }
+			own_control_core = 	{ 42 140 790 1183 }
 		}
 		B1I = {
-			#56,120,191
+			#56,140,171
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
 			religion = orthodox_rel
@@ -2727,13 +2790,13 @@ country = {
 			own_control_core = 	{ 788 }
 		}
 		DWR = {
-			#120,137,98 
+			#120,137,98
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
 			religion = sunni_rel
 			historical_regnal_numbers = {}
-			capital = 313	#Wajir not accurate
-			own_control_core = 	{ 313 }
+			capital = 4489	#Wajir not accurate
+			own_control_core = 	{ 588 1421 1845 1900 1983 3157 3343 4448 4489 }
 		}
 		MDI = {
 			#212,175,55
@@ -2751,7 +2814,7 @@ country = {
 			religion = sunni_rel
 			historical_regnal_numbers = {}
 			capital = 953	#Mtwara
-			own_control_core = 	{ 953 }
+			own_control_core = 	{ 706 953 1251 }
 		}
 		INN = {
 			#90,178,23
@@ -2769,7 +2832,7 @@ country = {
 			religion = sunni_rel
 			historical_regnal_numbers = {}
 			capital = 460	#Maiduguri not accurate
-			own_control_core = 	{ 460 }
+			own_control_core = 	{ 186 345 460 548 }
 		}
 		GHA = {
 			#165,155,105
@@ -2778,7 +2841,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 623	#Segou not accurate
-			own_control_core = 	{ 623 }
+			own_control_core = 	{ 454 623 955 }
 		}
 		BE1 = {
 			#232,121,145
@@ -2787,7 +2850,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 946	#Benin
-			own_control_core = 	{ 946 }
+			own_control_core = 	{ 777 946 }
 		}
 		NRI = {
 			#11,84,69
@@ -2796,7 +2859,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 265	#Calabar
-			own_control_core = 	{ 265 }
+			own_control_core = 	{ 265 1373 }
 		}
 		OYO = {
 			#211,184,179
@@ -2805,7 +2868,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 99	#Sokode
-			own_control_core = 	{ 99 }
+			own_control_core = 	{ 99 171 }
 		}
 		IFE = {
 			#61,84,179
@@ -2814,7 +2877,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 757	#Lagos
-			own_control_core = 	{ 757 }
+			own_control_core = 	{ 43 757 }
 		}
 		KAN = {
 			#48,193,241
@@ -2823,7 +2886,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 157	#Kano
-			own_control_core = 	{ 157 }
+			own_control_core = 	{ 12 157 }
 		}
 		TKR = {
 			#65,105,165
@@ -2832,7 +2895,7 @@ country = {
 			religion = sunni_rel
 			historical_regnal_numbers = {}
 			capital = 2005	#Mylajutes
-			own_control_core = 	{ 2005 }
+			own_control_core = 	{ 515 2005 }
 		}
 		DAJ = {
 			#196,191,19
@@ -2840,11 +2903,11 @@ country = {
 			primary_culture = novgorodian
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
-			capital = 42	#Khartoum
-			own_control_core = 	{ 42 }
+			capital = 819	#Mali capital
+			own_control_core = 	{ 308 819 }
 		}
 		JNN = {
-			#48,193,241
+			#48,203,231
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
 			religion = orthodox_rel
@@ -2859,7 +2922,7 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 216	#Gao
-			own_control_core = 	{ 216 }
+			own_control_core = 	{ 216 1010 }
 		}
 		BON = {
 			#163,40,25
@@ -2868,11 +2931,16 @@ country = {
 			religion = orthodox_rel
 			historical_regnal_numbers = {}
 			capital = 220	#Bouake
-			own_control_core = 	{ 220 }
+			own_control_core = 	{ 220 488 791 }
+		}
+		VBU = {
+			#194,116,58
+			government = aristocratic_monarchy
+			primary_culture = bulghar
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 2533	#Bolghar
+			own_control_core = 	{ 1144 1207 1265 1407 1409 1606 2010 2075 2533 2658 3120 3321 3325 3434 3562 3637 3771 3820 3913 4778 }
 		}
 	}
-}
-
-trade = { #If any are changed also change trade agreements.
-	
 }

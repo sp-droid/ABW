@@ -1378,8 +1378,8 @@ SOA = {
 }
 DWR = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 0 153 0 }
-	color2= rgb { 65 137 221 }
+	color1= rgb { 222 57 49 }
+	color2= rgb { 41 53 140 }
 	textured_emblem = {
 		texture = "te_DWR.dds"
 	}
@@ -1474,8 +1474,8 @@ TKR = {
 }
 DAJ = {
 	pattern = "pattern_solid.tga"
-	color1= rgb { 0 132 0 }
-	color2= rgb { 0 0 0 }
+	color1= rgb { 215 7 58 }
+	color2= rgb { 255 203 0 }
 	textured_emblem = {
 		texture = "te_DAJ.dds"
 	}
