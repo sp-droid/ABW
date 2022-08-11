@@ -2550,7 +2550,7 @@ country = {
 			#40,130,150
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = sunni_rel
 			historical_regnal_numbers = {}
 			capital = 1097	#Ghazni
 			own_control_core = 	{ 1097 }
@@ -2559,7 +2559,7 @@ country = {
 			#129,19,149
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 383	#Dhulia
 			own_control_core = 	{ 383 }
@@ -2568,7 +2568,7 @@ country = {
 			#169,189,100
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 303	#Bangalore
 			own_control_core = 	{ 303 }
@@ -2577,7 +2577,7 @@ country = {
 			#4,189,41
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 601	#Kolkata not accurate
 			own_control_core = 	{ 601 }
@@ -2586,7 +2586,7 @@ country = {
 			#129,199,159
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 504	#Hubli not accurate
 			own_control_core = 	{ 504 }
@@ -2595,7 +2595,7 @@ country = {
 			#135,104,85
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 547	#Karachi not accurate
 			own_control_core = 	{ 547 }
@@ -2604,7 +2604,7 @@ country = {
 			#149,89,59
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 1320	#Jamshedpur not accurate
 			own_control_core = 	{ 1320 }
@@ -2613,7 +2613,7 @@ country = {
 			#93,183,140
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 606	#Gondia not accurate
 			own_control_core = 	{ 606 }
@@ -2622,7 +2622,7 @@ country = {
 			#231,224,107
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 102	#Udaipur not accurate
 			own_control_core = 	{ 102 }
@@ -2631,7 +2631,7 @@ country = {
 			#192,5,24 
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 396	#Indore not accurate
 			own_control_core = 	{ 396 }
@@ -2640,7 +2640,7 @@ country = {
 			#158,164,225
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 655	#Warangal not accurate
 			own_control_core = 	{ 655 }
@@ -2649,10 +2649,226 @@ country = {
 			#103,121,136
 			government = aristocratic_monarchy
 			primary_culture = novgorodian
-			religion = orthodox_rel
+			religion = hindu_rel
 			historical_regnal_numbers = {}
 			capital = 612	#Colombo not accurate
 			own_control_core = 	{ 612 }
+		}
+		MAK = {
+			#184,80,52
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = oriental_rel
+			historical_regnal_numbers = {}
+			capital = 679	#Atbara not accurate
+			own_control_core = 	{ 679 }
+		}
+		BEJ = {
+			#228,243,104
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 762	#Wabi not accurate
+			own_control_core = 	{ 762 }
+		}
+		ETH = {
+			#56,120,191
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = oriental_rel
+			historical_regnal_numbers = {}
+			capital = 718	#Addis Ababa not accurate
+			own_control_core = 	{ 718 }
+		}
+		ALO = {
+			#135,144,180
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = oriental_rel
+			historical_regnal_numbers = {}
+			capital = 140	#Asmara not accurate
+			own_control_core = 	{ 140 }
+		}
+		B1I = {
+			#56,120,191
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 1291	#Kurmuk not accurate
+			own_control_core = 	{ 1291 }
+		}
+		DAM = {
+			#243,106,0
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 657	#Gambela not accurate
+			own_control_core = 	{ 657 }
+		}
+		IFA = {
+			#120,137,198
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 827	#Nazret not accurate
+			own_control_core = 	{ 827 }
+		}
+		SOA = {
+			#1,200,200
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 788	#Jiwa not accurate
+			own_control_core = 	{ 788 }
+		}
+		DWR = {
+			#120,137,98 
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 313	#Wajir not accurate
+			own_control_core = 	{ 313 }
+		}
+		MDI = {
+			#212,175,55
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 1193	#Mogadishu
+			own_control_core = 	{ 1193 }
+		}
+		ZAN = {
+			#121,210,115
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 953	#Mtwara
+			own_control_core = 	{ 953 }
+		}
+		INN = {
+			#90,178,23
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 559	#Mombasa
+			own_control_core = 	{ 559 }
+		}
+		KBO = {
+			#30,131,162
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 460	#Maiduguri not accurate
+			own_control_core = 	{ 460 }
+		}
+		GHA = {
+			#165,155,105
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 623	#Segou not accurate
+			own_control_core = 	{ 623 }
+		}
+		BE1 = {
+			#232,121,145
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 946	#Benin
+			own_control_core = 	{ 946 }
+		}
+		NRI = {
+			#11,84,69
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 265	#Calabar
+			own_control_core = 	{ 265 }
+		}
+		OYO = {
+			#211,184,179
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 99	#Sokode
+			own_control_core = 	{ 99 }
+		}
+		IFE = {
+			#61,84,179
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 757	#Lagos
+			own_control_core = 	{ 757 }
+		}
+		KAN = {
+			#48,193,241
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 157	#Kano
+			own_control_core = 	{ 157 }
+		}
+		TKR = {
+			#65,105,165
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = sunni_rel
+			historical_regnal_numbers = {}
+			capital = 2005	#Mylajutes
+			own_control_core = 	{ 2005 }
+		}
+		DAJ = {
+			#196,191,19
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 42	#Khartoum
+			own_control_core = 	{ 42 }
+		}
+		JNN = {
+			#48,193,241
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 91	#Sikasso
+			own_control_core = 	{ 91 }
+		}
+		GAO = {
+			#148,149,21
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 216	#Gao
+			own_control_core = 	{ 216 }
+		}
+		BON = {
+			#163,40,25
+			government = aristocratic_monarchy
+			primary_culture = novgorodian
+			religion = orthodox_rel
+			historical_regnal_numbers = {}
+			capital = 220	#Bouake
+			own_control_core = 	{ 220 }
 		}
 	}
 }
