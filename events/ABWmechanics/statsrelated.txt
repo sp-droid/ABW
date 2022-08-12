@@ -6,27 +6,41 @@ statsrelated.1 = { #Initial stats for future events
 
 	immediate = {
 		### Flag to start the event chain by the statsrelated.2 event
-		set_variable = citystats
+		set_variable = countrypop_stats
 		
-		### First data point for total pops per country
+		### First data point for total pops (millions) per country
 		set_variable = { name = statstotalvalue value = 0 }
 		every_country = {
 			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_pop.divm_sv } }
 		}
 		set_variable = { name = statshistorypop value = var:statstotalvalue }
 		
-		### First data point for GDP per country
+		### First data point for GDP (millions) per country
 		set_variable = { name = statstotalvalue value = 0 }
 		every_country = {
 			ROOT = { change_variable = { name = statstotalvalue add = PREV.has_monthly_income } }
 		}
 		set_variable = { name = statshistoryeco value = var:statstotalvalue.mult12_sv.divk_sv }
 
-		### First data point for pops per city
+		### First data point for pops (thousands) per city
 		ordered_ownable_province = {
 			limit = { is_uninhabitable = no }
 			order_by = var:abw_pop
 			set_variable = { name = statshistorycity value = var:abw_pop.divk_sv }
+			ROOT = { set_variable = { name = statshistorycityscope value = PREV } }
+		}
+		
+		### First data point for area (million sqm) per country
+		#### COUNTRY AREA
+		set_variable = { name = statshistoryarea value = 0 }
+		every_country = {
+			set_variable = { name = abw_area value = 0 }
+			every_owned_province = {
+				limit = { is_uninhabitable = no }
+				PREV = { change_variable = { name = abw_area add = PREV.var:dat_area.divk_sv } }
+			}
+			set_variable = { name = abw_area value = var:abw_area.divk_sv }
+			ROOT = { change_variable = { name = statshistoryarea add = PREV.var:abw_area } }
 		}
 	}
 }
@@ -40,7 +54,7 @@ statsrelated.2 = { #Most populous countries
 	trigger = { 
 		is_ai = no
 		NOT = { has_variable = configflag_nostats }
-		has_variable = citystats 
+		has_variable = countrypop_stats 
 	}
 	
 	immediate = {
@@ -51,8 +65,8 @@ statsrelated.2 = { #Most populous countries
 		set_variable = { name = yearvar value = global_var:yearvarglobal }
 		
 		### Event flags
-		remove_variable = citystats
-		set_variable = popstats
+		remove_variable = countrypop_stats
+		set_variable = countryeco_stats
 		
 		### Total counter
 		set_variable = { name = statstotalvalue value = 0 }
@@ -67,10 +81,12 @@ statsrelated.2 = { #Most populous countries
 		set_variable = { name = statshistorypop value = var:statstotalvalue }
 		
 		### 8 best
+		set_variable = { name = statstotal8value value = 0 }
 		ordered_country = {
 			order_by = var:abw_pop
 			max = 8
 			
+			ROOT = { change_variable = { name = statstotal8value add = PREV.var:abw_pop.divm_sv }}
 			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_pop.divm_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_pop.divm_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_pop.divm_sv }}}
@@ -80,6 +96,7 @@ statsrelated.2 = { #Most populous countries
 			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_pop.divm_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_pop.divm_sv }}}
 		}
+		set_variable = { name = statstotal8percent value = var:statstotal8value.stats_percent_sv }
 	}
 	option = {
 		name = statsrelated.2.a
@@ -97,7 +114,7 @@ statsrelated.3 = { #GDP
 	trigger = { 
 		is_ai = no
 		NOT = { has_variable = configflag_nostats }
-		has_variable = popstats 
+		has_variable = countryeco_stats 
 	}
 	
 	immediate = {
@@ -108,8 +125,8 @@ statsrelated.3 = { #GDP
 		set_variable = { name = yearvar value = global_var:yearvarglobal }
 		
 		### Event flags
-		remove_variable = popstats
-		set_variable = econostats
+		remove_variable = countryeco_stats
+		set_variable = citypop_stats
 		
 		### Total counter
 		set_variable = { name = statstotalvalue value = 0 }
@@ -125,10 +142,12 @@ statsrelated.3 = { #GDP
 		set_variable = { name = statshistoryeco value = var:statstotalvalue }
 		
 		### 8 best
+		set_variable = { name = statstotal8value value = 0 }
 		ordered_country = {
 			order_by = has_monthly_income
 			max = 8
 			
+			ROOT = { change_variable = { name = statstotal8value add = PREV.has_monthly_income.mult12_sv.divk_sv }}
 			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.has_monthly_income.mult12_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.has_monthly_income.mult12_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.has_monthly_income.mult12_sv }}}
@@ -138,6 +157,7 @@ statsrelated.3 = { #GDP
 			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.has_monthly_income.mult12_sv }}}
 			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.has_monthly_income.mult12_sv }}}
 		}
+		set_variable = { name = statstotal8percent value = var:statstotal8value.stats_percent_sv }
 	}
 	option = {
 		name = statsrelated.3.a
@@ -155,7 +175,7 @@ statsrelated.4 = { #Biggest cities
 	trigger = { 
 		is_ai = no
 		NOT = { has_variable = configflag_nostats }
-		has_variable = econostats 
+		has_variable = citypop_stats 
 	}
 	
 	immediate = {
@@ -166,8 +186,8 @@ statsrelated.4 = { #Biggest cities
 		set_variable = { name = yearvar value = global_var:yearvarglobal }
 		
 		### Event flags
-		remove_variable = econostats
-		set_variable = citystats
+		remove_variable = citypop_stats
+		set_variable = countryarea_stats
 		
 		### 8 best
 		ordered_ownable_province = {
@@ -196,6 +216,69 @@ statsrelated.4 = { #Biggest cities
 	}
 	option = {
 		name = statsrelated.4.a
+		### Close auxiliary barplot
+		remove_variable = barplot_flag
+		
+		set_variable = { name = statshistorycityscope value = scope:stats0 }
+	}
+}
+
+statsrelated.5 = { #Extension or area
+    type = country_event
+    title = "statsrelated.5.t"
+    desc = "statsrelated.5.desc"
+    picture = scribe_tools
+
+	trigger = { 
+		is_ai = no
+		NOT = { has_variable = configflag_nostats }
+		has_variable = countryarea_stats 
+	}
+	
+	immediate = {
+		### Open auxiliary barplot
+		set_variable = { name = barplot_flag }
+	
+		### Dummie variable. Reason is we cannot use global vars in GUI
+		set_variable = { name = yearvar value = global_var:yearvarglobal }
+		
+		### Event flags
+		remove_variable = countryarea_stats
+		set_variable = countrypop_stats
+		
+		### Total counter
+		set_variable = { name = statstotalvalue value = 0 }
+		every_country = {
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_area } }
+		}
+		#set_variable = { name = statstotalvalue value = var:statstotalvalue.mult12_sv.divk_sv }
+		
+		### Net change
+		set_variable = { name = statsnetchange value = var:statshistoryarea.stats_net_sv }
+		
+		### Data for the next event
+		set_variable = { name = statshistoryarea value = var:statstotalvalue }
+		
+		### 8 best
+		set_variable = { name = statstotal8value value = 0 }
+		ordered_country = {
+			order_by = var:abw_area
+			max = 8
+			
+			ROOT = { change_variable = { name = statstotal8value add = PREV.var:abw_area }}
+			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_area }}}
+			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_area }}}
+		}
+		set_variable = { name = statstotal8percent value = var:statstotal8value.stats_percent_sv }
+	}
+	option = {
+		name = statsrelated.5.a
 		### Close auxiliary barplot
 		remove_variable = barplot_flag
 	}

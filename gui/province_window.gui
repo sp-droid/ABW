@@ -3624,6 +3624,17 @@ window = {
 									blockoverride "Text" { text = ABWtext_elev fontsize = 14 }
 								}
 							}
+							container = {
+								position = { 38 156 }
+
+								icon_and_text = {
+									name = "province_capdist"
+									size = { 110 0 }
+									tooltip = ABWtooltip_capdist
+									blockoverride "Icon" { texture = "gfx/interface/icons/provinceui/capdist.dds" size = { 20 20 } }
+									blockoverride "Text" { text = ABWtext_capdist fontsize = 16 align = center position = { 0 -1} }
+								}
+							}
 							
 							# RGO
 							textbox = {

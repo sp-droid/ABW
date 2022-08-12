@@ -1,0 +1,22 @@
+﻿ABWloc_capitalDist = {
+	type = province
+	random_valid = no
+	
+	text = { localization_key = capitalDist_t1 trigger = { var:admintime < 1.01 } }
+	
+	text = { localization_key = capitalDist_t2 trigger = { var:admintime < 3.01 } }
+	
+	text = { localization_key = capitalDist_t3 trigger = { var:admintime < 7.01 } }
+	
+	text = { localization_key = capitalDist_t4 trigger = { var:admintime < 14.01 } }
+	
+	text = { localization_key = capitalDist_t5 trigger = { var:admintime < 30 } }
+	
+	text = { localization_key = capitalDist_t6 trigger = { var:admintime < 60 } }
+	
+	text = { localization_key = capitalDist_t7 trigger = { var:admintime < 180 } }
+	
+	text = {
+		localization_key = capitalDist_t8
+	}
+}

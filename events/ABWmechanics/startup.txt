@@ -10,11 +10,20 @@ startup.1 = {
 	}
 
     immediate = {
+		#### RESERVED DAYS COUNT + dependencies
+		# Day 0 -> provSetup, terrainc, rel_groupmodifier, popsystem
+		# Day 1 -> environ.2-capdist_prov (provSetup), startup.3-welcome, statsrelated (pops, provSetup)
+		# Day 2 -> environ.3-capdist_country (capdist_prov)
+		####
+		
 		#### PROVINCE SETUP DATA
 		trigger_event = { id = "provSetup.1" }
 		
 		#### TERRA INCOGNITA SETUP DATA
 		trigger_event = { id = "terrainc.999" }
+		
+		#### CAPITAL DISTANCE STARTUP
+		p:4730 = { trigger_event = { id = "environ.2" days = 1 } }
 		
 		#### FIRST YEARLY SETUP
 		set_global_variable = { name = yearvarglobal value = 1204 }
@@ -35,8 +44,9 @@ startup.1 = {
 			trigger_event = { id = "statsrelated.1" days = 1 }
 			#### WELCOME
 			trigger_event = { id = "startup.3" days = 1 }
+			#### CAPITAL DISTANCE STARTUP
+			trigger_event = { id = "environ.3" days = 2 }
 		}
-		
 		
 		#### PROVINCE RANK
 		#every_province = {

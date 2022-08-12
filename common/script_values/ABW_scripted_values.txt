@@ -29,6 +29,9 @@ stats_net_sv = {
 	subtract = 1
 }
 
+### set_variable = { name = percent value = var:somequantity.stats_percent_sv }
+stats_percent_sv = { value = THIS divide = ROOT.var:statstotalvalue }
+
 #### BAR PLOT
 auxstvalue_sv = { value = var:stats0value subtract = var:stats7value divide = 100 }
 1stvalue_sv = { value = var:stats1value subtract = var:stats7value divide = auxstvalue_sv add = 1 }
@@ -102,5 +105,7 @@ sqrt_sv = { #Square root using babylonian method of iteration
 #### SIMPLE ARITHMETIC (each function here is self-explanatory)
 
 mult12_sv = { value = THIS multiply = 12 }
-divk_sv = { value = THIS divide = 1000 }
-divm_sv = { value = THIS divide = 1000000 }
+divk_sv = { value = THIS  divide = 1000 }
+divdk_sv = { value = THIS divide = 10000 }
+divm_sv = { value = THIS  divide = 1000000 }
+divdm_sv = { value = THIS divide = 10000000 }
