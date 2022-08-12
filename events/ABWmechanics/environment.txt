@@ -45,7 +45,18 @@ environ.2 = {
 		# Sea provinces still respond well to direct calls like p:500 = ...
 		# We can use every_sea_and_river_zone
 		every_province = { 
-			set_variable = { name = traveltime value = 1 }
+			set_variable = { name = traveltime value = var:dat_dist }
+			# Medieval messenger with spare horses on good flat land, 30 miles per day
+			change_variable = { name = traveltime divide = 30 }
+		}
+		every_sea_and_river_zone = {
+			limit = {
+				is_sea = yes
+			}
+			# Sea zones will have the same distance each, 300 miles
+			set_variable = { name = traveltime value = 300 }
+			# Medieval ship on good conditions
+			change_variable = { name = traveltime divide = 100 }
 		}
 	}
 }
@@ -105,44 +116,91 @@ environ.3 = {
 				
 				# Temporary variable to store the admintime for new provinces
 				set_variable = { name = admintemp value = var:admintime }
-				if = {
+				change_variable = { name = admintemp add = var:traveltime }
+				
+				if = { #Seed is sea
 					limit = {
 						is_sea = yes
 					}
-					change_variable = { name = admintemp add = 1 }
-				}
-				else = {
-					change_variable = { name = admintemp add = var:traveltime }
-				}
-				
-				every_neighbor_province = { #Non visited, owned or sea neighboring provinces
-					limit = {
-						AND = {
-							NOT = { has_variable = adminvisited_flag }
-							OR = {
-								AND = {
-									exists = owner
-									owner = ROOT
+					every_neighbor_province = {
+						limit = {
+							AND = {
+								NOT = { has_variable = adminvisited_flag }
+								OR = {
+									AND = {
+										exists = owner
+										owner = ROOT
+									}
+									is_sea = yes
 								}
-								is_sea = yes
 							}
 						}
-					}
-					if = { # Previously scouted neighboring provinces
-						limit = {
-							has_variable = admincalc_flag
-						}
+						set_variable = { name = admintemp value = PREV.var:admintemp }
 						if = {
 							limit = {
-								PREV.var:admintemp < var:admintime
+								is_sea = no
+								is_port = no
 							}
-							set_variable = { name = admintime value = PREV.var:admintemp }
+							set_variable = { name = admintemp value = 360 }
+						}
+						
+						if = { # Previously scouted neighboring provinces
+							limit = {
+								has_variable = admincalc_flag
+							}
+							if = {
+								limit = {
+									var:admintemp < var:admintime
+								}
+								set_variable = { name = admintime value = var:admintemp }
+							}
+						}
+						else = { # New provinces, set as scouted
+							add_to_list = adminlist
+							set_variable = { name = admincalc_flag }
+							set_variable = { name = admintime value = var:admintemp }
 						}
 					}
-					else = { # New provinces, set as scouted
-						add_to_list = adminlist
-						set_variable = { name = admincalc_flag }
-						set_variable = { name = admintime value = PREV.var:admintemp }
+				}
+				else = { #Seed is owned land
+					every_neighbor_province = {
+						limit = {
+							AND = {
+								NOT = { has_variable = adminvisited_flag }
+								OR = {
+									AND = {
+										exists = owner
+										owner = ROOT
+									}
+									is_sea = yes
+								}
+							}
+						}
+						set_variable = { name = admintemp value = PREV.var:admintemp }
+						if = {
+							limit = {
+								is_sea = yes
+								PREV = { is_port = no }
+							}
+							set_variable = { name = admintemp value = 360 }
+						}
+						
+						if = { # Previously scouted neighboring provinces
+							limit = {
+								has_variable = admincalc_flag
+							}
+							if = {
+								limit = {
+									var:admintemp < var:admintime
+								}
+								set_variable = { name = admintime value = var:admintemp }
+							}
+						}
+						else = { # New provinces, set as scouted
+							add_to_list = adminlist
+							set_variable = { name = admincalc_flag }
+							set_variable = { name = admintime value = var:admintemp }
+						}
 					}
 				}
 			}
