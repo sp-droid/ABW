@@ -1,5 +1,7 @@
 ﻿l_english:
 #A.B.W. interface (date, default countries, religion)
+ LOBBY_LABEL_POPULATION:0 "Country information"
+
  THE_WORLD:1 "[GetDateString] AD"
  THE_WORLD_CATCHING_UP:0 "Catching up to host ([GetDateString] AD)"
  THE_WORLD_TOOLTIP:1 "#T Current Date#!\n"
@@ -103,13 +105,28 @@
 
 #### POPULATION MECHANICS
 #Interface
+ #Custom loc: Custom('ABWloc_menupop')
+ menupop_vhi:0 "#D Massive #!"
+ menupop_hig:0 "#G High #!"
+ menupop_med:0 "#abwBR Average #!"
+ menupop_low:0 "#abwO Low #!"
+ menupop_vlw:0 "#R Desolate #!"
+ #Custom loc: Custom('ABWloc_countrypop')
+ countrypop_k:0 "[ROOT.Var('abw_popk').GetValue|1]k"
+ countrypop_M:0 "[ROOT.Var('abw_popM').GetValue|1]M"
+ ABWtext_governorpop:0 "[OverviewGovernorshipItem.GetGovernorship.MakeScope.GetVariable('abw_popM').GetValue|1]M"
+ ABWtext_governorpop_iclayer:0 "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.MakeScope.GetVariable('abw_popM').GetValue|1]M"
+ ABWtext_statepop:0 "[StateItem.GetState.MakeScope.GetVariable('abw_popk').GetValue|1]k"
+ ABWtext_statepop_iclayer:0 "[SimpleProvinceIcon.GetProvince.GetState.MakeScope.GetVariable('abw_popk').GetValue|1]k"
+ ABWtext_statepop_prov:0 "[ProvinceWindow.GetState.MakeScope.GetVariable('abw_popk').GetValue|1]k"
+ ABWtext_statepop_claim:0 "[SelectClaim.GetState.MakeScope.GetVariable('abw_popk').GetValue|1]k"
  ABWtext_population:0 "[ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popk').GetValue|1] k"
  ABWtooltip_population:0 "#T Population of [ProvinceWindow.GetProvince.GetName]#!\n#E Yearly census:#! #V [ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_pop').GetValue|0]#!\n#E Estimated change: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popchange').GetValue|+0] ([ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popchangepercent').GetValue|%+2])\n#E Previous change: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popoldchange').GetValue|+0] ([ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popoldchangepercent').GetValue|%+2])\n\n#E Upper class: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popupper').GetValue|0]\n#E Urban: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popurban').GetValue|0]\n#E Peasants: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_poppeasant').GetValue|0]\n#E Soldiers: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popsoldier').GetValue|0]\n#E Slaves: #![ProvinceWindow.GetProvince.MakeScope.GetVariable('abw_popslave').GetValue|0]\n"
 #Pops
  nobles:0 "Upper class"
  citizen:0 "Urban"
  freemen:0 "Peasant"
- tribesmen:0 "Soldier"
+ tribesmen:0 "Intellectual"
  slaves:0 "Enslaved"
  
 #City Ranks and fort mechanics

@@ -768,10 +768,10 @@ window = {
 										parentanchor = hcenter
 										position = { 0 3 }
 										textbox = { 
-											text = "[ProvinceWindow.GetState.GetTotalPopulation]"
+											text = "ABWtext_statepop_prov"
 											autoresize = yes
 											using = BaseFontS
-											fontsize = 16
+											fontsize = 10
 											parentanchor = hcenter|vcenter
 											position = { 0 4 }
 										}
@@ -814,10 +814,10 @@ window = {
 										parentanchor = hcenter
 										position = { 0 3 }
 										textbox = { 
-											text = "[ProvinceWindow.GetState.GetTotalPopulation]"
+											text = "ABWtext_statepop_prov"
 											autoresize = yes
 											using = BaseFontS
-											fontsize = 16
+											fontsize = 10
 											parentanchor = hcenter|vcenter
 											position = { 0 4 }
 										}

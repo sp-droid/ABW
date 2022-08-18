@@ -232,11 +232,14 @@ abwconfig.999 = { #DEBUG EVENT
 		
 		owner = {
 			#trigger_event = { id = "environ.2" }
-			if = {
-				limit = {
-					has_variable = ti9_gameflag
-				}
-				add_treasury = { value = 1 }
+			#if = {
+			#	limit = {
+			#		has_variable = ti9_gameflag
+			#	}
+			#	add_treasury = { value = 1 }
+			#}
+			add_treasury = {
+				value = var:abw_popk
 			}
 			#add_treasury = { value = p:5640.var:ti_region } #ROOT.var:abw_pop }
 			

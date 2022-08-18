@@ -1130,7 +1130,7 @@ widget = {
 		icon_and_text = {
 			size = { 82 0 }
 			blockoverride "Icon" { using = icon_population }
-			blockoverride "Text" { text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetTotalPopulation]" }
+			blockoverride "Text" { text = "ABWtext_governorpop_iclayer" }
 			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetPopulationInfo]"
 		}
 	}
@@ -2277,7 +2277,7 @@ widget = {
 			position = { 82 0 }
 			size = { 90 0 }
 			blockoverride "Icon" { using = icon_population }
-			blockoverride "Text" { text = "[SimpleProvinceIcon.GetProvince.GetState.GetTotalPopulation]" }
+			blockoverride "Text" { text = "ABWtext_statepop_iclayer" }
 			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetPopulationInfo('total')]"
 		}
 		

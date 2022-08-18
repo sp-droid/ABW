@@ -1,4 +1,5 @@
-﻿ABWloc_capitalDist = {
+﻿#CAPITAL DISTANCE
+ABWloc_capitalDist = {
 	type = province
 	random_valid = no
 	
@@ -16,7 +17,30 @@
 	
 	text = { localization_key = capitalDist_t7 trigger = { var:admintime < 180 } }
 	
-	text = {
-		localization_key = capitalDist_t8
-	}
+	text = { localization_key = capitalDist_t8 }
+}
+
+#COUNTRY POP TEXT
+ABWloc_countrypop = {
+	type = country
+	random_valid = no
+	
+	text = { localization_key = countrypop_M trigger = { var:abw_popk > 1000 } }
+	
+	text = { localization_key = countrypop_k }
+}
+
+ABWloc_menupop = {
+	type = country
+	random_valid = no
+	
+	text = { localization_key = menupop_vhi trigger = { country_population > 3000 } }
+	
+	text = { localization_key = menupop_hig trigger = { country_population > 1000 } }
+	
+	text = { localization_key = menupop_med trigger = { country_population > 100 } }
+	
+	text = { localization_key = menupop_low trigger = { country_population > 15 } }
+	
+	text = { localization_key = menupop_vlw }
 }

@@ -103,11 +103,25 @@ popsystem.4 = { #Calculations at country level
 
 	immediate = {
 		every_country = {
-			set_variable = { name = abw_pop value = 0 }
-			every_owned_province = {
-				limit = { is_uninhabitable = no }
-				PREV = { change_variable = { name = abw_pop add = PREV.var:abw_pop } }
+			set_variable = { name = abw_popk value = manpower.divcohort_sv }
+			every_governorships = {
+				set_variable = { name = abw_popk value = 0 }
+				every_governorship_state = {
+					set_variable = { name = abw_popk value = 0 }
+					every_state_province = {
+						PREV = { change_variable = { name = abw_popk add = PREV.var:abw_popk } }
+					}
+					PREV = { change_variable = { name = abw_popk add = PREV.var:abw_popk } }
+					set_variable = { name = abw_popM value = var:abw_popk.divk_sv }
+				}
+				PREV = { change_variable = { name = abw_popk add = PREV.var:abw_popk } }
+				set_variable = { name = abw_popM value = var:abw_popk.divk_sv }
 			}
+			set_variable = { name = abw_popM value = var:abw_popk.divk_sv }
+			#every_owned_province = {
+			#	limit = { is_uninhabitable = no }
+			#	PREV = { change_variable = { name = abw_popk add = PREV.var:abw_pop } }
+			#}
 		}
 	}
 }
