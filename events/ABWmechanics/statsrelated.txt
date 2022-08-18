@@ -11,7 +11,7 @@ statsrelated.1 = { #Initial stats for future events
 		### First data point for total pops (millions) per country
 		set_variable = { name = statstotalvalue value = 0 }
 		every_country = {
-			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_pop.divm_sv } }
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_popM } }
 		}
 		set_variable = { name = statshistorypop value = var:statstotalvalue }
 		
@@ -71,7 +71,7 @@ statsrelated.2 = { #Most populous countries
 		### Total counter
 		set_variable = { name = statstotalvalue value = 0 }
 		every_country = {
-			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_pop.divm_sv } }
+			ROOT = { change_variable = { name = statstotalvalue add = PREV.var:abw_popM } }
 		}
 		
 		### Net change
@@ -83,18 +83,18 @@ statsrelated.2 = { #Most populous countries
 		### 8 best
 		set_variable = { name = statstotal8value value = 0 }
 		ordered_country = {
-			order_by = var:abw_pop
+			order_by = var:abw_popM
 			max = 8
 			
-			ROOT = { change_variable = { name = statstotal8value add = PREV.var:abw_pop.divm_sv }}
-			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_pop.divm_sv }}}
-			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_pop.divm_sv }}}
+			ROOT = { change_variable = { name = statstotal8value add = PREV.var:abw_popM }}
+			if = { limit = { NOT = { exists = scope:stats0 } } save_scope_as = stats0 ROOT = { set_variable = { name = stats0value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats1 } } save_scope_as = stats1 ROOT = { set_variable = { name = stats1value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats2 } } save_scope_as = stats2 ROOT = { set_variable = { name = stats2value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats3 } } save_scope_as = stats3 ROOT = { set_variable = { name = stats3value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats4 } } save_scope_as = stats4 ROOT = { set_variable = { name = stats4value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats5 } } save_scope_as = stats5 ROOT = { set_variable = { name = stats5value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats6 } } save_scope_as = stats6 ROOT = { set_variable = { name = stats6value value = PREV.var:abw_popM }}}
+			else_if = { limit = { NOT = { exists = scope:stats7 } } save_scope_as = stats7 ROOT = { set_variable = { name = stats7value value = PREV.var:abw_popM }}}
 		}
 		set_variable = { name = statstotal8percent value = var:statstotal8value.stats_percent_sv }
 	}
