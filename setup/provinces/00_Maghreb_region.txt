@@ -488,7 +488,7 @@
 		province_rank="city"
 		freemen={amount= 1 } # Total-1
 		#
-		#
+		port_building=1
 		#
 		#
 	}

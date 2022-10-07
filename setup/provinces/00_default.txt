@@ -2909,7 +2909,7 @@
 	}
 
 	5076={
-		terrain="ocean"
+		terrain="coastal_terrain"
 		culture=""
 		religion=""
 		trade_goods=""
@@ -3314,7 +3314,7 @@
 	}
 
 	5103={
-		terrain="ocean"
+		terrain="coastal_terrain"
 		culture=""
 		religion=""
 		trade_goods=""
@@ -7829,7 +7829,7 @@
 	}
 
 	5404={
-		terrain="ocean"
+		terrain="coastal_terrain"
 		culture=""
 		religion=""
 		trade_goods=""
@@ -10484,7 +10484,7 @@
 	}
 
 	5581={
-		terrain="ocean"
+		terrain="coastal_terrain"
 		culture=""
 		religion=""
 		trade_goods=""

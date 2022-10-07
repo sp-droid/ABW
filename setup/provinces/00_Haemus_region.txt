@@ -891,11 +891,11 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 2 } # Total-6
+		freemen={amount= 5 } # Total-6
 		#
 		#
 		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
-		freemen={amount= 1 culture="magyar" religion="catholic_rel" }
+		#
 	}
 
 	1583={
@@ -2151,10 +2151,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="city"
-		freemen={amount= 9 } # Total-11
+		freemen={amount= 11 } # Total-11
 		#
 		port_building=1
-		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
+		#
 		#
 	}
 
@@ -2931,10 +2931,10 @@
 		civilization_value=0
 		barbarian_power=0
 		province_rank="settlement"
-		freemen={amount= 8 } # Total-10
+		freemen={amount= 10 } # Total-10
 		#
 		#
-		freemen={amount= 2 culture="magyar" religion="catholic_rel" }
+		#
 		#
 	}
 

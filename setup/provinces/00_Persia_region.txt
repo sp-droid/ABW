@@ -83,7 +83,7 @@
 		province_rank="city"
 		freemen={amount= 3 } # Total-7
 		#
-		#
+		port_building=1
 		freemen={amount= 1 culture="persian" religion="animist_rel" }
 		freemen={amount= 1 culture="makan" religion="ibadi_rel" }
 	}

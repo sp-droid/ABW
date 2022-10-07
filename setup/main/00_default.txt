@@ -644,6 +644,9 @@ provinces = {
 	2473 = {
 		fortress_building = 1
 	}
+	2478 = {
+		fortress_building = 1
+	}
 	2490 = {
 		fortress_building = 1
 	}
@@ -839,6 +842,9 @@ provinces = {
 	3114 = {
 		fortress_building = 1
 	}
+	3164 = {
+		fortress_building = 1
+	}
 	3167 = {
 		fortress_building = 1
 	}
@@ -894,6 +900,9 @@ provinces = {
 		fortress_building = 1
 	}
 	3428 = {
+		fortress_building = 1
+	}
+	3446 = {
 		fortress_building = 1
 	}
 	3451 = {
@@ -1221,7 +1230,7 @@ country = {
 			religion = sunni_rel
 			historical_regnal_numbers = { SalahalDin = 1 AlAziz = 1 AlMansur = 1 }
 			capital = 13	#Ayyubids
-			own_control_core = 	{ 13 304 321 334 415 421 440 496 542 611 631 669 704 712 800 867 926 993 1015 1080 1188 1202 1255 1269 1288 1311 1314 1366 1459 1489 1494 1519 1556 1572 1607 1616 1617 1689 1695 1710 1836 1865 1872 1874 1878 1888 1890 1891 1927 1936 1964 2112 2119 2147 2160 2163 2164 2201 2237 2260 2276 2279 2281 2289 2291 2298 2316 2329 2336 2384 2393 2415 2417 2420 2435 2445 2456 2462 2468 2474 2486 2488 2544 2570 2583 2588 2592 2619 2627 2650 2666 2745 2752 2841 2844 2862 2872 2873 2900 2905 2906 2908 2934 2952 3035 3063 3138 3144 3195 3236 3246 3266 3282 3310 3368 3375 3471 3475 3496 3523 3583 3615 3643 3644 3647 3669 3692 3693 3756 3789 3817 3866 3868 3898 3907 3911 3929 3952 3979 4047 4053 4054 4059 4089 4113 4116 4167 4203 4230 4242 4295 4303 4311 4318 4332 4338 4348 4356 4381 4400 4435 4437 4463 4513 4515 4524 4564 4596 4616 4629 4633 4648 4651 4689 4699 4725 4758 4761 4806 4831 4832 4840 }
+			own_control_core = 	{ 13 304 321 334 415 421 440 496 542 611 631 669 704 712 800 867 926 993 1015 1080 1188 1202 1255 1269 1288 1311 1314 1366 1459 1489 1494 1519 1556 1572 1607 1616 1617 1689 1695 1710 1836 1865 1872 1874 1878 1888 1890 1891 1927 1936 1964 2027 2112 2119 2147 2160 2163 2164 2170 2201 2237 2260 2276 2279 2281 2289 2291 2298 2316 2329 2336 2384 2393 2415 2417 2420 2435 2445 2456 2462 2468 2474 2486 2488 2539 2544 2570 2583 2588 2592 2619 2627 2650 2666 2745 2752 2841 2844 2862 2872 2873 2900 2905 2906 2908 2934 2952 3035 3063 3138 3144 3195 3236 3246 3266 3282 3310 3368 3375 3471 3475 3496 3523 3583 3615 3643 3644 3647 3669 3692 3693 3756 3789 3817 3866 3868 3898 3907 3911 3929 3952 3979 4047 4053 4054 4059 4089 4113 4116 4167 4203 4230 4242 4295 4303 4311 4318 4332 4338 4348 4356 4381 4400 4435 4437 4463 4513 4515 4524 4564 4596 4616 4629 4633 4648 4651 4689 4699 4725 4758 4761 4806 4831 4832 4840 }
 		}
 		CIL = {
 			#221,168,22
@@ -1284,7 +1293,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Petrus = 1 Linus = 1 Anacletus = 1 Clemens = 3 Evaristus = 1 Alexander = 3 Xystus = 3 Telesphorus = 1 Hyginus = 1 Pius = 1 Anicetus = 1 Soterius = 1 Eleutherius = 1 Victor = 3 Zephyrinus = 1 Callistus = 1 Urbanus = 3 Pontianus = 1 Anterus = 1 Fabianus = 1 Cornelius = 1 Lucius = 3 Stephanus = 10 Dionysius = 1 Felix = 4 Eutychianus = 1 Caius = 1 Marcellinus = 1 Marcellus = 1 Eusebius = 1 Miltiades = 1 Silvester = 3 Marcus = 1 Iulius = 1 Liberius = 1 Damasus = 2 Siricius = 1 Anastasius = 4 Innocentius = 2 Zosimus = 1 Bonifacius = 6 Coelestinus = 3 Leo = 9 Hilarius = 1 Simplicius = 1 Gelasius = 2 Symmachus = 1 Hormisdas = 1 Ioannes = 19 Agapetus = 2 Silverius = 1 Vigilius = 1 Pelagius = 2 Benedictus = 10 Gregorius = 8 Sabinianus = 1 Adeodatus = 2 Honorius = 2 Severinus = 1 Theodorus = 2 Martinus = 1 Eugenius = 3 Vitalianus = 1 Donus = 1 Agatho = 1 Conon = 1 Sergius = 4 Sisinnius = 1 Constantinus = 1 Zacharias = 1 Paulus = 1 Hadrianus = 4 Paschalis = 2 Valentinus = 1 Nicolaus = 2 Marinus = 2 Formosus = 1 Romanus = 1 Lando = 1}
 			capital = 2564	#Papal States
-			own_control_core = 	{ 329 599 789 843 907 1368 2229 2295 2325 2416 2564 2581 2694 3032 3140 3172 3192 3213 3272 3291 3463 3511 3653 3704 3743 3744 4007 4008 4132 4164 4253 4277 4360 4378 4590 4767 }
+			own_control_core = 	{ 329 599 789 843 907 1368 2229 2295 2325 2416 2564 2581 2694 3032 3140 3172 3192 3213 3272 3291 3463 3511 3653 3704 3743 3744 4008 4132 4164 4253 4277 4360 4378 4590 4767 }
 		}
 		PIS = {
 			#137,94,59
@@ -1644,7 +1653,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Mark = 1 Hermagorus = 1 Hilarius = 1 Chrysogonus = 2 Theodore = 1 Agapitus = 1 Benedictus = 1 Fortunatianus = 1 Valerianus = 1 Chromatius = 1 Augustinus = 1 Adelphus = 1 Maximus = 1 Januarius = 1 Secundus = 1 Nicetas = 1 Marcellianus = 1 Marcellinus = 1 Stephen = 1 Macedonius = 1 Paulinus = 2 Probinus = 1 Elia = 1 Severus = 1 John = 4 Marcianus = 1 Fortunatus = 1 Felix = 1 Agathon = 1 Petrus = 1 Serenus = 1 Calixtus = 1 Siguald = 1 Ursus = 2 Maxentius = 1 Andreas = 1 Venantius = 1 Theutmar = 1 Lupus = 2 Valpert = 1 Frederick = 2 Leo = 1 Engelfred = 1 Rodoald = 1 Poppo = 1 Eberhard = 1 Gotebald = 1 Ravengerius = 1 Sigehard = 1 Henry = 1 Svatobor = 1 Ulrich = 2 Gerard = 1 Pellegrino = 2 Godfrey = 1 }
 			capital = 148	#Aquilea
-			own_control_core = 	{ 148 315 1988 2047 2927 3220 3267 3541 3984 4331 4754 }
+			own_control_core = 	{ 148 315 1731 1988 2047 2927 3220 3267 3541 3984 4331 4505 4754 }
 		}
 		LUB = {
 			#193,168,162
@@ -1671,7 +1680,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Heinrich = 6 Otto = 1 Conrad = 3 Adalbero = 1 Welf = 1 Berthold = 1 Luitpold = 1 Engelbert = 1 Ulrich = 2 Herman = 1 }
 			capital = 1241	#Carinthia
-			own_control_core = 	{ 1241 1882 2053 2162 2212 2409 2427 3217 3425 3556 3728 4041 }
+			own_control_core = 	{ 1241 1882 2053 2162 2212 2300 2409 2427 3217 3425 3556 3580 3728 3934 4041 }
 		}
 		TIR = {
 			#147,60,47
@@ -1680,7 +1689,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Albrecht = 3 Berthold = 2 Heinrich = 1 }
 			capital = 1849	#Tirol
-			own_control_core = 	{ 1849 2975 3088 3458 4365 4643 }
+			own_control_core = 	{ 1849 2975 3088 3458 3596 3826 4365 4643 }
 		}
 		AUS = {
 			#255,226,211
@@ -1698,7 +1707,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Maximus = 1 Ruprecht = 1 Vitalis = 1 Erkenfried = 1 Ansologus = 1 Ottokar = 1 Flobrigis = 1 John = 1 Virgilius = 1 Arno = 1 Adalram = 1 Leutram = 1 Adalwin = 1 Adalbert = 3 Dietmar = 2 Pilgrim = 1 Egilholf = 1 Herhold = 1 Friedrich = 1 Hartwig = 1 Guunther = 1 Baldwin = 1 Gebhard = 1 Thiemo = 1 Konrad = 2 Eberhard = 1 }
 			capital = 1396	#Salzburg
-			own_control_core = 	{ 1396 1488 3052 }
+			own_control_core = 	{ 1396 1488 3004 3052 }
 		}
 		TRN = {
 			#201,131,108
@@ -1707,7 +1716,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Abbondanzio = 1 Vigilius = 1 Regippus = 1 Quartinus = 1 Peregrinus = 1 Gratiosmus = 1 Theodor = 1 Agnellus = 1 Veregundus = 1 Manasses = 2 Vitalis = 2 Stablisianus = 1 Dominicus = 1	Rusticus = 1 Romanus = 1 Correntianus = 2 Sidesicus = 1 John = 2 Maximus = 1 Mammo = 1 Marianus = 1 Dominator = 1 Ursus = 1 Clementianus = 1 Amator = 1 Hildegar = 1 Wolderich = 1 Daniel = 1 Heimpert = 1 Udalschalk = 1 Adelchis = 1 Fridebert = 1 Gisulf = 1 Berthold = 1 Jakob = 1 Conrad = 1 Bernard = 2 Lantram = 1 Arnold = 2 Arimond = 1 Raimondo = 1 Ulrich = 2 Azzo = 1 Heinrich = 1 Adalberon = 1 Gebhard = 1 Albrecht = 3 Altmann = 1 Eberhard = 1 Salomon = 1 }
 			capital = 1465	#Trento
-			own_control_core = 	{ 1465 }
+			own_control_core = 	{ 1465 2478 3884 }
 		}
 		VER = {
 			#95,137,63
@@ -1734,7 +1743,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 2327	#Siena
-			own_control_core = 	{ 2327 3545 3672 3989 4222 }
+			own_control_core = 	{ 1397 2327 3545 3672 3989 4222 }
 		}
 		FLO = {
 			#188,71,69
@@ -1743,7 +1752,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 3922	#Florence
-			own_control_core = 	{ 1397 3072 3735 3922 4393 }
+			own_control_core = 	{ 3072 3735 3922 4007 4393 }
 		}
 		LUC = {
 			#85,137,147
@@ -1770,7 +1779,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 411	#Brescia
-			own_control_core = 	{ 411 2673 2903 3401 3464 }
+			own_control_core = 	{ 411 2376 2673 2903 3401 3464 }
 		}
 		HLS = {
 			#204,123,120
@@ -1851,7 +1860,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 364
-			own_control_core = 	{ 364 4090 }
+			own_control_core = 	{ 364 4090 4540 }
 		}
 		CUN = {
 			#239,218,141
@@ -1896,7 +1905,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = { Berthold = 4 }
 			capital = 1164
-			own_control_core = 	{ 1115 1589 1898 2256 2425 2849 2851 2955 2977 3875 }
+			own_control_core = 	{ 1115 1589 1898 2256 2425 2849 2851 2955 2977 3164 3875 }
 		}
 		LYB = {
 			#58,96,0
@@ -2265,7 +2274,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 1044
-			own_control_core = 	{ 1044 1772 3351 4252 4593 4668 }
+			own_control_core = 	{ 1044 1772 3351 4252 4593 4668 4870 }
 		}
 		FRI = {
 			#153,96,61
@@ -2292,7 +2301,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 1126
-			own_control_core = 	{ 1126 2304 2315 2838 2922 3998 4098 4211 4306 4583 }
+			own_control_core = 	{ 935 1126 2304 2315 2838 2922 2997 3998 4098 4211 4306 4583 }
 		}
 		PFA = {
 			#159,234,168
@@ -2418,7 +2427,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 380
-			own_control_core = 	{ 380 1316 1563 1665 2234 2418 2848 2870 3430 3805 4122 4273 4341 }
+			own_control_core = 	{ 380 1316 1563 1665 2234 2418 2848 2870 3430 3805 4122 4273 4341 4389 4536 }
 		}
 		LUX = {
 			#101,124,87
@@ -2499,7 +2508,7 @@ country = {
 			religion = catholic_rel
 			historical_regnal_numbers = {}
 			capital = 281
-			own_control_core = 	{ 281 1750 1752 1931 2630 4880 }
+			own_control_core = 	{ 281 1750 1752 1931 2630 3446 4880 }
 		}
 		EPI = {
 			#165,162,79

@@ -5679,8 +5679,8 @@
 		freemen={amount= 2 } # Total-4
 		#
 		#
+		freemen={amount= 1 culture="friulian" religion="catholic_rel" }
 		freemen={amount= 1 culture="tirole" religion="catholic_rel" }
-		freemen={amount= 1 culture="tirole" religion="nordic_rel" }
 	}
 
 	4652={

@@ -19,6 +19,13 @@ on_province_occupied = { #province scope, it will fire AS WELL as on_siege_won
 	}
 }
 
+in_land_battle = { #battle test
+	events = {
+		#### LEGENDARY CRASH BUGFIX
+		misc.3
+	}
+}
+
 ## TIMED PULSES
 biyearly_country_pulse = {
 	events = {
@@ -46,7 +53,6 @@ yearly_province_pulse = {
 }
 
 monthly_country_pulse = {
-
 	events = {
 		#### TERRA INCOGNITA
 		terrainc.2

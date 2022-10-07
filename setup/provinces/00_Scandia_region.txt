@@ -2633,7 +2633,7 @@
 		province_rank="city"
 		freemen={amount= 10 } # Total-10
 		#
-		#
+		port_building=1
 		#
 		#
 	}
