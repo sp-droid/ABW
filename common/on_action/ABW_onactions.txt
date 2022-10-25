@@ -21,8 +21,8 @@ on_province_occupied = { #province scope, it will fire AS WELL as on_siege_won
 
 in_land_battle = { #battle test
 	events = {
-		#### LEGENDARY CRASH BUGFIX
-		misc.3
+		#### battle system testing
+		#misc.3
 	}
 }
 
