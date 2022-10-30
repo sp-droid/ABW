@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-decisions/ABW/*.txt linguist-language=Java
-events/ABWmechanics/*.txt linguist-language=Java
+decisions/ABW/*.txt linguist-language=PDXscript
+events/ABWmechanics/*.txt linguist-language=PDXscript
