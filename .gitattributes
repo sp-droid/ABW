@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# *.shaderlab linguist-vendored
-*.shaderlab linguist-detectable=false
+decisions/*.txt linguist-language=Python
+events/*.txt linguist-language=Python
