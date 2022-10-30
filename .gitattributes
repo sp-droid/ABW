@@ -2,4 +2,4 @@
 * text=auto
 
 # *.shaderlab linguist-vendored
-*.asset linguist-detectable=false
+*.shaderlab linguist-detectable=false
