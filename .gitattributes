@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-decisions/*.txt linguist-language=Python
-events/*.txt linguist-language=Python
+decisions/ABW/*.txt linguist-language=Java
+events/ABWmechanics/*.txt linguist-language=Java
