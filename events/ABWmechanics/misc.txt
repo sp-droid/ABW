@@ -85,3 +85,26 @@ misc.2 = {
 		}
 	}
 }
+
+#warfare
+misc.3 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		scope:battle_location = {
+			if = {
+				limit = {
+					NOT = { has_variable = battlecalc_flag }
+				}
+				set_variable = { name = battlecalc_flag days = 1 }
+				
+				
+			}
+		}
+		
+		#employer = {
+		#	add_treasury = { value = 500 }
+		#}
+	}
+}
