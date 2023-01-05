@@ -1,0 +1,26 @@
+﻿priest = { #
+	type = status
+	zeal = 1
+}
+bishop = { #
+	type = status
+	zeal = 1
+}
+
+pope = { #
+	type = status
+	charisma = 1
+	zeal = 1
+}
+
+
+imam = { #
+	type = status
+	zeal = 1
+}
+
+caliph = { #
+	type = status
+	charisma = 1
+	zeal = 1
+}
