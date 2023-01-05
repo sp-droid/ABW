@@ -1,0 +1,7 @@
+﻿l_english:
+ ambition_become_priest:1 "Becoming Priest"
+ ambition_become_priest_desc:0 "[ROOT.GetCharacter.GetPraenomen] wants to spend the rest of [ROOT.GetCharacter.GetHerHis] in the service of our Lord."
+ ambition_become_priest_monthly_tooltip:0 "    Chance of gaining #Y 1#! @religious_icon!\n    Low chance of gaining #Y 2#! @religious_icon!\n    Low chance of losing #R 1#! @military_icon!, but gaining #R 1#! @civic_icon!, or #R 1#!@oratory_icon!"
+ ambition_become_priest_finish_tooltip:0 "    Will gain a random #Y Personality Trait#! from a refined list"
+ character_events.38.f:0 "The Priesthood will bring our Family Presitge!"
+ priest_ambition_tutor:1 "#Y [SCOPE.sChar('recipient').GetName]#! will focus on #Y Religious Studies#!."

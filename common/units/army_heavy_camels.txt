@@ -1,0 +1,40 @@
+﻿heavy_camels = {
+	army = yes
+
+	levy_tier = advanced
+
+	allow = {
+		trade_good_surplus = { target = camel value > 0 }
+	}
+
+	is_flank = yes
+	
+	maneuver = 3
+	movement_speed = 3.5
+
+	build_time = 40
+	legions = no
+	
+	archers = 1.1
+	camels = 1.1
+	crossbows = 1.0
+	heavy_camels = 1.0
+	heavy_cavalry = 1.1
+	horse_archers = 1.1
+	light_cavalry = 1.1
+	light_infantry = 1.1
+	pikemen = 0.8
+	swordsmen = 1.0
+	warelephant = 0.5
+	build_cost = {
+		gold = 15
+		manpower = 1
+	}
+	supply_train = 2.0
+	
+	
+	food_consumption = 0.20
+	food_storage = 3.6
+	
+	attrition_loss = 0.025
+}

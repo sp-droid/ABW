@@ -1,0 +1,141 @@
+country_decisions = {
+	
+	# Form SPAIN
+	form_spain = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				primary_culture = castleon
+				primary_culture = aragonese
+				primary_culture = catalan
+			}
+			is_republic = no
+			capital_scope = {
+				and = {
+					is_in_region = Iberia_region
+					or = {
+						ROOT = { primary_culture = castleon }
+						ROOT = { primary_culture = aragonese }
+						ROOT = { primary_culture = catalan }
+					}
+				}
+			}
+			NOT = {
+				tag = SPN
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1367
+					province_id = 2891
+					province_id = 2926
+					province_id = 1513
+					province_id = 3320
+					province_id = 1540
+					province_id = 3688
+					province_id = 727
+					province_id = 1571
+					province_id = 1456
+					province_id = 3095
+					province_id = 2562
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = spain_not_existing
+				NOT = {
+					any_country = {
+						tag = SPN
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 1367
+			owns = 2891
+			owns = 2926
+			owns = 1513
+			owns = 3320
+			owns = 1540
+			owns = 3688
+			owns = 727
+			owns = 1571
+			owns = 1456
+			owns = 3095
+			trigger_if = {
+				limit = {
+					is_ai = no #AI won't know to integrate this culture just for the decision
+					NOR = {
+						primary_culture = aragonese
+						primary_culture = catalan
+						primary_culture = castleon
+					}
+					any_country_culture = {
+						or = {
+							is_culture = aragonese
+							is_culture = catalan
+							is_culture = castleon
+						}
+					}
+				}
+				any_country_culture = {
+					is_integrated = yes
+					or = {
+						is_culture = aragonese
+						is_culture = catalan
+						is_culture = castleon
+					}
+				}
+			}
+		}
+		
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			monarchy_formable_government_change_effect = yes
+			change_country_name = "SPAIN_NAME"
+			hidden_effect = {
+				change_country_adjective = "SPAIN_ADJECTIVE"
+				change_country_color = "spain_yellow"
+				change_country_tag = SPN
+				change_country_flag = SPN
+			}
+			if = {
+				limit = {
+					p:1857 = { is_capital = no }
+				}
+				set_capital = 1857
+				hidden_effect = {
+					p:1857.state = {
+						set_state_capital = 1857
+					}
+				}
+				capital_scope = {
+					establish_city_effect = yes
+				}
+			}
+			p:1857 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			custom_tooltip = spain_claims_tooltip
+			hidden_effect = {
+				region:Iberia_region = { formable_region_province_effect = yes }
+			}
+			add_3_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}
+
